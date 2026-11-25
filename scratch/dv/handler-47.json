@@ -1,0 +1,19 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "slot": "16374",
+  "field": "E",
+  "fieldValue": 201,
+  "opcodeVar": "dE",
+  "opcode": 47,
+  "fetch": "local dE = g[t];",
+  "statements": [
+    "e, O, T = G[t], { ... }, p[t];",
+    "q(O, 1, e - 1, T, u);",
+    "u[T + e - 1] = y(N(e, ...));",
+    "t = t + 1;"
+  ],
+  "limitations": "Syntactic branch selection only; unrelated conditions and state mutations remain in the output."
+}

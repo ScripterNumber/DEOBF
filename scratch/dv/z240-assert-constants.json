@@ -1,0 +1,29 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "e72a705d6ea61c54d34ba2ae66dc4e579dcba5657267b486d8119d281694d21e",
+    "table": "dfdc71cc2015b4a372c8490b09a9d97f036111c1eef2587edabe3f0f6f0051f7"
+  },
+  "constants": [
+    {
+      "index": 503,
+      "offset": 9356,
+      "tag": 113,
+      "length": 5,
+      "hex": "6465627567",
+      "utf8": "debug"
+    },
+    {
+      "index": 886,
+      "offset": 142542,
+      "tag": 113,
+      "length": 78,
+      "hex": "546865206465627567206c696272617279206973207265717569726564206f6e204c75617520706c6174666f726d732e20506c65617365206f70656e206120737570706f7274207469636b65742e",
+      "utf8": "The debug library is required on Luau platforms. Please open a support ticket."
+    }
+  ],
+  "limitations": "Only tags 70, 113, 170, 237 and 242 are implemented; the indices and input mutations are external static hypotheses."
+}

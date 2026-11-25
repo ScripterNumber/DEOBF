@@ -1,0 +1,18 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "slot": "16374",
+  "field": "Z",
+  "fieldValue": 250,
+  "opcodeVar": "E",
+  "fetch": "local E, F, N, dE = g[t];",
+  "limitations": "Syntactic branch selection only; unrelated conditions and state mutations remain in the output.",
+  "opcode": 2,
+  "statements": [
+    "e = B[t];",
+    "u[e], u[e + 1] = u[G[t]], u[p[t]];",
+    "t = t + 1;"
+  ]
+}

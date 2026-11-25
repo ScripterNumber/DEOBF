@@ -1,0 +1,2249 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "slot": "16374",
+  "field": "Z",
+  "fieldValue": 250,
+  "opcodeVar": "E",
+  "fetch": "local E, F, N, dE = g[t];",
+  "limitations": "Syntactic branch selection only; unrelated conditions and state mutations remain in the output.",
+  "handlers": [
+    {
+      "opcode": 0,
+      "statements": [
+        "u[G[t]] = u[p[t]][u[B[t]]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 1,
+      "statements": [
+        "u[B[t]] = J(u[p[t]], u[G[t]]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 2,
+      "statements": [
+        "e = B[t];",
+        "u[e], u[e + 1] = u[G[t]], u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 3,
+      "statements": [
+        "w, a, l, X = S[8], S[5], S[7], S[6];",
+        "S = S[9];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 4,
+      "statements": [
+        "e = o[B[t]];",
+        "e[4][e[6]][W[t]] = u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 5,
+      "statements": [
+        "u[p[t]][u[G[t]]] = n[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 6,
+      "statements": [
+        "u[p[t]][G[t]] = B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 7,
+      "statements": [
+        "u[G[t] + u[B[t]]] = u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 8,
+      "statements": [
+        "u[G[t]]();",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 9,
+      "statements": [
+        "if U then\n  for E in K, U, nil do\n    local F = U[E];\n    if F then\n      F[4] = F;\n      F[5] = u[E];\n      F[6] = 5;\n      U[E] = nil;\n    end\n  end\nend",
+        "if v then\n  for E, F in K, v, nil do\n    local N = F[5];\n    if v then\n      F = v[E];\n      if F then\n        local dE = Q(N);\n        q(u, E, E + N - 1, 1, dE);\n        F[4] = dE;\n        F[6] = 1;\n        v[E] = nil;\n      end\n    end\n  end\nend",
+        "return u[B[t]](u[p[t]]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 10,
+      "statements": [
+        "u[p[t]] = u[B[t]] ~= W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 11,
+      "statements": [
+        "u[p[t]] = f;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 12,
+      "statements": [
+        "t = if u[G[t]] then B[t] else p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 13,
+      "statements": [
+        "e, O, T, V = z(f, J(A(f, 14), 262143), (J(A(f, 28), 15))), B[t], G[t], p[t];",
+        "m = V < 16384 and 7 or (V < 2097152 and 14 or 21);",
+        "Y, i = A(V, m), J(V, C(1, m) - 1);",
+        "B[t] = z(O, 8, (J(A(e, 7), 127)));",
+        "p[t] = z(i, 14, (J(A(e, 14), 127)));",
+        "G[t] = z(T, 20, (J(e, 127)));",
+        "g[t] = z(Y, 55, (J(A(e, 21), 127)));",
+        "t = t - 1;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 14,
+      "statements": [
+        "u[B[t]] = u[G[t]] > u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 15,
+      "statements": [
+        "_[P[t]] = u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 16,
+      "statements": [
+        "u[p[t]] = G[t] + u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 17,
+      "statements": [
+        "if E >= 18 then\n  if E ~= 19 then\n    u[G[t]] = p[t];\n  else\n    u[p[t]] = o[B[t]][W[t]];\n  end\nelseif U then\n  local F = B[t];\n  local N = U[F];\n  if N then\n    N[4] = N;\n    N[5] = u[F];\n    N[6] = 5;\n    U[F] = nil;\n  end\nend",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 18,
+      "statements": [
+        "u[G[t]] = p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 19,
+      "statements": [
+        "u[p[t]] = o[B[t]][W[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 20,
+      "statements": [
+        "e, O = B[t], u[G[t]];",
+        "u[e + 1] = O;",
+        "u[e] = O[P[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 21,
+      "statements": [
+        "e = p[t];",
+        "u[e], u[e + 1] = B[t], W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 22,
+      "statements": [
+        "u[G[t]] = u[p[t]] + u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 23,
+      "statements": [
+        "if U then\n  local PE = B[t];\n  local pE = U[PE];\n  if pE then\n    pE[4] = pE;\n    pE[5] = u[PE];\n    pE[6] = 5;\n    U[PE] = nil;\n  end\n  pE = p[t];\n  PE = U[pE];\n  if PE then\n    PE[4] = PE;\n    PE[5] = u[pE];\n    PE[6] = 5;\n    U[pE] = nil;\n  end\n  pE = G[t];\n  PE = U[pE];\n  if PE then\n    PE[4] = PE;\n    PE[5] = u[pE];\n    PE[6] = 5;\n    U[pE] = nil;\n  end\nend",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 24,
+      "statements": [
+        "u[p[t]](n[t], W[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 25,
+      "statements": [
+        "u[G[t]] = k(u[B[t]], u[p[t]]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 26,
+      "statements": [
+        "u[p[t]] = A(u[G[t]], B[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 27,
+      "statements": [
+        "u[G[t]] = u[p[t]] < u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 28,
+      "statements": [
+        "u[p[t]] = u[B[t]] .. W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 29,
+      "statements": [
+        "t = B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 30,
+      "statements": [
+        "e = B[t];",
+        "O, T, V = u[e], u[e + 1], u[e + 2];",
+        "u[e] = O(T, V);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 31,
+      "statements": [
+        "u[p[t]] = y(u[B[t]](u[G[t]]));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 32,
+      "statements": [
+        "o[p[t]][n[t]] = W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 33,
+      "statements": [
+        "e = p[t];",
+        "u[e], u[e + 1] = W[t], B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 34,
+      "statements": [
+        "u[B[t]] = u[p[t]] .. u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 35,
+      "statements": [
+        "O, e = (z(B[t], (J(z(f, (J(A(f, 29), 7))), 536870911)))), G[t] + 1;",
+        "for F = 1, p[t], 1 do\n  O = J(z(O, (C(O, 13))), 536870911);\n  O = z(O, (A(O, 13)));\n  O = J(z(O, (C(O, 14))), 536870911);\n  G[e] = z(G[e], (J(A(O, 0), 127)));\n  B[e] = z(B[e], (J(A(O, 7), 127)));\n  p[e] = z(p[e], (J(A(O, 14), 127)));\n  g[e] = z(g[e], (J(A(O, 21), 127)));\n  e = e + 1;\nend",
+        "g[t] = 164;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 36,
+      "statements": [
+        "local F;",
+        "local N = P[t];",
+        "if N then\n  local dE = #N / 3;\n  if dE > 0 then\n    F = {};\n    local PE, pE = U, v;\n    for sE = 1, dE, 1 do\n      local dE = (sE - 1) * 3;\n      local WE, GE = N[dE + 1], N[dE + 3];\n      if WE == 3 then\n        PE = PE or {};\n        local gE = PE[GE];\n        if gE then\n        else\n          gE = { [6] = GE, [4] = u };\n          PE[GE] = gE;\n        end\n        F[sE] = gE;\n      elseif WE == 2 then\n        F[sE] = u[GE];\n      elseif WE == 1 then\n        F[sE] = o[GE];\n      elseif WE == 0 then\n        pE = pE or {};\n        local WE = pE[GE];\n        if WE then\n        else\n          WE = { [6] = GE, [4] = u, [5] = N[dE + 2] };\n          pE[GE] = WE;\n        end\n        F[sE] = WE;\n      end\n    end\n    U, v = PE, pE;\n  end\nend",
+        "u[B[t]] = W[t](F, nil, nil);",
+        "e = F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 37,
+      "statements": [
+        "u[B[t]] = z(u[p[t]], G[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 38,
+      "statements": [
+        "e, O, T, V = z(f, J(A(f, 14), 262143), (J(A(f, 28), 15))), G[t], p[t], B[t];",
+        "m = V < 2097152 and 7 or 14;",
+        "Y, i = A(V, m), J(V, C(1, m) - 1);",
+        "g[t] = z(Y, 89, (J(A(e, 21), 127)));",
+        "G[t] = z(O, 46, (J(e, 127)));",
+        "p[t] = z(T, 13, (J(A(e, 14), 127)));",
+        "B[t] = z(i, 27, (J(A(e, 7), 127)));",
+        "t = t - 1;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 39,
+      "statements": [
+        "t = if P[t] < u[G[t]] then t else B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 40,
+      "statements": [
+        "N, F = O, T;",
+        "t = u[B[t]];",
+        "O, T = N, F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 41,
+      "statements": [
+        "N, F = O, T;",
+        "u[p[t]](n[t], u[G[t]]);",
+        "O, T = N, F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 42,
+      "statements": [
+        "N, F = O, T;",
+        "u[G[t]][P[t]] = n[t];",
+        "O, T = N, F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 43,
+      "statements": [
+        "N, F = O, T;",
+        "local PE, pE = P[t];",
+        "if PE then\n  local sE = #PE / 3;\n  if sE > 0 then\n    pE = {};\n    local WE, GE = U, v;\n    for gE = 1, sE, 1 do\n      local sE = (gE - 1) * 3;\n      local BE, tE = PE[sE + 1], PE[sE + 3];\n      if BE == 3 then\n        WE = WE or {};\n        local ZE = WE[tE];\n        if ZE then\n        else\n          ZE = { [6] = tE, [4] = u };\n          WE[tE] = ZE;\n        end\n        pE[gE] = ZE;\n      elseif BE == 2 then\n        pE[gE] = u[tE];\n      elseif BE == 1 then\n        pE[gE] = o[tE];\n      elseif BE == 0 then\n        GE = GE or {};\n        local BE = GE[tE];\n        if BE then\n        else\n          BE = { [6] = tE, [4] = u, [5] = PE[sE + 2] };\n          GE[tE] = BE;\n        end\n        pE[gE] = BE;\n      end\n    end\n    U, v = WE, GE;\n  end\nend",
+        "u[B[t]] = u[G[t]](pE, nil, nil);",
+        "e = pE;",
+        "O, T = N, F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 44,
+      "statements": [
+        "N, F = O, T;",
+        "dE = e;",
+        "u[B[t]] = u[p[t]] == G[t];",
+        "e = dE;",
+        "O, T = N, F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 45,
+      "statements": [
+        "N, F = O, T;",
+        "dE = e;",
+        "e = p[t];",
+        "T = e + B[t];",
+        "if U then\n  for PE in K, U, nil do\n    local pE = U[PE];\n    if pE then\n      pE[4] = pE;\n      pE[5] = u[PE];\n      pE[6] = 5;\n      U[PE] = nil;\n    end\n  end\nend",
+        "if v then\n  for PE, pE in K, v, nil do\n    local sE = pE[5];\n    if v then\n      pE = v[PE];\n      if pE then\n        local WE = Q(sE);\n        q(u, PE, PE + sE - 1, 1, WE);\n        pE[4] = WE;\n        pE[6] = 1;\n        v[PE] = nil;\n      end\n    end\n  end\nend",
+        "return u[e](R(u, e + 1, T));",
+        "e = dE;",
+        "O, T = N, F;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 46,
+      "statements": [
+        "e = o[B[t]];",
+        "u[p[t]] = e[4][e[6]][G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 47,
+      "statements": [
+        "e, O, T = B[t], G[t], p[t];",
+        "V = u[e];",
+        "q(u, e + 1, e + O, T + 1, V);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 48,
+      "statements": [
+        "u[B[t]] = u[p[t]]();",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 49,
+      "statements": [
+        "O, e = G[t], p[t] + 1;",
+        "for PE = 1, B[t], 1 do\n  O = J(z(O, (C(O, 13))), 536870911);\n  O = z(O, (A(O, 13)));\n  O = J(z(O, (C(O, 14))), 536870911);\n  G[e] = z(G[e], (J(A(O, 0), 127)));\n  B[e] = z(B[e], (J(A(O, 7), 127)));\n  p[e] = z(p[e], (J(A(O, 14), 127)));\n  g[e] = z(g[e], (J(A(O, 21), 127)));\n  e = e + 1;\nend",
+        "g[t] = 164;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 50,
+      "statements": [
+        "u[B[t]] = u[p[t]] + W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 51,
+      "statements": [
+        "u[p[t]] = u[B[t]] == W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 52,
+      "statements": [
+        "e = o[B[t]];",
+        "u[G[t]] = e[4][e[6]][P[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 53,
+      "statements": [
+        "u[p[t]] = #u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 54,
+      "statements": [
+        "u[B[t]] = P[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 55,
+      "statements": [
+        "u[G[t]] = o[B[t]][p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 56,
+      "statements": [
+        "local PE, pE, sE = G[t], z(B[t], (J(z(f, (J(A(f, 29), 7))), 536870911))), s[5];",
+        "local WE = z(sE[PE], 236682589);",
+        "sE[PE] = WE;",
+        "sE, PE = s[4], WE + 1;",
+        "WE = j(sE, PE);",
+        "local GE, gE;",
+        "if WE < 128 then\n  GE, gE = WE, PE + 1;\nelse\n  local BE = j(sE, PE + 1);\n  if BE < 128 then\n    GE, gE = (WE - 128) * 128 + BE, PE + 2;\n  else\n    local tE = j(sE, PE + 2);\n    if tE < 128 then\n      GE, gE = (WE - 128) * 128 + (BE - 128) * 16384 + tE, PE + 3;\n    else\n      local ZE = j(sE, PE + 3);\n      GE, gE = (WE - 128) * 2097152 + (BE - 128) * 16384 + (tE - 128) + ZE % 128 * 128 + (ZE - ZE % 128) * 2097152, PE + 4;\n    end\n  end\nend",
+        "PE, WE = pE * 16843009, gE + GE;",
+        "local BE = WE - GE % 4;",
+        "for GE = gE, BE - 1, 4 do\n  h(sE, GE, (z(M(sE, GE), PE)));\nend",
+        "for PE = BE, WE - 1, 1 do\n  c(sE, PE, (z(j(sE, PE), pE)));\nend",
+        "G[t] = 208;",
+        "B[t] = 26;",
+        "p[t] = 78;",
+        "g[t] = 164;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 57,
+      "statements": [
+        "u[B[t]] = u[p[t]] - W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 58,
+      "statements": [
+        "e = o[p[t]];",
+        "e[4][e[6]] = W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 59,
+      "statements": [
+        "u[p[t]] = u[B[t]] * u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 60,
+      "statements": [
+        "e, O, T = p[t], G[t], B[t];",
+        "V, m, Y = e + T - 1, e + O, y(u[e](R(u, e + 1, e + O)));",
+        "q(Y, 1, T, e, u);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 61,
+      "statements": [
+        "e, O, T = G[t], B[t], p[t];",
+        "V = e + O;",
+        "u[e] = y(u[e](R(u, e + 1, V)));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 62,
+      "statements": [
+        "u[G[t]](P[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 63,
+      "statements": [
+        "u[p[t]] = g;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 64,
+      "statements": [
+        "u[G[t]] = D(u[B[t]]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 65,
+      "statements": [
+        "t = if u[G[t]] < p[t] then t else B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 66,
+      "statements": [
+        "e = o[G[t]];",
+        "e[4][e[6]] = u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 67,
+      "statements": [
+        "u[B[t]] = u[G[t]] // p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 68,
+      "statements": [
+        "u[G[t]][u[p[t]]] = u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 69,
+      "statements": [
+        "u[B[t]] = o[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 70,
+      "statements": [
+        "local PE, pE, sE = G[t], n[t], u[p[t]];",
+        "local WE, GE = J(pE, 4294967295), J(sE, 4294967295);",
+        "local sE, gE, BE, tE = J(WE, 65535), A(WE, 16), J(GE, 65535), A(GE, 16);",
+        "pE = J(sE * BE + C(J(sE * tE + gE * BE, 65535), 16), 4294967295);",
+        "BE = nil;",
+        "repeat\n  GE = pE % 4294967296;\n  if GE ~= GE then\n    BE = 0;\n    break;\n  end\n  BE = GE - GE % 1;\nuntil true",
+        "u[PE] = BE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 71,
+      "statements": [
+        "f = u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 72,
+      "statements": [
+        "u[B[t]] = u[G[t]] < p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 73,
+      "statements": [
+        "o[B[t]][u[G[t]]] = P[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 74,
+      "statements": [
+        "u[G[t]] = o[p[t]][u[B[t]]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 75,
+      "statements": [
+        "e = G[t];",
+        "local PE, pE, sE = w();",
+        "if PE then\n  u[e] = pE;\n  u[e + 1] = sE;\n  t = p[t];\nelse\n  t = B[t];\nend",
+        "O, T, V = PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 76,
+      "statements": [
+        "u[B[t]] = u[G[t]][p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 77,
+      "statements": [
+        "u[G[t]] = u[p[t]](R(u[B[t]], 1, u[B[t]].n));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 78,
+      "statements": [
+        "u[G[t]] = u[B[t]] >= p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 79,
+      "statements": [
+        "u[p[t]] = u[G[t]] + B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 80,
+      "statements": [
+        "u[G[t]] = -u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 81,
+      "statements": [
+        "w += l;",
+        "e = if l <= 0 then w >= a else w <= a;",
+        "if e then\n  u[p[t]] = w;\n  t = G[t];\nelse\n  t = B[t];\nend",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 82,
+      "statements": [
+        "u[p[t]] = u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 83,
+      "statements": [
+        "O, e = (z(B[t], (J(z(b, (J(A(b, 29), 7))), 536870911)))), G[t] + 1;",
+        "for PE = 1, p[t], 1 do\n  O = J(z(O, (C(O, 13))), 536870911);\n  O = z(O, (A(O, 13)));\n  O = J(z(O, (C(O, 14))), 536870911);\n  G[e] = z(G[e], (J(A(O, 0), 127)));\n  B[e] = z(B[e], (J(A(O, 7), 127)));\n  p[e] = z(p[e], (J(A(O, 14), 127)));\n  g[e] = z(g[e], (J(A(O, 21), 127)));\n  e = e + 1;\nend",
+        "g[t] = 164;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 84,
+      "statements": [
+        "u[B[t]] = u[G[t]](P[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 85,
+      "statements": [
+        "u[B[t]] = u[G[t]] ~= u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 86,
+      "statements": [
+        "e, O, T = G[t], B[t], p[t];",
+        "V, m = u[e], e + O;",
+        "Y = u[m];",
+        "q(u, e + 1, m - 1, T + 1, V);",
+        "q(Y, 1, Y.n, T + O, V);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 87,
+      "statements": [
+        "t = if p[t] < u[G[t]] then t else B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 88,
+      "statements": [
+        "u[B[t]] = not u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 89,
+      "statements": [
+        "u[G[t]] = p;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 90,
+      "statements": [
+        "e = o[p[t]];",
+        "e[4][e[6]][u[B[t]]] = W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 91,
+      "statements": [
+        "u[B[t]] = u[G[t]] > p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 92,
+      "statements": [
+        "t = if p[t] <= u[G[t]] then t else B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 93,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "WE = S;",
+        "S, e = { [7] = l, [5] = a, [8] = w, [9] = WE, [6] = X }, B[t];",
+        "l, a = u[e + 2] + 0, u[e + 1] + 0;",
+        "w = u[e] - l;",
+        "t = p[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 94,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "u[G[t]] = u[p[t]] ^ B[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 95,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "local GE, gE, BE = G[t], B[t], s[5];",
+        "local tE = z(BE[GE], 236682589);",
+        "BE[GE] = tE;",
+        "GE, BE = s[4], tE + 1;",
+        "tE = j(GE, BE);",
+        "local ZE, EE;",
+        "if tE < 128 then\n  ZE, EE = tE, BE + 1;\nelse\n  local nE = j(GE, BE + 1);\n  if nE < 128 then\n    ZE, EE = (tE - 128) * 128 + nE, BE + 2;\n  else\n    local LE = j(GE, BE + 2);\n    if LE < 128 then\n      ZE, EE = (tE - 128) * 128 + (nE - 128) * 16384 + LE, BE + 3;\n    else\n      local FE = j(GE, BE + 3);\n      ZE, EE = (tE - 128) * 2097152 + (nE - 128) * 16384 + (LE - 128) + FE % 128 * 128 + (FE - FE % 128) * 2097152, BE + 4;\n    end\n  end\nend",
+        "tE, BE = gE * 16843009, EE + ZE;",
+        "local nE = BE - ZE % 4;",
+        "for ZE = EE, nE - 1, 4 do\n  h(GE, ZE, (z(M(GE, ZE), tE)));\nend",
+        "for tE = nE, BE - 1, 1 do\n  c(GE, tE, (z(j(GE, tE), gE)));\nend",
+        "G[t] = 5;",
+        "B[t] = 45;",
+        "p[t] = 243;",
+        "g[t] = 164;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 96,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "if U then\n  for GE in K, U, nil do\n    local gE = U[GE];\n    if gE then\n      gE[4] = gE;\n      gE[5] = u[GE];\n      gE[6] = 5;\n      U[GE] = nil;\n    end\n  end\nend",
+        "if v then\n  for GE, gE in K, v, nil do\n    local BE = gE[5];\n    if v then\n      gE = v[GE];\n      if gE then\n        local tE = Q(BE);\n        q(u, GE, GE + BE - 1, 1, tE);\n        gE[4] = tE;\n        gE[6] = 1;\n        v[GE] = nil;\n      end\n    end\n  end\nend",
+        "return u[B[t]](W[t]);",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 97,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "u[B[t]][W[t]] = u[p[t]];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 98,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "u[B[t]](u[G[t]], u[p[t]]);",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 99,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "t = if u[G[t]] ~= n[t] then p[t] else t;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 100,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "u[G[t]] = z(u[B[t]], u[p[t]]);",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 101,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "WE = S;",
+        "S, e, O = { [7] = l, [5] = a, [8] = w, [9] = WE, [6] = X }, p[t], I(H);",
+        "O(d, u[e], u[e + 1], u[e + 2]);",
+        "X = G[t];",
+        "t, w = B[t], O;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 102,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "if U then\n  for GE in K, U, nil do\n    local gE = U[GE];\n    if gE then\n      gE[4] = gE;\n      gE[5] = u[GE];\n      gE[6] = 5;\n      U[GE] = nil;\n    end\n  end\nend",
+        "if v then\n  for GE, gE in K, v, nil do\n    local BE = gE[5];\n    if v then\n      gE = v[GE];\n      if gE then\n        local tE = Q(BE);\n        q(u, GE, GE + BE - 1, 1, tE);\n        gE[4] = tE;\n        gE[6] = 1;\n        v[GE] = nil;\n      end\n    end\n  end\nend",
+        "return u[B[t]], u[p[t]];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 103,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE;",
+        "local GE, gE, BE = B[t], u[p[t]], u[G[t]];",
+        "local tE, ZE = J(gE, 4294967295), J(BE, 4294967295);",
+        "local EE, nE, LE, FE = J(tE, 65535), A(tE, 16), J(ZE, 65535), A(ZE, 16);",
+        "BE = J(EE * LE + C(J(EE * FE + nE * LE, 65535), 16), 4294967295);",
+        "gE = nil;",
+        "repeat\n  tE = BE % 4294967296;\n  if tE ~= tE then\n    gE = 0;\n    break;\n  end\n  gE = tE - tE % 1;\nuntil true",
+        "u[GE] = gE;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 104,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[B[t]] = u[p[t]] ~= G[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 105,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[G[t]] = u[B[t]] - p[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 106,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[B[t]] = u[p[t]] * W[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 107,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "e = o[G[t]];",
+        "u[B[t]] = e[4][e[6]][u[p[t]]];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 108,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "e = B[t];",
+        "u[e], u[e + 1] = p[t], G[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 109,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[p[t]] = u[G[t]] <= B[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 110,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[G[t]] = B[t] - u[p[t]];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 111,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "t = if u[G[t]] < P[t] then t else B[t];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 112,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[p[t]] = u[G[t]](u[B[t]]);",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 113,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[G[t]] = _[P[t]][n[t]];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 114,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "if U then\n  for WE in K, U, nil do\n    local GE = U[WE];\n    if GE then\n      GE[4] = GE;\n      GE[5] = u[WE];\n      GE[6] = 5;\n      U[WE] = nil;\n    end\n  end\nend",
+        "if v then\n  for WE, GE in K, v, nil do\n    local gE = GE[5];\n    if v then\n      GE = v[WE];\n      if GE then\n        local BE = Q(gE);\n        q(u, WE, WE + gE - 1, 1, BE);\n        GE[4] = BE;\n        GE[6] = 1;\n        v[WE] = nil;\n      end\n    end\n  end\nend",
+        "return u[G[t]];",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 115,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "u[B[t]] = z(u[G[t]], P[t]);",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 116,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "u[G[WE]] = u[B[WE]][P[WE]];",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 117,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "u[p[WE]] = W[WE] .. u[B[WE]];",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 118,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "e = p[WE];",
+        "u[e], u[e + 1] = u[B[WE]], G[WE];",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 119,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "local GE, gE, BE = p[WE], u[B[WE]], G[WE];",
+        "local tE, ZE = J(gE, 4294967295), J(BE, 4294967295);",
+        "local BE, EE, nE, LE = J(tE, 65535), A(tE, 16), J(ZE, 65535), A(ZE, 16);",
+        "gE = J(BE * nE + C(J(BE * LE + EE * nE, 65535), 16), 4294967295);",
+        "nE = nil;",
+        "repeat\n  BE = gE % 4294967296;\n  if BE ~= BE then\n    nE = 0;\n    break;\n  end\n  nE = BE - BE % 1;\nuntil true",
+        "u[GE] = nE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 120,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "u[G[WE]] = y(u[B[WE]](R(u[p[WE]], 1, u[p[WE]].n)));",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 121,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "if U then\n  for GE in K, U, nil do\n    local gE = U[GE];\n    if gE then\n      gE[4] = gE;\n      gE[5] = u[GE];\n      gE[6] = 5;\n      U[GE] = nil;\n    end\n  end\nend",
+        "if v then\n  for GE, gE in K, v, nil do\n    local BE = gE[5];\n    if v then\n      gE = v[GE];\n      if gE then\n        local tE = Q(BE);\n        q(u, GE, GE + BE - 1, 1, tE);\n        gE[4] = tE;\n        gE[6] = 1;\n        v[GE] = nil;\n      end\n    end\n  end\nend",
+        "return u[G[WE]](u[B[WE]], R(u[p[WE]], 1, u[p[WE]].n));",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 122,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "if U then\n  for GE in K, U, nil do\n    local gE = U[GE];\n    if gE then\n      gE[4] = gE;\n      gE[5] = u[GE];\n      gE[6] = 5;\n      U[GE] = nil;\n    end\n  end\nend",
+        "if v then\n  for GE, gE in K, v, nil do\n    local BE = gE[5];\n    if v then\n      gE = v[GE];\n      if gE then\n        local tE = Q(BE);\n        q(u, GE, GE + BE - 1, 1, tE);\n        gE[4] = tE;\n        gE[6] = 1;\n        v[GE] = nil;\n      end\n    end\n  end\nend",
+        "return n[WE];",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 123,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "u[p[WE]] = J(u[B[WE]], W[WE]);",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 124,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "u[B[WE]] = u[G[WE]] % p[WE];",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 125,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "local GE, gE, BE = G[WE], u[B[WE]];",
+        "repeat\n  local tE = gE % 4294967296;\n  if tE ~= tE then\n    BE = 0;\n    break;\n  end\n  BE = tE - tE % 1;\nuntil true",
+        "u[GE] = BE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 126,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "u[p[WE]] = u[G[WE]] > n[WE];",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 127,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "o[G[WE]][n[WE]] = p[WE];",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 128,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[G[WE]] = k(u[p[WE]], n[WE]);",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 129,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "local GE, gE, BE = G[WE], z(B[WE], (J(z(b, (J(A(b, 29), 7))), 536870911))), s[5];",
+        "local tE = z(BE[GE], 236682589);",
+        "BE[GE] = tE;",
+        "BE, GE = s[4], tE + 1;",
+        "tE = j(BE, GE);",
+        "local ZE, EE;",
+        "if tE < 128 then\n  ZE, EE = tE, GE + 1;\nelse\n  local nE = j(BE, GE + 1);\n  if nE < 128 then\n    ZE, EE = (tE - 128) * 128 + nE, GE + 2;\n  else\n    local LE = j(BE, GE + 2);\n    if LE < 128 then\n      ZE, EE = (tE - 128) * 128 + (nE - 128) * 16384 + LE, GE + 3;\n    else\n      local FE = j(BE, GE + 3);\n      ZE, EE = (tE - 128) * 2097152 + (nE - 128) * 16384 + (LE - 128) + FE % 128 * 128 + (FE - FE % 128) * 2097152, GE + 4;\n    end\n  end\nend",
+        "tE, GE = gE * 16843009, EE + ZE;",
+        "local nE = GE - ZE % 4;",
+        "for ZE = EE, nE - 1, 4 do\n  h(BE, ZE, (z(M(BE, ZE), tE)));\nend",
+        "for tE = nE, GE - 1, 1 do\n  c(BE, tE, (z(j(BE, tE), gE)));\nend",
+        "G[WE] = 117;",
+        "B[WE] = 21;",
+        "p[WE] = 23;",
+        "g[WE] = 164;",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 130,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[G[WE]] = u[B[WE]] / u[p[WE]];",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 131,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[B[WE]] = u[p[WE]] * G[WE];",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 132,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "e, O = B[WE], p[WE];",
+        "T = e + O;",
+        "V = u[T];",
+        "m = V.n;",
+        "if U then\n  for GE in K, U, nil do\n    local gE = U[GE];\n    if gE then\n      gE[4] = gE;\n      gE[5] = u[GE];\n      gE[6] = 5;\n      U[GE] = nil;\n    end\n  end\nend",
+        "if v then\n  for GE, gE in K, v, nil do\n    local BE = gE[5];\n    if v then\n      gE = v[GE];\n      if gE then\n        local tE, ZE = GE + BE - 1, Q(BE);\n        q(u, GE, tE, 1, ZE);\n        gE[4] = ZE;\n        gE[6] = 1;\n        v[GE] = nil;\n      end\n    end\n  end\nend",
+        "V.n = O + m - 1;",
+        "q(V, 1, m, O, V);",
+        "q(u, e + 1, T - 1, 1, V);",
+        "return u[e](R(V, 1, V.n));",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 133,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[B[WE]] = u[G[WE]] // u[p[WE]];",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 134,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "Z = G[WE];",
+        "t, e, O, T, V, m, Y = p[WE] + 1, dE, N, F, PE, pE, sE;",
+        "break;",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 135,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[B[WE]] = y(u[p[WE]]());",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 136,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[G[WE]] = n[WE] - u[p[WE]];",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 137,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "local GE, gE, BE = B[WE], P[WE], W[WE];",
+        "local tE, ZE = J(gE, 4294967295), J(BE, 4294967295);",
+        "local gE, BE, EE, nE = J(tE, 65535), A(tE, 16), J(ZE, 65535), A(ZE, 16);",
+        "tE = J(gE * EE + C(J(gE * nE + BE * EE, 65535), 16), 4294967295);",
+        "BE = nil;",
+        "repeat\n  gE = tE % 4294967296;\n  if gE ~= gE then\n    BE = 0;\n    break;\n  end\n  BE = gE - gE % 1;\nuntil true",
+        "u[GE] = BE;",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 138,
+      "statements": [
+        "F = T;",
+        "local PE, pE, sE = V, m, Y;",
+        "local WE = t;",
+        "N = O;",
+        "dE = e;",
+        "u[p[WE]] = G[WE] ^ u[B[WE]];",
+        "e = dE;",
+        "t, O = WE, N;",
+        "T, V, m, Y = F, PE, pE, sE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 139,
+      "statements": [
+        "u[B[t]][p[t]] = u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 140,
+      "statements": [
+        "u[G[t]] = u[B[t]] % u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 141,
+      "statements": [
+        "u[G[t]] = B;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 142,
+      "statements": [
+        "u[B[t]](u[G[t]], P[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 143,
+      "statements": [
+        "e, O, T = G[t], p[t], B[t];",
+        "V, m = e + T - 1, e + O;",
+        "Y = u[m];",
+        "i = Y.n;",
+        "r = O + i - 1;",
+        "Y.n = r;",
+        "q(Y, 1, i, O, Y);",
+        "q(u, e + 1, m - 1, 1, Y);",
+        "x = y(u[e](R(Y, 1, Y.n)));",
+        "q(x, 1, T, e, u);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 144,
+      "statements": [
+        "e = p[t];",
+        "u[e], u[e + 1] = n[t], W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 145,
+      "statements": [
+        "u[G[t]] = u[p[t]] % n[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 146,
+      "statements": [
+        "u[B[t]] = _[P[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 147,
+      "statements": [
+        "u[G[t]] = d[P[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 148,
+      "statements": [
+        "if U then\n  for PE in K, U, nil do\n    local pE = U[PE];\n    if pE then\n      pE[4] = pE;\n      pE[5] = u[PE];\n      pE[6] = 5;\n      U[PE] = nil;\n    end\n  end\nend",
+        "if v then\n  for PE, pE in K, v, nil do\n    local sE = pE[5];\n    if v then\n      pE = v[PE];\n      if pE then\n        local WE, GE = PE + sE, Q(sE);\n        q(u, PE, WE - 1, 1, GE);\n        pE[4] = GE;\n        pE[6] = 1;\n        v[PE] = nil;\n      end\n    end\n  end\nend",
+        "return u[p[t]](u[B[t]], u[G[t]]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 149,
+      "statements": [
+        "t = if u[B[t]] < u[G[t]] then t else p[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 150,
+      "statements": [
+        "o[B[t]][P[t]] = u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 151,
+      "statements": [
+        "e = p[t];",
+        "local PE, pE = w();",
+        "if PE then\n  u[e] = pE;\n  t = B[t];\nelse\n  t = G[t];\nend",
+        "O, T = PE, pE;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 152,
+      "statements": [
+        "u[G[t]] = s;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 153,
+      "statements": [
+        "if U then\n  local PE = B[t];\n  local pE = U[PE];\n  if pE then\n    pE[4] = pE;\n    pE[5] = u[PE];\n    pE[6] = 5;\n    U[PE] = nil;\n  end\n  pE = G[t];\n  PE = U[pE];\n  if PE then\n    PE[4] = PE;\n    PE[5] = u[pE];\n    PE[6] = 5;\n    U[pE] = nil;\n  end\nend",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 154,
+      "statements": [
+        "if U then\n  for PE in K, U, nil do\n    local pE = U[PE];\n    if pE then\n      pE[4] = pE;\n      pE[5] = u[PE];\n      pE[6] = 5;\n      U[PE] = nil;\n    end\n  end\nend",
+        "if v then\n  for PE, pE in K, v, nil do\n    local sE = pE[5];\n    if v then\n      pE = v[PE];\n      if pE then\n        local WE = Q(sE);\n        q(u, PE, PE + sE - 1, 1, WE);\n        pE[4] = WE;\n        pE[6] = 1;\n        v[PE] = nil;\n      end\n    end\n  end\nend",
+        "return;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 155,
+      "statements": [
+        "u[G[t]] = C(u[B[t]], p[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 156,
+      "statements": [
+        "if U then\n  for PE in K, U, nil do\n    local pE = U[PE];\n    if pE then\n      pE[4] = pE;\n      pE[5] = u[PE];\n      pE[6] = 5;\n      U[PE] = nil;\n    end\n  end\nend",
+        "if v then\n  for PE, pE in K, v, nil do\n    local sE = pE[5];\n    if v then\n      pE = v[PE];\n      if pE then\n        local WE, GE = PE + sE, Q(sE);\n        q(u, PE, WE - 1, 1, GE);\n        pE[4] = GE;\n        pE[6] = 1;\n        v[PE] = nil;\n      end\n    end\n  end\nend",
+        "return u[G[t]](R(u[B[t]], 1, u[B[t]].n));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 157,
+      "statements": [
+        "t = if u[p[t]] then G[t] else B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 158,
+      "statements": [
+        "u[p[t]] = W[t] * u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 159,
+      "statements": [
+        "u[p[t]] = G[t] * u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 160,
+      "statements": [
+        "u[G[t]][P[t]] = B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 161,
+      "statements": [
+        "u[p[t]](u[B[t]]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 162,
+      "statements": [
+        "u[B[t]] = u[G[t]] - u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 163,
+      "statements": [
+        "t = if E ~= 164 then (if u[G[t]] ~= p[t] then B[t] else t) else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 164,
+      "statements": [
+        "t = if E ~= 164 then (if u[G[t]] ~= p[t] then B[t] else t) else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 165,
+      "statements": [
+        "u[p[t]] = u[G[t]] / B[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 166,
+      "statements": [
+        "u[B[t]](R(u[p[t]], 1, u[p[t]].n));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 167,
+      "statements": [
+        "u[G[t]] = P[t] + u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 168,
+      "statements": [
+        "t = if u[B[t]] <= u[p[t]] then t else G[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 169,
+      "statements": [
+        "u[p[t]] = b;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 170,
+      "statements": [
+        "t = if u[B[t]] <= p[t] then t else G[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 171,
+      "statements": [
+        "u[B[t]] = y(u[p[t]](W[t]));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 172,
+      "statements": [
+        "t = if u[B[t]] <= P[t] then t else G[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 173,
+      "statements": [
+        "u[G[t]] = J(u[p[t]], B[t]);",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 174,
+      "statements": [
+        "u[B[t]] = {};",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 175,
+      "statements": [
+        "t = if n[t] <= u[p[t]] then t else G[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 176,
+      "statements": [
+        "u[G[t]] = u[p[t]] == u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 177,
+      "statements": [
+        "o[p[t]][u[G[t]]] = u[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 178,
+      "statements": [
+        "u[p[t]] = G;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 179,
+      "statements": [
+        "u[p[t]] = d[B[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 180,
+      "statements": [
+        "e = o[G[t]];",
+        "u[B[t]] = e[4][e[6]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 181,
+      "statements": [
+        "e = o[B[t]];",
+        "e[4][e[6]][u[G[t]]] = u[p[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 182,
+      "statements": [
+        "u[G[t]](u[p[t]], R(u[B[t]], 1, u[B[t]].n));",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 183,
+      "statements": [
+        "if U then\n  for PE in K, U, nil do\n    local pE = U[PE];\n    if pE then\n      pE[4] = pE;\n      pE[5] = u[PE];\n      pE[6] = 5;\n      U[PE] = nil;\n    end\n  end\nend",
+        "if v then\n  for PE, pE in K, v, nil do\n    local sE = pE[5];\n    if v then\n      pE = v[PE];\n      if pE then\n        local WE = Q(sE);\n        q(u, PE, PE + sE - 1, 1, WE);\n        pE[4] = WE;\n        pE[6] = 1;\n        v[PE] = nil;\n      end\n    end\n  end\nend",
+        "return u[p[t]], W[t];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 184,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 185,
+      "statements": [
+        "b = u[G[t]];",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 186,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 187,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 188,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 189,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 190,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 191,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 192,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 193,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 194,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 195,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 196,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 197,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 198,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 199,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 200,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 201,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 202,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 203,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 204,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 205,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 206,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 207,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 208,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 209,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 210,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 211,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 212,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 213,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 214,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 215,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 216,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 217,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 218,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 219,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 220,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 221,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 222,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 223,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 224,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 225,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 226,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 227,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 228,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 229,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 230,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 231,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 232,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 233,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 234,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 235,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 236,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 237,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 238,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 239,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 240,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 241,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 242,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 243,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 244,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 245,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 246,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 247,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 248,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 249,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 250,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 251,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 252,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 253,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 254,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    },
+    {
+      "opcode": 255,
+      "statements": [
+        "t = if u[p[t]] ~= u[G[t]] then B[t] else t;",
+        "t = t + 1;"
+      ]
+    }
+  ]
+}
