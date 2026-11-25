@@ -1,0 +1,71 @@
+VM ANATOMY — NEW_SAMPLE_3_TEST.clean.lua [new_sample_3_test.clean-edb8a4]: bytecode interpreter (virtual machine)
+
+PIPELINE  (boot → run → exit)
+  payload  L3162: 644,620-byte string literal (largest in the script)
+  unpack   <fn@L2850> L2850–3057: deserializes the chunk
+  wrap     <fn@L3178> L3178–6425: closure factory (function(L))
+  run      <fn@L3180> L3180–6424: the dispatch on `H` — 174 handlers, opcodes 1..175
+  exit     L5386, L5481, L5519, L6007, L6086, L6199, …
+  entry    L2: return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S) if D <= 31 then local D, Y, Q, A = (u + S) % 256, buffer.create(T), 16843009 * S, T - T…
+
+DISPATCH  tree #0 (vm) on `H` L5316: 174 handlers, ops 1..175 — code=T, pc=I, stack=p
+
+PARTS (21)
+role            name        lines       detail
+--------------  ----------  ----------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+payload                     L3162       644,620-byte string literal (largest in the script)  ⟨"LPH-Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\\*__r[@dz\\UKc\\=q/c6\\'T/f+U[7cKqPa'V'R/NUWR<V'…⟩
+deserializer    <fn@L2850>  L2850–3057  <fn@L2850> (L2850–3057) top-ranked deserializer — loops×5; counter advance×11 → port it with python_transpile to extract the chunk statically
+string-decoder  <fn@L7244>  L7244–7258  string-decoder (score 8, 0 call sites, 0 with literal args)
+wrapper         <fn@L3178>  L3178–6425  <fn@L3178> (L3178–6425) returns the interpreter closure — params (L) usually = (proto/chunk, upvalues, env)  ⟨function(L)⟩
+interpreter     <fn@L3180>  L3180–6424  <fn@L3180> (L3180–6424) runs the dispatch on `H` — 174 handlers, opcodes 1..175  ⟨function(...)⟩
+dispatch-loop               L5314–6421  While loop around the dispatch  ⟨while true do⟩
+fetch                       L5315       instruction fetch from `T` at pc `I`  ⟨local H = T[I];⟩
+pc-advance                  L6421       program counter `I` advances  ⟨I = I + 1;⟩
+dispatch                    L5316       vm dispatch tree #0 on `H` (174 leaves, score 1044)
+exit                        L5386       return from the interpreter — handler op 58 RETURN  ⟨return W[p[I]], W[u[I]];⟩
+exit                        L5481       return from the interpreter — handler op 51 RETURN  ⟨return W[u[I]]();⟩
+exit                        L5519       return from the interpreter — handler op 80 RETURN  ⟨return W[p[I]];⟩
+exit                        L6007       return from the interpreter — handler op 141 RETURN  ⟨return x[I];⟩
+exit                        L6086       return from the interpreter — handler op 129 RETURN  ⟨return x[I], B(W[S[I]], 1, W[S[I]].n);⟩
+exit                        L6199       return from the interpreter — handler op 89 RETURN  ⟨return;⟩
+exit                        L6229       return from the interpreter — handler op 96 RETURN  ⟨return W[p[I]](W[u[I]], W[S[I]]);⟩
+exit                        L6377       return from the interpreter — handler op 99..100 RETURN  ⟨return W[S[I]](B(W[u[I]], 1, W[u[I]].n));⟩
+env                         L2505       environment access via setfenv at top level  ⟨setfenv⟩
+env                         L6510       environment access via getfenv at top level  ⟨getfenv⟩
+env                         L6519       environment access via getfenv at top level  ⟨getfenv⟩
+entry                       L2          final statement of the main chunk (no closure-factory call found)  ⟨return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S) if D <= 31 then local D, Y, Q, A = (u + S) % 256, buffer.create(T), 16843009 * S, T - T…⟩
+
+MAIN CHUNKS (25 largest functions; size = AST nodes)
+name        lines       size   calls  refs  roles         parent      params
+----------  ----------  -----  -----  ----  ------------  ----------  ------------------------------------------------
+<fn@L3176>  L3176–6426  18947  0      0     unreferenced  -           r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y,…
+<fn@L3178>  L3178–6425  18889  0      0     wrapper       <fn@L3176>  L
+<fn@L3180>  L3180–6424  18867  0      0     interpreter   <fn@L3178>  ...
+<fn@L173>   L173–1473   8178   0      0     unreferenced  -           r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y,…
+W           L175–1471   8124   0      1     -             <fn@L173>   L, h, h, h
+Z           L177–1469   8102   0      1     -             W           ...
+<fn@L182>   L182–1424   7928   0      0     deserializer  Z           ...
+<fn@L1574>  L1574–2466  5569   0      0     unreferenced  -           r, x, H, T
+<fn@L1589>  L1589–2425  5215   0      0     deserializer  <fn@L1574>  E, t
+<fn@L7836>  L7836–8557  3824   0      0     unreferenced  -           r, x, x, H, T, l, u, K, K, I, I, I, o, D, p, p
+<fn@L7838>  L7838–8556  3800   0      0     -             <fn@L7836>  r, s
+<fn@L7840>  L7840–8555  3790   0      0     deserializer  <fn@L7838>  ...
+<fn@L7280>  L7280–7511  1663   0      0     unreferenced  -           r, x, H
+<fn@L2846>  L2846–3059  1480   0      0     unreferenced  -           r, x, x, x, H, T, l, u, u, u, K, K, I, I, o, o,…
+<fn@L2848>  L2848–3058  1459   0      0     -             <fn@L2846>  r, G
+<fn@L2850>  L2850–3057  1450   0      0     deserializer  <fn@L2848>  ...
+<fn@L6566>  L6566–6716  932    0      0     unreferenced  -           r, x, x, x
+<fn@L6567>  L6567–6715  930    0      0     -             <fn@L6566>  x, H
+<fn@L6570>  L6570–6714  920    0      0     -             <fn@L6567>  x, l, u
+<fn@L7519>  L7519–7609  645    0      0     unreferenced  -           r, x, x, x
+<fn@L7520>  L7520–7608  643    0      0     -             <fn@L7519>  x, H, H, H
+<fn@L7524>  L7524–7607  629    0      0     -             <fn@L7520>  
+<fn@L8557>  L8557–8602  292    0      0     unreferenced  -           r, ...
+<fn@L2773>  L2773–2814  291    0      0     unreferenced  -           r, r, r, r, r
+<fn@L2774>  L2774–2813  289    0      0     -             <fn@L2773>  r, x, x
+
+NEXT
+- unpack statically: python_transpile {script_id:"new_sample_3_test.clean-edb8a4", function:"2850"} → run the Python; its __main__ calls the deserializer and lua_dump()s the decoded chunk (constants, instructions, protos)
+- constants: python_transpile {script_id:"new_sample_3_test.clean-edb8a4", function:"7244"} (string decoder), or constants {script_id:"new_sample_3_test.clean-edb8a4", section:"decoders"}
+- handlers: opcode_map {script_id:"new_sample_3_test.clean-edb8a4", clean:false, save_opmap_as:"vm"} → opmap_set → vm_disasm on the dumped instruction array
+- read the interpreter prologue: get_lines {script_id:"new_sample_3_test.clean-edb8a4", from_line:3180, to_line:3205}

@@ -1,0 +1,5 @@
+# lift_report — NEW_SAMPLE_3_TEST.clean.lua [new_sample_3_test.clean-edb8a4] — functions mode
+score: 100/100
+size: 8762 lines, 1619062 chars, 166 function literal(s)
+structure: 166 function(s), 166 creation site(s), deepest chain 4
+captures: 0 total — 0 box, 0 by-value, 0 pass-through, 0 untraced → 100% resolved

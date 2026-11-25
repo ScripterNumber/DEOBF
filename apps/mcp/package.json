@@ -1,0 +1,8 @@
+{
+  "name": "@prism/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "prism-mcp": "./src/server.ts" },
+  "scripts": { "start": "tsx src/server.ts" }
+}

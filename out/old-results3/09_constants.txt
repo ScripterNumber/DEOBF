@@ -1,0 +1,150 @@
+summary: 39 strings (35 unique), 7763 numbers (362 unique), 1 arrays, 14 decoder candidates, 1292368 literal bytes
+
+DECODER CANDIDATES:
+   14.4  decode-loop         <loop L185> (lines 185-0, 0 params, 0 calls, 0 with literal args)
+         #len×1; loops×8; counter advance×4; table builds×8
+   14.4  decode-loop         <loop L1091> (lines 1091-0, 0 params, 0 calls, 0 with literal args)
+         % 256-style×1; #len×1; loops×12; counter advance×4; table builds×5
+   14.4  decode-loop         <loop L3187> (lines 3187-0, 0 params, 0 calls, 0 with literal args)
+         % 256-style×3; loops×10; counter advance×5; table builds×5
+   13.5  decode-loop         <loop L662> (lines 662-0, 0 params, 0 calls, 0 with literal args)
+         % 256-style×2; #len×1; loops×5; counter advance×13; table builds×2
+   12.6  decode-loop         <loop L7847> (lines 7847-0, 0 params, 0 calls, 0 with literal args)
+         loops×4; counter advance×65; table builds×2
+   12.0  deserializer        <anonymous> (lines 2850-3057, 0 params, 0 calls, 0 with literal args)
+         loops×5; counter advance×11
+   10.8  deserializer        <anonymous> (lines 182-1424, 0 params, 0 calls, 0 with literal args)
+         % 256-style×3; #len×3; loops×36; counter advance×25; table builds×15; large (844 stmts)
+    9.0  decode-loop         <loop L463> (lines 463-0, 0 params, 0 calls, 0 with literal args)
+         loops×7; counter advance×4
+    9.0  decode-loop         <loop L8268> (lines 8268-0, 0 params, 0 calls, 0 with literal args)
+         loops×2; counter advance×8
+    8.4  deserializer        <anonymous> (lines 1589-2425, 2 params, 0 calls, 0 with literal args)
+         string.sub×2; xor×22; bitops×2; % 256-style×26; loops×1; table builds×11; large (560 stmts)
+    8.4  deserializer        <anonymous> (lines 7840-8555, 0 params, 0 calls, 0 with literal args)
+         loops×11; counter advance×91; table builds×2; large (525 stmts)
+    8.1  decode-loop         <loop L2933> (lines 2933-0, 0 params, 0 calls, 0 with literal args)
+         loops×1; counter advance×8
+    8.1  decode-loop         <loop L8367> (lines 8367-0, 0 params, 0 calls, 0 with literal args)
+         loops×1; counter advance×10
+    8.0  string-decoder      <anonymous> (lines 7244-7258, 11 params, 0 calls, 0 with literal args)
+         xor×1; % 256-style×1
+
+KEY CANDIDATES:
+  line 1602: "128"  — bit32.bxor(x, K)
+  line 1624: "168430090"  — bit32.bxor(x, K)
+  line 1633: "3974950124"  — bit32.bxor(x, K)
+  line 1918: "1145324612"  — bit32.bxor(x, K)
+  line 1999: "138"  — bit32.bxor(x, K)
+  line 2015: "44"  — bit32.bxor(x, K)
+  line 2044: "2728567458"  — bit32.bxor(x, K)
+  line 2051: "1381126738"  — bit32.bxor(x, K)
+  line 2233: "909522486"  — bit32.bxor(x, K)
+
+STRINGS:
+kind        len     count  H     lines      value
+----------  ------  -----  ----  ---------  ------------------------------------------------------------
+blob        644620  1      6.41  3162       LPH-Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\*__r[@dz\UKc\=q/c6\'…
+blob        644616  1      6.41  6488       Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\*__r[@dz\UKc\=q/c6\'T/f+…
+blob        2666    1      7.93  1          À¿gº°áEG~j­+Øoî2MõMQu¯j¾nß5&®À)
+(Î@`«¸cA»Rå'ØÀå…
+blob        296     1      7.24  1          >éýÚ'3ÑÞÄ\BºÖXU(% ¨Ì0æ¯/<ªè±æ1CNúôMmê) Um²Ýã@…
+text        32      1      3.90  2770       [:][^%l%L]*([0-9]+)[^%x%X]?[
+:]
+text        28      1      4.81  1          øçØ¹µ$õvª2lONrw­Dn#M@K
+text        8       2      2.75  52,6488    [ -&|-~]
+identifier  6       1      2.58  2747       string
+identifier  6       1      2.25  7705       fa6607
+text        5       1      1.92  3148       %) - 
+text        5       1      1.92  7681       :vxnv
+text        5       1      2.32  7681       ARfT/
+identifier  5       1      2.32  7681       q6upX
+text        5       1      2.32  7681       Q'5*)
+text        5       1      2.32  7681       70<>S
+text        5       1      2.32  7681       a[bZH
+text        5       1      2.32  7681       h:l@*
+text        5       1      2.32  7681       N=-)'
+identifier  5       1      1.92  7681       tlTTH
+text        5       1      2.32  7681       kiWY,
+text        4       2      2.00  2752,2754  LPH:
+text        3       1      1.58  3148       ] (
+text        2       1      1.00  2767       : 
+text        1       2      0.00  3148,7681  #
+text        1       2      0.00  3148,7681   
+text        1       1      0.00  2757       ?
+text        1       1      0.00  3148       [
+text        1       1      0.00  7681       "
+text        1       1      0.00  7681       ~
+text        1       1      0.00  7681       &
+text        1       1      0.00  7681       $
+text        1       1      0.00  7681       %
+text        1       1      0.00  7681       !
+text        1       1      0.00  7681       |
+text        1       1      0.00  7681       }
+
+NUMBERS:
+raw         value       count  tags                               lines
+----------  ----------  -----  ---------------------------------  ------------------------
+1           1           1109   byte,mod-operand                   5,25,31,55,61
+128         128         975    byte,pow2,xor-operand,mod-operand  9,26,29,32,34
+4           4           422    byte,pow2,mod-operand              4,5,6,14,32
+2           2           331    byte,pow2,mod-operand              6,8,14,18,34
+3           3           256    byte                               29,113,116,163,262
+0           0           253    byte                               6,15,70,80,103
+6           6           226    byte                               193,203,219,402,415
+127         127         202    byte                               227,228,229,230,296
+5           5           192    byte                               1,14,52,142,146
+7           7           159    byte                               171,228,239,247,290
+2097152     2097152     155    large,pow2                         265,333,357,500,597
+16384       16384       150    pow2                               29,50,116,262,265
+14          14          144    byte                               26,131,191,226,229
+16          16          101    byte,pow2                          22,174,197,475,516
+536870911   536870911   93     large                              224,226,247,290,293
+13          13          92     byte                               9,189,224,225,293
+21          21          76     byte                               29,230,299,314,357
+8           8           56     byte,pow2                          1,69,169,243,612
+4294967295  4294967295  52     large                              690,692,845,847,1221
+65535       65535       51                                        691,692,846,847,1222
+29          29          49     byte                               165,247,290,315,369
+256         256         46     pow2,mod-operand                   4,1601,1622,1632,1764
+15          15          41     byte                               190,356,467,596,674
+9           9           40     byte                               20,68,188,609,891
+10          10          36     byte                               75,134,206,617,905
+11          11          36     byte                               85,169,205,653,944
+20          20          35     byte                               32,173,174,308,520
+28          28          35     byte                               157,356,441,596,674
+46          46          32     byte                               174,667,1808,2262,2499
+18          18          32     byte                               187,466,913,1093,1661
+12          12          30     byte                               67,211,465,932,1279
+19          19          30     byte                               136,309,519,914,1232
+17          17          30     byte                               199,481,723,801,839
+61          61          29     byte                               6,744,921,923,1601
+4294967296  4294967296  29     large,mod-operand                  693,848,1224,2606,2608
+100         100         28     byte                               84,1604,1838,1940,1989
+65          65          27     byte                               113,174,781,1590,1880
+23          23          27     byte                               150,355,544,1016,1183
+24          24          26     byte                               28,354,1017,1171,1676
+42          42          26     byte                               174,708,925,1152,1595
+26          26          26     byte                               174,387,1003,1173,1485
+33          33          24     byte                               9,444,1042,1096,1658
+32          32          24     byte,pow2                          92,134,174,454,1041
+47          47          24     byte                               100,174,669,1516,1784
+27          27          24     byte                               154,158,233,281,302
+22          22          23     byte                               13,307,540,1010,1170
+25          25          23     byte                               30,383,990,1172,1684
+255         255         21     byte                               1492,1544,2468,2703,3107
+31          31          20     byte                               3,34,432,1052,1095
+30          30          20     byte                               154,174,434,989,1165
+38          38          19     byte                               132,1059,1628,1773,2296
+34          34          19     byte                               140,184,445,1046,1114
+98          98          19     byte                               1490,2059,2376,2838,2878
+16843009    16843009    18     large                              4,269,337,504,640
+199         199         18     byte                               6,60,514,1601,1965
+36          36          18     byte                               148,278,1060,1360,1740
+44          44          17     byte,xor-operand                   174,725,1795,2014,2015
+262143      262143      17     large                              356,596,674,915,1144
+48          48          17     byte                               602,668,1823,2267,2658
+50          50          17     byte                               688,1831,1876,2509,2608
+
+ARRAYS:
+  line 6995: u32 ×9 [10697..3513946746]  10697,1932713301,3513946746,2366826352,286081456,276024717,1064402848,2265685854,1947228433

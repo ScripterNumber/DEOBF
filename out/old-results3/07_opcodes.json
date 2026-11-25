@@ -1,0 +1,8653 @@
+{
+ "trees": [
+  {
+   "id": 0,
+   "kind": "vm",
+   "var": "H",
+   "line": 5316,
+   "leaves": 174,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "T",
+    "pc": "I",
+    "stack": "p"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      60
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5323
+    },
+    {
+     "opcodes": [
+      61
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5327
+    },
+    {
+     "opcodes": [
+      62
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5329
+    },
+    {
+     "opcodes": [
+      65
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 5333
+    },
+    {
+     "opcodes": [
+      64
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5343
+    },
+    {
+     "opcodes": [
+      63
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5346
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5353
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5356
+    },
+    {
+     "opcodes": [
+      58
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 5360
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5388
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5391
+    },
+    {
+     "opcodes": [
+      46
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5406
+    },
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5409
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5422
+    },
+    {
+     "opcodes": [
+      44
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5425
+    },
+    {
+     "opcodes": [
+      45
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5427
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5432
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5434
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5438
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5442
+    },
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 5455
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5484
+    },
+    {
+     "opcodes": [
+      81
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5491
+    },
+    {
+     "opcodes": [
+      80
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 5493
+    },
+    {
+     "opcodes": [
+      79
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 5521
+    },
+    {
+     "opcodes": [
+      77
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 5527
+    },
+    {
+     "opcodes": [
+      78
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5540
+    },
+    {
+     "opcodes": [
+      83
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5555
+    },
+    {
+     "opcodes": [
+      84
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5557
+    },
+    {
+     "opcodes": [
+      82
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5560
+    },
+    {
+     "opcodes": [
+      85
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5563
+    },
+    {
+     "opcodes": [
+      86
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5565
+    },
+    {
+     "opcodes": [
+      87
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5567
+    },
+    {
+     "opcodes": [
+      71
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5572
+    },
+    {
+     "opcodes": [
+      73
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5574
+    },
+    {
+     "opcodes": [
+      72
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5576
+    },
+    {
+     "opcodes": [
+      74
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5579
+    },
+    {
+     "opcodes": [
+      76
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5581
+    },
+    {
+     "opcodes": [
+      75
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 5582
+    },
+    {
+     "opcodes": [
+      67
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5589
+    },
+    {
+     "opcodes": [
+      66
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5591
+    },
+    {
+     "opcodes": [
+      68
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5594
+    },
+    {
+     "opcodes": [
+      70
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5596
+    },
+    {
+     "opcodes": [
+      69
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 5607
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5617
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5621
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5624
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5651
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5655
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5662
+    },
+    {
+     "opcodes": [
+      40
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5664
+    },
+    {
+     "opcodes": [
+      39
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5666
+    },
+    {
+     "opcodes": [
+      42
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5670
+    },
+    {
+     "opcodes": [
+      43
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5673
+    },
+    {
+     "opcodes": [
+      41
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5676
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5681
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5692
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5696
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5700
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5705
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 5713
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5719
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5721
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5732
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5737
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5740
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5753
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5755
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5759
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 5760
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5766
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5771
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5773
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5776
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5780
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5782
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5785
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5791
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5794
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5797
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5800
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 5802
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 5807
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5815
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5817
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5822
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5825
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5836
+    },
+    {
+     "opcodes": [
+      173
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5847
+    },
+    {
+     "opcodes": [
+      175
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5850
+    },
+    {
+     "opcodes": [
+      174,
+      176
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5852
+    },
+    {
+     "opcodes": [
+      170
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5855
+    },
+    {
+     "opcodes": [
+      172
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5858
+    },
+    {
+     "opcodes": [
+      171
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5861
+    },
+    {
+     "opcodes": [
+      165
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5865
+    },
+    {
+     "opcodes": [
+      166
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5869
+    },
+    {
+     "opcodes": [
+      167
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5872
+    },
+    {
+     "opcodes": [
+      169
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5874
+    },
+    {
+     "opcodes": [
+      168
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5876
+    },
+    {
+     "opcodes": [
+      164
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5892
+    },
+    {
+     "opcodes": [
+      163
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5893
+    },
+    {
+     "opcodes": [
+      162
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5912
+    },
+    {
+     "opcodes": [
+      160
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5916
+    },
+    {
+     "opcodes": [
+      161
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5918
+    },
+    {
+     "opcodes": [
+      159
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5921
+    },
+    {
+     "opcodes": [
+      155
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5925
+    },
+    {
+     "opcodes": [
+      154
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 5926
+    },
+    {
+     "opcodes": [
+      156
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5932
+    },
+    {
+     "opcodes": [
+      157
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5934
+    },
+    {
+     "opcodes": [
+      158
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 5935
+    },
+    {
+     "opcodes": [
+      132
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5944
+    },
+    {
+     "opcodes": [
+      133
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5948
+    },
+    {
+     "opcodes": [
+      136
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5952
+    },
+    {
+     "opcodes": [
+      135
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5956
+    },
+    {
+     "opcodes": [
+      134
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5960
+    },
+    {
+     "opcodes": [
+      139
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5965
+    },
+    {
+     "opcodes": [
+      138
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5967
+    },
+    {
+     "opcodes": [
+      137
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5970
+    },
+    {
+     "opcodes": [
+      140
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 5973
+    },
+    {
+     "opcodes": [
+      142
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5979
+    },
+    {
+     "opcodes": [
+      141
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 5981
+    },
+    {
+     "opcodes": [
+      144
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6012
+    },
+    {
+     "opcodes": [
+      143
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6014
+    },
+    {
+     "opcodes": [
+      145
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6017
+    },
+    {
+     "opcodes": [
+      146
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6019
+    },
+    {
+     "opcodes": [
+      147
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6021
+    },
+    {
+     "opcodes": [
+      151
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6025
+    },
+    {
+     "opcodes": [
+      153
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6028
+    },
+    {
+     "opcodes": [
+      152
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6030
+    },
+    {
+     "opcodes": [
+      148
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 6033
+    },
+    {
+     "opcodes": [
+      150
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6042
+    },
+    {
+     "opcodes": [
+      149
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6044
+    },
+    {
+     "opcodes": [
+      127
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6052
+    },
+    {
+     "opcodes": [
+      128
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 6054
+    },
+    {
+     "opcodes": [
+      129
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 6060
+    },
+    {
+     "opcodes": [
+      131
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6088
+    },
+    {
+     "opcodes": [
+      130
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6091
+    },
+    {
+     "opcodes": [
+      124
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6097
+    },
+    {
+     "opcodes": [
+      125
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6099
+    },
+    {
+     "opcodes": [
+      123
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6102
+    },
+    {
+     "opcodes": [
+      121
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6105
+    },
+    {
+     "opcodes": [
+      122
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6107
+    },
+    {
+     "opcodes": [
+      112
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6112
+    },
+    {
+     "opcodes": [
+      113
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6114
+    },
+    {
+     "opcodes": [
+      114
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6116
+    },
+    {
+     "opcodes": [
+      110
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6130
+    },
+    {
+     "opcodes": [
+      111
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 6140
+    },
+    {
+     "opcodes": [
+      115
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6144
+    },
+    {
+     "opcodes": [
+      116
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 6146
+    },
+    {
+     "opcodes": [
+      117
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6151
+    },
+    {
+     "opcodes": [
+      118
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6154
+    },
+    {
+     "opcodes": [
+      119
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 6156
+    },
+    {
+     "opcodes": [
+      120
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6158
+    },
+    {
+     "opcodes": [
+      90
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 6164
+    },
+    {
+     "opcodes": [
+      92
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6166
+    },
+    {
+     "opcodes": [
+      91
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6168
+    },
+    {
+     "opcodes": [
+      88
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6171
+    },
+    {
+     "opcodes": [
+      89
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 6173
+    },
+    {
+     "opcodes": [
+      96
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 6203
+    },
+    {
+     "opcodes": [
+      97
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6231
+    },
+    {
+     "opcodes": [
+      98
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6233
+    },
+    {
+     "opcodes": [
+      93
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6236
+    },
+    {
+     "opcodes": [
+      95
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6248
+    },
+    {
+     "opcodes": [
+      94
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6250
+    },
+    {
+     "opcodes": [
+      107
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6255
+    },
+    {
+     "opcodes": [
+      108
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6257
+    },
+    {
+     "opcodes": [
+      109
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6296
+    },
+    {
+     "opcodes": [
+      105
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6300
+    },
+    {
+     "opcodes": [
+      106
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6303
+    },
+    {
+     "opcodes": [
+      104
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 6307
+    },
+    {
+     "opcodes": [
+      99,
+      100
+     ],
+     "guess": "RETURN",
+     "confidence": 0.6,
+     "line": 6310
+    },
+    {
+     "opcodes": [
+      101
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 6380
+    },
+    {
+     "opcodes": [
+      102
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 6415
+    },
+    {
+     "opcodes": [
+      103
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 6416
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "kind": "vm",
+   "var": "H",
+   "line": 4437,
+   "leaves": 145,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "T",
+    "pc": "I",
+    "stack": "u"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4445
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4454
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4458
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4461
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4464
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4468
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4470
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4473
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4475
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4491
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4493
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4496
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 4510
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4523
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4527
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 4528
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 4534
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 4562
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4595
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4597
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4600
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4604
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4606
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4610
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 4611
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4618
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 4619
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 4624
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4632
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4635
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4639
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4642
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4645
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4649
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4684
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4687
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4699
+    },
+    {
+     "opcodes": [
+      58
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4706
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4708
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4711
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4713
+    },
+    {
+     "opcodes": [
+      64
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4719
+    },
+    {
+     "opcodes": [
+      63
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4728
+    },
+    {
+     "opcodes": [
+      62
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4731
+    },
+    {
+     "opcodes": [
+      61
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4734
+    },
+    {
+     "opcodes": [
+      60
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4736
+    },
+    {
+     "opcodes": [
+      74
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4742
+    },
+    {
+     "opcodes": [
+      73
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4744
+    },
+    {
+     "opcodes": [
+      72
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4747
+    },
+    {
+     "opcodes": [
+      70
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4750
+    },
+    {
+     "opcodes": [
+      71
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4752
+    },
+    {
+     "opcodes": [
+      66
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4756
+    },
+    {
+     "opcodes": [
+      65
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4758
+    },
+    {
+     "opcodes": [
+      67
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4762
+    },
+    {
+     "opcodes": [
+      68
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4764
+    },
+    {
+     "opcodes": [
+      69
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4766
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4772
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4774
+    },
+    {
+     "opcodes": [
+      40
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 4778
+    },
+    {
+     "opcodes": [
+      39
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4784
+    },
+    {
+     "opcodes": [
+      41
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4788
+    },
+    {
+     "opcodes": [
+      42
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4790
+    },
+    {
+     "opcodes": [
+      43
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4793
+    },
+    {
+     "opcodes": [
+      45
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4797
+    },
+    {
+     "opcodes": [
+      44
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4799
+    },
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4804
+    },
+    {
+     "opcodes": [
+      46
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4806
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4809
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4813
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4817
+    },
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4821
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4823
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4827
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4829
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 4832
+    },
+    {
+     "opcodes": [
+      97
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4866
+    },
+    {
+     "opcodes": [
+      99
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4886
+    },
+    {
+     "opcodes": [
+      100
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4890
+    },
+    {
+     "opcodes": [
+      101
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 4901
+    },
+    {
+     "opcodes": [
+      93
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 4908
+    },
+    {
+     "opcodes": [
+      94
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4914
+    },
+    {
+     "opcodes": [
+      96
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4917
+    },
+    {
+     "opcodes": [
+      95
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4929
+    },
+    {
+     "opcodes": [
+      106
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4935
+    },
+    {
+     "opcodes": [
+      105
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4938
+    },
+    {
+     "opcodes": [
+      104
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4941
+    },
+    {
+     "opcodes": [
+      102
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4944
+    },
+    {
+     "opcodes": [
+      103
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4946
+    },
+    {
+     "opcodes": [
+      107
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4950
+    },
+    {
+     "opcodes": [
+      108
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4952
+    },
+    {
+     "opcodes": [
+      109
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4955
+    },
+    {
+     "opcodes": [
+      111
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4957
+    },
+    {
+     "opcodes": [
+      110
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4959
+    },
+    {
+     "opcodes": [
+      92
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4977
+    },
+    {
+     "opcodes": [
+      91
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4980
+    },
+    {
+     "opcodes": [
+      90
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4983
+    },
+    {
+     "opcodes": [
+      88
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4987
+    },
+    {
+     "opcodes": [
+      89
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4990
+    },
+    {
+     "opcodes": [
+      84
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5005
+    },
+    {
+     "opcodes": [
+      85
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5040
+    },
+    {
+     "opcodes": [
+      86
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5043
+    },
+    {
+     "opcodes": [
+      87
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5046
+    },
+    {
+     "opcodes": [
+      79
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5058
+    },
+    {
+     "opcodes": [
+      80
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5060
+    },
+    {
+     "opcodes": [
+      81
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5063
+    },
+    {
+     "opcodes": [
+      83
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5065
+    },
+    {
+     "opcodes": [
+      82
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5067
+    },
+    {
+     "opcodes": [
+      77
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5071
+    },
+    {
+     "opcodes": [
+      78
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5073
+    },
+    {
+     "opcodes": [
+      76
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5076
+    },
+    {
+     "opcodes": [
+      75
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5088
+    },
+    {
+     "opcodes": [
+      131
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5096
+    },
+    {
+     "opcodes": [
+      132
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5098
+    },
+    {
+     "opcodes": [
+      134
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5101
+    },
+    {
+     "opcodes": [
+      133
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5103
+    },
+    {
+     "opcodes": [
+      139
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5108
+    },
+    {
+     "opcodes": [
+      138
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 5142
+    },
+    {
+     "opcodes": [
+      137
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5148
+    },
+    {
+     "opcodes": [
+      136
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5154
+    },
+    {
+     "opcodes": [
+      135
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5156
+    },
+    {
+     "opcodes": [
+      140
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5198
+    },
+    {
+     "opcodes": [
+      141
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5200
+    },
+    {
+     "opcodes": [
+      143
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5204
+    },
+    {
+     "opcodes": [
+      144
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5206
+    },
+    {
+     "opcodes": [
+      142
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 5208
+    },
+    {
+     "opcodes": [
+      145,
+      146
+     ],
+     "guess": "LTK",
+     "confidence": 0.8,
+     "line": 5214
+    },
+    {
+     "opcodes": [
+      130
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5239
+    },
+    {
+     "opcodes": [
+      129
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 5240
+    },
+    {
+     "opcodes": [
+      128
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5246
+    },
+    {
+     "opcodes": [
+      126
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5250
+    },
+    {
+     "opcodes": [
+      127
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5252
+    },
+    {
+     "opcodes": [
+      123
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 5258
+    },
+    {
+     "opcodes": [
+      124
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 5264
+    },
+    {
+     "opcodes": [
+      125
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5266
+    },
+    {
+     "opcodes": [
+      121
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5269
+    },
+    {
+     "opcodes": [
+      122
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5271
+    },
+    {
+     "opcodes": [
+      116
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5278
+    },
+    {
+     "opcodes": [
+      117
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 5281
+    },
+    {
+     "opcodes": [
+      118
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5284
+    },
+    {
+     "opcodes": [
+      119
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5286
+    },
+    {
+     "opcodes": [
+      120
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5288
+    },
+    {
+     "opcodes": [
+      113
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5292
+    },
+    {
+     "opcodes": [
+      112
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5294
+    },
+    {
+     "opcodes": [
+      115
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 5297
+    },
+    {
+     "opcodes": [
+      114
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 5308
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "kind": "vm",
+   "var": "H",
+   "line": 3711,
+   "leaves": 119,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "T",
+    "pc": "I",
+    "stack": "S"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3718
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3753
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "?",
+     "confidence": 0,
+     "line": 3755
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3757
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3762
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3764
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3774
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3776
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3781
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3783
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3787
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3790
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3794
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3796
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 3799
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3805
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3811
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 3813
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3816
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3851
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3855
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3857
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3860
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3863
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3904
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3908
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 3910
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3922
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3924
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3928
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3931
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 3938
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 3939
+    },
+    {
+     "opcodes": [
+      58
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3945
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3947
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 3951
+    },
+    {
+     "opcodes": [
+      60
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3957
+    },
+    {
+     "opcodes": [
+      62
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3960
+    },
+    {
+     "opcodes": [
+      61
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3972
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3978
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3980
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3983
+    },
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3985
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3989
+    },
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3991
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3994
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4007
+    },
+    {
+     "opcodes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+     ],
+     "guess": "LTK",
+     "confidence": 0.8,
+     "line": 4010
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4040
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4042
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4048
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4050
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4054
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4056
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 4070
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4083
+    },
+    {
+     "opcodes": [
+      90
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4091
+    },
+    {
+     "opcodes": [
+      91
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4093
+    },
+    {
+     "opcodes": [
+      93
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4096
+    },
+    {
+     "opcodes": [
+      92
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4098
+    },
+    {
+     "opcodes": [
+      87
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4102
+    },
+    {
+     "opcodes": [
+      86
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4121
+    },
+    {
+     "opcodes": [
+      89
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4124
+    },
+    {
+     "opcodes": [
+      88
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 4133
+    },
+    {
+     "opcodes": [
+      83
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4141
+    },
+    {
+     "opcodes": [
+      82
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4143
+    },
+    {
+     "opcodes": [
+      85
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4146
+    },
+    {
+     "opcodes": [
+      84
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4148
+    },
+    {
+     "opcodes": [
+      80
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4152
+    },
+    {
+     "opcodes": [
+      81
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4154
+    },
+    {
+     "opcodes": [
+      79
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4157
+    },
+    {
+     "opcodes": [
+      78
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4160
+    },
+    {
+     "opcodes": [
+      77
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4166
+    },
+    {
+     "opcodes": [
+      76
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4168
+    },
+    {
+     "opcodes": [
+      74
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4171
+    },
+    {
+     "opcodes": [
+      75
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4173
+    },
+    {
+     "opcodes": [
+      71
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4178
+    },
+    {
+     "opcodes": [
+      70
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4180
+    },
+    {
+     "opcodes": [
+      72
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4183
+    },
+    {
+     "opcodes": [
+      73
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4185
+    },
+    {
+     "opcodes": [
+      65
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4190
+    },
+    {
+     "opcodes": [
+      64
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4194
+    },
+    {
+     "opcodes": [
+      63
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 4198
+    },
+    {
+     "opcodes": [
+      67
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4205
+    },
+    {
+     "opcodes": [
+      66
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4207
+    },
+    {
+     "opcodes": [
+      69
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4211
+    },
+    {
+     "opcodes": [
+      68
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4215
+    },
+    {
+     "opcodes": [
+      115
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4222
+    },
+    {
+     "opcodes": [
+      114
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4225
+    },
+    {
+     "opcodes": [
+      116
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4228
+    },
+    {
+     "opcodes": [
+      117
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 4229
+    },
+    {
+     "opcodes": [
+      113
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 4236
+    },
+    {
+     "opcodes": [
+      112
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4242
+    },
+    {
+     "opcodes": [
+      111
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4255
+    },
+    {
+     "opcodes": [
+      110
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4257
+    },
+    {
+     "opcodes": [
+      119
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4262
+    },
+    {
+     "opcodes": [
+      118
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 4263
+    },
+    {
+     "opcodes": [
+      120
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4269
+    },
+    {
+     "opcodes": [
+      121
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4304
+    },
+    {
+     "opcodes": [
+      124,
+      126
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4309
+    },
+    {
+     "opcodes": [
+      125
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4311
+    },
+    {
+     "opcodes": [
+      123
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 4315
+    },
+    {
+     "opcodes": [
+      122
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4326
+    },
+    {
+     "opcodes": [
+      97
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4333
+    },
+    {
+     "opcodes": [
+      96
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4335
+    },
+    {
+     "opcodes": [
+      94
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4338
+    },
+    {
+     "opcodes": [
+      95
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4341
+    },
+    {
+     "opcodes": [
+      98
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 4345
+    },
+    {
+     "opcodes": [
+      99
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4351
+    },
+    {
+     "opcodes": [
+      100
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4354
+    },
+    {
+     "opcodes": [
+      101
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 4356
+    },
+    {
+     "opcodes": [
+      106
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4387
+    },
+    {
+     "opcodes": [
+      107
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4389
+    },
+    {
+     "opcodes": [
+      108
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4392
+    },
+    {
+     "opcodes": [
+      109
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 4405
+    },
+    {
+     "opcodes": [
+      104
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4409
+    },
+    {
+     "opcodes": [
+      105
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 4410
+    },
+    {
+     "opcodes": [
+      103
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 4416
+    },
+    {
+     "opcodes": [
+      102
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 4422
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "kind": "cff",
+   "var": "B",
+   "line": 1594,
+   "leaves": 172,
+   "roles": {
+    "fields": {},
+    "tables": []
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 1601
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "BRANCH 42|137",
+     "confidence": 0.7,
+     "line": 1606
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "GOTO 146",
+     "confidence": 0.7,
+     "line": 1618
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "GOTO 158",
+     "confidence": 0.7,
+     "line": 1622
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "BRANCH 130|94",
+     "confidence": 0.7,
+     "line": 1628
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "GOTO 109",
+     "confidence": 0.7,
+     "line": 1632
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "GOTO 134",
+     "confidence": 0.7,
+     "line": 1637
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "BRANCH 102|126",
+     "confidence": 0.7,
+     "line": 1643
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "GOTO 74",
+     "confidence": 0.7,
+     "line": 1647
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "GOTO 119",
+     "confidence": 0.7,
+     "line": 1649
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "GOTO 33",
+     "confidence": 0.7,
+     "line": 1658
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "GOTO 18",
+     "confidence": 0.7,
+     "line": 1660
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "BRANCH 28|51",
+     "confidence": 0.7,
+     "line": 1664
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "BRANCH 91|23",
+     "confidence": 0.7,
+     "line": 1668
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "BRANCH 49|138",
+     "confidence": 0.7,
+     "line": 1671
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "BRANCH 24|96",
+     "confidence": 0.7,
+     "line": 1676
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "GOTO 169",
+     "confidence": 0.7,
+     "line": 1678
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "BRANCH 83|5",
+     "confidence": 0.7,
+     "line": 1680
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "GOTO 25",
+     "confidence": 0.7,
+     "line": 1683
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "GOTO 134",
+     "confidence": 0.7,
+     "line": 1686
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "BRANCH 0|125",
+     "confidence": 0.7,
+     "line": 1688
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "BRANCH 156|147",
+     "confidence": 0.7,
+     "line": 1694
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "GOTO 93",
+     "confidence": 0.7,
+     "line": 1696
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "GOTO 141",
+     "confidence": 0.7,
+     "line": 1699
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "BRANCH 89|41",
+     "confidence": 0.7,
+     "line": 1705
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "BRANCH 64|153",
+     "confidence": 0.7,
+     "line": 1709
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "GOTO 152",
+     "confidence": 0.7,
+     "line": 1722
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "GOTO 93",
+     "confidence": 0.7,
+     "line": 1724
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "GOTO 79",
+     "confidence": 0.7,
+     "line": 1728
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "GOTO 33",
+     "confidence": 0.7,
+     "line": 1731
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "GOTO 18",
+     "confidence": 0.7,
+     "line": 1735
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "GOTO 169",
+     "confidence": 0.7,
+     "line": 1738
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "BRANCH 154|66",
+     "confidence": 0.7,
+     "line": 1743
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "BRANCH 87|103",
+     "confidence": 0.7,
+     "line": 1754
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "BRANCH 7|17",
+     "confidence": 0.7,
+     "line": 1762
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "GOTO 146",
+     "confidence": 0.7,
+     "line": 1764
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "BRANCH 110|80",
+     "confidence": 0.7,
+     "line": 1768
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "GOTO 18",
+     "confidence": 0.7,
+     "line": 1772
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "GOTO 139",
+     "confidence": 0.7,
+     "line": 1774
+    },
+    {
+     "opcodes": [
+      39
+     ],
+     "guess": "GOTO 74",
+     "confidence": 0.7,
+     "line": 1779
+    },
+    {
+     "opcodes": [
+      40
+     ],
+     "guess": "GOTO 47",
+     "confidence": 0.7,
+     "line": 1782
+    },
+    {
+     "opcodes": [
+      41
+     ],
+     "guess": "GOTO 155",
+     "confidence": 0.7,
+     "line": 1786
+    },
+    {
+     "opcodes": [
+      42
+     ],
+     "guess": "GOTO 1",
+     "confidence": 0.7,
+     "line": 1788
+    },
+    {
+     "opcodes": [
+      43
+     ],
+     "guess": "BRANCH 14|22",
+     "confidence": 0.7,
+     "line": 1797
+    },
+    {
+     "opcodes": [
+      44
+     ],
+     "guess": "GOTO 74",
+     "confidence": 0.7,
+     "line": 1801
+    },
+    {
+     "opcodes": [
+      45
+     ],
+     "guess": "GOTO 139",
+     "confidence": 0.7,
+     "line": 1807
+    },
+    {
+     "opcodes": [
+      46
+     ],
+     "guess": "BRANCH 150|129",
+     "confidence": 0.7,
+     "line": 1809
+    },
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "BRANCH 78|168",
+     "confidence": 0.7,
+     "line": 1811
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "GOTO 93",
+     "confidence": 0.7,
+     "line": 1824
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "GOTO 93",
+     "confidence": 0.7,
+     "line": 1829
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "BRANCH 52|85",
+     "confidence": 0.7,
+     "line": 1832
+    },
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "BRANCH 60|101",
+     "confidence": 0.7,
+     "line": 1834
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 1837
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "GOTO 77",
+     "confidence": 0.7,
+     "line": 1843
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "BRANCH 10|140",
+     "confidence": 0.7,
+     "line": 1845
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "GOTO 75",
+     "confidence": 0.7,
+     "line": 1849
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "GOTO 74",
+     "confidence": 0.7,
+     "line": 1853
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "GOTO 2",
+     "confidence": 0.7,
+     "line": 1857
+    },
+    {
+     "opcodes": [
+      58
+     ],
+     "guess": "GOTO 119",
+     "confidence": 0.7,
+     "line": 1861
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "GOTO 40",
+     "confidence": 0.7,
+     "line": 1863
+    },
+    {
+     "opcodes": [
+      60
+     ],
+     "guess": "GOTO 79",
+     "confidence": 0.7,
+     "line": 1865
+    },
+    {
+     "opcodes": [
+      61
+     ],
+     "guess": "GOTO 99",
+     "confidence": 0.7,
+     "line": 1868
+    },
+    {
+     "opcodes": [
+      62
+     ],
+     "guess": "BRANCH 19|117",
+     "confidence": 0.7,
+     "line": 1872
+    },
+    {
+     "opcodes": [
+      63
+     ],
+     "guess": "BRANCH 50|4",
+     "confidence": 0.7,
+     "line": 1876
+    },
+    {
+     "opcodes": [
+      64
+     ],
+     "guess": "GOTO 32",
+     "confidence": 0.7,
+     "line": 1882
+    },
+    {
+     "opcodes": [
+      65
+     ],
+     "guess": "BRANCH 149|90",
+     "confidence": 0.7,
+     "line": 1886
+    },
+    {
+     "opcodes": [
+      66
+     ],
+     "guess": "GOTO 25",
+     "confidence": 0.7,
+     "line": 1897
+    },
+    {
+     "opcodes": [
+      67
+     ],
+     "guess": "BRANCH 123|53",
+     "confidence": 0.7,
+     "line": 1899
+    },
+    {
+     "opcodes": [
+      68
+     ],
+     "guess": "GOTO 77",
+     "confidence": 0.7,
+     "line": 1903
+    },
+    {
+     "opcodes": [
+      69
+     ],
+     "guess": "GOTO 86",
+     "confidence": 0.7,
+     "line": 1909
+    },
+    {
+     "opcodes": [
+      70
+     ],
+     "guess": "BRANCH 16|160",
+     "confidence": 0.7,
+     "line": 1913
+    },
+    {
+     "opcodes": [
+      71
+     ],
+     "guess": "GOTO 86",
+     "confidence": 0.7,
+     "line": 1916
+    },
+    {
+     "opcodes": [
+      72
+     ],
+     "guess": "BRANCH 128|26",
+     "confidence": 0.7,
+     "line": 1923
+    },
+    {
+     "opcodes": [
+      73
+     ],
+     "guess": "BRANCH 145|58",
+     "confidence": 0.7,
+     "line": 1934
+    },
+    {
+     "opcodes": [
+      74
+     ],
+     "guess": "BRANCH 55|100",
+     "confidence": 0.7,
+     "line": 1937
+    },
+    {
+     "opcodes": [
+      75
+     ],
+     "guess": "BRANCH 54|135",
+     "confidence": 0.7,
+     "line": 1945
+    },
+    {
+     "opcodes": [
+      76
+     ],
+     "guess": "GOTO 119",
+     "confidence": 0.7,
+     "line": 1956
+    },
+    {
+     "opcodes": [
+      77
+     ],
+     "guess": "GOTO 107",
+     "confidence": 0.7,
+     "line": 1961
+    },
+    {
+     "opcodes": [
+      78
+     ],
+     "guess": "GOTO 47",
+     "confidence": 0.7,
+     "line": 1967
+    },
+    {
+     "opcodes": [
+      79
+     ],
+     "guess": "GOTO 142",
+     "confidence": 0.7,
+     "line": 1971
+    },
+    {
+     "opcodes": [
+      80
+     ],
+     "guess": "BRANCH 43|3",
+     "confidence": 0.7,
+     "line": 1979
+    },
+    {
+     "opcodes": [
+      81
+     ],
+     "guess": "GOTO 32",
+     "confidence": 0.7,
+     "line": 1981
+    },
+    {
+     "opcodes": [
+      82
+     ],
+     "guess": "GOTO 119",
+     "confidence": 0.7,
+     "line": 1984
+    },
+    {
+     "opcodes": [
+      83
+     ],
+     "guess": "BRANCH 100|62",
+     "confidence": 0.7,
+     "line": 1987
+    },
+    {
+     "opcodes": [
+      84
+     ],
+     "guess": "GOTO 169",
+     "confidence": 0.7,
+     "line": 1994
+    },
+    {
+     "opcodes": [
+      85
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 1998
+    },
+    {
+     "opcodes": [
+      86
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2008
+    },
+    {
+     "opcodes": [
+      87
+     ],
+     "guess": "BRANCH 45|171",
+     "confidence": 0.7,
+     "line": 2010
+    },
+    {
+     "opcodes": [
+      88
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2014
+    },
+    {
+     "opcodes": [
+      89
+     ],
+     "guess": "BRANCH 161|162",
+     "confidence": 0.7,
+     "line": 2019
+    },
+    {
+     "opcodes": [
+      90
+     ],
+     "guess": "BRANCH 136|21",
+     "confidence": 0.7,
+     "line": 2022
+    },
+    {
+     "opcodes": [
+      91
+     ],
+     "guess": "GOTO 141",
+     "confidence": 0.7,
+     "line": 2026
+    },
+    {
+     "opcodes": [
+      92
+     ],
+     "guess": "GOTO 134",
+     "confidence": 0.7,
+     "line": 2030
+    },
+    {
+     "opcodes": [
+      93
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2035
+    },
+    {
+     "opcodes": [
+      94
+     ],
+     "guess": "GOTO 151",
+     "confidence": 0.7,
+     "line": 2039
+    },
+    {
+     "opcodes": [
+      95
+     ],
+     "guess": "GOTO 69",
+     "confidence": 0.7,
+     "line": 2043
+    },
+    {
+     "opcodes": [
+      96
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2050
+    },
+    {
+     "opcodes": [
+      97
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2055
+    },
+    {
+     "opcodes": [
+      98
+     ],
+     "guess": "GOTO 169",
+     "confidence": 0.7,
+     "line": 2060
+    },
+    {
+     "opcodes": [
+      99
+     ],
+     "guess": "BRANCH 61|164",
+     "confidence": 0.7,
+     "line": 2066
+    },
+    {
+     "opcodes": [
+      100
+     ],
+     "guess": "GOTO 133",
+     "confidence": 0.7,
+     "line": 2077
+    },
+    {
+     "opcodes": [
+      101
+     ],
+     "guess": "BRANCH 112|167",
+     "confidence": 0.7,
+     "line": 2082
+    },
+    {
+     "opcodes": [
+      102
+     ],
+     "guess": "BRANCH 120|13",
+     "confidence": 0.7,
+     "line": 2085
+    },
+    {
+     "opcodes": [
+      103
+     ],
+     "guess": "GOTO 75",
+     "confidence": 0.7,
+     "line": 2088
+    },
+    {
+     "opcodes": [
+      104
+     ],
+     "guess": "BRANCH 92|6",
+     "confidence": 0.7,
+     "line": 2094
+    },
+    {
+     "opcodes": [
+      105
+     ],
+     "guess": "GOTO 33",
+     "confidence": 0.7,
+     "line": 2097
+    },
+    {
+     "opcodes": [
+      106
+     ],
+     "guess": "BRANCH 76|9",
+     "confidence": 0.7,
+     "line": 2103
+    },
+    {
+     "opcodes": [
+      107
+     ],
+     "guess": "BRANCH 113|59",
+     "confidence": 0.7,
+     "line": 2114
+    },
+    {
+     "opcodes": [
+      108
+     ],
+     "guess": "GOTO 99",
+     "confidence": 0.7,
+     "line": 2125
+    },
+    {
+     "opcodes": [
+      109
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2130
+    },
+    {
+     "opcodes": [
+      110
+     ],
+     "guess": "BRANCH 15|67",
+     "confidence": 0.7,
+     "line": 2137
+    },
+    {
+     "opcodes": [
+      111
+     ],
+     "guess": "BRANCH 165|30",
+     "confidence": 0.7,
+     "line": 2139
+    },
+    {
+     "opcodes": [
+      112
+     ],
+     "guess": "GOTO 79",
+     "confidence": 0.7,
+     "line": 2148
+    },
+    {
+     "opcodes": [
+      113
+     ],
+     "guess": "GOTO 107",
+     "confidence": 0.7,
+     "line": 2152
+    },
+    {
+     "opcodes": [
+      114
+     ],
+     "guess": "GOTO 122",
+     "confidence": 0.7,
+     "line": 2156
+    },
+    {
+     "opcodes": [
+      115
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2161
+    },
+    {
+     "opcodes": [
+      116
+     ],
+     "guess": "GOTO 142",
+     "confidence": 0.7,
+     "line": 2165
+    },
+    {
+     "opcodes": [
+      117
+     ],
+     "guess": "BRANCH 118|104",
+     "confidence": 0.7,
+     "line": 2170
+    },
+    {
+     "opcodes": [
+      118
+     ],
+     "guess": "GOTO 134",
+     "confidence": 0.7,
+     "line": 2176
+    },
+    {
+     "opcodes": [
+      119
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2178
+    },
+    {
+     "opcodes": [
+      120
+     ],
+     "guess": "GOTO 141",
+     "confidence": 0.7,
+     "line": 2182
+    },
+    {
+     "opcodes": [
+      121
+     ],
+     "guess": "GOTO 139",
+     "confidence": 0.7,
+     "line": 2184
+    },
+    {
+     "opcodes": [
+      122
+     ],
+     "guess": "BRANCH 114|73",
+     "confidence": 0.7,
+     "line": 2186
+    },
+    {
+     "opcodes": [
+      123
+     ],
+     "guess": "BRANCH 159|157",
+     "confidence": 0.7,
+     "line": 2199
+    },
+    {
+     "opcodes": [
+      124
+     ],
+     "guess": "GOTO 155",
+     "confidence": 0.7,
+     "line": 2202
+    },
+    {
+     "opcodes": [
+      125
+     ],
+     "guess": "BRANCH 100|12",
+     "confidence": 0.7,
+     "line": 2208
+    },
+    {
+     "opcodes": [
+      126
+     ],
+     "guess": "GOTO 141",
+     "confidence": 0.7,
+     "line": 2216
+    },
+    {
+     "opcodes": [
+      127
+     ],
+     "guess": "BRANCH 29|105",
+     "confidence": 0.7,
+     "line": 2218
+    },
+    {
+     "opcodes": [
+      128
+     ],
+     "guess": "GOTO 72",
+     "confidence": 0.7,
+     "line": 2221
+    },
+    {
+     "opcodes": [
+      129
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2231
+    },
+    {
+     "opcodes": [
+      130
+     ],
+     "guess": "GOTO 97",
+     "confidence": 0.7,
+     "line": 2237
+    },
+    {
+     "opcodes": [
+      131
+     ],
+     "guess": "GOTO 77",
+     "confidence": 0.7,
+     "line": 2242
+    },
+    {
+     "opcodes": [
+      132
+     ],
+     "guess": "BRANCH 163|8",
+     "confidence": 0.7,
+     "line": 2248
+    },
+    {
+     "opcodes": [
+      133
+     ],
+     "guess": "EXIT/NOSTATE",
+     "confidence": 0.7,
+     "line": 2251
+    },
+    {
+     "opcodes": [
+      134
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2255
+    },
+    {
+     "opcodes": [
+      135
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2259
+    },
+    {
+     "opcodes": [
+      136
+     ],
+     "guess": "BRANCH 46|34",
+     "confidence": 0.7,
+     "line": 2262
+    },
+    {
+     "opcodes": [
+      137
+     ],
+     "guess": "GOTO 108",
+     "confidence": 0.7,
+     "line": 2264
+    },
+    {
+     "opcodes": [
+      138
+     ],
+     "guess": "BRANCH 48|27",
+     "confidence": 0.7,
+     "line": 2266
+    },
+    {
+     "opcodes": [
+      139
+     ],
+     "guess": "GOTO 103",
+     "confidence": 0.7,
+     "line": 2272
+    },
+    {
+     "opcodes": [
+      140
+     ],
+     "guess": "BRANCH 170|127",
+     "confidence": 0.7,
+     "line": 2274
+    },
+    {
+     "opcodes": [
+      141
+     ],
+     "guess": "GOTO 1",
+     "confidence": 0.7,
+     "line": 2278
+    },
+    {
+     "opcodes": [
+      142
+     ],
+     "guess": "BRANCH 116|57",
+     "confidence": 0.7,
+     "line": 2284
+    },
+    {
+     "opcodes": [
+      143
+     ],
+     "guess": "BRANCH 166|38",
+     "confidence": 0.7,
+     "line": 2295
+    },
+    {
+     "opcodes": [
+      144
+     ],
+     "guess": "BRANCH 111|11",
+     "confidence": 0.7,
+     "line": 2300
+    },
+    {
+     "opcodes": [
+      145
+     ],
+     "guess": "BRANCH 82|106",
+     "confidence": 0.7,
+     "line": 2307
+    },
+    {
+     "opcodes": [
+      146
+     ],
+     "guess": "BRANCH 35|115",
+     "confidence": 0.7,
+     "line": 2314
+    },
+    {
+     "opcodes": [
+      147
+     ],
+     "guess": "BRANCH 20|88",
+     "confidence": 0.7,
+     "line": 2326
+    },
+    {
+     "opcodes": [
+      148
+     ],
+     "guess": "GOTO 155",
+     "confidence": 0.7,
+     "line": 2328
+    },
+    {
+     "opcodes": [
+      149
+     ],
+     "guess": "BRANCH 36|63",
+     "confidence": 0.7,
+     "line": 2332
+    },
+    {
+     "opcodes": [
+      150
+     ],
+     "guess": "BRANCH 70|31",
+     "confidence": 0.7,
+     "line": 2338
+    },
+    {
+     "opcodes": [
+      151
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2342
+    },
+    {
+     "opcodes": [
+      152
+     ],
+     "guess": "GOTO 122",
+     "confidence": 0.7,
+     "line": 2347
+    },
+    {
+     "opcodes": [
+      153
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2351
+    },
+    {
+     "opcodes": [
+      154
+     ],
+     "guess": "BRANCH 32|81",
+     "confidence": 0.7,
+     "line": 2353
+    },
+    {
+     "opcodes": [
+      155
+     ],
+     "guess": "GOTO 72",
+     "confidence": 0.7,
+     "line": 2357
+    },
+    {
+     "opcodes": [
+      156
+     ],
+     "guess": "BRANCH 95|71",
+     "confidence": 0.7,
+     "line": 2363
+    },
+    {
+     "opcodes": [
+      157
+     ],
+     "guess": "BRANCH 68|131",
+     "confidence": 0.7,
+     "line": 2365
+    },
+    {
+     "opcodes": [
+      158
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2369
+    },
+    {
+     "opcodes": [
+      159
+     ],
+     "guess": "GOTO 77",
+     "confidence": 0.7,
+     "line": 2373
+    },
+    {
+     "opcodes": [
+      160
+     ],
+     "guess": "BRANCH 98|84",
+     "confidence": 0.7,
+     "line": 2375
+    },
+    {
+     "opcodes": [
+      161
+     ],
+     "guess": "BRANCH 148|124",
+     "confidence": 0.7,
+     "line": 2381
+    },
+    {
+     "opcodes": [
+      162
+     ],
+     "guess": "GOTO 155",
+     "confidence": 0.7,
+     "line": 2384
+    },
+    {
+     "opcodes": [
+      163
+     ],
+     "guess": "BRANCH 44|56",
+     "confidence": 0.7,
+     "line": 2387
+    },
+    {
+     "opcodes": [
+      164
+     ],
+     "guess": "BRANCH 132|39",
+     "confidence": 0.7,
+     "line": 2390
+    },
+    {
+     "opcodes": [
+      165
+     ],
+     "guess": "GOTO 18",
+     "confidence": 0.7,
+     "line": 2393
+    },
+    {
+     "opcodes": [
+      166
+     ],
+     "guess": "GOTO 139",
+     "confidence": 0.7,
+     "line": 2401
+    },
+    {
+     "opcodes": [
+      167
+     ],
+     "guess": "GOTO 79",
+     "confidence": 0.7,
+     "line": 2405
+    },
+    {
+     "opcodes": [
+      168
+     ],
+     "guess": "BRANCH 144|37",
+     "confidence": 0.7,
+     "line": 2411
+    },
+    {
+     "opcodes": [
+      169
+     ],
+     "guess": "GOTO 100",
+     "confidence": 0.7,
+     "line": 2416
+    },
+    {
+     "opcodes": [
+      170
+     ],
+     "guess": "GOTO 33",
+     "confidence": 0.7,
+     "line": 2419
+    },
+    {
+     "opcodes": [
+      171
+     ],
+     "guess": "BRANCH 143|121",
+     "confidence": 0.7,
+     "line": 2421
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "kind": "vm",
+   "var": "rB",
+   "line": 3189,
+   "leaves": 83,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "S",
+    "pc": "I",
+    "stack": "u"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      61
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3195
+    },
+    {
+     "opcodes": [
+      63
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 3198
+    },
+    {
+     "opcodes": [
+      62
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3204
+    },
+    {
+     "opcodes": [
+      58
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3207
+    },
+    {
+     "opcodes": [
+      60
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3220
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 3221
+    },
+    {
+     "opcodes": [
+      67
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3228
+    },
+    {
+     "opcodes": [
+      69
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3230
+    },
+    {
+     "opcodes": [
+      68
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3232
+    },
+    {
+     "opcodes": [
+      66
+     ],
+     "guess": "VARARG",
+     "confidence": 0.6,
+     "line": 3269
+    },
+    {
+     "opcodes": [
+      65
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3272
+    },
+    {
+     "opcodes": [
+      64
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3275
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3280
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3282
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3284
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3288
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 3297
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 3300
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3306
+    },
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3341
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3343
+    },
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3346
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3349
+    },
+    {
+     "opcodes": [
+      76
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3355
+    },
+    {
+     "opcodes": [
+      78
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3357
+    },
+    {
+     "opcodes": [
+      77
+     ],
+     "guess": "VARARG",
+     "confidence": 0.6,
+     "line": 3359
+    },
+    {
+     "opcodes": [
+      80
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3365
+    },
+    {
+     "opcodes": [
+      81
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3368
+    },
+    {
+     "opcodes": [
+      79
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3371
+    },
+    {
+     "opcodes": [
+      71
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3376
+    },
+    {
+     "opcodes": [
+      72
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 3377
+    },
+    {
+     "opcodes": [
+      70
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3383
+    },
+    {
+     "opcodes": [
+      75
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 3387
+    },
+    {
+     "opcodes": [
+      74
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3389
+    },
+    {
+     "opcodes": [
+      73
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 3392
+    },
+    {
+     "opcodes": [
+      85
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3398
+    },
+    {
+     "opcodes": [
+      87
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3410
+    },
+    {
+     "opcodes": [
+      86
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3412
+    },
+    {
+     "opcodes": [
+      82
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3416
+    },
+    {
+     "opcodes": [
+      84
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 3418
+    },
+    {
+     "opcodes": [
+      83
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3424
+    },
+    {
+     "opcodes": [
+      88
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3428
+    },
+    {
+     "opcodes": [
+      89
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3430
+    },
+    {
+     "opcodes": [
+      90
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3432
+    },
+    {
+     "opcodes": [
+      91
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3435
+    },
+    {
+     "opcodes": [
+      93
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3440
+    },
+    {
+     "opcodes": [
+      92,
+      94
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3443
+    },
+    {
+     "opcodes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+     ],
+     "guess": "LEK",
+     "confidence": 0.8,
+     "line": 3447
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3493
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3495
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3509
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3522
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 3524
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3526
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3530
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3532
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 3542
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 3551
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3557
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3563
+    },
+    {
+     "opcodes": [
+      40
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 3566
+    },
+    {
+     "opcodes": [
+      39
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3572
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3575
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3577
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3590
+    },
+    {
+     "opcodes": [
+      43
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3595
+    },
+    {
+     "opcodes": [
+      42
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3598
+    },
+    {
+     "opcodes": [
+      41
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 3601
+    },
+    {
+     "opcodes": [
+      44
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3604
+    },
+    {
+     "opcodes": [
+      45
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3606
+    },
+    {
+     "opcodes": [
+      46
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3609
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3615
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3617
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3620
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3624
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 3626
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3632
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 3669
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 3675
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3688
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 3691
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 3693
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 3699
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "kind": "vm",
+   "var": "t",
+   "line": 664,
+   "leaves": 82,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "S",
+    "pc": "a",
+    "stack": "T"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 670
+    },
+    {
+     "opcodes": [
+      46
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 674
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 689
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 701
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 704
+    },
+    {
+     "opcodes": [
+      42
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 709
+    },
+    {
+     "opcodes": [
+      41
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 711
+    },
+    {
+     "opcodes": [
+      43
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 726
+    },
+    {
+     "opcodes": [
+      45
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 728
+    },
+    {
+     "opcodes": [
+      44
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 730
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 736
+    },
+    {
+     "opcodes": [
+      58
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 738
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 741
+    },
+    {
+     "opcodes": [
+      61
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 745
+    },
+    {
+     "opcodes": [
+      60
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 749
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 752
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 759
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 761
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 765
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 768
+    },
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 770
+    },
+    {
+     "opcodes": [
+      62
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 777
+    },
+    {
+     "opcodes": [
+      63
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 779
+    },
+    {
+     "opcodes": [
+      64
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 782
+    },
+    {
+     "opcodes": [
+      65
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 787
+    },
+    {
+     "opcodes": [
+      66
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 789
+    },
+    {
+     "opcodes": [
+      67
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 805
+    },
+    {
+     "opcodes": [
+      68
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 841
+    },
+    {
+     "opcodes": [
+      69
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 844
+    },
+    {
+     "opcodes": [
+      70
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 856
+    },
+    {
+     "opcodes": [
+      71
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 858
+    },
+    {
+     "opcodes": [
+      73
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 863
+    },
+    {
+     "opcodes": [
+      72
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 865
+    },
+    {
+     "opcodes": [
+      76
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 869
+    },
+    {
+     "opcodes": [
+      75
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 871
+    },
+    {
+     "opcodes": [
+      74
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 874
+    },
+    {
+     "opcodes": [
+      80
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 879
+    },
+    {
+     "opcodes": [
+      81,
+      83
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 881
+    },
+    {
+     "opcodes": [
+      82
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 884
+    },
+    {
+     "opcodes": [
+      78
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 891
+    },
+    {
+     "opcodes": [
+      79
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 897
+    },
+    {
+     "opcodes": [
+      77
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 900
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 909
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "LT",
+     "confidence": 0.8,
+     "line": 910
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 915
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 928
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 934
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 938
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 942
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 945
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 947
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 955
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 957
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 961
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 963
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 965
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 969
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 971
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 978
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "LE",
+     "confidence": 0.8,
+     "line": 981
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 985
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 993
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 995
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 999
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 1004
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1008
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1012
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1014
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 1018
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 1024
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1038
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 1043
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1047
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1050
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 1053
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1057
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1061
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1063
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1065
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1069
+    },
+    {
+     "opcodes": [
+      40
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1071
+    },
+    {
+     "opcodes": [
+      39
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1085
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "kind": "vm",
+   "var": "z",
+   "line": 7849,
+   "leaves": 53,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "x",
+    "pc": "o",
+    "stack": "F"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      51
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 7855
+    },
+    {
+     "opcodes": [
+      50
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 7859
+    },
+    {
+     "opcodes": [
+      48
+     ],
+     "guess": "MOVE",
+     "confidence": 0.9,
+     "line": 7872
+    },
+    {
+     "opcodes": [
+      49
+     ],
+     "guess": "SUB",
+     "confidence": 0.85,
+     "line": 7878
+    },
+    {
+     "opcodes": [
+      47
+     ],
+     "guess": "MOD",
+     "confidence": 0.85,
+     "line": 7884
+    },
+    {
+     "opcodes": [
+      46
+     ],
+     "guess": "GETUPVAL",
+     "confidence": 0.45,
+     "line": 7895
+    },
+    {
+     "opcodes": [
+      45
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 7903
+    },
+    {
+     "opcodes": [
+      59
+     ],
+     "guess": "MUL",
+     "confidence": 0.85,
+     "line": 7911
+    },
+    {
+     "opcodes": [
+      58,
+      60
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 7915
+    },
+    {
+     "opcodes": [
+      57
+     ],
+     "guess": "GETUPVAL",
+     "confidence": 0.45,
+     "line": 7921
+    },
+    {
+     "opcodes": [
+      56
+     ],
+     "guess": "CMP→BOOL",
+     "confidence": 0.5,
+     "line": 7928
+    },
+    {
+     "opcodes": [
+      52
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 7934
+    },
+    {
+     "opcodes": [
+      53
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 7940
+    },
+    {
+     "opcodes": [
+      55
+     ],
+     "guess": "ADD",
+     "confidence": 0.85,
+     "line": 7949
+    },
+    {
+     "opcodes": [
+      54
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 7953
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "VARARG",
+     "confidence": 0.6,
+     "line": 7961
+    },
+    {
+     "opcodes": [
+      36
+     ],
+     "guess": "GETUPVAL",
+     "confidence": 0.45,
+     "line": 7964
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "MOD",
+     "confidence": 0.85,
+     "line": 7969
+    },
+    {
+     "opcodes": [
+      34
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 7973
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 7979
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "CMP→BOOL",
+     "confidence": 0.5,
+     "line": 7986
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "IDIV",
+     "confidence": 0.85,
+     "line": 7991
+    },
+    {
+     "opcodes": [
+      38
+     ],
+     "guess": "CMP→BOOL",
+     "confidence": 0.5,
+     "line": 7998
+    },
+    {
+     "opcodes": [
+      37
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 8002
+    },
+    {
+     "opcodes": [
+      40
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 8008
+    },
+    {
+     "opcodes": [
+      39
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 8029
+    },
+    {
+     "opcodes": [
+      44
+     ],
+     "guess": "GETTABLE",
+     "confidence": 0.85,
+     "line": 8033
+    },
+    {
+     "opcodes": [
+      43
+     ],
+     "guess": "SUB",
+     "confidence": 0.85,
+     "line": 8043
+    },
+    {
+     "opcodes": [
+      41
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 8051
+    },
+    {
+     "opcodes": [
+      42
+     ],
+     "guess": "GETUPVAL",
+     "confidence": 0.45,
+     "line": 8059
+    },
+    {
+     "opcodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "guess": "LTK",
+     "confidence": 0.8,
+     "line": 8064
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 8102
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "ADD",
+     "confidence": 0.85,
+     "line": 8114
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "LOADK",
+     "confidence": 0.6,
+     "line": 8122
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 8125
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "GETTABLE",
+     "confidence": 0.85,
+     "line": 8134
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "CMP→BOOL",
+     "confidence": 0.5,
+     "line": 8141
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 8146
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "GETTABLE",
+     "confidence": 0.85,
+     "line": 8155
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "GETUPVAL",
+     "confidence": 0.45,
+     "line": 8172
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 8186
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 8199
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "MUL",
+     "confidence": 0.85,
+     "line": 8202
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "GETUPVAL",
+     "confidence": 0.45,
+     "line": 8211
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "MOVE",
+     "confidence": 0.9,
+     "line": 8221
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "NEWTABLE",
+     "confidence": 0.85,
+     "line": 8225
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 8228
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "UNM",
+     "confidence": 0.85,
+     "line": 8243
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 8246
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 8248
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "GETTABLE",
+     "confidence": 0.85,
+     "line": 8252
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 8256
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 8260
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "kind": "vm",
+   "var": "K",
+   "line": 1093,
+   "leaves": 36,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "p",
+    "pc": "a",
+    "stack": "S"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1098
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1112
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 1115
+    },
+    {
+     "opcodes": [
+      34,
+      36
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 1144
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 1157
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "CALL?",
+     "confidence": 0.35,
+     "line": 1161
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1163
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1166
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1168
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1174
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1177
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1181
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 1184
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1214
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1218
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1220
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1233
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1247
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "?",
+     "confidence": 0,
+     "line": 1253
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1255
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1259
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1274
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1276
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 1280
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1282
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1325
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1328
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1368
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1370
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1373
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1376
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1378
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 1382
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 1383
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 1389
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "RETURN",
+     "confidence": 0.85,
+     "line": 1391
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "kind": "vm",
+   "var": "t",
+   "line": 187,
+   "leaves": 35,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "S",
+    "pc": "a",
+    "stack": "u"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 192
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 195
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 198
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 200
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 202
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 207
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 209
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 212
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 214
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 221
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 234
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 240
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "VARARG",
+     "confidence": 0.6,
+     "line": 244
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 247
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 285
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 287
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 290
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 304
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 310
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 312
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 315
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 351
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 356
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 369
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "VARARG",
+     "confidence": 0.6,
+     "line": 384
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 388
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 430
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 435
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 436
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 442
+    },
+    {
+     "opcodes": [
+      35
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 447
+    },
+    {
+     "opcodes": [
+      34,
+      36
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 449
+    },
+    {
+     "opcodes": [
+      33
+     ],
+     "guess": "EQ (not)",
+     "confidence": 0.8,
+     "line": 451
+    },
+    {
+     "opcodes": [
+      32
+     ],
+     "guess": "?",
+     "confidence": 0.1,
+     "line": 455
+    },
+    {
+     "opcodes": [
+      31
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 457
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "kind": "switch",
+   "var": "F",
+   "line": 7284,
+   "leaves": 75,
+   "roles": {
+    "fields": {},
+    "tables": []
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7290
+    },
+    {
+     "opcodes": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7292
+    },
+    {
+     "opcodes": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7295
+    },
+    {
+     "opcodes": [
+      12,
+      13,
+      14,
+      15,
+      16
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7297
+    },
+    {
+     "opcodes": [
+      17,
+      18,
+      19,
+      20
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7301
+    },
+    {
+     "opcodes": [
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7303
+    },
+    {
+     "opcodes": [
+      26,
+      27,
+      28,
+      29
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7306
+    },
+    {
+     "opcodes": [
+      30,
+      31,
+      32,
+      33,
+      34
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7308
+    },
+    {
+     "opcodes": [
+      35,
+      36,
+      37,
+      38
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7313
+    },
+    {
+     "opcodes": [
+      39,
+      40,
+      41,
+      42
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7315
+    },
+    {
+     "opcodes": [
+      43,
+      44,
+      45,
+      46
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7318
+    },
+    {
+     "opcodes": [
+      47,
+      48
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7320
+    },
+    {
+     "opcodes": [
+      49,
+      50,
+      51
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7322
+    },
+    {
+     "opcodes": [
+      52,
+      53,
+      54,
+      55
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7326
+    },
+    {
+     "opcodes": [
+      56,
+      57,
+      58,
+      59,
+      60
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7328
+    },
+    {
+     "opcodes": [
+      61,
+      62,
+      63,
+      64
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7331
+    },
+    {
+     "opcodes": [
+      65,
+      66
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7333
+    },
+    {
+     "opcodes": [
+      67,
+      68,
+      69
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7335
+    },
+    {
+     "opcodes": [
+      70,
+      71,
+      72,
+      73
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7341
+    },
+    {
+     "opcodes": [
+      74,
+      75,
+      76,
+      77
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7343
+    },
+    {
+     "opcodes": [
+      78,
+      79,
+      80,
+      81
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7346
+    },
+    {
+     "opcodes": [
+      82,
+      83,
+      84,
+      85,
+      86
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7348
+    },
+    {
+     "opcodes": [
+      87,
+      88,
+      89,
+      90
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7352
+    },
+    {
+     "opcodes": [
+      91,
+      92
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7356
+    },
+    {
+     "opcodes": [
+      93,
+      94,
+      95
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7358
+    },
+    {
+     "opcodes": [
+      96,
+      97,
+      98,
+      99
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7361
+    },
+    {
+     "opcodes": [
+      100,
+      101,
+      102,
+      103,
+      104
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7363
+    },
+    {
+     "opcodes": [
+      105,
+      106,
+      107,
+      108
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7368
+    },
+    {
+     "opcodes": [
+      109,
+      110,
+      111,
+      112,
+      113
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7370
+    },
+    {
+     "opcodes": [
+      114,
+      115,
+      116,
+      117
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7373
+    },
+    {
+     "opcodes": [
+      118,
+      119,
+      120,
+      121,
+      122
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7375
+    },
+    {
+     "opcodes": [
+      123,
+      124,
+      125,
+      126
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7379
+    },
+    {
+     "opcodes": [
+      127,
+      128,
+      129,
+      130,
+      131
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7381
+    },
+    {
+     "opcodes": [
+      132,
+      133,
+      134,
+      135
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7384
+    },
+    {
+     "opcodes": [
+      136,
+      137,
+      138,
+      139,
+      140
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7386
+    },
+    {
+     "opcodes": [
+      141,
+      142
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7394
+    },
+    {
+     "opcodes": [
+      143,
+      144
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7396
+    },
+    {
+     "opcodes": [
+      145,
+      146,
+      147,
+      148
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7399
+    },
+    {
+     "opcodes": [
+      149,
+      150,
+      151,
+      152
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7402
+    },
+    {
+     "opcodes": [
+      153,
+      154
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7404
+    },
+    {
+     "opcodes": [
+      155,
+      156,
+      157
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7406
+    },
+    {
+     "opcodes": [
+      158,
+      159,
+      160,
+      161
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7410
+    },
+    {
+     "opcodes": [
+      162,
+      163,
+      164,
+      165,
+      166
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7412
+    },
+    {
+     "opcodes": [
+      167,
+      168,
+      169,
+      170
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7415
+    },
+    {
+     "opcodes": [
+      171,
+      172,
+      173,
+      174,
+      175
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7417
+    },
+    {
+     "opcodes": [
+      176,
+      177,
+      178,
+      179
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7422
+    },
+    {
+     "opcodes": [
+      180,
+      181,
+      182,
+      183
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7424
+    },
+    {
+     "opcodes": [
+      184,
+      185,
+      186,
+      187
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7427
+    },
+    {
+     "opcodes": [
+      188,
+      189
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7429
+    },
+    {
+     "opcodes": [
+      190,
+      191,
+      192
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7431
+    },
+    {
+     "opcodes": [
+      193,
+      194,
+      195,
+      196
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7435
+    },
+    {
+     "opcodes": [
+      197,
+      198,
+      199,
+      200,
+      201
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7437
+    },
+    {
+     "opcodes": [
+      202,
+      203,
+      204,
+      205
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7440
+    },
+    {
+     "opcodes": [
+      206,
+      207,
+      208,
+      209,
+      210
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7442
+    },
+    {
+     "opcodes": [
+      211,
+      212,
+      213,
+      214
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7448
+    },
+    {
+     "opcodes": [
+      215,
+      216,
+      217,
+      218
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7450
+    },
+    {
+     "opcodes": [
+      219,
+      220,
+      221,
+      222
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7453
+    },
+    {
+     "opcodes": [
+      223,
+      224,
+      225,
+      226,
+      227
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7455
+    },
+    {
+     "opcodes": [
+      228,
+      229,
+      230,
+      231
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7459
+    },
+    {
+     "opcodes": [
+      232,
+      233
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7461
+    },
+    {
+     "opcodes": [
+      234,
+      235,
+      236
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7463
+    },
+    {
+     "opcodes": [
+      237,
+      238
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7467
+    },
+    {
+     "opcodes": [
+      239,
+      240
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7469
+    },
+    {
+     "opcodes": [
+      241,
+      242,
+      243,
+      244,
+      245
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7472
+    },
+    {
+     "opcodes": [
+      246,
+      247,
+      248,
+      249
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7477
+    },
+    {
+     "opcodes": [
+      250,
+      251
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7479
+    },
+    {
+     "opcodes": [
+      252,
+      253,
+      254
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7481
+    },
+    {
+     "opcodes": [
+      255,
+      256,
+      257,
+      258
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7484
+    },
+    {
+     "opcodes": [
+      259,
+      260,
+      261,
+      262,
+      263
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7491
+    },
+    {
+     "opcodes": [
+      264,
+      265,
+      266,
+      267
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7495
+    },
+    {
+     "opcodes": [
+      268,
+      269
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7497
+    },
+    {
+     "opcodes": [
+      270,
+      271,
+      272
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7499
+    },
+    {
+     "opcodes": [
+      273,
+      274
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7503
+    },
+    {
+     "opcodes": [
+      275,
+      276
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7505
+    },
+    {
+     "opcodes": [
+      277
+     ],
+     "guess": "case",
+     "confidence": 0.3,
+     "line": 7508
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "kind": "vm",
+   "var": "t",
+   "line": 465,
+   "leaves": 23,
+   "roles": {
+    "fields": {},
+    "tables": [],
+    "code": "u",
+    "pc": "a",
+    "stack": "p"
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 469
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 471
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 473
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 476
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 482
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 521
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 523
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 538
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 541
+    },
+    {
+     "opcodes": [
+      22,
+      24
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 545
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 549
+    },
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 555
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "COND-JMP",
+     "confidence": 0.45,
+     "line": 569
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 575
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 579
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 581
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 596
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 611
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 613
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "JMP",
+     "confidence": 0.85,
+     "line": 615
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 618
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 654
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "SETUPVAL",
+     "confidence": 0.45,
+     "line": 656
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "kind": "cff",
+   "var": "K",
+   "line": 6574,
+   "leaves": 31,
+   "roles": {
+    "fields": {},
+    "tables": []
+   },
+   "handlers": [
+    {
+     "opcodes": [
+      0
+     ],
+     "guess": "GOTO 1",
+     "confidence": 0.7,
+     "line": 6578
+    },
+    {
+     "opcodes": [
+      1
+     ],
+     "guess": "BRANCH 25|4",
+     "confidence": 0.7,
+     "line": 6580
+    },
+    {
+     "opcodes": [
+      2
+     ],
+     "guess": "GOTO 1",
+     "confidence": 0.7,
+     "line": 6583
+    },
+    {
+     "opcodes": [
+      3
+     ],
+     "guess": "BRANCH 8|7",
+     "confidence": 0.7,
+     "line": 6587
+    },
+    {
+     "opcodes": [
+      4
+     ],
+     "guess": "BRANCH 29|12",
+     "confidence": 0.7,
+     "line": 6590
+    },
+    {
+     "opcodes": [
+      5
+     ],
+     "guess": "GOTO 11",
+     "confidence": 0.7,
+     "line": 6594
+    },
+    {
+     "opcodes": [
+      6
+     ],
+     "guess": "GOTO 1",
+     "confidence": 0.7,
+     "line": 6596
+    },
+    {
+     "opcodes": [
+      7
+     ],
+     "guess": "BRANCH 18|24",
+     "confidence": 0.7,
+     "line": 6601
+    },
+    {
+     "opcodes": [
+      8
+     ],
+     "guess": "GOTO 30",
+     "confidence": 0.7,
+     "line": 6604
+    },
+    {
+     "opcodes": [
+      9
+     ],
+     "guess": "BRANCH 0|20",
+     "confidence": 0.7,
+     "line": 6607
+    },
+    {
+     "opcodes": [
+      10
+     ],
+     "guess": "BRANCH 6|9",
+     "confidence": 0.7,
+     "line": 6610
+    },
+    {
+     "opcodes": [
+      11
+     ],
+     "guess": "GOTO 14",
+     "confidence": 0.7,
+     "line": 6618
+    },
+    {
+     "opcodes": [
+      12
+     ],
+     "guess": "BRANCH 26|22",
+     "confidence": 0.7,
+     "line": 6622
+    },
+    {
+     "opcodes": [
+      13
+     ],
+     "guess": "GOTO 17",
+     "confidence": 0.7,
+     "line": 6626
+    },
+    {
+     "opcodes": [
+      14
+     ],
+     "guess": "BRANCH 28|10",
+     "confidence": 0.7,
+     "line": 6628
+    },
+    {
+     "opcodes": [
+      15
+     ],
+     "guess": "GOTO 1",
+     "confidence": 0.7,
+     "line": 6643
+    },
+    {
+     "opcodes": [
+      16
+     ],
+     "guess": "GOTO 23",
+     "confidence": 0.7,
+     "line": 6646
+    },
+    {
+     "opcodes": [
+      17
+     ],
+     "guess": "GOTO 23",
+     "confidence": 0.7,
+     "line": 6652
+    },
+    {
+     "opcodes": [
+      18
+     ],
+     "guess": "GOTO 17",
+     "confidence": 0.7,
+     "line": 6658
+    },
+    {
+     "opcodes": [
+      19
+     ],
+     "guess": "GOTO 27",
+     "confidence": 0.7,
+     "line": 6662
+    },
+    {
+     "opcodes": [
+      20
+     ],
+     "guess": "BRANCH 2|15",
+     "confidence": 0.7,
+     "line": 6666
+    },
+    {
+     "opcodes": [
+      21
+     ],
+     "guess": "BRANCH 13|3",
+     "confidence": 0.7,
+     "line": 6670
+    },
+    {
+     "opcodes": [
+      22
+     ],
+     "guess": "GOTO 19",
+     "confidence": 0.7,
+     "line": 6675
+    },
+    {
+     "opcodes": [
+      23
+     ],
+     "guess": "BRANCH 16|5",
+     "confidence": 0.7,
+     "line": 6681
+    },
+    {
+     "opcodes": [
+      24
+     ],
+     "guess": "GOTO 17",
+     "confidence": 0.7,
+     "line": 6692
+    },
+    {
+     "opcodes": [
+      25
+     ],
+     "guess": "GOTO 19",
+     "confidence": 0.7,
+     "line": 6696
+    },
+    {
+     "opcodes": [
+      26
+     ],
+     "guess": "GOTO 19",
+     "confidence": 0.7,
+     "line": 6698
+    },
+    {
+     "opcodes": [
+      27
+     ],
+     "guess": "EXIT/NOSTATE",
+     "confidence": 0.7,
+     "line": 6702
+    },
+    {
+     "opcodes": [
+      28
+     ],
+     "guess": "GOTO 14",
+     "confidence": 0.7,
+     "line": 6704
+    },
+    {
+     "opcodes": [
+      29
+     ],
+     "guess": "GOTO 19",
+     "confidence": 0.7,
+     "line": 6709
+    },
+    {
+     "opcodes": [
+      30
+     ],
+     "guess": "GOTO 17",
+     "confidence": 0.7,
+     "line": 6711
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "92 dispatch trees found, showing top 12",
+  "VM dispatcher @L5316 on 'H': 174 handlers, opcodes 1..175; roles inst=? stack=p pc=I",
+  "2 control-flow-flattening state machine(s); largest has 172 blocks"
+ ]
+}

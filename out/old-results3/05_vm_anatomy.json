@@ -1,0 +1,716 @@
+{
+ "kind": "vm",
+ "pipeline": [
+  "payload  L1: 644,620-byte string literal (largest in the script)",
+  "unpack   <fn@L1> L1–1: deserializes the chunk",
+  "wrap     <fn@L1> L1–1: closure factory (function(L))",
+  "run      <fn@L1> L1–1: the dispatch on `H` — 152 handlers, opcodes 1..175",
+  "exit     L1, L1, L1, L1, L1, L1, …",
+  "entry    L1: return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S) if D <= 31 then local D, Y, Q, A = (u + S) % 256, r[48](T), 16843009 * S, T - T % 4; lo…"
+ ],
+ "parts": [
+  {
+   "role": "payload",
+   "line": 1,
+   "pos": 65137,
+   "detail": "644,620-byte string literal (largest in the script)",
+   "code": "[==[LPH-Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\\*__r[@dz\\UKc\\=q/c6\\'T/f+U[7cKqPa'V'R/NUWR<V''…"
+  },
+  {
+   "role": "deserializer",
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 59966,
+   "detail": "<fn@L1> (L1) top-ranked deserializer — loops×7; counter advance×6 → port it with python_transpile to extract the chunk statically"
+  },
+  {
+   "role": "wrapper",
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 710338,
+   "detail": "<fn@L1> (L1) returns the interpreter closure — params (L) usually = (proto/chunk, upvalues, env)",
+   "code": "function(L)"
+  },
+  {
+   "role": "interpreter",
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 710438,
+   "detail": "<fn@L1> (L1) runs the dispatch on `H` — 152 handlers, opcodes 1..175",
+   "code": "function(...)"
+  },
+  {
+   "role": "dispatch-loop",
+   "line": 1,
+   "endLine": 1,
+   "pos": 741905,
+   "detail": "While loop around the dispatch",
+   "code": "while true do"
+  },
+  {
+   "role": "fetch",
+   "line": 1,
+   "pos": 741919,
+   "detail": "instruction fetch from `T` at pc `I`",
+   "code": "local H = T[I];"
+  },
+  {
+   "role": "pc-advance",
+   "line": 1,
+   "pos": 756989,
+   "detail": "program counter `I` advances",
+   "code": "I = I + 1;"
+  },
+  {
+   "role": "dispatch",
+   "line": 1,
+   "pos": 742026,
+   "detail": "vm dispatch tree #0 on `H` (152 leaves, score 912)"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 742762,
+   "detail": "return from the interpreter — handler op 58 RETURN",
+   "code": "return W[p[I]], W[u[I]];"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 744301,
+   "detail": "return from the interpreter — handler op 51 RETURN",
+   "code": "return W[u[I]]();"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 744703,
+   "detail": "return from the interpreter — handler op 80 RETURN",
+   "code": "return W[p[I]];"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 751382,
+   "detail": "return from the interpreter — handler op 141 RETURN",
+   "code": "return x[I];"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 752548,
+   "detail": "return from the interpreter — handler op 129 RETURN",
+   "code": "return x[I], B(W[S[I]], 1, W[S[I]].n);"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 754157,
+   "detail": "return from the interpreter — handler op 89 RETURN",
+   "code": "return;"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 754438,
+   "detail": "return from the interpreter — handler op 96 RETURN",
+   "code": "return W[p[I]](W[u[I]], W[S[I]]);"
+  },
+  {
+   "role": "exit",
+   "line": 1,
+   "pos": 756307,
+   "detail": "return from the interpreter — handler op 99..100 RETURN",
+   "code": "return W[S[I]](B(W[u[I]], 1, W[u[I]].n));"
+  },
+  {
+   "role": "env",
+   "line": 1,
+   "pos": 52703,
+   "detail": "environment access via setfenv at top level",
+   "code": "setfenv"
+  },
+  {
+   "role": "entry",
+   "line": 1,
+   "pos": 10732,
+   "detail": "final statement of the main chunk (no closure-factory call found)",
+   "code": "return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S) if D <= 31 then local D, Y, Q, A = (u + S) % 256, r[48](T), 16843009 * S, T - T % 4; lo…"
+  }
+ ],
+ "chunks": [
+  {
+   "id": 64,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 710130,
+   "size": 19252,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y, Q, Q"
+  },
+  {
+   "id": 65,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 710338,
+   "size": 19194,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "wrapper"
+   ],
+   "parent": "<fn@L1>",
+   "params": "L"
+  },
+  {
+   "id": 66,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 710438,
+   "size": 19172,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "decode-loop",
+    "interpreter"
+   ],
+   "parent": "<fn@L1>",
+   "params": "..."
+  },
+  {
+   "id": 10,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 14250,
+   "size": 8225,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y, Q, A, Z"
+  },
+  {
+   "id": 11,
+   "name": "W",
+   "line": 1,
+   "endLine": 1,
+   "pos": 14444,
+   "size": 8171,
+   "callers": 0,
+   "refs": 1,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "L, h, h, h"
+  },
+  {
+   "id": 12,
+   "name": "Z",
+   "line": 1,
+   "endLine": 1,
+   "pos": 14543,
+   "size": 8149,
+   "callers": 0,
+   "refs": 1,
+   "roles": [],
+   "parent": "W",
+   "params": "..."
+  },
+  {
+   "id": 13,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 14700,
+   "size": 7975,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "decode-loop",
+    "deserializer"
+   ],
+   "parent": "Z",
+   "params": "..."
+  },
+  {
+   "id": 22,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 35929,
+   "size": 5545,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T"
+  },
+  {
+   "id": 23,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 36374,
+   "size": 5168,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "parent": "<fn@L1>",
+   "params": "E, t"
+  },
+  {
+   "id": 150,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 786388,
+   "size": 3634,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, H, T, l, u, K, K, I, I, I, o, D, p, p"
+  },
+  {
+   "id": 151,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 786497,
+   "size": 3610,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "r, s"
+  },
+  {
+   "id": 152,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 786551,
+   "size": 3600,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "decode-loop",
+    "deserializer"
+   ],
+   "parent": "<fn@L1>",
+   "params": "..."
+  },
+  {
+   "id": 127,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 775314,
+   "size": 1663,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H"
+  },
+  {
+   "id": 52,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 59807,
+   "size": 1478,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x, H, T, l, u, u, u, K, K, I, I, o, o, D, D, p, p"
+  },
+  {
+   "id": 53,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 59916,
+   "size": 1457,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "r, G"
+  },
+  {
+   "id": 54,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 59966,
+   "size": 1448,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "deserializer"
+   ],
+   "parent": "<fn@L1>",
+   "params": "..."
+  },
+  {
+   "id": 80,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 760523,
+   "size": 945,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x"
+  },
+  {
+   "id": 81,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 760547,
+   "size": 943,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "x, H"
+  },
+  {
+   "id": 82,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 760593,
+   "size": 933,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "x, l, u"
+  },
+  {
+   "id": 129,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 779964,
+   "size": 655,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x"
+  },
+  {
+   "id": 130,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 779988,
+   "size": 653,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "x, H, H, H"
+  },
+  {
+   "id": 131,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 780051,
+   "size": 639,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": ""
+  },
+  {
+   "id": 153,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 794454,
+   "size": 292,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, ..."
+  },
+  {
+   "id": 46,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 58379,
+   "size": 291,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, r, r, r, r"
+  },
+  {
+   "id": 47,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 58405,
+   "size": 289,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "r, x, x"
+  },
+  {
+   "id": 115,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 771418,
+   "size": 284,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, r, r, r"
+  },
+  {
+   "id": 116,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 771442,
+   "size": 282,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "r, x"
+  },
+  {
+   "id": 117,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 771488,
+   "size": 272,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": ""
+  },
+  {
+   "id": 48,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 58531,
+   "size": 255,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": ""
+  },
+  {
+   "id": 35,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 54718,
+   "size": 245,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x"
+  },
+  {
+   "id": 36,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 54742,
+   "size": 243,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "x, H, H, H"
+  },
+  {
+   "id": 37,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 54779,
+   "size": 237,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "x, T"
+  },
+  {
+   "id": 49,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 58569,
+   "size": 229,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": ""
+  },
+  {
+   "id": 17,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 34848,
+   "size": 182,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S, Y, Q"
+  },
+  {
+   "id": 60,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 64584,
+   "size": 180,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, r, r, r, r, r"
+  },
+  {
+   "id": 119,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 772545,
+   "size": 180,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S, Y, Q, A"
+  },
+  {
+   "id": 38,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 55333,
+   "size": 178,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D"
+  },
+  {
+   "id": 61,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 64612,
+   "size": 178,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L1>",
+   "params": "r, x, x"
+  },
+  {
+   "id": 146,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 785378,
+   "size": 172,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S"
+  },
+  {
+   "id": 91,
+   "name": "<fn@L1>",
+   "line": 1,
+   "endLine": 1,
+   "pos": 764797,
+   "size": 167,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S"
+  }
+ ],
+ "notes": [],
+ "tree": {
+  "id": 0,
+  "line": 1,
+  "var": "H",
+  "kind": "vm",
+  "handlers": 152,
+  "minOp": 1,
+  "maxOp": 175,
+  "roles": {
+   "fields": {},
+   "tables": [],
+   "code": "T",
+   "pc": "I",
+   "stack": "p"
+  }
+ }
+}

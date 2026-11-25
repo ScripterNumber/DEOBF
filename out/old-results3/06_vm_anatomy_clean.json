@@ -1,0 +1,735 @@
+{
+ "kind": "vm",
+ "pipeline": [
+  "payload  L3162: 644,620-byte string literal (largest in the script)",
+  "unpack   <fn@L2850> L2850–3057: deserializes the chunk",
+  "wrap     <fn@L3178> L3178–6425: closure factory (function(L))",
+  "run      <fn@L3180> L3180–6424: the dispatch on `H` — 174 handlers, opcodes 1..175",
+  "exit     L5386, L5481, L5519, L6007, L6086, L6199, …",
+  "entry    L2: return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S) if D <= 31 then local D, Y, Q, A = (u + S) % 256, buffer.create(T), 16843009 * S, T - T…"
+ ],
+ "parts": [
+  {
+   "role": "payload",
+   "line": 3162,
+   "pos": 126483,
+   "detail": "644,620-byte string literal (largest in the script)",
+   "code": "\"LPH-Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\\\\*__r[@dz\\\\UKc\\\\=q/c6\\\\'T/f+U[7cKqPa'V'R/NUWR<V'…"
+  },
+  {
+   "role": "deserializer",
+   "name": "<fn@L2850>",
+   "line": 2850,
+   "endLine": 3057,
+   "pos": 117093,
+   "detail": "<fn@L2850> (L2850–3057) top-ranked deserializer — loops×5; counter advance×11 → port it with python_transpile to extract the chunk statically"
+  },
+  {
+   "role": "string-decoder",
+   "name": "<fn@L7244>",
+   "line": 7244,
+   "endLine": 7258,
+   "pos": 1571977,
+   "detail": "string-decoder (score 8, 0 call sites, 0 with literal args)"
+  },
+  {
+   "role": "wrapper",
+   "name": "<fn@L3178>",
+   "line": 3178,
+   "endLine": 6425,
+   "pos": 779552,
+   "detail": "<fn@L3178> (L3178–6425) returns the interpreter closure — params (L) usually = (proto/chunk, upvalues, env)",
+   "code": "function(L)"
+  },
+  {
+   "role": "interpreter",
+   "name": "<fn@L3180>",
+   "line": 3180,
+   "endLine": 6424,
+   "pos": 779700,
+   "detail": "<fn@L3180> (L3180–6424) runs the dispatch on `H` — 174 handlers, opcodes 1..175",
+   "code": "function(...)"
+  },
+  {
+   "role": "dispatch-loop",
+   "line": 5314,
+   "endLine": 6421,
+   "pos": 854528,
+   "detail": "While loop around the dispatch",
+   "code": "while true do"
+  },
+  {
+   "role": "fetch",
+   "line": 5315,
+   "pos": 854552,
+   "detail": "instruction fetch from `T` at pc `I`",
+   "code": "local H = T[I];"
+  },
+  {
+   "role": "pc-advance",
+   "line": 6421,
+   "pos": 892852,
+   "detail": "program counter `I` advances",
+   "code": "I = I + 1;"
+  },
+  {
+   "role": "dispatch",
+   "line": 5316,
+   "pos": 854812,
+   "detail": "vm dispatch tree #0 on `H` (174 leaves, score 1044)"
+  },
+  {
+   "role": "exit",
+   "line": 5386,
+   "pos": 857189,
+   "detail": "return from the interpreter — handler op 58 RETURN",
+   "code": "return W[p[I]], W[u[I]];"
+  },
+  {
+   "role": "exit",
+   "line": 5481,
+   "pos": 861037,
+   "detail": "return from the interpreter — handler op 51 RETURN",
+   "code": "return W[u[I]]();"
+  },
+  {
+   "role": "exit",
+   "line": 5519,
+   "pos": 862458,
+   "detail": "return from the interpreter — handler op 80 RETURN",
+   "code": "return W[p[I]];"
+  },
+  {
+   "role": "exit",
+   "line": 6007,
+   "pos": 879123,
+   "detail": "return from the interpreter — handler op 141 RETURN",
+   "code": "return x[I];"
+  },
+  {
+   "role": "exit",
+   "line": 6086,
+   "pos": 881858,
+   "detail": "return from the interpreter — handler op 129 RETURN",
+   "code": "return x[I], B(W[S[I]], 1, W[S[I]].n);"
+  },
+  {
+   "role": "exit",
+   "line": 6199,
+   "pos": 885661,
+   "detail": "return from the interpreter — handler op 89 RETURN",
+   "code": "return;"
+  },
+  {
+   "role": "exit",
+   "line": 6229,
+   "pos": 886580,
+   "detail": "return from the interpreter — handler op 96 RETURN",
+   "code": "return W[p[I]](W[u[I]], W[S[I]]);"
+  },
+  {
+   "role": "exit",
+   "line": 6377,
+   "pos": 891442,
+   "detail": "return from the interpreter — handler op 99..100 RETURN",
+   "code": "return W[S[I]](B(W[u[I]], 1, W[u[I]].n));"
+  },
+  {
+   "role": "env",
+   "line": 2505,
+   "pos": 106278,
+   "detail": "environment access via setfenv at top level",
+   "code": "setfenv"
+  },
+  {
+   "role": "env",
+   "line": 6510,
+   "pos": 1548202,
+   "detail": "environment access via getfenv at top level",
+   "code": "getfenv"
+  },
+  {
+   "role": "env",
+   "line": 6519,
+   "pos": 1548694,
+   "detail": "environment access via getfenv at top level",
+   "code": "getfenv"
+  },
+  {
+   "role": "entry",
+   "line": 2,
+   "pos": 7792,
+   "detail": "final statement of the main chunk (no closure-factory call found)",
+   "code": "return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S) if D <= 31 then local D, Y, Q, A = (u + S) % 256, buffer.create(T), 16843009 * S, T - T…"
+  }
+ ],
+ "chunks": [
+  {
+   "id": 64,
+   "name": "<fn@L3176>",
+   "line": 3176,
+   "endLine": 6426,
+   "pos": 779283,
+   "size": 18947,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y, Q, Q"
+  },
+  {
+   "id": 65,
+   "name": "<fn@L3178>",
+   "line": 3178,
+   "endLine": 6425,
+   "pos": 779552,
+   "size": 18889,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "wrapper"
+   ],
+   "parent": "<fn@L3176>",
+   "params": "L"
+  },
+  {
+   "id": 66,
+   "name": "<fn@L3180>",
+   "line": 3180,
+   "endLine": 6424,
+   "pos": 779700,
+   "size": 18867,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "interpreter"
+   ],
+   "parent": "<fn@L3178>",
+   "params": "..."
+  },
+  {
+   "id": 10,
+   "name": "<fn@L173>",
+   "line": 173,
+   "endLine": 1473,
+   "pos": 12942,
+   "size": 8178,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y, Q, A, Z"
+  },
+  {
+   "id": 11,
+   "name": "W",
+   "line": 175,
+   "endLine": 1471,
+   "pos": 13194,
+   "size": 8124,
+   "callers": 0,
+   "refs": 1,
+   "roles": [],
+   "parent": "<fn@L173>",
+   "params": "L, h, h, h"
+  },
+  {
+   "id": 12,
+   "name": "Z",
+   "line": 177,
+   "endLine": 1469,
+   "pos": 13340,
+   "size": 8102,
+   "callers": 0,
+   "refs": 1,
+   "roles": [],
+   "parent": "W",
+   "params": "..."
+  },
+  {
+   "id": 13,
+   "name": "<fn@L182>",
+   "line": 182,
+   "endLine": 1424,
+   "pos": 13583,
+   "size": 7928,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "deserializer"
+   ],
+   "parent": "Z",
+   "params": "..."
+  },
+  {
+   "id": 22,
+   "name": "<fn@L1574>",
+   "line": 1574,
+   "endLine": 2466,
+   "pos": 63230,
+   "size": 5569,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T"
+  },
+  {
+   "id": 23,
+   "name": "<fn@L1589>",
+   "line": 1589,
+   "endLine": 2425,
+   "pos": 64056,
+   "size": 5215,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "deserializer"
+   ],
+   "parent": "<fn@L1574>",
+   "params": "E, t"
+  },
+  {
+   "id": 150,
+   "name": "<fn@L7836>",
+   "line": 7836,
+   "endLine": 8557,
+   "pos": 1591260,
+   "size": 3824,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, H, T, l, u, K, K, I, I, I, o, D, p, p"
+  },
+  {
+   "id": 151,
+   "name": "<fn@L7838>",
+   "line": 7838,
+   "endLine": 8556,
+   "pos": 1591404,
+   "size": 3800,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L7836>",
+   "params": "r, s"
+  },
+  {
+   "id": 152,
+   "name": "<fn@L7840>",
+   "line": 7840,
+   "endLine": 8555,
+   "pos": 1591483,
+   "size": 3790,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "deserializer"
+   ],
+   "parent": "<fn@L7838>",
+   "params": "..."
+  },
+  {
+   "id": 127,
+   "name": "<fn@L7280>",
+   "line": 7280,
+   "endLine": 7511,
+   "pos": 1573087,
+   "size": 1663,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H"
+  },
+  {
+   "id": 52,
+   "name": "<fn@L2846>",
+   "line": 2846,
+   "endLine": 3059,
+   "pos": 116874,
+   "size": 1480,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x, H, T, l, u, u, u, K, K, I, I, o, o, D, D, p, p"
+  },
+  {
+   "id": 53,
+   "name": "<fn@L2848>",
+   "line": 2848,
+   "endLine": 3058,
+   "pos": 117020,
+   "size": 1459,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L2846>",
+   "params": "r, G"
+  },
+  {
+   "id": 54,
+   "name": "<fn@L2850>",
+   "line": 2850,
+   "endLine": 3057,
+   "pos": 117093,
+   "size": 1450,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "deserializer"
+   ],
+   "parent": "<fn@L2848>",
+   "params": "..."
+  },
+  {
+   "id": 80,
+   "name": "<fn@L6566>",
+   "line": 6566,
+   "endLine": 6716,
+   "pos": 1550203,
+   "size": 932,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x"
+  },
+  {
+   "id": 81,
+   "name": "<fn@L6567>",
+   "line": 6567,
+   "endLine": 6715,
+   "pos": 1550233,
+   "size": 930,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L6566>",
+   "params": "x, H"
+  },
+  {
+   "id": 82,
+   "name": "<fn@L6570>",
+   "line": 6570,
+   "endLine": 6714,
+   "pos": 1550299,
+   "size": 920,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L6567>",
+   "params": "x, l, u"
+  },
+  {
+   "id": 129,
+   "name": "<fn@L7519>",
+   "line": 7519,
+   "endLine": 7609,
+   "pos": 1581399,
+   "size": 645,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x"
+  },
+  {
+   "id": 130,
+   "name": "<fn@L7520>",
+   "line": 7520,
+   "endLine": 7608,
+   "pos": 1581429,
+   "size": 643,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L7519>",
+   "params": "x, H, H, H"
+  },
+  {
+   "id": 131,
+   "name": "<fn@L7524>",
+   "line": 7524,
+   "endLine": 7607,
+   "pos": 1581521,
+   "size": 629,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L7520>",
+   "params": ""
+  },
+  {
+   "id": 153,
+   "name": "<fn@L8557>",
+   "line": 8557,
+   "endLine": 8602,
+   "pos": 1612653,
+   "size": 292,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, ..."
+  },
+  {
+   "id": 46,
+   "name": "<fn@L2773>",
+   "line": 2773,
+   "endLine": 2814,
+   "pos": 114653,
+   "size": 291,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, r, r, r, r"
+  },
+  {
+   "id": 47,
+   "name": "<fn@L2774>",
+   "line": 2774,
+   "endLine": 2813,
+   "pos": 114686,
+   "size": 289,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L2773>",
+   "params": "r, x, x"
+  },
+  {
+   "id": 115,
+   "name": "<fn@L7105>",
+   "line": 7105,
+   "endLine": 7136,
+   "pos": 1567404,
+   "size": 284,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, r, r, r"
+  },
+  {
+   "id": 116,
+   "name": "<fn@L7106>",
+   "line": 7106,
+   "endLine": 7135,
+   "pos": 1567434,
+   "size": 282,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L7105>",
+   "params": "r, x"
+  },
+  {
+   "id": 117,
+   "name": "<fn@L7109>",
+   "line": 7109,
+   "endLine": 7134,
+   "pos": 1567500,
+   "size": 272,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L7106>",
+   "params": ""
+  },
+  {
+   "id": 48,
+   "name": "<fn@L2783>",
+   "line": 2783,
+   "endLine": 2812,
+   "pos": 114875,
+   "size": 255,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L2774>",
+   "params": ""
+  },
+  {
+   "id": 35,
+   "name": "<fn@L2595>",
+   "line": 2595,
+   "endLine": 2626,
+   "pos": 109138,
+   "size": 238,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, x, x"
+  },
+  {
+   "id": 36,
+   "name": "<fn@L2596>",
+   "line": 2596,
+   "endLine": 2625,
+   "pos": 109168,
+   "size": 236,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L2595>",
+   "params": "x, H, H, H"
+  },
+  {
+   "id": 37,
+   "name": "<fn@L2598>",
+   "line": 2598,
+   "endLine": 2624,
+   "pos": 109220,
+   "size": 230,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L2596>",
+   "params": "x, T"
+  },
+  {
+   "id": 49,
+   "name": "<fn@L2785>",
+   "line": 2785,
+   "endLine": 2805,
+   "pos": 114930,
+   "size": 229,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L2783>",
+   "params": ""
+  },
+  {
+   "id": 60,
+   "name": "<fn@L3132>",
+   "line": 3132,
+   "endLine": 3162,
+   "pos": 125644,
+   "size": 180,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, r, r, r, r, r"
+  },
+  {
+   "id": 61,
+   "name": "<fn@L3133>",
+   "line": 3133,
+   "endLine": 3161,
+   "pos": 125680,
+   "size": 178,
+   "callers": 0,
+   "refs": 0,
+   "roles": [],
+   "parent": "<fn@L3132>",
+   "params": "r, x, x"
+  },
+  {
+   "id": 17,
+   "name": "<fn@L1520>",
+   "line": 1520,
+   "endLine": 1546,
+   "pos": 61608,
+   "size": 173,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S, Y, Q"
+  },
+  {
+   "id": 119,
+   "name": "<fn@L7147>",
+   "line": 7147,
+   "endLine": 7165,
+   "pos": 1569066,
+   "size": 171,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S, Y, Q, A"
+  },
+  {
+   "id": 146,
+   "name": "<fn@L7784>",
+   "line": 7784,
+   "endLine": 7816,
+   "pos": 1589803,
+   "size": 169,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S"
+  },
+  {
+   "id": 38,
+   "name": "<fn@L2626>",
+   "line": 2626,
+   "endLine": 2648,
+   "pos": 110147,
+   "size": 166,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D"
+  },
+  {
+   "id": 91,
+   "name": "<fn@L6805>",
+   "line": 6805,
+   "endLine": 6831,
+   "pos": 1557781,
+   "size": 164,
+   "callers": 0,
+   "refs": 0,
+   "roles": [
+    "unreferenced"
+   ],
+   "params": "r, x, H, T, l, u, K, I, o, D, p, S"
+  }
+ ],
+ "notes": [],
+ "tree": {
+  "id": 0,
+  "line": 5316,
+  "var": "H",
+  "kind": "vm",
+  "handlers": 174,
+  "minOp": 1,
+  "maxOp": 175,
+  "roles": {
+   "fields": {},
+   "tables": [],
+   "code": "T",
+   "pc": "I",
+   "stack": "p"
+  }
+ }
+}

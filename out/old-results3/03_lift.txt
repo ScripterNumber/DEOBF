@@ -1,0 +1,1 @@
+no VM interpreter recognised (a dispatch loop over decoded instructions + the closure factory that creates VM closures), not even after cleaning — vm_detect / vm_anatomy show what is there

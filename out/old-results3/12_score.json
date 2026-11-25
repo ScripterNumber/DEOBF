@@ -1,0 +1,24 @@
+{
+ "lines": 8762,
+ "chars": 1619062,
+ "functions": 166,
+ "maxDepth": 4,
+ "mode": "functions",
+ "units": 166,
+ "closures": 166,
+ "captures": {
+  "total": 0,
+  "box": 0,
+  "value": 0,
+  "upvalue": 0,
+  "expr": 0
+ },
+ "resolvedPct": 100,
+ "unresolved": [],
+ "scaffoldLocals": [],
+ "scaffoldGlobals": [],
+ "score": 100,
+ "scoreParts": [],
+ "notes": [],
+ "parseErrors": 0
+}
