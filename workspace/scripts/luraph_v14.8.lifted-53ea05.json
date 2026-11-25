@@ -1,0 +1,14 @@
+{
+  "id": "luraph_v14.8.lifted-53ea05",
+  "name": "luraph_v14.8.lifted.lua",
+  "size": 4984857,
+  "lines": 201429,
+  "sha1": "53ea057fde6417ad850736ed394856c669de9f97",
+  "created": "2026-11-17T20:00:03.219Z",
+  "updated": "2026-11-17T20:00:03.219Z",
+  "encoding": "utf8",
+  "tags": [],
+  "notes": [],
+  "parent": "luraph_v14.8-401ea9",
+  "derivedBy": "vm_lift"
+}
