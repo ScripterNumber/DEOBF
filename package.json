@@ -1,0 +1,46 @@
+{
+  "name": "prism-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "description": "PRISM — static-only reverse-engineering workbench for obfuscated Lua/Luau (Roblox) scripts: web UI + HTTP API + MCP server",
+  "type": "module",
+  "engines": {
+    "node": ">=20.10"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "tsx apps/server/src/server.ts",
+    "build": "vite build --config apps/web/vite.config.ts",
+    "build:web": "vite build --config apps/web/vite.config.ts",
+    "dev": "vite --config apps/web/vite.config.ts",
+    "dev:server": "tsx watch apps/server/src/server.ts",
+    "mcp": "tsx apps/mcp/src/server.ts",
+    "mcp:http": "tsx apps/mcp/src/server.ts --http 7778",
+    "fetch-luau": "node tools/fetch-luau.mjs",
+    "typecheck": "tsc -p packages/core/tsconfig.json --noEmit && tsc -p packages/tools/tsconfig.json --noEmit && tsc -p apps/mcp/tsconfig.json --noEmit && tsc -p apps/server/tsconfig.json --noEmit && tsc -p apps/web/tsconfig.json --noEmit",
+    "test": "tsx packages/core/test/lexparse.ts && tsx packages/core/test/pipeline.ts && tsx packages/tools/test/smoke.ts && tsx apps/mcp/test/mcp.ts",
+    "test:semantic": "tsx packages/core/test/semantic/run.ts",
+    "test:e2e": "node apps/web/test/e2e.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@monaco-editor/react": "^4.6.0",
+    "monaco-editor": "^0.52.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright-core": "^1.64.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}
