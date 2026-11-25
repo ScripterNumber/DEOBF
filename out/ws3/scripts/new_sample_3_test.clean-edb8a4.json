@@ -1,0 +1,14 @@
+{
+  "id": "new_sample_3_test.clean-edb8a4",
+  "name": "NEW_SAMPLE_3_TEST.clean.lua",
+  "size": 1619194,
+  "lines": 8762,
+  "sha1": "edb8a48a0c7f4eb475c631b730437eb5cdfef353",
+  "created": "2026-11-15T00:56:58.010Z",
+  "updated": "2026-11-15T00:56:58.010Z",
+  "encoding": "utf8",
+  "tags": [],
+  "notes": [],
+  "parent": "new_sample_3_test-2c0307",
+  "derivedBy": "deobfuscate"
+}
