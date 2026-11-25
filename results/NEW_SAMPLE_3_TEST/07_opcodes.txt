@@ -1,0 +1,3399 @@
+12 dispatch trees: #0 vm var=H line 5316 174 leaves ops 1..175 | #1 vm var=H line 4437 145 leaves ops 1..145 | #2 vm var=H line 3711 119 leaves ops 1..125 | #3 cff var=B line 1594 172 leaves ops 0..170 | #4 vm var=rB line 3189 83 leaves ops 1..93 | #5 vm var=t line 664 82 leaves ops 1..82 | #6 vm var=z line 7849 53 leaves ops 7..59 | #7 vm var=K line 1093 36 leaves ops 1..35 | #8 vm var=t line 187 35 leaves ops 1..35 | #9 switch var=F line 7284 75 leaves ops 3..276 | #10 vm var=t line 465 23 leaves ops 1..23 | #11 cff var=K line 6574 31 leaves ops 0..29
+note: 92 dispatch trees found, showing top 12
+note: VM dispatcher @L5316 on 'H': 174 handlers, opcodes 1..175; roles inst=? stack=p pc=I
+note: 2 control-flow-flattening state machine(s); largest has 172 blocks
+
+-- dispatch tree #0 @L5316 var=H kind=vm handlers=174 range=1..175
+-- roles: inst=? code=T pc=I stack=p opField=? fields=
+[60] SETUPVAL (conf 0.45) L5323 stmts=3 shape=eb1de444
+    F = R[pc];
+    f, a, d = W[F], W[F + 1], W[F + 2];
+    W[F] = f(a, d);
+    
+[61] SETUPVAL (conf 0.45) L5327 stmts=1 shape=e40c292c
+    W[u[pc]] = v(W[S[pc]], R[pc]);
+    
+[62] SETUPVAL (conf 0.45) L5329 stmts=1 shape=e40c292c
+    W[S[pc]] = #W[R[pc]];
+    
+[65] COND-JMP (conf 0.45) L5333 stmts=3 shape=fb8cf6e3
+    F = R[pc];
+    local t1, t2, t3 = X();
+    if t1 then
+      W[F + 1] = t2;
+      W[F + 2] = t3;
+      pc = S[pc];
+    else
+      pc = u[pc];
+    end
+    
+[64] CALL? (conf 0.35) L5343 stmts=1 shape=e60c2c52
+    W[S[pc]](W[R[pc]], x[pc]);
+    
+[63] JMP (conf 0.85) L5346 stmts=4 shape=07ec729b
+    W[S[pc]] = W[u[pc]] - R[pc];
+    W[u[pc + 1]] = W[R[pc + 1]] * W[S[pc + 1]];
+    W[R[pc + 2]] = W[S[pc + 2]][u[pc + 2]];
+    pc = pc + 2;
+    
+[55] SETUPVAL (conf 0.45) L5353 stmts=2 shape=078769b3
+    F = L[u[pc]];
+    W[S[pc]] = F[4][F[6]][W[R[pc]]];
+    
+[56] SETUPVAL (conf 0.45) L5356 stmts=1 shape=e40c292c
+    W[S[pc]] = not W[R[pc]];
+    
+[58] RETURN (conf 0.85) L5360 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6 = h(t5);
+            C(W, t3, t3 + t5 - 1, 1, t6);
+            t4[4] = t6;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return W[R[pc]], W[u[pc]];
+    
+[59] SETUPVAL (conf 0.45) L5388 stmts=1 shape=e40c292c
+    W[S[pc]] = V(W[R[pc]], u[pc]);
+    
+[57] SETUPVAL (conf 0.45) L5391 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = R[pc], W[S[pc]], u[pc];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t2 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t5 = t2 % 4294967296;
+    if t5 ~= t5 then
+      t8 = 0;
+    else
+      t8 = t5 - t5 % 1;
+    end
+    W[t1] = t8;
+    
+[46] SETUPVAL (conf 0.45) L5406 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = W[u[pc]], S[pc];
+    
+[47] SETUPVAL (conf 0.45) L5409 stmts=3 shape=5b4383d6
+    f, F = (v(R[pc], (N(v(e, (N(V(e, 29), 7))), 536870911)))), u[pc] + 1;
+    for t1 = 1, S[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      u[F] = v(u[F], (N(V(f, 0), 127)));
+      R[F] = v(R[F], (N(V(f, 7), 127)));
+      S[F] = v(S[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 126;
+    
+[48] SETUPVAL (conf 0.45) L5422 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]]();
+    
+[44] JMP (conf 0.85) L5425 stmts=1 shape=e40c292c
+    pc = u[pc];
+    
+[45] SETUPVAL (conf 0.45) L5427 stmts=2 shape=078769b3
+    F = L[S[pc]];
+    W[R[pc]] = F[4][F[6]][u[pc]];
+    
+[52] SETUPVAL (conf 0.45) L5432 stmts=1 shape=e40c292c
+    W[S[pc]] = L[u[pc]];
+    
+[53] SETUPVAL (conf 0.45) L5434 stmts=3 shape=eb1de444
+    F, f, a = R[pc], u[pc], S[pc];
+    d = F + f;
+    W[F] = j(W[F](B(W, F + 1, d)));
+    
+[54] SETUPVAL (conf 0.45) L5438 stmts=1 shape=e40c292c
+    W[u[pc]] = -W[S[pc]];
+    
+[50] SETUPVAL (conf 0.45) L5442 stmts=3 shape=5b4383d6
+    f, F = (v(R[pc], (N(v(n, (N(V(n, 29), 7))), 536870911)))), u[pc] + 1;
+    for t1 = 1, S[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      u[F] = v(u[F], (N(V(f, 0), 127)));
+      R[F] = v(R[F], (N(V(f, 7), 127)));
+      S[F] = v(S[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 126;
+    
+[51] RETURN (conf 0.85) L5455 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6, t7 = t3 + t5 - 1, h(t5);
+            C(W, t3, t6, 1, t7);
+            t4[4] = t7;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return W[u[pc]]();
+    
+[49] SETUPVAL (conf 0.45) L5484 stmts=1 shape=e40c292c
+    W[R[pc]] = W[S[pc]][u[pc]];
+    
+[81] SETUPVAL (conf 0.45) L5491 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]];
+    
+[80] RETURN (conf 0.85) L5493 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6, t7 = t3 + t5, h(t5);
+            C(W, t3, t6 - 1, 1, t7);
+            t4[4] = t7;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return W[R[pc]];
+    
+[79] LE (conf 0.8) L5521 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] <= W[S[pc]] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[77] COND-JMP (conf 0.45) L5527 stmts=3 shape=c3ecf5fb
+    X = X + A;
+    if A <= 0 then
+      F = X >= z;
+    else
+      F = X <= z;
+    end
+    if F then
+      W[u[pc]] = X;
+      pc = R[pc];
+    else
+      pc = S[pc];
+    end
+    
+[78] SETUPVAL (conf 0.45) L5540 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = S[pc], u[pc], W[R[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t4 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t8 = t4 % 4294967296;
+    if t8 ~= t8 then
+      t9 = 0;
+    else
+      t9 = t8 - t8 % 1;
+    end
+    W[t1] = t9;
+    
+[83] SETUPVAL (conf 0.45) L5555 stmts=1 shape=e40c292c
+    r[K[pc]] = l[pc];
+    
+[84] SETUPVAL (conf 0.45) L5557 stmts=1 shape=e40c292c
+    W[u[pc]][K[pc]] = S[pc];
+    
+[82] SETUPVAL (conf 0.45) L5560 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] / S[pc];
+    
+[85] SETUPVAL (conf 0.45) L5563 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] ~= S[pc];
+    
+[86] SETUPVAL (conf 0.45) L5565 stmts=1 shape=e40c292c
+    W[R[pc]] = y[x[pc]][l[pc]];
+    
+[87] SETUPVAL (conf 0.45) L5567 stmts=1 shape=e40c292c
+    W[u[pc]] = n;
+    
+[71] SETUPVAL (conf 0.45) L5572 stmts=1 shape=e40c292c
+    W[R[pc]] = r[u[pc]];
+    
+[73] JMP (conf 0.85) L5574 stmts=1 shape=e40c292c
+    pc = W[R[pc]];
+    
+[72] SETUPVAL (conf 0.45) L5576 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] == W[u[pc]];
+    
+[74] CALL? (conf 0.35) L5579 stmts=1 shape=e60c2c52
+    W[R[pc]](l[pc]);
+    
+[76] SETUPVAL (conf 0.45) L5581 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] % W[S[pc]];
+    
+[75] LE (conf 0.8) L5582 stmts=1 shape=0e2bd8ba
+    if W[S[pc]] <= R[pc] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[67] SETUPVAL (conf 0.45) L5589 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]] - R[pc];
+    
+[66] SETUPVAL (conf 0.45) L5591 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] * x[pc];
+    
+[68] SETUPVAL (conf 0.45) L5594 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]] <= W[R[pc]];
+    
+[70] SETUPVAL (conf 0.45) L5596 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = u[pc], K[pc], W[S[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t3 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t6 = t3 % 4294967296;
+    if t6 ~= t6 then
+      t2 = 0;
+    else
+      t2 = t6 - t6 % 1;
+    end
+    W[t1] = t2;
+    
+[69] COND-JMP (conf 0.45) L5607 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] then
+      pc = S[pc];
+    else
+      pc = R[pc];
+    end
+    
+[34] ? (conf 0.1) L5617 stmts=1 shape=0ed027fd
+    for t1 = u[pc], S[pc], 1 do
+      W[t1] = nil;
+    end
+    
+[33] SETUPVAL (conf 0.45) L5621 stmts=1 shape=e40c292c
+    W[R[pc]][S[pc]] = u[pc];
+    
+[35] ? (conf 0.1) L5624 stmts=1 shape=c9a356cd
+    if O then
+      local t1 = R[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+      t1 = u[pc];
+      t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+      t2 = S[pc];
+      t1 = O[t2];
+      if t1 then
+        t1[4] = t1;
+        t1[5] = W[t2];
+        t1[6] = 5;
+        O[t2] = nil;
+      end
+    end
+    
+[37] JMP (conf 0.85) L5651 stmts=3 shape=eb1de444
+    W[R[pc]] = W[S[pc]][u[pc]];
+    W[S[pc + 1]] = W[u[pc + 1]] - R[pc + 1];
+    pc = pc + 1;
+    
+[36] JMP (conf 0.85) L5655 stmts=4 shape=07ec729b
+    P, F = { [5] = A, [9] = X, [6] = P, [8] = z, [7] = Z }, R[pc];
+    A, z = W[F + 2] + 0, W[F + 1] + 0;
+    X = W[F] - A;
+    pc = S[pc];
+    
+[38] SETUPVAL (conf 0.45) L5662 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] == l[pc];
+    
+[40] SETUPVAL (conf 0.45) L5664 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] <= S[pc];
+    
+[39] SETUPVAL (conf 0.45) L5666 stmts=1 shape=e40c292c
+    W[u[pc]][S[pc]] = W[R[pc]];
+    
+[42] SETUPVAL (conf 0.45) L5670 stmts=2 shape=078769b3
+    F = W[R[pc]];
+    W[u[pc]] = j(B(F, S[pc], F.n));
+    
+[43] CALL? (conf 0.35) L5673 stmts=1 shape=e60c2c52
+    W[S[pc]](W[R[pc]], W[u[pc]]);
+    
+[41] SETUPVAL (conf 0.45) L5676 stmts=1 shape=e40c292c
+    W[u[pc]][l[pc]] = K[pc];
+    
+[23] ? (conf 0.1) L5681 stmts=1 shape=a30d3185
+    if O then
+      local t1 = R[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+    end
+    
+[22] SETUPVAL (conf 0.45) L5692 stmts=1 shape=e40c292c
+    W[u[pc]] = r[K[pc]];
+    
+[25] SETUPVAL (conf 0.45) L5696 stmts=3 shape=eb1de444
+    F, f = u[pc], W[R[pc]];
+    W[F + 1] = f;
+    W[F] = f[l[pc]];
+    
+[26] CALL? (conf 0.35) L5700 stmts=3 shape=ed1de76a
+    F, f, a = S[pc], u[pc], R[pc];
+    d = W[F];
+    C(W, F + 1, F + f, a + 1, d);
+    
+[24] CALL? (conf 0.35) L5705 stmts=5 shape=3909e29c
+    F, f, a = S[pc], R[pc], u[pc];
+    d, s = W[F], F + f;
+    i = W[s];
+    C(W, F + 1, s - 1, a + 1, d);
+    C(i, 1, i.n, a + f, d);
+    
+[27] LT (conf 0.8) L5713 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] < R[pc] then
+      pc = pc;
+    else
+      pc = S[pc];
+    end
+    
+[28] SETUPVAL (conf 0.45) L5719 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]] .. W[R[pc]];
+    
+[29] SETUPVAL (conf 0.45) L5721 stmts=4 shape=9a4846b9
+    local t1, t2, t3 = S[pc], W[u[pc]];
+    local t4 = t2 % 4294967296;
+    if t4 ~= t4 then
+      t3 = 0;
+    else
+      t3 = t4 - t4 % 1;
+    end
+    W[t1] = t3;
+    
+[32] JMP (conf 0.85) L5732 stmts=4 shape=67203989
+    P, F, f = { [5] = A, [9] = X, [6] = P, [8] = z, [7] = Z }, S[pc], b(w);
+    f(r, W[F], W[F + 1], W[F + 2]);
+    Z = R[pc];
+    pc, X = u[pc], f;
+    
+[31] ? (conf 0.1) L5737 stmts=1 shape=e40c292c
+    e = W[u[pc]];
+    
+[30] JMP (conf 0.85) L5740 stmts=8 shape=77b3ef4b
+    F, f, a, d = v(n, N(V(n, 14), 262143), (N(V(n, 28), 15))), S[pc], R[pc], u[pc];
+    s = a < 16384 and 7 or (a < 2097152 and 14 or 21);
+    i, g = V(a, s), N(a, R(1, s) - 1);
+    u[pc] = v(d, 94, (N(F, 127)));
+    S[pc] = v(f, 2, (N(V(F, 14), 127)));
+    R[pc] = v(g, 49, (N(V(F, 7), 127)));
+    Code[pc] = v(i, 67, (N(V(F, 21), 127)));
+    pc = pc - 1;
+    
+[0] SETUPVAL (conf 0.45) L5753 stmts=1 shape=e40c292c
+    W[R[pc]][W[S[pc]]] = u[pc];
+    
+[1] CALL? (conf 0.35) L5755 stmts=1 shape=e60c2c52
+    W[S[pc]](W[R[pc]], B(W[u[pc]], 1, W[u[pc]].n));
+    
+[4] SETUPVAL (conf 0.45) L5759 stmts=1 shape=e40c292c
+    W[S[pc]] = y[x[pc]];
+    
+[3] LT (conf 0.8) L5760 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] < W[S[pc]] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[2] SETUPVAL (conf 0.45) L5766 stmts=1 shape=e40c292c
+    W[u[pc]][W[R[pc]]] = W[S[pc]];
+    
+[9] SETUPVAL (conf 0.45) L5771 stmts=1 shape=e40c292c
+    W[u[pc]] = R[pc] - W[S[pc]];
+    
+[10] SETUPVAL (conf 0.45) L5773 stmts=1 shape=e40c292c
+    W[u[pc]] = W[S[pc]] % R[pc];
+    
+[8] SETUPVAL (conf 0.45) L5776 stmts=1 shape=e40c292c
+    W[R[pc]] = N(W[S[pc]], x[pc]);
+    
+[6] SETUPVAL (conf 0.45) L5780 stmts=1 shape=e40c292c
+    W[S[pc]] = x[pc] + K[pc];
+    
+[7] SETUPVAL (conf 0.45) L5782 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] - x[pc];
+    
+[5] ? (conf 0.1) L5785 stmts=2 shape=078769b3
+    X, z, A, Z = P[9], P[8], P[5], P[7];
+    P = P[6];
+    
+[19] SETUPVAL (conf 0.45) L5791 stmts=2 shape=078769b3
+    F = L[u[pc]];
+    F[4][F[6]] = l[pc];
+    
+[20] SETUPVAL (conf 0.45) L5794 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = u[pc], S[pc];
+    
+[21] SETUPVAL (conf 0.45) L5797 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] ~= l[pc];
+    
+[16] SETUPVAL (conf 0.45) L5800 stmts=1 shape=e40c292c
+    W[u[pc]] = t(W[R[pc]], W[S[pc]]);
+    
+[18] LE (conf 0.8) L5802 stmts=1 shape=0e2bd8ba
+    if u[pc] <= W[R[pc]] then
+      pc = pc;
+    else
+      pc = S[pc];
+    end
+    
+[17] EQ (not) (conf 0.8) L5807 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] ~= S[pc] then
+      pc = R[pc];
+    else
+      pc = pc;
+    end
+    
+[14] SETUPVAL (conf 0.45) L5815 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] .. l[pc];
+    
+[15] JMP (conf 0.85) L5817 stmts=3 shape=eb1de444
+    W[u[pc]] = W[S[pc]] % R[pc];
+    W[S[pc + 1]] = W[u[pc + 1]] - R[pc + 1];
+    pc = pc + 1;
+    
+[13] SETUPVAL (conf 0.45) L5822 stmts=1 shape=e40c292c
+    W[R[pc]] = W;
+    
+[12] CALL? (conf 0.35) L5825 stmts=10 shape=f60c25c1
+    F, f, a = u[pc], S[pc], R[pc];
+    d, s = F + a - 1, F + f;
+    i = W[s];
+    g = i.n;
+    k = f + g - 1;
+    i.n = k;
+    C(i, 1, g, f, i);
+    C(W, F + 1, s - 1, 1, i);
+    G = j(W[F](B(i, 1, i.n)));
+    C(G, 1, a, F, W);
+    
+[11] JMP (conf 0.85) L5836 stmts=4 shape=07ec729b
+    W[u[pc]] = W[R[pc]] * W[S[pc]];
+    W[u[pc + 1]] = W[S[pc + 1]] % R[pc + 1];
+    W[S[pc + 2]] = W[u[pc + 2]] - R[pc + 2];
+    pc = pc + 2;
+    
+[173] SETUPVAL (conf 0.45) L5847 stmts=2 shape=078769b3
+    F = S[pc];
+    W[F], W[F + 1] = K[pc], x[pc];
+    
+[175] SETUPVAL (conf 0.45) L5850 stmts=1 shape=e40c292c
+    W[S[pc]] = K[pc] .. W[u[pc]];
+    
+[174,176] SETUPVAL (conf 0.45) L5852 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]] ~= W[R[pc]];
+    
+[170] SETUPVAL (conf 0.45) L5855 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = S[pc], W[u[pc]];
+    
+[172] SETUPVAL (conf 0.45) L5858 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = l[pc], u[pc];
+    
+[171] SETUPVAL (conf 0.45) L5861 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] + x[pc];
+    
+[165] JMP (conf 0.85) L5865 stmts=3 shape=eb1de444
+    W[S[pc]] = W[u[pc]] - R[pc];
+    W[u[pc + 1]] = W[R[pc + 1]] * W[S[pc + 1]];
+    pc = pc + 1;
+    
+[166] SETUPVAL (conf 0.45) L5869 stmts=1 shape=e40c292c
+    W[R[pc]] = v(W[u[pc]], W[S[pc]]);
+    
+[167] SETUPVAL (conf 0.45) L5872 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]](l[pc]);
+    
+[169] CALL? (conf 0.35) L5874 stmts=1 shape=e60c2c52
+    W[S[pc]](K[pc], W[u[pc]]);
+    
+[168] SETUPVAL (conf 0.45) L5876 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = u[pc], W[R[pc]], l[pc];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t4 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t3 = t4 % 4294967296;
+    if t3 ~= t3 then
+      t6 = 0;
+    else
+      t6 = t3 - t3 % 1;
+    end
+    W[t1] = t6;
+    
+[164] SETUPVAL (conf 0.45) L5892 stmts=1 shape=e40c292c
+    W[S[pc]] = N(W[u[pc]], W[R[pc]]);
+    
+[163] ? (conf 0.1) L5893 stmts=1 shape=33591bab
+    if O then
+      local t1 = R[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+      t2 = S[pc];
+      t1 = O[t2];
+      if t1 then
+        t1[4] = t1;
+        t1[5] = W[t2];
+        t1[6] = 5;
+        O[t2] = nil;
+      end
+    end
+    
+[162] SETUPVAL (conf 0.45) L5912 stmts=1 shape=e40c292c
+    W[R[pc]] = W[S[pc] + W[u[pc]]];
+    
+[160] SETUPVAL (conf 0.45) L5916 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]] >= W[R[pc]];
+    
+[161] JMP (conf 0.85) L5918 stmts=1 shape=e40c292c
+    pc = W[u[pc]];
+    
+[159] SETUPVAL (conf 0.45) L5921 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] == S[pc];
+    
+[155] SETUPVAL (conf 0.45) L5925 stmts=1 shape=e40c292c
+    W[u[pc]] = l[pc] + W[R[pc]];
+    
+[154] COND-JMP (conf 0.45) L5926 stmts=1 shape=0e2bd8ba
+    if W[S[pc]] then
+      pc = R[pc];
+    else
+      pc = u[pc];
+    end
+    
+[156] SETUPVAL (conf 0.45) L5932 stmts=1 shape=e40c292c
+    W[u[pc]] = W[S[pc]] + W[R[pc]];
+    
+[157] SETUPVAL (conf 0.45) L5934 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] * W[S[pc]];
+    
+[158] EQ (not) (conf 0.8) L5935 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] ~= l[pc] then
+      pc = R[pc];
+    else
+      pc = pc;
+    end
+    
+[132] JMP (conf 0.85) L5944 stmts=3 shape=eb1de444
+    W[u[pc]] = W[R[pc]] * W[S[pc]];
+    W[u[pc + 1]] = W[S[pc + 1]] % R[pc + 1];
+    pc = pc + 1;
+    
+[133] SETUPVAL (conf 0.45) L5948 stmts=1 shape=e40c292c
+    W[S[pc]] = K[pc];
+    
+[136] JMP (conf 0.85) L5952 stmts=3 shape=eb1de444
+    W[S[pc]] = W[u[pc]] - R[pc];
+    W[R[pc + 1]] = W[S[pc + 1]][u[pc + 1]];
+    pc = pc + 1;
+    
+[135] SETUPVAL (conf 0.45) L5956 stmts=2 shape=078769b3
+    F = u[pc];
+    W[F], W[F + 1] = W[S[pc]], W[R[pc]];
+    
+[134] SETUPVAL (conf 0.45) L5960 stmts=1 shape=e40c292c
+    W[u[pc]] = v(l[pc], K[pc]);
+    
+[139] SETUPVAL (conf 0.45) L5965 stmts=1 shape=e40c292c
+    W[u[pc]] = W[S[pc]] > W[R[pc]];
+    
+[138] SETUPVAL (conf 0.45) L5967 stmts=1 shape=e40c292c
+    W[S[pc]] = v(W[R[pc]], x[pc]);
+    
+[137] SETUPVAL (conf 0.45) L5970 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] - W[S[pc]];
+    
+[140] LT (conf 0.8) L5973 stmts=1 shape=0e2bd8ba
+    if S[pc] < W[R[pc]] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[142] CALL? (conf 0.35) L5979 stmts=1 shape=e60c2c52
+    W[R[pc]](x[pc], B(W[S[pc]], 1, W[S[pc]].n));
+    
+[141] RETURN (conf 0.85) L5981 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6, t7 = t3 + t5, h(t5);
+            C(W, t3, t6 - 1, 1, t7);
+            t4[4] = t7;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return x[pc];
+    
+[144] SETUPVAL (conf 0.45) L6012 stmts=1 shape=e40c292c
+    W[R[pc]] = V(W[S[pc]], W[u[pc]]);
+    
+[143] SETUPVAL (conf 0.45) L6014 stmts=1 shape=e40c292c
+    W[S[pc]][R[pc]] = x[pc];
+    
+[145] SETUPVAL (conf 0.45) L6017 stmts=1 shape=e40c292c
+    W[u[pc]] = N(W[R[pc]], S[pc]);
+    
+[146] SETUPVAL (conf 0.45) L6019 stmts=1 shape=e40c292c
+    W[R[pc]] = u[pc];
+    
+[147] SETUPVAL (conf 0.45) L6021 stmts=1 shape=e40c292c
+    r[R[pc]] = W[u[pc]];
+    
+[151] SETUPVAL (conf 0.45) L6025 stmts=2 shape=078769b3
+    F = L[S[pc]];
+    W[R[pc]] = F[4][F[6]][x[pc]];
+    
+[153] SETUPVAL (conf 0.45) L6028 stmts=1 shape=e40c292c
+    W[R[pc]] = e;
+    
+[152] SETUPVAL (conf 0.45) L6030 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] // S[pc];
+    
+[148] JMP (conf 0.85) L6033 stmts=8 shape=77b3ef4b
+    F, f, a, d = S[pc], v(n, N(V(n, 14), 262143), (N(V(n, 28), 15))), R[pc], u[pc];
+    s = F < 2097152 and 7 or 14;
+    i, g = N(F, R(1, s) - 1), V(F, s);
+    u[pc] = v(d, 66, (N(f, 127)));
+    Code[pc] = v(g, 64, (N(V(f, 21), 127)));
+    S[pc] = v(i, 45, (N(V(f, 14), 127)));
+    R[pc] = v(a, 73, (N(V(f, 7), 127)));
+    pc = pc - 1;
+    
+[150] SETUPVAL (conf 0.45) L6042 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] < W[u[pc]];
+    
+[149] SETUPVAL (conf 0.45) L6044 stmts=1 shape=e40c292c
+    W[S[pc]] = h(R[pc]);
+    
+[127] SETUPVAL (conf 0.45) L6052 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]][l[pc]];
+    
+[128] CALL? (conf 0.35) L6054 stmts=3 shape=ed1de76a
+    F, f, a = R[pc], u[pc], S[pc];
+    d, s, i = F + a - 1, F + f, j(W[F](B(W, F + 1, F + f)));
+    C(i, 1, a, F, W);
+    
+[129] RETURN (conf 0.85) L6060 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6 = h(t5);
+            C(W, t3, t3 + t5 - 1, 1, t6);
+            t4[4] = t6;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return x[pc], B(W[S[pc]], 1, W[S[pc]].n);
+    
+[131] SETUPVAL (conf 0.45) L6088 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = u[pc], l[pc];
+    
+[130] SETUPVAL (conf 0.45) L6091 stmts=2 shape=078769b3
+    F = L[u[pc]];
+    W[R[pc]] = F[4][F[6]];
+    
+[124] SETUPVAL (conf 0.45) L6097 stmts=1 shape=e40c292c
+    W[u[pc]] = r;
+    
+[125] SETUPVAL (conf 0.45) L6099 stmts=1 shape=e40c292c
+    W[u[pc]] = {};
+    
+[123] SETUPVAL (conf 0.45) L6102 stmts=1 shape=e40c292c
+    W[S[pc]][K[pc]] = W[u[pc]];
+    
+[121] SETUPVAL (conf 0.45) L6105 stmts=1 shape=e40c292c
+    W[S[pc]] = t(W[u[pc]], K[pc]);
+    
+[122] SETUPVAL (conf 0.45) L6107 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] ^ W[S[pc]];
+    
+[112] SETUPVAL (conf 0.45) L6112 stmts=1 shape=e40c292c
+    W[S[pc]] = L[u[pc]][K[pc]];
+    
+[113] SETUPVAL (conf 0.45) L6114 stmts=1 shape=e40c292c
+    W[u[pc]] = j(W[S[pc]](W[R[pc]]));
+    
+[114] SETUPVAL (conf 0.45) L6116 stmts=3 shape=5b4383d6
+    f, F = R[pc], S[pc] + 1;
+    for t1 = 1, u[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      u[F] = v(u[F], (N(V(f, 0), 127)));
+      R[F] = v(R[F], (N(V(f, 7), 127)));
+      S[F] = v(S[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 126;
+    
+[110] SETUPVAL (conf 0.45) L6130 stmts=9 shape=596a1444
+    F, f, a = u[pc], S[pc], R[pc];
+    d = F + f;
+    s = W[d];
+    i = s.n;
+    g = f + i - 1;
+    s.n = g;
+    C(s, 1, i, f, s);
+    C(W, F + 1, d - 1, 1, s);
+    W[F] = j(W[F](B(s, 1, s.n)));
+    
+[111] CALL? (conf 0.35) L6140 stmts=1 shape=e60c2c52
+    W[S[pc]](K[pc], x[pc]);
+    
+[115] SETUPVAL (conf 0.45) L6144 stmts=1 shape=e40c292c
+    W[R[pc]] = L[S[pc]][u[pc]];
+    
+[116] JMP (conf 0.85) L6146 stmts=4 shape=07ec729b
+    W[S[pc]] = W[u[pc]] - R[pc];
+    W[R[pc + 1]] = W[u[pc + 1]] % W[S[pc + 1]];
+    W[R[pc + 2]] = W[S[pc + 2]][u[pc + 2]];
+    pc = pc + 2;
+    
+[117] SETUPVAL (conf 0.45) L6151 stmts=1 shape=e40c292c
+    W[u[pc]] = R[pc] * W[S[pc]];
+    
+[118] SETUPVAL (conf 0.45) L6154 stmts=1 shape=e40c292c
+    r[K[pc]] = W[S[pc]];
+    
+[119] CALL? (conf 0.35) L6156 stmts=1 shape=e60c2c52
+    W[R[pc]](B(W[S[pc]], 1, W[S[pc]].n));
+    
+[120] SETUPVAL (conf 0.45) L6158 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] * S[pc];
+    
+[90] CALL? (conf 0.35) L6164 stmts=1 shape=e60c2c52
+    W[u[pc]]();
+    
+[92] SETUPVAL (conf 0.45) L6166 stmts=1 shape=e40c292c
+    W[u[pc]] = W[S[pc]] // W[R[pc]];
+    
+[91] SETUPVAL (conf 0.45) L6168 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] / W[u[pc]];
+    
+[88] SETUPVAL (conf 0.45) L6171 stmts=1 shape=e40c292c
+    W[u[pc]][W[R[pc]]] = l[pc];
+    
+[89] RETURN (conf 0.85) L6173 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6, t7 = t3 + t5, h(t5);
+            C(W, t3, t6 - 1, 1, t7);
+            t4[4] = t7;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return;
+    
+[96] RETURN (conf 0.85) L6203 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6 = h(t5);
+            C(W, t3, t3 + t5 - 1, 1, t6);
+            t4[4] = t6;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return W[R[pc]](W[u[pc]], W[S[pc]]);
+    
+[97] SETUPVAL (conf 0.45) L6231 stmts=1 shape=e40c292c
+    W[u[pc] + W[R[pc]]] = W[S[pc]];
+    
+[98] SETUPVAL (conf 0.45) L6233 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] + u[pc];
+    
+[93] SETUPVAL (conf 0.45) L6236 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = u[pc], W[S[pc]], W[R[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t3 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t4 = t3 % 4294967296;
+    if t4 ~= t4 then
+      t2 = 0;
+    else
+      t2 = t4 - t4 % 1;
+    end
+    W[t1] = t2;
+    
+[95] SETUPVAL (conf 0.45) L6248 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]][W[R[pc]]];
+    
+[94] SETUPVAL (conf 0.45) L6250 stmts=1 shape=e40c292c
+    W[u[pc]] = W[S[pc]](W[R[pc]]);
+    
+[107] SETUPVAL (conf 0.45) L6255 stmts=1 shape=e40c292c
+    W[S[pc]] = W[u[pc]] > R[pc];
+    
+[108] SETUPVAL (conf 0.45) L6257 stmts=4 shape=bbafe699
+    local t2 = l[pc];
+    if t2 then
+      local t3 = #t2 / 3;
+      if t3 > 0 then
+        t1 = {};
+        local t4, t5 = O, J;
+        for t6 = 1, t3, 1 do
+          local t7 = (t6 - 1) * 3;
+          local t8, t9 = t2[t7 + 3], t2[t7 + 2];
+          if t8 == 1 then
+            t4 = t4 or {};
+            local t10 = t4[t9];
+            if t10 then
+            else
+              t10 = { [6] = t9, [4] = W };
+              t4[t9] = t10;
+            end
+            t1[t6] = t10;
+          elseif t8 == 2 then
+            t1[t6] = W[t9];
+          elseif t8 == 3 then
+            t1[t6] = L[t9];
+          elseif t8 == 0 then
+            t5 = t5 or {};
+            local t11 = t5[t9];
+            if t11 then
+            else
+              t11 = { [4] = W, [6] = t9, [5] = t2[t7 + 1] };
+              t5[t9] = t11;
+            end
+            t1[t6] = t11;
+          end
+        end
+        O, J = t4, t5;
+      end
+    end
+    W[R[pc]] = x[pc](t1);
+    
+[109] SETUPVAL (conf 0.45) L6296 stmts=1 shape=e40c292c
+    W[R[pc]] = u[pc] + W[S[pc]];
+    
+[105] SETUPVAL (conf 0.45) L6300 stmts=2 shape=078769b3
+    F = L[S[pc]];
+    F[4][F[6]][x[pc]] = W[R[pc]];
+    
+[106] SETUPVAL (conf 0.45) L6303 stmts=2 shape=078769b3
+    F = L[u[pc]];
+    F[4][F[6]] = W[R[pc]];
+    
+[104] ? (conf 0.1) L6307 stmts=1 shape=e40c292c
+    n = W[R[pc]];
+    
+[99..100] RETURN (conf 0.6) L6310 stmts=2 shape=d92ea61a
+    if H ~= 100 then
+      t1 = nil;
+      local t2 = l[pc];
+      if t2 then
+        local t3 = #t2 / 3;
+        if t3 > 0 then
+          t1 = {};
+          local t4, t5 = O, J;
+          for t6 = 1, t3, 1 do
+            local t7 = (t6 - 1) * 3;
+            local t8, t9 = t2[t7 + 3], t2[t7 + 2];
+            if t8 == 1 then
+              t4 = t4 or {};
+              local t10 = t4[t9];
+              if t10 then
+              else
+                t10 = { [6] = t9, [4] = W };
+                t4[t9] = t10;
+              end
+              t1[t6] = t10;
+            elseif t8 == 2 then
+              t1[t6] = W[t9];
+            elseif t8 == 3 then
+              t1[t6] = L[t9];
+            elseif t8 == 0 then
+              t5 = t5 or {};
+              local t11 = t5[t9];
+              if t11 then
+              else
+                t11 = { [4] = W, [6] = t9, [5] = t2[t7 + 1] };
+                t5[t9] = t11;
+              end
+              t1[t6] = t11;
+            end
+          end
+          O, J = t4, t5;
+        end
+      end
+      W[R[pc]] = W[u[pc]](t1);
+    else
+      if O then
+        for t12 in M, O, nil do
+          local t13 = O[t12];
+          if t13 then
+            t13[4] = t13;
+            t13[5] = W[t12];
+            t13[6] = 5;
+            O[t12] = nil;
+          end
+        end
+      end
+      if J then
+        for t14, t15 in M, J, nil do
+          local t16 = t15[5];
+          if J then
+            t15 = J[t14];
+            if t15 then
+              local t17 = h(t16);
+              C(W, t14, t14 + t16 - 1, 1, t17);
+              t15[4] = t17;
+              t15[6] = 1;
+              J[t14] = nil;
+            end
+          end
+        end
+      end
+      return W[S[pc]](B(W[u[pc]], 1, W[u[pc]].n));
+    end
+    
+[101] SETUPVAL (conf 0.45) L6380 stmts=15 shape=f65cf126
+    local t1, t2, t3 = u[pc], S[pc], D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t3, t1 = D[4], t4 + 1;
+    t4 = q(t3, t1);
+    if t4 < 128 then
+      t5, t6 = t4, t1 + 1;
+    else
+      local t7 = q(t3, t1 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t1 + 2;
+      else
+        local t8 = q(t3, t1 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t1 + 3;
+        else
+          local t9 = q(t3, t1 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t1 + 4;
+        end
+      end
+    end
+    t1, t4 = t2 * 16843009, t6 + t5;
+    local t10 = t4 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t3, t11, (v(U(t3, t11), t1)));
+    end
+    for t12 = t10, t4 - 1, 1 do
+      m(t3, t12, (v(q(t3, t12), t2)));
+    end
+    u[pc] = 117;
+    S[pc] = 159;
+    R[pc] = 192;
+    Code[pc] = 126;
+    
+[102] CALL? (conf 0.35) L6415 stmts=1 shape=e60c2c52
+    W[S[pc]](W[R[pc]]);
+    
+[103] EQ (not) (conf 0.8) L6416 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] ~= W[S[pc]] then
+      pc = R[pc];
+    else
+      pc = pc;
+    end
+    
+
+-- dispatch tree #1 @L4437 var=H kind=vm handlers=145 range=1..145
+-- roles: inst=? code=T pc=I stack=u opField=? fields=
+[7] JMP (conf 0.85) L4445 stmts=8 shape=77b3ef4b
+    F, f, a, d = v(n, N(V(n, 14), 262143), (N(V(n, 28), 15))), R[pc], S[pc], p[pc];
+    s = f < 16384 and 7 or (f < 2097152 and 14 or 21);
+    i, g = N(f, R(1, s) - 1), V(f, s);
+    Code[pc] = v(g, 40, (N(V(F, 21), 127)));
+    S[pc] = v(a, 94, (N(V(F, 7), 127)));
+    R[pc] = v(i, 3, (N(F, 127)));
+    p[pc] = v(d, 61, (N(V(F, 14), 127)));
+    pc = pc - 1;
+    
+[8] SETUPVAL (conf 0.45) L4454 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    F[4][F[6]] = K[pc];
+    
+[6] SETUPVAL (conf 0.45) L4458 stmts=1 shape=e40c292c
+    W[S[pc]] = W[p[pc]] - R[pc];
+    
+[4] SETUPVAL (conf 0.45) L4461 stmts=2 shape=078769b3
+    F = p[pc];
+    W[F], W[F + 1] = l[pc], R[pc];
+    
+[5] SETUPVAL (conf 0.45) L4464 stmts=1 shape=e40c292c
+    W[R[pc]] = not W[S[pc]];
+    
+[2] SETUPVAL (conf 0.45) L4468 stmts=1 shape=e40c292c
+    W[S[pc]] = #W[R[pc]];
+    
+[3] SETUPVAL (conf 0.45) L4470 stmts=1 shape=e40c292c
+    W[R[pc]] = W[S[pc]] <= p[pc];
+    
+[0] SETUPVAL (conf 0.45) L4473 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] ~= W[S[pc]];
+    
+[1] SETUPVAL (conf 0.45) L4475 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = S[pc], W[R[pc]], W[p[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t3 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t6 = t3 % 4294967296;
+    if t6 ~= t6 then
+      t9 = 0;
+    else
+      t9 = t6 - t6 % 1;
+    end
+    W[t1] = t9;
+    
+[16] CALL? (conf 0.35) L4491 stmts=1 shape=e60c2c52
+    W[R[pc]](W[p[pc]]);
+    
+[17] CALL? (conf 0.35) L4493 stmts=1 shape=e60c2c52
+    W[R[pc]](W[S[pc]], K[pc]);
+    
+[15] SETUPVAL (conf 0.45) L4496 stmts=3 shape=5b4383d6
+    f, F = (v(S[pc], (N(v(n, (N(V(n, 29), 7))), 536870911)))), R[pc] + 1;
+    for t1 = 1, p[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      R[F] = v(R[F], (N(V(f, 0), 127)));
+      S[F] = v(S[F], (N(V(f, 7), 127)));
+      p[F] = v(p[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 98;
+    
+[13] COND-JMP (conf 0.45) L4510 stmts=3 shape=c3ecf5fb
+    X = X + A;
+    if A <= 0 then
+      F = X >= z;
+    else
+      F = X <= z;
+    end
+    if F then
+      W[S[pc]] = X;
+      pc = R[pc];
+    else
+      pc = p[pc];
+    end
+    
+[14] SETUPVAL (conf 0.45) L4523 stmts=1 shape=e40c292c
+    W[S[pc]] = r[p[pc]];
+    
+[12] SETUPVAL (conf 0.45) L4527 stmts=1 shape=e40c292c
+    W[R[pc]] = L[p[pc]];
+    
+[11] EQ (not) (conf 0.8) L4528 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] ~= R[pc] then
+      pc = S[pc];
+    else
+      pc = pc;
+    end
+    
+[10] RETURN (conf 0.85) L4534 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6, t7 = t3 + t5 - 1, h(t5);
+            C(W, t3, t6, 1, t7);
+            t4[4] = t7;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return W[p[pc]];
+    
+[9] RETURN (conf 0.85) L4562 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6 = h(t5);
+            C(W, t3, t3 + t5 - 1, 1, t6);
+            t4[4] = t6;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return x[pc];
+    
+[36] SETUPVAL (conf 0.45) L4595 stmts=1 shape=e40c292c
+    W[R[pc]] = v(W[p[pc]], W[S[pc]]);
+    
+[35] SETUPVAL (conf 0.45) L4597 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] > W[R[pc]];
+    
+[34] SETUPVAL (conf 0.45) L4600 stmts=2 shape=078769b3
+    F = p[pc];
+    W[F], W[F + 1] = W[R[pc]], S[pc];
+    
+[32] SETUPVAL (conf 0.45) L4604 stmts=1 shape=e40c292c
+    W[p[pc] + W[R[pc]]] = W[S[pc]];
+    
+[33] SETUPVAL (conf 0.45) L4606 stmts=1 shape=e40c292c
+    W[S[pc]] = p[pc] % W[R[pc]];
+    
+[27] SETUPVAL (conf 0.45) L4610 stmts=1 shape=e40c292c
+    W[p[pc]] = {};
+    
+[28] LE (conf 0.8) L4611 stmts=1 shape=0e2bd8ba
+    if W[S[pc]] <= W[p[pc]] then
+      pc = pc;
+    else
+      pc = R[pc];
+    end
+    
+[30] CALL? (conf 0.35) L4618 stmts=1 shape=e60c2c52
+    W[p[pc]](W[S[pc]], B(W[R[pc]], 1, W[R[pc]].n));
+    
+[31] EQ (not) (conf 0.8) L4619 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] ~= x[pc] then
+      pc = S[pc];
+    else
+      pc = pc;
+    end
+    
+[29] LT (conf 0.8) L4624 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] < p[pc] then
+      pc = pc;
+    else
+      pc = S[pc];
+    end
+    
+[22] SETUPVAL (conf 0.45) L4632 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    W[p[pc]] = F[4][F[6]];
+    
+[23] SETUPVAL (conf 0.45) L4635 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] * R[pc];
+    
+[26] SETUPVAL (conf 0.45) L4639 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = W[S[pc]], W[p[pc]];
+    
+[25] SETUPVAL (conf 0.45) L4642 stmts=1 shape=e40c292c
+    W[S[pc]] = W[p[pc]][W[R[pc]]];
+    
+[24] SETUPVAL (conf 0.45) L4645 stmts=1 shape=e40c292c
+    W[R[pc]] = K[pc];
+    
+[21] SETUPVAL (conf 0.45) L4649 stmts=15 shape=f65cf126
+    local t1, t2, t3 = R[pc], v(S[pc], (N(v(n, (N(V(n, 29), 7))), 536870911))), D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t3, t1 = D[4], t4 + 1;
+    t4 = q(t3, t1);
+    if t4 < 128 then
+      t5, t6 = t4, t1 + 1;
+    else
+      local t7 = q(t3, t1 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t1 + 2;
+      else
+        local t8 = q(t3, t1 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t1 + 3;
+        else
+          local t9 = q(t3, t1 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t1 + 4;
+        end
+      end
+    end
+    t1, t4 = t2 * 16843009, t6 + t5;
+    local t10 = t4 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t3, t11, (v(U(t3, t11), t1)));
+    end
+    for t12 = t10, t4 - 1, 1 do
+      m(t3, t12, (v(q(t3, t12), t2)));
+    end
+    R[pc] = 62;
+    S[pc] = 23;
+    p[pc] = 102;
+    Code[pc] = 98;
+    
+[20] SETUPVAL (conf 0.45) L4684 stmts=1 shape=e40c292c
+    W[p[pc]][W[R[pc]]] = W[S[pc]];
+    
+[19] SETUPVAL (conf 0.45) L4687 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = S[pc], W[R[pc]], p[pc];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t5 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t3 = t5 % 4294967296;
+    if t3 ~= t3 then
+      t6 = 0;
+    else
+      t6 = t3 - t3 % 1;
+    end
+    W[t1] = t6;
+    
+[18] SETUPVAL (conf 0.45) L4699 stmts=1 shape=e40c292c
+    W[S[pc]] = R[pc];
+    
+[58] ? (conf 0.1) L4706 stmts=1 shape=e40c292c
+    e = W[R[pc]];
+    
+[59] SETUPVAL (conf 0.45) L4708 stmts=1 shape=e40c292c
+    W[S[pc]] = R[pc] + W[p[pc]];
+    
+[56] SETUPVAL (conf 0.45) L4711 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] ~= R[pc];
+    
+[57] SETUPVAL (conf 0.45) L4713 stmts=2 shape=078769b3
+    F = L[S[pc]];
+    F[4][F[6]] = W[R[pc]];
+    
+[64] JMP (conf 0.85) L4719 stmts=8 shape=77b3ef4b
+    F, f, a, d = R[pc], S[pc], p[pc], v(n, N(V(n, 14), 262143), (N(V(n, 28), 15)));
+    s = a < 2097152 and 7 or 14;
+    i, g = V(a, s), N(a, R(1, s) - 1);
+    Code[pc] = v(i, 81, (N(V(d, 21), 127)));
+    S[pc] = v(f, 18, (N(V(d, 7), 127)));
+    p[pc] = v(g, 74, (N(V(d, 14), 127)));
+    R[pc] = v(F, 24, (N(d, 127)));
+    pc = pc - 1;
+    
+[63] SETUPVAL (conf 0.45) L4728 stmts=1 shape=e40c292c
+    W[S[pc]] = p[pc] * W[R[pc]];
+    
+[62] SETUPVAL (conf 0.45) L4731 stmts=1 shape=e40c292c
+    W[R[pc]] = W[S[pc]] == W[p[pc]];
+    
+[61] SETUPVAL (conf 0.45) L4734 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] == l[pc];
+    
+[60] SETUPVAL (conf 0.45) L4736 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]](B(W[p[pc]], 1, W[p[pc]].n));
+    
+[74] SETUPVAL (conf 0.45) L4742 stmts=1 shape=e40c292c
+    W[p[pc]] = t(W[S[pc]], x[pc]);
+    
+[73] SETUPVAL (conf 0.45) L4744 stmts=1 shape=e40c292c
+    W[S[pc]] = R(W[R[pc]], p[pc]);
+    
+[72] SETUPVAL (conf 0.45) L4747 stmts=1 shape=e40c292c
+    W[R[pc]] = t(W[S[pc]], p[pc]);
+    
+[70] SETUPVAL (conf 0.45) L4750 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] - W[S[pc]];
+    
+[71] SETUPVAL (conf 0.45) L4752 stmts=1 shape=e40c292c
+    W[S[pc]] = W[p[pc]] >= W[R[pc]];
+    
+[66] SETUPVAL (conf 0.45) L4756 stmts=1 shape=e40c292c
+    W[R[pc]] = t(W[p[pc]], W[S[pc]]);
+    
+[65] SETUPVAL (conf 0.45) L4758 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    F[4][F[6]][W[p[pc]]] = S[pc];
+    
+[67] SETUPVAL (conf 0.45) L4762 stmts=1 shape=e40c292c
+    W[S[pc]] = y[K[pc]][x[pc]];
+    
+[68] SETUPVAL (conf 0.45) L4764 stmts=1 shape=e40c292c
+    W[R[pc]] = v(W[p[pc]], S[pc]);
+    
+[69] SETUPVAL (conf 0.45) L4766 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]];
+    
+[37] SETUPVAL (conf 0.45) L4772 stmts=1 shape=e40c292c
+    W[R[pc]] = W[S[pc]] + W[p[pc]];
+    
+[38] SETUPVAL (conf 0.45) L4774 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = p[pc], W[S[pc]];
+    
+[40] LT (conf 0.8) L4778 stmts=1 shape=0e2bd8ba
+    if S[pc] < W[R[pc]] then
+      pc = pc;
+    else
+      pc = p[pc];
+    end
+    
+[39] SETUPVAL (conf 0.45) L4784 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] - x[pc];
+    
+[41] SETUPVAL (conf 0.45) L4788 stmts=1 shape=e40c292c
+    W[p[pc]] = t(l[pc], W[R[pc]]);
+    
+[42] SETUPVAL (conf 0.45) L4790 stmts=1 shape=e40c292c
+    W[R[pc]] = _(W[S[pc]]);
+    
+[43] ? (conf 0.1) L4793 stmts=1 shape=0ed027fd
+    for t1 = R[pc], p[pc], 1 do
+      W[t1] = nil;
+    end
+    
+[45] SETUPVAL (conf 0.45) L4797 stmts=1 shape=e40c292c
+    W[S[pc]] = N(W[R[pc]], p[pc]);
+    
+[44] SETUPVAL (conf 0.45) L4799 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] % W[S[pc]];
+    
+[47] SETUPVAL (conf 0.45) L4804 stmts=1 shape=e40c292c
+    W[S[pc]] = W[p[pc]] / W[R[pc]];
+    
+[46] SETUPVAL (conf 0.45) L4806 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] .. W[S[pc]];
+    
+[48] SETUPVAL (conf 0.45) L4809 stmts=3 shape=eb1de444
+    F = R[pc];
+    f, a, d = W[F], W[F + 1], W[F + 2];
+    W[F] = f(a, d);
+    
+[50] SETUPVAL (conf 0.45) L4813 stmts=3 shape=eb1de444
+    F, f = p[pc], W[R[pc]];
+    W[F + 1] = f;
+    W[F] = f[l[pc]];
+    
+[49] SETUPVAL (conf 0.45) L4817 stmts=1 shape=e40c292c
+    W[R[pc]][l[pc]] = W[p[pc]];
+    
+[51] SETUPVAL (conf 0.45) L4821 stmts=1 shape=e40c292c
+    W[p[pc]] = j(W[R[pc]](W[S[pc]]));
+    
+[52] SETUPVAL (conf 0.45) L4823 stmts=1 shape=e40c292c
+    W[S[pc]] = r[x[pc]];
+    
+[54] SETUPVAL (conf 0.45) L4827 stmts=1 shape=e40c292c
+    W[R[pc]] = W[S[pc]] < p[pc];
+    
+[55] SETUPVAL (conf 0.45) L4829 stmts=1 shape=e40c292c
+    W[p[pc]] = W[R[pc]] + l[pc];
+    
+[53] RETURN (conf 0.85) L4832 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6 = h(t5);
+            C(W, t3, t3 + t5 - 1, 1, t6);
+            t4[4] = t6;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return;
+    
+[97] ? (conf 0.1) L4866 stmts=1 shape=33591bab
+    if O then
+      local t1 = S[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+      t2 = p[pc];
+      t1 = O[t2];
+      if t1 then
+        t1[4] = t1;
+        t1[5] = W[t2];
+        t1[6] = 5;
+        O[t2] = nil;
+      end
+    end
+    
+[99] CALL? (conf 0.35) L4886 stmts=3 shape=ed1de76a
+    F, f, a = S[pc], R[pc], p[pc];
+    d, s, i = F + a - 1, F + f, j(W[F](B(W, F + 1, F + f)));
+    C(i, 1, a, F, W);
+    
+[100] SETUPVAL (conf 0.45) L4890 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = R[pc], l[pc], W[p[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t5 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t6 = t5 % 4294967296;
+    if t6 ~= t6 then
+      t9 = 0;
+    else
+      t9 = t6 - t6 % 1;
+    end
+    W[t1] = t9;
+    
+[101] COND-JMP (conf 0.45) L4901 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] then
+      pc = S[pc];
+    else
+      pc = p[pc];
+    end
+    
+[93] LT (conf 0.8) L4908 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] < W[S[pc]] then
+      pc = pc;
+    else
+      pc = p[pc];
+    end
+    
+[94] SETUPVAL (conf 0.45) L4914 stmts=1 shape=e40c292c
+    W[R[pc]] = v(W[p[pc]], l[pc]);
+    
+[96] SETUPVAL (conf 0.45) L4917 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = S[pc], R[pc], W[p[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t5 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t9 = t5 % 4294967296;
+    if t9 ~= t9 then
+      t6 = 0;
+    else
+      t6 = t9 - t9 % 1;
+    end
+    W[t1] = t6;
+    
+[95] SETUPVAL (conf 0.45) L4929 stmts=1 shape=e40c292c
+    W[S[pc]] = t(R[pc], W[p[pc]]);
+    
+[106] SETUPVAL (conf 0.45) L4935 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    W[S[pc]] = F[4][F[6]][W[p[pc]]];
+    
+[105] SETUPVAL (conf 0.45) L4938 stmts=1 shape=e40c292c
+    W[S[pc]] = -W[R[pc]];
+    
+[104] SETUPVAL (conf 0.45) L4941 stmts=1 shape=e40c292c
+    W[R[pc]] = l[pc] + K[pc];
+    
+[102] SETUPVAL (conf 0.45) L4944 stmts=1 shape=e40c292c
+    W[R[pc]] = v(l[pc], K[pc]);
+    
+[103] CALL? (conf 0.35) L4946 stmts=1 shape=e60c2c52
+    W[p[pc]](x[pc]);
+    
+[107] JMP (conf 0.85) L4950 stmts=1 shape=e40c292c
+    pc = S[pc];
+    
+[108] SETUPVAL (conf 0.45) L4952 stmts=1 shape=e40c292c
+    W[S[pc]] = h(R[pc]);
+    
+[109] SETUPVAL (conf 0.45) L4955 stmts=1 shape=e40c292c
+    W[p[pc]] = V(W[R[pc]], S[pc]);
+    
+[111] SETUPVAL (conf 0.45) L4957 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] .. x[pc];
+    
+[110] SETUPVAL (conf 0.45) L4959 stmts=3 shape=5b4383d6
+    f, F = p[pc], R[pc] + 1;
+    for t1 = 1, S[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      R[F] = v(R[F], (N(V(f, 0), 127)));
+      S[F] = v(S[F], (N(V(f, 7), 127)));
+      p[F] = v(p[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 98;
+    
+[92] SETUPVAL (conf 0.45) L4977 stmts=2 shape=078769b3
+    F = L[S[pc]];
+    W[R[pc]] = F[4][F[6]][p[pc]];
+    
+[91] CALL? (conf 0.35) L4980 stmts=1 shape=e60c2c52
+    W[R[pc]](B(W[p[pc]], 1, W[p[pc]].n));
+    
+[90] SETUPVAL (conf 0.45) L4983 stmts=2 shape=078769b3
+    F = p[pc];
+    W[F], W[F + 1] = R[pc], S[pc];
+    
+[88] SETUPVAL (conf 0.45) L4987 stmts=2 shape=078769b3
+    F = L[S[pc]];
+    W[p[pc]] = F[4][F[6]][x[pc]];
+    
+[89] SETUPVAL (conf 0.45) L4990 stmts=3 shape=5b4383d6
+    f, F = (v(S[pc], (N(v(e, (N(V(e, 29), 7))), 536870911)))), R[pc] + 1;
+    for t1 = 1, p[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      R[F] = v(R[F], (N(V(f, 0), 127)));
+      S[F] = v(S[F], (N(V(f, 7), 127)));
+      p[F] = v(p[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 98;
+    
+[84] SETUPVAL (conf 0.45) L5005 stmts=15 shape=f65cf126
+    local t1, t2, t3 = p[pc], R[pc], D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t1, t3 = D[4], t4 + 1;
+    t4 = q(t1, t3);
+    if t4 < 128 then
+      t5, t6 = t4, t3 + 1;
+    else
+      local t7 = q(t1, t3 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t3 + 2;
+      else
+        local t8 = q(t1, t3 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t3 + 3;
+        else
+          local t9 = q(t1, t3 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t3 + 4;
+        end
+      end
+    end
+    t3, t4 = t2 * 16843009, t6 + t5;
+    local t10 = t4 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t1, t11, (v(U(t1, t11), t3)));
+    end
+    for t12 = t10, t4 - 1, 1 do
+      m(t1, t12, (v(q(t1, t12), t2)));
+    end
+    p[pc] = 47;
+    R[pc] = 71;
+    S[pc] = 158;
+    Code[pc] = 98;
+    
+[85] SETUPVAL (conf 0.45) L5040 stmts=1 shape=e40c292c
+    W[R[pc]] = n;
+    
+[86] SETUPVAL (conf 0.45) L5043 stmts=2 shape=078769b3
+    F = L[p[pc]];
+    F[4][F[6]][W[S[pc]]] = W[R[pc]];
+    
+[87] SETUPVAL (conf 0.45) L5046 stmts=4 shape=9a4846b9
+    local t1, t2, t3 = R[pc], W[p[pc]];
+    local t4 = t2 % 4294967296;
+    if t4 ~= t4 then
+      t3 = 0;
+    else
+      t3 = t4 - t4 % 1;
+    end
+    W[t1] = t3;
+    
+[79] SETUPVAL (conf 0.45) L5058 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]]();
+    
+[80] SETUPVAL (conf 0.45) L5060 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] <= W[p[pc]];
+    
+[81] SETUPVAL (conf 0.45) L5063 stmts=1 shape=e40c292c
+    W[R[pc]] = S[pc] - W[p[pc]];
+    
+[83] SETUPVAL (conf 0.45) L5065 stmts=1 shape=e40c292c
+    W[S[pc]] = W[R[pc]] == p[pc];
+    
+[82] SETUPVAL (conf 0.45) L5067 stmts=1 shape=e40c292c
+    W[p[pc]][S[pc]] = W[R[pc]];
+    
+[77] SETUPVAL (conf 0.45) L5071 stmts=1 shape=e40c292c
+    W[S[pc]] = e;
+    
+[78] SETUPVAL (conf 0.45) L5073 stmts=1 shape=e40c292c
+    W[S[pc]] = W[p[pc]] // W[R[pc]];
+    
+[76] SETUPVAL (conf 0.45) L5076 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = p[pc], W[S[pc]], x[pc];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t4 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t6 = t4 % 4294967296;
+    if t6 ~= t6 then
+      t9 = 0;
+    else
+      t9 = t6 - t6 % 1;
+    end
+    W[t1] = t9;
+    
+[75] ? (conf 0.1) L5088 stmts=2 shape=078769b3
+    X, z, A, Z = P[9], P[8], P[5], P[7];
+    P = P[6];
+    
+[131] SETUPVAL (conf 0.45) L5096 stmts=1 shape=e40c292c
+    W[p[pc]] = W[R[pc]] + S[pc];
+    
+[132] SETUPVAL (conf 0.45) L5098 stmts=1 shape=e40c292c
+    W[R[pc]] = N(W[p[pc]], l[pc]);
+    
+[134] SETUPVAL (conf 0.45) L5101 stmts=1 shape=e40c292c
+    W[p[pc]] = W[R[pc]] / S[pc];
+    
+[133] SETUPVAL (conf 0.45) L5103 stmts=1 shape=e40c292c
+    W[S[pc]] = x[pc] + W[p[pc]];
+    
+[139] SETUPVAL (conf 0.45) L5108 stmts=15 shape=f65cf126
+    local t1, t2, t3 = R[pc], v(S[pc], (N(v(e, (N(V(e, 29), 7))), 536870911))), D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t1, t3 = D[4], t4 + 1;
+    t4 = q(t1, t3);
+    if t4 < 128 then
+      t5, t6 = t4, t3 + 1;
+    else
+      local t7 = q(t1, t3 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t3 + 2;
+      else
+        local t8 = q(t1, t3 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t3 + 3;
+        else
+          local t9 = q(t1, t3 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t3 + 4;
+        end
+      end
+    end
+    t4, t3 = t2 * 16843009, t6 + t5;
+    local t10 = t3 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t1, t11, (v(U(t1, t11), t4)));
+    end
+    for t12 = t10, t3 - 1, 1 do
+      m(t1, t12, (v(q(t1, t12), t2)));
+    end
+    R[pc] = 77;
+    S[pc] = 134;
+    p[pc] = 118;
+    Code[pc] = 98;
+    
+[138] LE (conf 0.8) L5142 stmts=1 shape=0e2bd8ba
+    if p[pc] <= W[S[pc]] then
+      pc = pc;
+    else
+      pc = R[pc];
+    end
+    
+[137] JMP (conf 0.85) L5148 stmts=4 shape=07ec729b
+    P, F = { [5] = A, [9] = X, [6] = P, [8] = z, [7] = Z }, p[pc];
+    A, z = W[F + 2] + 0, W[F + 1] + 0;
+    X = W[F] - A;
+    pc = R[pc];
+    
+[136] CALL? (conf 0.35) L5154 stmts=1 shape=e60c2c52
+    W[S[pc]]();
+    
+[135] SETUPVAL (conf 0.45) L5156 stmts=4 shape=bbafe699
+    local t2 = l[pc];
+    if t2 then
+      local t3 = #t2 / 3;
+      if t3 > 0 then
+        t1 = {};
+        local t4, t5 = O, J;
+        for t6 = 1, t3, 1 do
+          local t7 = (t6 - 1) * 3;
+          local t8, t9 = t2[t7 + 3], t2[t7 + 2];
+          if t8 == 1 then
+            t4 = t4 or {};
+            local t10 = t4[t9];
+            if t10 then
+            else
+              t10 = { [6] = t9, [4] = W };
+              t4[t9] = t10;
+            end
+            t1[t6] = t10;
+          elseif t8 == 2 then
+            t1[t6] = W[t9];
+          elseif t8 == 3 then
+            t1[t6] = L[t9];
+          elseif t8 == 0 then
+            t5 = t5 or {};
+            local t11 = t5[t9];
+            if t11 then
+            else
+              t11 = { [4] = W, [6] = t9, [5] = t2[t7 + 1] };
+              t5[t9] = t11;
+            end
+            t1[t6] = t11;
+          end
+        end
+        O, J = t4, t5;
+      end
+    end
+    W[p[pc]] = x[pc](t1);
+    
+[140] SETUPVAL (conf 0.45) L5198 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]][l[pc]];
+    
+[141] CALL? (conf 0.35) L5200 stmts=1 shape=e60c2c52
+    W[R[pc]](l[pc], K[pc]);
+    
+[143] SETUPVAL (conf 0.45) L5204 stmts=1 shape=e40c292c
+    r[p[pc]] = W[R[pc]];
+    
+[144] SETUPVAL (conf 0.45) L5206 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]][R[pc]];
+    
+[142] EQ (not) (conf 0.8) L5208 stmts=1 shape=0e2bd8ba
+    if W[S[pc]] ~= W[R[pc]] then
+      pc = p[pc];
+    else
+      pc = pc;
+    end
+    
+[145..146] LTK (conf 0.8) L5214 stmts=2 shape=ccdb9c0e
+    if H < 147 then
+      if H ~= 146 then
+        W[R[pc]] = y[l[pc]];
+      else
+        Q = S[pc];
+        pc = R[pc] + 1;
+        break;
+      end
+    elseif H >= 148 then
+      if H == 149 then
+        W[S[pc]] = W[R[pc]] * W[p[pc]];
+      else
+        F = L[S[pc]];
+        F[4][F[6]][K[pc]] = W[R[pc]];
+      end
+    else
+      W[p[pc]] = N(W[R[pc]], W[S[pc]]);
+    end
+    pc = pc;
+    
+[130] SETUPVAL (conf 0.45) L5239 stmts=1 shape=e40c292c
+    W[R[pc]][l[pc]] = K[pc];
+    
+[129] LE (conf 0.8) L5240 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] <= R[pc] then
+      pc = pc;
+    else
+      pc = S[pc];
+    end
+    
+[128] SETUPVAL (conf 0.45) L5246 stmts=2 shape=078769b3
+    F = S[pc];
+    W[F], W[F + 1] = p[pc], x[pc];
+    
+[126] SETUPVAL (conf 0.45) L5250 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] >= R[pc];
+    
+[127] SETUPVAL (conf 0.45) L5252 stmts=3 shape=eb1de444
+    F, f, a = R[pc], p[pc], S[pc];
+    d = F + f;
+    W[F] = j(W[F](B(W, F + 1, d)));
+    
+[123] COND-JMP (conf 0.45) L5258 stmts=1 shape=0e2bd8ba
+    if W[S[pc]] then
+      pc = R[pc];
+    else
+      pc = p[pc];
+    end
+    
+[124] JMP (conf 0.85) L5264 stmts=1 shape=e40c292c
+    pc = W[p[pc]];
+    
+[125] CALL? (conf 0.35) L5266 stmts=1 shape=e60c2c52
+    W[p[pc]](x[pc], W[S[pc]]);
+    
+[121] SETUPVAL (conf 0.45) L5269 stmts=1 shape=e40c292c
+    W[R[pc]] = l[pc] .. W[p[pc]];
+    
+[122] CALL? (conf 0.35) L5271 stmts=3 shape=ed1de76a
+    F, f, a = R[pc], p[pc], S[pc];
+    d = W[F];
+    C(W, F + 1, F + f, a + 1, d);
+    
+[116] SETUPVAL (conf 0.45) L5278 stmts=2 shape=078769b3
+    F = p[pc];
+    W[F], W[F + 1] = x[pc], l[pc];
+    
+[117] CALL? (conf 0.35) L5281 stmts=1 shape=e60c2c52
+    W[S[pc]](W[p[pc]], W[R[pc]]);
+    
+[118] ? (conf 0.1) L5284 stmts=1 shape=e40c292c
+    n = W[S[pc]];
+    
+[119] SETUPVAL (conf 0.45) L5286 stmts=1 shape=e40c292c
+    W[p[pc]] = W[R[pc]] % l[pc];
+    
+[120] SETUPVAL (conf 0.45) L5288 stmts=1 shape=e40c292c
+    W[S[pc]] = L[p[pc]][R[pc]];
+    
+[113] SETUPVAL (conf 0.45) L5292 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]](W[S[pc]]);
+    
+[112] SETUPVAL (conf 0.45) L5294 stmts=1 shape=e40c292c
+    W[S[pc]][W[R[pc]]] = p[pc];
+    
+[115] ? (conf 0.1) L5297 stmts=1 shape=a30d3185
+    if O then
+      local t1 = S[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+    end
+    
+[114] SETUPVAL (conf 0.45) L5308 stmts=1 shape=e40c292c
+    W[p[pc]] = W[S[pc]] % R[pc];
+    
+
+-- dispatch tree #2 @L3711 var=H kind=vm handlers=119 range=1..125
+-- roles: inst=? code=T pc=I stack=S opField=? fields=
+[15] SETUPVAL (conf 0.45) L3718 stmts=15 shape=f65cf126
+    local t1, t2, t3 = R[pc], v(p[pc], (N(v(e, (N(V(e, 29), 7))), 536870911))), D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t1, t3 = D[4], t4 + 1;
+    t4 = q(t1, t3);
+    if t4 < 128 then
+      t5, t6 = t4, t3 + 1;
+    else
+      local t7 = q(t1, t3 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t3 + 2;
+      else
+        local t8 = q(t1, t3 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t3 + 3;
+        else
+          local t9 = q(t1, t3 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t3 + 4;
+        end
+      end
+    end
+    t4, t3 = t2 * 16843009, t6 + t5;
+    local t10 = t3 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t1, t11, (v(U(t1, t11), t4)));
+    end
+    for t12 = t10, t3 - 1, 1 do
+      m(t1, t12, (v(q(t1, t12), t2)));
+    end
+    R[pc] = 0;
+    p[pc] = 107;
+    u[pc] = 116;
+    Code[pc] = 18;
+    
+[16] SETUPVAL (conf 0.45) L3753 stmts=1 shape=e40c292c
+    W[R[pc]] = h(u[pc]);
+    
+[18] ? (conf 0) L3755 stmts=0 shape=811c9dc5
+[17] SETUPVAL (conf 0.45) L3757 stmts=2 shape=078769b3
+    F = L[u[pc]];
+    F[4][F[6]][W[R[pc]]] = W[p[pc]];
+    
+[20] SETUPVAL (conf 0.45) L3762 stmts=1 shape=e40c292c
+    W[p[pc]] = W[u[pc]] ~= R[pc];
+    
+[19] JMP (conf 0.85) L3764 stmts=8 shape=77b3ef4b
+    F, f, a, d = p[pc], R[pc], v(n, N(V(n, 14), 262143), (N(V(n, 28), 15))), u[pc];
+    s = f < 16384 and 7 or (f < 2097152 and 14 or 21);
+    i, g = N(f, R(1, s) - 1), V(f, s);
+    Code[pc] = v(g, 37, (N(V(a, 21), 127)));
+    u[pc] = v(d, 69, (N(V(a, 14), 127)));
+    p[pc] = v(F, 38, (N(V(a, 7), 127)));
+    R[pc] = v(i, 68, (N(a, 127)));
+    pc = pc - 1;
+    
+[21] SETUPVAL (conf 0.45) L3774 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]]();
+    
+[22] JMP (conf 0.85) L3776 stmts=1 shape=e40c292c
+    pc = u[pc];
+    
+[29] SETUPVAL (conf 0.45) L3781 stmts=1 shape=e40c292c
+    W[p[pc]] = R[pc] + W[u[pc]];
+    
+[30] SETUPVAL (conf 0.45) L3783 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    W[p[pc]] = F[4][F[6]][W[u[pc]]];
+    
+[28] SETUPVAL (conf 0.45) L3787 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    F[4][F[6]] = W[u[pc]];
+    
+[27] SETUPVAL (conf 0.45) L3790 stmts=1 shape=e40c292c
+    W[u[pc]] = -W[R[pc]];
+    
+[25] SETUPVAL (conf 0.45) L3794 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] + K[pc];
+    
+[26] SETUPVAL (conf 0.45) L3796 stmts=1 shape=e40c292c
+    W[u[pc]] = W[p[pc]] + R[pc];
+    
+[23] LT (conf 0.8) L3799 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] < W[R[pc]] then
+      pc = pc;
+    else
+      pc = p[pc];
+    end
+    
+[24] SETUPVAL (conf 0.45) L3805 stmts=1 shape=e40c292c
+    W[p[pc]] = u;
+    
+[12] SETUPVAL (conf 0.45) L3811 stmts=1 shape=e40c292c
+    W[u[pc]] = {};
+    
+[11] CALL? (conf 0.35) L3813 stmts=1 shape=e60c2c52
+    W[R[pc]](W[p[pc]]);
+    
+[13] SETUPVAL (conf 0.45) L3816 stmts=15 shape=f65cf126
+    local t1, t2, t3 = R[pc], v(p[pc], (N(v(n, (N(V(n, 29), 7))), 536870911))), D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t3, t1 = D[4], t4 + 1;
+    t4 = q(t3, t1);
+    if t4 < 128 then
+      t5, t6 = t4, t1 + 1;
+    else
+      local t7 = q(t3, t1 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t1 + 2;
+      else
+        local t8 = q(t3, t1 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t1 + 3;
+        else
+          local t9 = q(t3, t1 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t1 + 4;
+        end
+      end
+    end
+    t4, t1 = t2 * 16843009, t6 + t5;
+    local t10 = t1 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t3, t11, (v(U(t3, t11), t4)));
+    end
+    for t12 = t10, t1 - 1, 1 do
+      m(t3, t12, (v(q(t3, t12), t2)));
+    end
+    R[pc] = 97;
+    p[pc] = 136;
+    u[pc] = 120;
+    Code[pc] = 18;
+    
+[14] SETUPVAL (conf 0.45) L3851 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] - K[pc];
+    
+[10] SETUPVAL (conf 0.45) L3855 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] / u[pc];
+    
+[9] SETUPVAL (conf 0.45) L3857 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] + W[p[pc]];
+    
+[8] SETUPVAL (conf 0.45) L3860 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = u[pc], W[p[pc]];
+    
+[7] SETUPVAL (conf 0.45) L3863 stmts=4 shape=bbafe699
+    local t2 = K[pc];
+    if t2 then
+      local t3 = #t2 / 3;
+      if t3 > 0 then
+        t1 = {};
+        local t4, t5 = O, J;
+        for t6 = 1, t3, 1 do
+          local t7 = (t6 - 1) * 3;
+          local t8, t9 = t2[t7 + 3], t2[t7 + 2];
+          if t8 == 1 then
+            t4 = t4 or {};
+            local t10 = t4[t9];
+            if t10 then
+            else
+              t10 = { [6] = t9, [4] = W };
+              t4[t9] = t10;
+            end
+            t1[t6] = t10;
+          elseif t8 == 2 then
+            t1[t6] = W[t9];
+          elseif t8 == 3 then
+            t1[t6] = L[t9];
+          elseif t8 == 0 then
+            t5 = t5 or {};
+            local t11 = t5[t9];
+            if t11 then
+            else
+              t11 = { [4] = W, [6] = t9, [5] = t2[t7 + 1] };
+              t5[t9] = t11;
+            end
+            t1[t6] = t11;
+          end
+        end
+        O, J = t4, t5;
+      end
+    end
+    W[u[pc]] = l[pc](t1);
+    
+[0] SETUPVAL (conf 0.45) L3904 stmts=3 shape=eb1de444
+    F, f, a = R[pc], u[pc], p[pc];
+    d = F + f;
+    W[F] = j(W[F](B(W, F + 1, d)));
+    
+[1] SETUPVAL (conf 0.45) L3908 stmts=1 shape=e40c292c
+    W[R[pc]][W[u[pc]]] = W[p[pc]];
+    
+[2] COND-JMP (conf 0.45) L3910 stmts=3 shape=fb8cf6e3
+    F = R[pc];
+    local t1, t2, t3 = X();
+    if t1 then
+      W[F + 1] = t2;
+      W[F + 2] = t3;
+      pc = u[pc];
+    else
+      pc = p[pc];
+    end
+    
+[4] SETUPVAL (conf 0.45) L3922 stmts=1 shape=e40c292c
+    W[u[pc]] = W[p[pc]](W[R[pc]]);
+    
+[3] SETUPVAL (conf 0.45) L3924 stmts=2 shape=078769b3
+    F = L[p[pc]];
+    F[4][F[6]][u[pc]] = W[R[pc]];
+    
+[5] SETUPVAL (conf 0.45) L3928 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    F[4][F[6]] = x[pc];
+    
+[6] SETUPVAL (conf 0.45) L3931 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] // W[p[pc]];
+    
+[56] CALL? (conf 0.35) L3938 stmts=1 shape=e60c2c52
+    W[R[pc]](K[pc], x[pc]);
+    
+[55] EQ (not) (conf 0.8) L3939 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] ~= p[pc] then
+      pc = u[pc];
+    else
+      pc = pc;
+    end
+    
+[58] SETUPVAL (conf 0.45) L3945 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]][p[pc]];
+    
+[57] SETUPVAL (conf 0.45) L3947 stmts=1 shape=e40c292c
+    W[R[pc]][u[pc]] = p[pc];
+    
+[59] LE (conf 0.8) L3951 stmts=1 shape=0e2bd8ba
+    if p[pc] <= W[R[pc]] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[60] SETUPVAL (conf 0.45) L3957 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] >= W[p[pc]];
+    
+[62] SETUPVAL (conf 0.45) L3960 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = p[pc], W[R[pc]], W[u[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t2 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t7 = t2 % 4294967296;
+    if t7 ~= t7 then
+      t6 = 0;
+    else
+      t6 = t7 - t7 % 1;
+    end
+    W[t1] = t6;
+    
+[61] SETUPVAL (conf 0.45) L3972 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = p[pc], u[pc];
+    
+[54] SETUPVAL (conf 0.45) L3978 stmts=1 shape=e40c292c
+    W[u[pc]] = W[p[pc]] % l[pc];
+    
+[53] SETUPVAL (conf 0.45) L3980 stmts=1 shape=e40c292c
+    W[R[pc]] = K[pc];
+    
+[52] SETUPVAL (conf 0.45) L3983 stmts=1 shape=e40c292c
+    W[p[pc]] = W[u[pc]](l[pc]);
+    
+[51] SETUPVAL (conf 0.45) L3985 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] * W[p[pc]];
+    
+[48] SETUPVAL (conf 0.45) L3989 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]][W[u[pc]]];
+    
+[47] SETUPVAL (conf 0.45) L3991 stmts=1 shape=e40c292c
+    W[u[pc]] = L[p[pc]][l[pc]];
+    
+[50] SETUPVAL (conf 0.45) L3994 stmts=3 shape=5b4383d6
+    f, F = (v(p[pc], (N(v(n, (N(V(n, 29), 7))), 536870911)))), R[pc] + 1;
+    for t1 = 1, u[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      R[F] = v(R[F], (N(V(f, 0), 127)));
+      p[F] = v(p[F], (N(V(f, 7), 127)));
+      u[F] = v(u[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 18;
+    
+[49] SETUPVAL (conf 0.45) L4007 stmts=1 shape=e40c292c
+    W[u[pc]][l[pc]] = W[p[pc]];
+    
+[39..46] LTK (conf 0.8) L4010 stmts=2 shape=a0111e36
+    if H < 43 then
+      if H >= 41 then
+        if H == 42 then
+          W[R[pc]] = p;
+        else
+          W[u[pc]] = p[pc] - W[R[pc]];
+        end
+      elseif H == 40 then
+        Q = u[pc];
+        pc = R[pc] + 1;
+        break;
+      else
+        W[p[pc]] = u[pc];
+      end
+    elseif H < 45 then
+      if H ~= 44 then
+        W[u[pc]] = r[R[pc]];
+      else
+        W[u[pc]] = N(W[p[pc]], W[R[pc]]);
+      end
+    elseif H == 46 then
+      W[R[pc]] = W[u[pc]] * p[pc];
+    else
+      F = L[u[pc]];
+      W[p[pc]] = F[4][F[6]];
+    end
+    pc = pc;
+    
+[36] SETUPVAL (conf 0.45) L4040 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] // u[pc];
+    
+[35] JMP (conf 0.85) L4042 stmts=4 shape=67203989
+    P, F, f = { [5] = A, [9] = X, [6] = P, [8] = z, [7] = Z }, u[pc], b(w);
+    f(r, W[F], W[F + 1], W[F + 2]);
+    Z = p[pc];
+    pc, X = R[pc], f;
+    
+[38] SETUPVAL (conf 0.45) L4048 stmts=1 shape=e40c292c
+    W[R[pc]] = Code;
+    
+[37] SETUPVAL (conf 0.45) L4050 stmts=1 shape=e40c292c
+    W[R[pc]] = t(W[p[pc]], W[u[pc]]);
+    
+[34] SETUPVAL (conf 0.45) L4054 stmts=1 shape=e40c292c
+    W[R[pc]][x[pc]] = K[pc];
+    
+[33] SETUPVAL (conf 0.45) L4056 stmts=3 shape=5b4383d6
+    f, F = R[pc], p[pc] + 1;
+    for t1 = 1, u[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      R[F] = v(R[F], (N(V(f, 0), 127)));
+      p[F] = v(p[F], (N(V(f, 7), 127)));
+      u[F] = v(u[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 18;
+    
+[31] COND-JMP (conf 0.45) L4070 stmts=3 shape=c3ecf5fb
+    X = X + A;
+    if A <= 0 then
+      F = X >= z;
+    else
+      F = X <= z;
+    end
+    if F then
+      W[p[pc]] = X;
+      pc = u[pc];
+    else
+      pc = R[pc];
+    end
+    
+[32] SETUPVAL (conf 0.45) L4083 stmts=1 shape=e40c292c
+    W[R[pc]] = n;
+    
+[90] ? (conf 0.1) L4091 stmts=1 shape=e40c292c
+    e = W[R[pc]];
+    
+[91] JMP (conf 0.85) L4093 stmts=1 shape=e40c292c
+    pc = W[p[pc]];
+    
+[93] SETUPVAL (conf 0.45) L4096 stmts=1 shape=e40c292c
+    W[p[pc]] = L[u[pc]];
+    
+[92] SETUPVAL (conf 0.45) L4098 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] <= p[pc];
+    
+[87] ? (conf 0.1) L4102 stmts=1 shape=33591bab
+    if O then
+      local t1 = p[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+      t2 = u[pc];
+      t1 = O[t2];
+      if t1 then
+        t1[4] = t1;
+        t1[5] = W[t2];
+        t1[6] = 5;
+        O[t2] = nil;
+      end
+    end
+    
+[86] SETUPVAL (conf 0.45) L4121 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] - p[pc];
+    
+[89] JMP (conf 0.85) L4124 stmts=8 shape=77b3ef4b
+    F, f, a, d = v(n, N(V(n, 14), 262143), (N(V(n, 28), 15))), p[pc], R[pc], u[pc];
+    s = f < 2097152 and 7 or 14;
+    i, g = N(f, R(1, s) - 1), V(f, s);
+    R[pc] = v(a, 78, (N(F, 127)));
+    Code[pc] = v(g, 71, (N(V(F, 21), 127)));
+    p[pc] = v(i, 110, (N(V(F, 7), 127)));
+    u[pc] = v(d, 82, (N(V(F, 14), 127)));
+    pc = pc - 1;
+    
+[88] JMP (conf 0.85) L4133 stmts=4 shape=07ec729b
+    P, F = { [5] = A, [9] = X, [6] = P, [8] = z, [7] = Z }, u[pc];
+    A, z = W[F + 2] + 0, W[F + 1] + 0;
+    X = W[F] - A;
+    pc = p[pc];
+    
+[83] SETUPVAL (conf 0.45) L4141 stmts=1 shape=e40c292c
+    W[p[pc]] = u[pc] * W[R[pc]];
+    
+[82] SETUPVAL (conf 0.45) L4143 stmts=1 shape=e40c292c
+    W[R[pc]] = r;
+    
+[85] SETUPVAL (conf 0.45) L4146 stmts=1 shape=e40c292c
+    W[R[pc]] = R;
+    
+[84] SETUPVAL (conf 0.45) L4148 stmts=1 shape=e40c292c
+    W[R[pc]][p[pc]] = W[u[pc]];
+    
+[80] SETUPVAL (conf 0.45) L4152 stmts=1 shape=e40c292c
+    W[u[pc]] = K[pc] .. W[R[pc]];
+    
+[81] SETUPVAL (conf 0.45) L4154 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]];
+    
+[79] SETUPVAL (conf 0.45) L4157 stmts=2 shape=078769b3
+    F = L[u[pc]];
+    W[p[pc]] = F[4][F[6]][R[pc]];
+    
+[78] SETUPVAL (conf 0.45) L4160 stmts=1 shape=e40c292c
+    W[p[pc]] = W[u[pc]] % R[pc];
+    
+[77] SETUPVAL (conf 0.45) L4166 stmts=1 shape=e40c292c
+    W[R[pc]] = v(W[p[pc]], W[u[pc]]);
+    
+[76] SETUPVAL (conf 0.45) L4168 stmts=1 shape=e40c292c
+    W[u[pc]] = v(W[p[pc]], R[pc]);
+    
+[74] SETUPVAL (conf 0.45) L4171 stmts=1 shape=e40c292c
+    W[p[pc]] = D;
+    
+[75] SETUPVAL (conf 0.45) L4173 stmts=2 shape=078769b3
+    F = u[pc];
+    W[F], W[F + 1] = W[p[pc]], W[R[pc]];
+    
+[71] SETUPVAL (conf 0.45) L4178 stmts=1 shape=e40c292c
+    W[p[pc]] = #W[u[pc]];
+    
+[70] CALL? (conf 0.35) L4180 stmts=1 shape=e60c2c52
+    W[p[pc]](W[R[pc]], W[u[pc]]);
+    
+[72] SETUPVAL (conf 0.45) L4183 stmts=1 shape=e40c292c
+    W[p[pc]] = j(W[R[pc]](W[u[pc]]));
+    
+[73] SETUPVAL (conf 0.45) L4185 stmts=1 shape=e40c292c
+    W[u[pc]] = W[p[pc]][l[pc]];
+    
+[65] CALL? (conf 0.35) L4190 stmts=3 shape=ed1de76a
+    F, f, a = R[pc], u[pc], p[pc];
+    d, s, i = F + a - 1, F + f, j(W[F](B(W, F + 1, F + f)));
+    C(i, 1, a, F, W);
+    
+[64] CALL? (conf 0.35) L4194 stmts=3 shape=ed1de76a
+    F, f, a = p[pc], u[pc], R[pc];
+    d = W[F];
+    C(W, F + 1, F + f, a + 1, d);
+    
+[63] LE (conf 0.8) L4198 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] <= p[pc] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[67] SETUPVAL (conf 0.45) L4205 stmts=1 shape=e40c292c
+    W[R[pc]] = not W[p[pc]];
+    
+[66] SETUPVAL (conf 0.45) L4207 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    F[4][F[6]][K[pc]] = W[u[pc]];
+    
+[69] SETUPVAL (conf 0.45) L4211 stmts=3 shape=eb1de444
+    F, f = R[pc], W[p[pc]];
+    W[F + 1] = f;
+    W[F] = f[x[pc]];
+    
+[68] CALL? (conf 0.35) L4215 stmts=1 shape=e60c2c52
+    W[u[pc]](W[R[pc]], B(W[p[pc]], 1, W[p[pc]].n));
+    
+[115] SETUPVAL (conf 0.45) L4222 stmts=2 shape=078769b3
+    F = L[p[pc]];
+    F[4][F[6]][W[R[pc]]] = x[pc];
+    
+[114] SETUPVAL (conf 0.45) L4225 stmts=1 shape=e40c292c
+    W[p[pc]] = e;
+    
+[116] SETUPVAL (conf 0.45) L4228 stmts=1 shape=e40c292c
+    W[R[pc]] = x[pc] + K[pc];
+    
+[117] COND-JMP (conf 0.45) L4229 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] then
+      pc = u[pc];
+    else
+      pc = p[pc];
+    end
+    
+[113] COND-JMP (conf 0.45) L4236 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] then
+      pc = p[pc];
+    else
+      pc = u[pc];
+    end
+    
+[112] SETUPVAL (conf 0.45) L4242 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = p[pc], W[R[pc]], u[pc];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t5 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t3 = t5 % 4294967296;
+    if t3 ~= t3 then
+      t4 = 0;
+    else
+      t4 = t3 - t3 % 1;
+    end
+    W[t1] = t4;
+    
+[111] ? (conf 0.1) L4255 stmts=1 shape=e40c292c
+    n = W[p[pc]];
+    
+[110] SETUPVAL (conf 0.45) L4257 stmts=1 shape=e40c292c
+    W[u[pc]] = W[p[pc]] .. W[R[pc]];
+    
+[119] SETUPVAL (conf 0.45) L4262 stmts=1 shape=e40c292c
+    W[u[pc]] = L[p[pc]][R[pc]];
+    
+[118] EQ (not) (conf 0.8) L4263 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] ~= x[pc] then
+      pc = R[pc];
+    else
+      pc = pc;
+    end
+    
+[120] SETUPVAL (conf 0.45) L4269 stmts=15 shape=f65cf126
+    local t1, t2, t3 = u[pc], p[pc], D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t1, t3 = D[4], t4 + 1;
+    t4 = q(t1, t3);
+    if t4 < 128 then
+      t5, t6 = t4, t3 + 1;
+    else
+      local t7 = q(t1, t3 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t3 + 2;
+      else
+        local t8 = q(t1, t3 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t3 + 3;
+        else
+          local t9 = q(t1, t3 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t3 + 4;
+        end
+      end
+    end
+    t3, t4 = t2 * 16843009, t6 + t5;
+    local t10 = t4 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t1, t11, (v(U(t1, t11), t3)));
+    end
+    for t12 = t10, t4 - 1, 1 do
+      m(t1, t12, (v(q(t1, t12), t2)));
+    end
+    u[pc] = 55;
+    p[pc] = 150;
+    R[pc] = 61;
+    Code[pc] = 18;
+    
+[121] SETUPVAL (conf 0.45) L4304 stmts=2 shape=078769b3
+    F = L[p[pc]];
+    W[u[pc]] = F[4][F[6]][l[pc]];
+    
+[124,126] SETUPVAL (conf 0.45) L4309 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] ~= W[p[pc]];
+    
+[125] ? (conf 0.1) L4311 stmts=2 shape=078769b3
+    X, z, A, Z = P[9], P[8], P[5], P[7];
+    P = P[6];
+    
+[123] ? (conf 0.1) L4315 stmts=1 shape=a30d3185
+    if O then
+      local t1 = u[pc];
+      local t2 = O[t1];
+      if t2 then
+        t2[4] = t2;
+        t2[5] = W[t1];
+        t2[6] = 5;
+        O[t1] = nil;
+      end
+    end
+    
+[122] SETUPVAL (conf 0.45) L4326 stmts=2 shape=078769b3
+    F = u[pc];
+    W[F], W[F + 1] = R[pc], K[pc];
+    
+[97] SETUPVAL (conf 0.45) L4333 stmts=1 shape=e40c292c
+    W[u[pc]] = W[R[pc]] <= W[p[pc]];
+    
+[96] SETUPVAL (conf 0.45) L4335 stmts=1 shape=e40c292c
+    W[u[pc]] = W[p[pc]] - W[R[pc]];
+    
+[94] SETUPVAL (conf 0.45) L4338 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = K[pc], x[pc];
+    
+[95] SETUPVAL (conf 0.45) L4341 stmts=1 shape=e40c292c
+    W[R[pc]] = W[u[pc]] == W[p[pc]];
+    
+[98] LT (conf 0.8) L4345 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] < R[pc] then
+      pc = pc;
+    else
+      pc = u[pc];
+    end
+    
+[99] SETUPVAL (conf 0.45) L4351 stmts=1 shape=e40c292c
+    W[p[pc]] = v(W[u[pc]], l[pc]);
+    
+[100] SETUPVAL (conf 0.45) L4354 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] .. x[pc];
+    
+[101] RETURN (conf 0.85) L4356 stmts=3 shape=77dde3e4
+    if O then
+      for t1 in M, O, nil do
+        local t2 = O[t1];
+        if t2 then
+          t2[4] = t2;
+          t2[5] = W[t1];
+          t2[6] = 5;
+          O[t1] = nil;
+        end
+      end
+    end
+    if J then
+      for t3, t4 in M, J, nil do
+        local t5 = t4[5];
+        if J then
+          t4 = J[t3];
+          if t4 then
+            local t6 = h(t5);
+            C(W, t3, t3 + t5 - 1, 1, t6);
+            t4[4] = t6;
+            t4[6] = 1;
+            J[t3] = nil;
+          end
+        end
+      end
+    end
+    return;
+    
+[106] SETUPVAL (conf 0.45) L4387 stmts=1 shape=e40c292c
+    W[p[pc]] = W[u[pc]] == R[pc];
+    
+[107] SETUPVAL (conf 0.45) L4389 stmts=1 shape=e40c292c
+    W[R[pc]] = y[K[pc]];
+    
+[108] SETUPVAL (conf 0.45) L4392 stmts=3 shape=5b4383d6
+    f, F = (v(p[pc], (N(v(e, (N(V(e, 29), 7))), 536870911)))), R[pc] + 1;
+    for t1 = 1, u[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      R[F] = v(R[F], (N(V(f, 0), 127)));
+      p[F] = v(p[F], (N(V(f, 7), 127)));
+      u[F] = v(u[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 18;
+    
+[109] CALL? (conf 0.35) L4405 stmts=1 shape=e60c2c52
+    W[p[pc]]();
+    
+[104] SETUPVAL (conf 0.45) L4409 stmts=1 shape=e40c292c
+    W[R[pc]] = V(W[u[pc]], p[pc]);
+    
+[105] LE (conf 0.8) L4410 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] <= W[u[pc]] then
+      pc = pc;
+    else
+      pc = p[pc];
+    end
+    
+[103] EQ (not) (conf 0.8) L4416 stmts=1 shape=0e2bd8ba
+    if W[u[pc]] ~= W[R[pc]] then
+      pc = p[pc];
+    else
+      pc = pc;
+    end
+    
+[102] SETUPVAL (conf 0.45) L4422 stmts=4 shape=9a4846b9
+    local t1, t2, t3 = u[pc], W[R[pc]];
+    local t4 = t2 % 4294967296;
+    if t4 ~= t4 then
+      t3 = 0;
+    else
+      t3 = t4 - t4 % 1;
+    end
+    W[t1] = t3;
+    
+
+-- dispatch tree #3 @L1594 var=B kind=cff handlers=172 range=0..170 entry=65
+-- roles: inst=? code=? pc=? stack=? opField=? fields=
+[0] GOTO 100 (conf 0.7) L1601 stmts=4 shape=ba832e82 → 100
+[1] BRANCH 42|137 (conf 0.7) L1606 stmts=6 shape=6059df9b → 42,137
+[2] GOTO 146 (conf 0.7) L1618 stmts=3 shape=885acc6c → 146
+[3] GOTO 158 (conf 0.7) L1622 stmts=5 shape=1a075422 → 158
+[4] BRANCH 130|94 (conf 0.7) L1628 stmts=1 shape=e40c292c → 130,94
+[5] GOTO 109 (conf 0.7) L1632 stmts=4 shape=8163e071 → 109
+[6] GOTO 134 (conf 0.7) L1637 stmts=4 shape=2c141573 → 134
+[7] BRANCH 102|126 (conf 0.7) L1643 stmts=3 shape=885acc6c → 102,126
+[8] GOTO 74 (conf 0.7) L1647 stmts=1 shape=e40c292c → 74
+[9] GOTO 119 (conf 0.7) L1649 stmts=5 shape=a6222493 → 119
+[10] GOTO 33 (conf 0.7) L1658 stmts=1 shape=e40c292c → 33
+[11] GOTO 18 (conf 0.7) L1660 stmts=2 shape=30ba264c → 18
+[12] BRANCH 28|51 (conf 0.7) L1664 stmts=3 shape=885acc6c → 28,51
+[13] BRANCH 91|23 (conf 0.7) L1668 stmts=2 shape=30ba264c → 91,23
+[14] BRANCH 49|138 (conf 0.7) L1671 stmts=2 shape=30ba264c → 49,138
+[15] BRANCH 24|96 (conf 0.7) L1676 stmts=1 shape=e40c292c → 24,96
+[16] GOTO 169 (conf 0.7) L1678 stmts=1 shape=e40c292c → 169
+[17] BRANCH 83|5 (conf 0.7) L1680 stmts=1 shape=e40c292c → 83,5
+[18] GOTO 25 (conf 0.7) L1683 stmts=2 shape=30ba264c → 25
+[19] GOTO 134 (conf 0.7) L1686 stmts=1 shape=e40c292c → 134
+[20] BRANCH 0|125 (conf 0.7) L1688 stmts=1 shape=e40c292c → 0,125
+[21] BRANCH 156|147 (conf 0.7) L1694 stmts=1 shape=e40c292c → 156,147
+[22] GOTO 93 (conf 0.7) L1696 stmts=1 shape=e40c292c → 93
+[23] GOTO 141 (conf 0.7) L1699 stmts=5 shape=a6222493 → 141
+[24] BRANCH 89|41 (conf 0.7) L1705 stmts=3 shape=885acc6c → 89,41
+[25] BRANCH 64|153 (conf 0.7) L1709 stmts=6 shape=6059df9b → 64,153
+[26] GOTO 152 (conf 0.7) L1722 stmts=1 shape=e40c292c → 152
+[27] GOTO 93 (conf 0.7) L1724 stmts=3 shape=6063b153 → 93
+[28] GOTO 79 (conf 0.7) L1728 stmts=1 shape=e40c292c → 79
+[29] GOTO 33 (conf 0.7) L1731 stmts=3 shape=6063b153 → 33
+[30] GOTO 18 (conf 0.7) L1735 stmts=2 shape=30ba264c → 18
+[31] GOTO 169 (conf 0.7) L1738 stmts=1 shape=e40c292c → 169
+[32] BRANCH 154|66 (conf 0.7) L1743 stmts=6 shape=6059df9b → 154,66
+[33] BRANCH 87|103 (conf 0.7) L1754 stmts=2 shape=6919679a → 87,103
+[34] BRANCH 7|17 (conf 0.7) L1762 stmts=1 shape=e40c292c → 7,17
+[35] GOTO 146 (conf 0.7) L1764 stmts=3 shape=c962a34a → 146
+[36] BRANCH 110|80 (conf 0.7) L1768 stmts=1 shape=e40c292c → 110,80
+[37] GOTO 18 (conf 0.7) L1772 stmts=1 shape=e40c292c → 18
+[38] GOTO 139 (conf 0.7) L1774 stmts=4 shape=2c141573 → 139
+[39] GOTO 74 (conf 0.7) L1779 stmts=1 shape=e40c292c → 74
+[40] GOTO 47 (conf 0.7) L1782 stmts=3 shape=885acc6c → 47
+[41] GOTO 155 (conf 0.7) L1786 stmts=1 shape=e40c292c → 155
+[42] GOTO 1 (conf 0.7) L1788 stmts=3 shape=d448e0e2 → 1
+[43] BRANCH 14|22 (conf 0.7) L1797 stmts=3 shape=885acc6c → 14,22
+[44] GOTO 74 (conf 0.7) L1801 stmts=4 shape=2c141573 → 74
+[45] GOTO 139 (conf 0.7) L1807 stmts=1 shape=e40c292c → 139
+[46] BRANCH 150|129 (conf 0.7) L1809 stmts=1 shape=e40c292c → 150,129
+[47] BRANCH 78|168 (conf 0.7) L1811 stmts=6 shape=6059df9b → 78,168
+[48] GOTO 93 (conf 0.7) L1824 stmts=4 shape=2c141573 → 93
+[49] GOTO 93 (conf 0.7) L1829 stmts=1 shape=e40c292c → 93
+[50] BRANCH 52|85 (conf 0.7) L1832 stmts=1 shape=e40c292c → 52,85
+[51] BRANCH 60|101 (conf 0.7) L1834 stmts=2 shape=30ba264c → 60,101
+[52] GOTO 100 (conf 0.7) L1837 stmts=2 shape=30ba264c → 100
+[53] GOTO 77 (conf 0.7) L1843 stmts=1 shape=e40c292c → 77
+[54] BRANCH 10|140 (conf 0.7) L1845 stmts=2 shape=30ba264c → 10,140
+[55] GOTO 75 (conf 0.7) L1849 stmts=3 shape=885acc6c → 75
+[56] GOTO 74 (conf 0.7) L1853 stmts=3 shape=6063b153 → 74
+[57] GOTO 2 (conf 0.7) L1857 stmts=1 shape=e40c292c → 2
+[58] GOTO 119 (conf 0.7) L1861 stmts=1 shape=e40c292c → 119
+[59] GOTO 40 (conf 0.7) L1863 stmts=1 shape=e40c292c → 40
+[60] GOTO 79 (conf 0.7) L1865 stmts=1 shape=e40c292c → 79
+[61] GOTO 99 (conf 0.7) L1868 stmts=3 shape=c962a34a → 99
+[62] BRANCH 19|117 (conf 0.7) L1872 stmts=3 shape=885acc6c → 19,117
+[63] BRANCH 50|4 (conf 0.7) L1876 stmts=1 shape=e40c292c → 50,4
+[64] GOTO 32 (conf 0.7) L1882 stmts=3 shape=885acc6c → 32
+[65] BRANCH 149|90 (conf 0.7) L1886 stmts=5 shape=a4e17c3a → 149,90
+[66] GOTO 25 (conf 0.7) L1897 stmts=1 shape=e40c292c → 25
+[67] BRANCH 123|53 (conf 0.7) L1899 stmts=3 shape=885acc6c → 123,53
+[68] GOTO 77 (conf 0.7) L1903 stmts=3 shape=6063b153 → 77
+[69] GOTO 86 (conf 0.7) L1909 stmts=3 shape=6dcd2e01 → 86
+[70] BRANCH 16|160 (conf 0.7) L1913 stmts=2 shape=30ba264c → 16,160
+[71] GOTO 86 (conf 0.7) L1916 stmts=5 shape=1a075422 → 86
+[72] BRANCH 128|26 (conf 0.7) L1923 stmts=6 shape=6059df9b → 128,26
+[73] BRANCH 145|58 (conf 0.7) L1934 stmts=3 shape=885acc6c → 145,58
+[74] BRANCH 55|100 (conf 0.7) L1937 stmts=1 shape=0e2bd8ba → 55,100
+[75] BRANCH 54|135 (conf 0.7) L1945 stmts=6 shape=6059df9b → 54,135
+[76] GOTO 119 (conf 0.7) L1956 stmts=3 shape=6063b153 → 119
+[77] GOTO 107 (conf 0.7) L1961 stmts=5 shape=769618eb → 107
+[78] GOTO 47 (conf 0.7) L1967 stmts=3 shape=c962a34a → 47
+[79] GOTO 142 (conf 0.7) L1971 stmts=5 shape=769618eb → 142
+[80] BRANCH 43|3 (conf 0.7) L1979 stmts=1 shape=e40c292c → 43,3
+[81] GOTO 32 (conf 0.7) L1981 stmts=2 shape=078769b3 → 32
+[82] GOTO 119 (conf 0.7) L1984 stmts=1 shape=e40c292c → 119
+[83] BRANCH 100|62 (conf 0.7) L1987 stmts=2 shape=6919679a → 100,62
+[84] GOTO 169 (conf 0.7) L1994 stmts=3 shape=6063b153 → 169
+[85] GOTO 100 (conf 0.7) L1998 stmts=3 shape=6dcd2e01 → 100
+[86] GOTO 100 (conf 0.7) L2008 stmts=1 shape=e40c292c → 100
+[87] BRANCH 45|171 (conf 0.7) L2010 stmts=2 shape=30ba264c → 45,171
+[88] GOTO 100 (conf 0.7) L2014 stmts=4 shape=ba832e82 → 100
+[89] BRANCH 161|162 (conf 0.7) L2019 stmts=2 shape=30ba264c → 161,162
+[90] BRANCH 136|21 (conf 0.7) L2022 stmts=1 shape=e40c292c → 136,21
+[91] GOTO 141 (conf 0.7) L2026 stmts=3 shape=6063b153 → 141
+[92] GOTO 134 (conf 0.7) L2030 stmts=3 shape=6063b153 → 134
+[93] GOTO 100 (conf 0.7) L2035 stmts=3 shape=6dcd2e01 → 100
+[94] GOTO 151 (conf 0.7) L2039 stmts=3 shape=885acc6c → 151
+[95] GOTO 69 (conf 0.7) L2043 stmts=3 shape=6dcd2e01 → 69
+[96] GOTO 100 (conf 0.7) L2050 stmts=4 shape=ba832e82 → 100
+[97] GOTO 100 (conf 0.7) L2055 stmts=3 shape=f653d3bc → 100
+[98] GOTO 169 (conf 0.7) L2060 stmts=5 shape=a6222493 → 169
+[99] BRANCH 61|164 (conf 0.7) L2066 stmts=6 shape=6059df9b → 61,164
+[100] GOTO 133 (conf 0.7) L2077 stmts=2 shape=078769b3 → 133
+[101] BRANCH 112|167 (conf 0.7) L2082 stmts=2 shape=30ba264c → 112,167
+[102] BRANCH 120|13 (conf 0.7) L2085 stmts=2 shape=30ba264c → 120,13
+[103] GOTO 75 (conf 0.7) L2088 stmts=4 shape=07ec729b → 75
+[104] BRANCH 92|6 (conf 0.7) L2094 stmts=2 shape=30ba264c → 92,6
+[105] GOTO 33 (conf 0.7) L2097 stmts=5 shape=a6222493 → 33
+[106] BRANCH 76|9 (conf 0.7) L2103 stmts=2 shape=6919679a → 76,9
+[107] BRANCH 113|59 (conf 0.7) L2114 stmts=6 shape=6059df9b → 113,59
+[108] GOTO 99 (conf 0.7) L2125 stmts=3 shape=885acc6c → 99
+[109] GOTO 100 (conf 0.7) L2130 stmts=6 shape=df55d123 → 100
+[110] BRANCH 15|67 (conf 0.7) L2137 stmts=1 shape=e40c292c → 15,67
+[111] BRANCH 165|30 (conf 0.7) L2139 stmts=2 shape=6919679a → 165,30
+[112] GOTO 79 (conf 0.7) L2148 stmts=3 shape=6063b153 → 79
+[113] GOTO 107 (conf 0.7) L2152 stmts=3 shape=d448e0e2 → 107
+[114] GOTO 122 (conf 0.7) L2156 stmts=3 shape=c962a34a → 122
+[115] GOTO 100 (conf 0.7) L2161 stmts=3 shape=6063b153 → 100
+[116] GOTO 142 (conf 0.7) L2165 stmts=4 shape=ba832e82 → 142
+[117] BRANCH 118|104 (conf 0.7) L2170 stmts=2 shape=30ba264c → 118,104
+[118] GOTO 134 (conf 0.7) L2176 stmts=1 shape=e40c292c → 134
+[119] GOTO 100 (conf 0.7) L2178 stmts=2 shape=30ba264c → 100
+[120] GOTO 141 (conf 0.7) L2182 stmts=1 shape=e40c292c → 141
+[121] GOTO 139 (conf 0.7) L2184 stmts=1 shape=e40c292c → 139
+[122] BRANCH 114|73 (conf 0.7) L2186 stmts=6 shape=6059df9b → 114,73
+[123] BRANCH 159|157 (conf 0.7) L2199 stmts=2 shape=30ba264c → 159,157
+[124] GOTO 155 (conf 0.7) L2202 stmts=5 shape=a6222493 → 155
+[125] BRANCH 100|12 (conf 0.7) L2208 stmts=2 shape=6919679a → 100,12
+[126] GOTO 141 (conf 0.7) L2216 stmts=1 shape=e40c292c → 141
+[127] BRANCH 29|105 (conf 0.7) L2218 stmts=2 shape=30ba264c → 29,105
+[128] GOTO 72 (conf 0.7) L2221 stmts=4 shape=ba832e82 → 72
+[129] GOTO 100 (conf 0.7) L2231 stmts=5 shape=1a075422 → 100
+[130] GOTO 97 (conf 0.7) L2237 stmts=3 shape=885acc6c → 97
+[131] GOTO 77 (conf 0.7) L2242 stmts=5 shape=a6222493 → 77
+[132] BRANCH 163|8 (conf 0.7) L2248 stmts=2 shape=30ba264c → 163,8
+[133] EXIT/NOSTATE (conf 0.7) L2251 stmts=1 shape=f70c4715 → 
+[134] GOTO 100 (conf 0.7) L2255 stmts=3 shape=6063b153 → 100
+[135] GOTO 100 (conf 0.7) L2259 stmts=1 shape=e40c292c → 100
+[136] BRANCH 46|34 (conf 0.7) L2262 stmts=1 shape=e40c292c → 46,34
+[137] GOTO 108 (conf 0.7) L2264 stmts=1 shape=e40c292c → 108
+[138] BRANCH 48|27 (conf 0.7) L2266 stmts=2 shape=30ba264c → 48,27
+[139] GOTO 103 (conf 0.7) L2272 stmts=1 shape=e40c292c → 103
+[140] BRANCH 170|127 (conf 0.7) L2274 stmts=2 shape=30ba264c → 170,127
+[141] GOTO 1 (conf 0.7) L2278 stmts=5 shape=769618eb → 1
+[142] BRANCH 116|57 (conf 0.7) L2284 stmts=6 shape=6059df9b → 116,57
+[143] BRANCH 166|38 (conf 0.7) L2295 stmts=2 shape=30ba264c → 166,38
+[144] BRANCH 111|11 (conf 0.7) L2300 stmts=2 shape=6919679a → 111,11
+[145] BRANCH 82|106 (conf 0.7) L2307 stmts=2 shape=6919679a → 82,106
+[146] BRANCH 35|115 (conf 0.7) L2314 stmts=6 shape=6059df9b → 35,115
+[147] BRANCH 20|88 (conf 0.7) L2326 stmts=1 shape=e40c292c → 20,88
+[148] GOTO 155 (conf 0.7) L2328 stmts=3 shape=6063b153 → 155
+[149] BRANCH 36|63 (conf 0.7) L2332 stmts=1 shape=e40c292c → 36,63
+[150] BRANCH 70|31 (conf 0.7) L2338 stmts=3 shape=885acc6c → 70,31
+[151] GOTO 100 (conf 0.7) L2342 stmts=3 shape=f653d3bc → 100
+[152] GOTO 122 (conf 0.7) L2347 stmts=3 shape=885acc6c → 122
+[153] GOTO 100 (conf 0.7) L2351 stmts=1 shape=e40c292c → 100
+[154] BRANCH 32|81 (conf 0.7) L2353 stmts=1 shape=e40c292c → 32,81
+[155] GOTO 72 (conf 0.7) L2357 stmts=5 shape=769618eb → 72
+[156] BRANCH 95|71 (conf 0.7) L2363 stmts=1 shape=e40c292c → 95,71
+[157] BRANCH 68|131 (conf 0.7) L2365 stmts=2 shape=30ba264c → 68,131
+[158] GOTO 100 (conf 0.7) L2369 stmts=3 shape=9c653451 → 100
+[159] GOTO 77 (conf 0.7) L2373 stmts=1 shape=e40c292c → 77
+[160] BRANCH 98|84 (conf 0.7) L2375 stmts=2 shape=30ba264c → 98,84
+[161] BRANCH 148|124 (conf 0.7) L2381 stmts=2 shape=30ba264c → 148,124
+[162] GOTO 155 (conf 0.7) L2384 stmts=1 shape=e40c292c → 155
+[163] BRANCH 44|56 (conf 0.7) L2387 stmts=2 shape=30ba264c → 44,56
+[164] BRANCH 132|39 (conf 0.7) L2390 stmts=2 shape=30ba264c → 132,39
+[165] GOTO 18 (conf 0.7) L2393 stmts=5 shape=a6222493 → 18
+[166] GOTO 139 (conf 0.7) L2401 stmts=3 shape=6063b153 → 139
+[167] GOTO 79 (conf 0.7) L2405 stmts=5 shape=a6222493 → 79
+[168] BRANCH 144|37 (conf 0.7) L2411 stmts=3 shape=885acc6c → 144,37
+[169] GOTO 100 (conf 0.7) L2416 stmts=2 shape=30ba264c → 100
+[170] GOTO 33 (conf 0.7) L2419 stmts=1 shape=e40c292c → 33
+[171] BRANCH 143|121 (conf 0.7) L2421 stmts=2 shape=30ba264c → 143,121
+
+-- dispatch tree #4 @L3189 var=rB kind=vm handlers=83 range=1..93
+-- roles: inst=? code=S pc=I stack=u opField=? fields=
+[61] SETUPVAL (conf 0.45) L3195 stmts=2 shape=078769b3
+    F = L[T[pc]];
+    W[R[pc]] = F[4][F[6]][K[pc]];
+    
+[63] LE (conf 0.8) L3198 stmts=1 shape=0e2bd8ba
+    if R[pc] <= W[T[pc]] then
+      pc = pc;
+    else
+      pc = p[pc];
+    end
+    
+[62] SETUPVAL (conf 0.45) L3204 stmts=1 shape=e40c292c
+    W[R[pc]] = W[T[pc]] * p[pc];
+    
+[58] SETUPVAL (conf 0.45) L3207 stmts=3 shape=5b4383d6
+    f, F = (v(R[pc], (N(v(e, (N(V(e, 29), 7))), 536870911)))), p[pc] + 1;
+    for t1 = 1, T[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      p[F] = v(p[F], (N(V(f, 0), 127)));
+      R[F] = v(R[F], (N(V(f, 7), 127)));
+      T[F] = v(T[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 14;
+    
+[60] SETUPVAL (conf 0.45) L3220 stmts=1 shape=e40c292c
+    W[T[pc]][R[pc]] = K[pc];
+    
+[59] EQ (not) (conf 0.8) L3221 stmts=1 shape=0e2bd8ba
+    if W[T[pc]] ~= p[pc] then
+      pc = R[pc];
+    else
+      pc = pc;
+    end
+    
+[67] SETUPVAL (conf 0.45) L3228 stmts=1 shape=e40c292c
+    W[p[pc]] = n;
+    
+[69] SETUPVAL (conf 0.45) L3230 stmts=1 shape=e40c292c
+    W[p[pc]] = T[pc] + W[R[pc]];
+    
+[68] SETUPVAL (conf 0.45) L3232 stmts=15 shape=f65cf126
+    local t1, t2, t3 = T[pc], p[pc], D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t1, t3 = D[4], t4 + 1;
+    t4 = q(t1, t3);
+    if t4 < 128 then
+      t5, t6 = t4, t3 + 1;
+    else
+      local t7 = q(t1, t3 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t3 + 2;
+      else
+        local t8 = q(t1, t3 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t3 + 3;
+        else
+          local t9 = q(t1, t3 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t3 + 4;
+        end
+      end
+    end
+    t3, t4 = t2 * 16843009, t6 + t5;
+    local t10 = t4 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t1, t11, (v(U(t1, t11), t3)));
+    end
+    for t12 = t10, t4 - 1, 1 do
+      m(t1, t12, (v(q(t1, t12), t2)));
+    end
+    T[pc] = 140;
+    p[pc] = 130;
+    R[pc] = 189;
+    Code[pc] = 14;
+    
+[66] VARARG (conf 0.6) L3269 stmts=2 shape=09876cd9
+    F, f = { ... }, R[pc];
+    C(F, 1, T[pc], f, W);
+    
+[65] SETUPVAL (conf 0.45) L3272 stmts=1 shape=e40c292c
+    W[R[pc]] = L[T[pc]];
+    
+[64] SETUPVAL (conf 0.45) L3275 stmts=1 shape=e40c292c
+    W[T[pc]] = y[K[pc]];
+    
+[55] SETUPVAL (conf 0.45) L3280 stmts=1 shape=e40c292c
+    W[R[pc]] = L[p[pc]][W[T[pc]]];
+    
+[56] SETUPVAL (conf 0.45) L3282 stmts=1 shape=e40c292c
+    W[R[pc]] = W[T[pc]]();
+    
+[57] SETUPVAL (conf 0.45) L3284 stmts=1 shape=e40c292c
+    W[R[pc]] = v(W[p[pc]], o[pc]);
+    
+[54] SETUPVAL (conf 0.45) L3288 stmts=4 shape=9a4846b9
+    local t1, t2, t3 = R[pc], W[p[pc]];
+    local t4 = t2 % 4294967296;
+    if t4 ~= t4 then
+      t3 = 0;
+    else
+      t3 = t4 - t4 % 1;
+    end
+    W[t1] = t3;
+    
+[53] CALL? (conf 0.35) L3297 stmts=1 shape=e60c2c52
+    W[T[pc]]();
+    
+[52] ? (conf 0.1) L3300 stmts=1 shape=0ed027fd
+    for t1 = p[pc], R[pc], 1 do
+      W[t1] = nil;
+    end
+    
+[49] SETUPVAL (conf 0.45) L3306 stmts=15 shape=f65cf126
+    local t1, t2, t3 = p[pc], v(R[pc], (N(v(n, (N(V(n, 29), 7))), 536870911))), D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t3, t1 = D[4], t4 + 1;
+    t4 = q(t3, t1);
+    if t4 < 128 then
+      t5, t6 = t4, t1 + 1;
+    else
+      local t7 = q(t3, t1 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t1 + 2;
+      else
+        local t8 = q(t3, t1 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 - 128 + (t7 - 128) * 128 + t8 * 16384, t1 + 3;
+        else
+          local t9 = q(t3, t1 + 3);
+          t5, t6 = (t4 - 128) * 16384 + (t7 - 128) + (t8 - 128) * 128 + t9 % 128 * 2097152 + (t9 - t9 % 128) * 2097152, t1 + 4;
+        end
+      end
+    end
+    t1, t4 = t2 * 16843009, t6 + t5;
+    local t10 = t4 - t5 % 4;
+    for t11 = t6, t10 - 1, 4 do
+      c(t3, t11, (v(U(t3, t11), t1)));
+    end
+    for t12 = t10, t4 - 1, 1 do
+      m(t3, t12, (v(q(t3, t12), t2)));
+    end
+    p[pc] = 128;
+    R[pc] = 175;
+    T[pc] = 96;
+    Code[pc] = 14;
+    
+[51] SETUPVAL (conf 0.45) L3341 stmts=1 shape=e40c292c
+    W[p[pc]] = T[pc] * W[R[pc]];
+    
+[50] SETUPVAL (conf 0.45) L3343 stmts=1 shape=e40c292c
+    W[T[pc]] = v(x[pc], K[pc]);
+    
+[47] SETUPVAL (conf 0.45) L3346 stmts=2 shape=078769b3
+    F = L[T[pc]];
+    W[p[pc]] = F[4][F[6]][R[pc]];
+    
+[48] SETUPVAL (conf 0.45) L3349 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]] - o[pc];
+    
+[76] SETUPVAL (conf 0.45) L3355 stmts=1 shape=e40c292c
+    W[R[pc]] = r[T[pc]];
+    
+[78] SETUPVAL (conf 0.45) L3357 stmts=1 shape=e40c292c
+    W[T[pc]] = W[p[pc]] ~= R[pc];
+    
+[77] VARARG (conf 0.6) L3359 stmts=3 shape=c962a34a
+    F, f, a = R[pc], { ... }, T[pc];
+    C(f, 1, F - 1, a, W);
+    W[a + F - 1] = j(E(F, ...));
+    
+[80] SETUPVAL (conf 0.45) L3365 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    F[4][F[6]] = W[p[pc]];
+    
+[81] JMP (conf 0.85) L3368 stmts=1 shape=e40c292c
+    pc = p[pc];
+    
+[79] SETUPVAL (conf 0.45) L3371 stmts=1 shape=e40c292c
+    W[p[pc]] = t(W[T[pc]], W[R[pc]]);
+    
+[71] SETUPVAL (conf 0.45) L3376 stmts=1 shape=e40c292c
+    W[p[pc]] = W[R[pc]] * W[T[pc]];
+    
+[72] LE (conf 0.8) L3377 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] <= R[pc] then
+      pc = pc;
+    else
+      pc = T[pc];
+    end
+    
+[70] SETUPVAL (conf 0.45) L3383 stmts=1 shape=e40c292c
+    W[R[pc]] = e;
+    
+[75] ? (conf 0.1) L3387 stmts=1 shape=e40c292c
+    e = W[p[pc]];
+    
+[74] SETUPVAL (conf 0.45) L3389 stmts=1 shape=e40c292c
+    W[T[pc]] = W[p[pc]][x[pc]];
+    
+[73] ? (conf 0.1) L3392 stmts=2 shape=078769b3
+    X, z, A, Z = P[9], P[8], P[5], P[7];
+    P = P[6];
+    
+[85] SETUPVAL (conf 0.45) L3398 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = R[pc], W[p[pc]], T[pc];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t2 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t6 = t2 % 4294967296;
+    if t6 ~= t6 then
+      t9 = 0;
+    else
+      t9 = t6 - t6 % 1;
+    end
+    W[t1] = t9;
+    
+[87] SETUPVAL (conf 0.45) L3410 stmts=1 shape=e40c292c
+    W[T[pc]] = {};
+    
+[86] SETUPVAL (conf 0.45) L3412 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    W[T[pc]] = F[4][F[6]];
+    
+[82] SETUPVAL (conf 0.45) L3416 stmts=1 shape=e40c292c
+    W[T[pc]] = N(W[R[pc]], W[p[pc]]);
+    
+[84] LT (conf 0.8) L3418 stmts=1 shape=0e2bd8ba
+    if W[p[pc]] < T[pc] then
+      pc = pc;
+    else
+      pc = R[pc];
+    end
+    
+[83] SETUPVAL (conf 0.45) L3424 stmts=1 shape=e40c292c
+    W[R[pc]] = W[p[pc]];
+    
+[88] SETUPVAL (conf 0.45) L3428 stmts=1 shape=e40c292c
+    W[T[pc]][p[pc]] = R[pc];
+    
+[89] SETUPVAL (conf 0.45) L3430 stmts=1 shape=e40c292c
+    W[T[pc]] = W[p[pc]] == R[pc];
+    
+[90] SETUPVAL (conf 0.45) L3432 stmts=1 shape=e40c292c
+    W[T[pc]] = W[p[pc]][R[pc]];
+    
+[91] JMP (conf 0.85) L3435 stmts=4 shape=07ec729b
+    P, F = { [5] = A, [9] = X, [6] = P, [8] = z, [7] = Z }, T[pc];
+    A, z = W[F + 2] + 0, W[F + 1] + 0;
+    X = W[F] - A;
+    pc = R[pc];
+    
+[93] SETUPVAL (conf 0.45) L3440 stmts=2 shape=078769b3
+    F = T[pc];
+    W[F], W[F + 1] = R[pc], p[pc];
+    
+[92,94] SETUPVAL (conf 0.45) L3443 stmts=1 shape=e40c292c
+    W[T[pc]] = v(W[p[pc]], R[pc]);
+    
+[11..22] LEK (conf 0.8) L3447 stmts=2 shape=7a5dfc88
+    if rB >= 17 then
+      if rB >= 20 then
+        if rB >= 21 then
+          if rB ~= 22 then
+            W[R[pc]] = W[T[pc]] // W[p[pc]];
+          else
+            W[p[pc]][x[pc]] = W[T[pc]];
+          end
+        else
+          W[T[pc]] = W[p[pc]] % R[pc];
+        end
+      elseif rB >= 18 then
+        if rB ~= 19 then
+          W[T[pc]] = W[p[pc]] < R[pc];
+        else
+          return;
+        end
+      else
+        F = R[pc];
+        f, a, d = W[F], W[F + 1], W[F + 2];
+        W[F] = f(a, d);
+      end
+    elseif rB < 14 then
+      if rB < 12 then
+        Q = p[pc];
+        pc = R[pc] + 1;
+        break;
+      elseif rB ~= 13 then
+        W[T[pc]] = W[p[pc]] + W[R[pc]];
+      else
+        W[T[pc]] = W[p[pc]] + x[pc];
+      end
+    elseif rB < 15 then
+    elseif rB ~= 16 then
+      F, f = R[pc], p[pc];
+      a = { n = f - F + 1 };
+      C(W, F, f, 1, a);
+      W[T[pc]] = a;
+    else
+      W[R[pc] + W[p[pc]]] = W[T[pc]];
+    end
+    pc = pc;
+    
+[9] SETUPVAL (conf 0.45) L3493 stmts=1 shape=e40c292c
+    W[T[pc]] = W[p[pc]](W[R[pc]]);
+    
+[10] SETUPVAL (conf 0.45) L3495 stmts=3 shape=5b4383d6
+    f, F = R[pc], p[pc] + 1;
+    for t1 = 1, T[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      p[F] = v(p[F], (N(V(f, 0), 127)));
+      R[F] = v(R[F], (N(V(f, 7), 127)));
+      T[F] = v(T[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 14;
+    
+[8] SETUPVAL (conf 0.45) L3509 stmts=7 shape=2e1190f1
+    local t1, t2, t3 = R[pc], W[p[pc]], W[T[pc]];
+    local t4, t5 = N(t2, 4294967295), N(t3, 4294967295);
+    local t6, t7, t8, t9 = N(t4, 65535), V(t4, 16), N(t5, 65535), V(t5, 16);
+    t2 = N(t6 * t8 + R(N(t6 * t9 + t7 * t8, 65535), 16), 4294967295);
+    t4 = t2 % 4294967296;
+    if t4 ~= t4 then
+      t8 = 0;
+    else
+      t8 = t4 - t4 % 1;
+    end
+    W[t1] = t8;
+    
+[5] JMP (conf 0.85) L3522 stmts=1 shape=e40c292c
+    pc = W[R[pc]];
+    
+[6] CALL? (conf 0.35) L3524 stmts=1 shape=e60c2c52
+    W[R[pc]](W[T[pc]]);
+    
+[7] SETUPVAL (conf 0.45) L3526 stmts=1 shape=e40c292c
+    W[T[pc]] = y[K[pc]][x[pc]];
+    
+[1] SETUPVAL (conf 0.45) L3530 stmts=1 shape=e40c292c
+    W[R[pc]] = V(W[p[pc]], T[pc]);
+    
+[0] JMP (conf 0.85) L3532 stmts=8 shape=77b3ef4b
+    F, f, a, d = p[pc], v(e, N(V(e, 14), 262143), (N(V(e, 28), 15))), T[pc], R[pc];
+    s = d < 2097152 and 7 or 14;
+    i, g = N(d, R(1, s) - 1), V(d, s);
+    R[pc] = v(i, 112, (N(V(f, 7), 127)));
+    Code[pc] = v(g, 11, (N(V(f, 21), 127)));
+    T[pc] = v(a, 108, (N(V(f, 14), 127)));
+    p[pc] = v(F, 64, (N(f, 127)));
+    pc = pc - 1;
+    
+[2] JMP (conf 0.85) L3542 stmts=8 shape=77b3ef4b
+    F, f, a, d = v(e, N(V(e, 14), 262143), (N(V(e, 28), 15))), p[pc], T[pc], R[pc];
+    s = f < 16384 and 7 or (f < 2097152 and 14 or 21);
+    i, g = V(f, s), N(f, R(1, s) - 1);
+    R[pc] = v(d, 10, (N(V(F, 7), 127)));
+    T[pc] = v(a, 114, (N(V(F, 14), 127)));
+    Code[pc] = v(i, 43, (N(V(F, 21), 127)));
+    p[pc] = v(g, 92, (N(F, 127)));
+    pc = pc - 1;
+    
+[3] COND-JMP (conf 0.45) L3551 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] then
+      pc = T[pc];
+    else
+      pc = p[pc];
+    end
+    
+[4] SETUPVAL (conf 0.45) L3557 stmts=1 shape=e40c292c
+    W[T[pc]][W[p[pc]]] = W[R[pc]];
+    
+[38] SETUPVAL (conf 0.45) L3563 stmts=2 shape=078769b3
+    F = T[pc];
+    W[F], W[F + 1] = W[p[pc]], W[R[pc]];
+    
+[40] LE (conf 0.8) L3566 stmts=1 shape=0e2bd8ba
+    if x[pc] <= W[p[pc]] then
+      pc = pc;
+    else
+      pc = T[pc];
+    end
+    
+[39] SETUPVAL (conf 0.45) L3572 stmts=1 shape=e40c292c
+    W[T[pc]] = W[R[pc]] * K[pc];
+    
+[35] SETUPVAL (conf 0.45) L3575 stmts=1 shape=e40c292c
+    W[R[pc]] = W[T[pc]] + p[pc];
+    
+[37] SETUPVAL (conf 0.45) L3577 stmts=3 shape=5b4383d6
+    f, F = (v(R[pc], (N(v(n, (N(V(n, 29), 7))), 536870911)))), p[pc] + 1;
+    for t1 = 1, T[pc], 1 do
+      f = N(v(f, (R(f, 13))), 536870911);
+      f = v(f, (V(f, 13)));
+      f = N(v(f, (R(f, 14))), 536870911);
+      p[F] = v(p[F], (N(V(f, 0), 127)));
+      R[F] = v(R[F], (N(V(f, 7), 127)));
+      T[F] = v(T[F], (N(V(f, 14), 127)));
+      Code[F] = v(Code[F], (N(V(f, 21), 127)));
+      F = F + 1;
+    end
+    Code[pc] = 14;
+    
+[36] SETUPVAL (conf 0.45) L3590 stmts=1 shape=e40c292c
+    W[T[pc]] = v(W[R[pc]], W[p[pc]]);
+    
+[43] SETUPVAL (conf 0.45) L3595 stmts=2 shape=078769b3
+    F = L[R[pc]];
+    W[p[pc]] = F[4][F[6]][W[T[pc]]];
+    
+[42] SETUPVAL (conf 0.45) L3598 stmts=1 shape=e40c292c
+    W[p[pc]] = t(W[R[pc]], o[pc]);
+    
+[41] ? (conf 0.1) L3601 stmts=1 shape=e40c292c
+    n = W[R[pc]];
+    
+[44] SETUPVAL (conf 0.45) L3604 stmts=1 shape=e40c292c
+    W[T[pc]] = W[R[pc]] - W[p[pc]];
+    
+[45] SETUPVAL (conf 0.45) L3606 stmts=2 shape=078769b3
+    F = p[pc];
+    W[F], W[F + 1] = T[pc], W[R[pc]];
+    
+[46] SETUPVAL (conf 0.45) L3609 stmts=1 shape=e40c292c
+    W[T[pc]] = not W[p[pc]];
+    
+[31] SETUPVAL (conf 0.45) L3615 stmts=1 shape=e40c292c
+    W[T[pc]] = R(W[R[pc]], p[pc]);
+    
+[30] SETUPVAL (conf 0.45) L3617 stmts=1 shape=e40c292c
+    W[p[pc]] = T[pc];
+    
+[29] SETUPVAL (conf 0.45) L3620 stmts=1 shape=e40c292c
+    W[T[pc]] = W[p[pc]] % W[R[pc]];
+    
+[33] SETUPVAL (conf 0.45) L3624 stmts=2 shape=078769b3
+    F = R[pc];
+    W[F], W[F + 1] = o[pc], K[pc];
+    
+[34] COND-JMP (conf 0.45) L3626 stmts=1 shape=0e2bd8ba
+    if W[R[pc]] then
+      pc = p[pc];
+    else
+      pc = T[pc];
+    end
+    
+[32] SETUPVAL (conf 0.45) L3632 stmts=15 shape=f65cf126
+    local t1, t2, t3 = p[pc], v(R[pc], (N(v(e, (N(V(e, 29), 7))), 536870911))), D[5];
+    local t4 = v(t3[t1], 498918279);
+    t3[t1] = t4;
+    t1, t3 = D[4], t4 + 1;
+    t4 = q(t1, t3);
+    if t4 < 128 then
+      t5, t6 = t4, t3 + 1;
+    else
+      local t7 = q(t1, t3 + 1);
+      if t7 < 128 then
+        t5, t6 = (t4 - 128) * 128 + t7, t3 + 2;
+      else
+        local t8 = q(t1, t3 + 2);
+        if t8 < 128 then
+          t5, t6 = t4 
+
+… [truncated: 52230 of 152230 chars omitted — raise max_chars or use save_as to keep the full output]

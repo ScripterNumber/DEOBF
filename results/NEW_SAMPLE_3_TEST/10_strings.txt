@@ -1,0 +1,40 @@
+35 strings match
+kind        len     count  H     line  value
+----------  ------  -----  ----  ----  ------------------------------------------------------------
+text        8       2      2.75  52    [ -&|-~]
+text        4       2      2.00  2752  LPH:
+text        1       2      0.00  3148  #
+text        1       2      0.00  3148   
+blob        644620  1      6.41  3162  LPH-Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\*__r[@dz\UKc\=q/c6\'…
+blob        644616  1      6.41  6488  Z?@]gt*K{,(P1P*ZKH?rii*N-)q<Yd[tcj?\*__r[@dz\UKc\=q/c6\'T/f+…
+blob        2666    1      7.93  1     À¿gº°áEG~j­+Øoî2MõMQu¯j¾nß5&®À)
+(Î@`«¸cA»Rå'ØÀå…
+blob        296     1      7.24  1     >éýÚ'3ÑÞÄ\BºÖXU(% ¨Ì0æ¯/<ªè±æ1CNúôMmê) Um²Ýã@…
+text        32      1      3.90  2770  [:][^%l%L]*([0-9]+)[^%x%X]?[
+:]
+text        28      1      4.81  1     øçØ¹µ$õvª2lONrw­Dn#M@K
+identifier  6       1      2.58  2747  string
+identifier  6       1      2.25  7705  fa6607
+text        5       1      1.92  3148  %) - 
+text        5       1      1.92  7681  :vxnv
+text        5       1      2.32  7681  ARfT/
+identifier  5       1      2.32  7681  q6upX
+text        5       1      2.32  7681  Q'5*)
+text        5       1      2.32  7681  70<>S
+text        5       1      2.32  7681  a[bZH
+text        5       1      2.32  7681  h:l@*
+text        5       1      2.32  7681  N=-)'
+identifier  5       1      1.92  7681  tlTTH
+text        5       1      2.32  7681  kiWY,
+text        3       1      1.58  3148  ] (
+text        2       1      1.00  2767  : 
+text        1       1      0.00  2757  ?
+text        1       1      0.00  3148  [
+text        1       1      0.00  7681  "
+text        1       1      0.00  7681  ~
+text        1       1      0.00  7681  &
+text        1       1      0.00  7681  $
+text        1       1      0.00  7681  %
+text        1       1      0.00  7681  !
+text        1       1      0.00  7681  |
+text        1       1      0.00  7681  }

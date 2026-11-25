@@ -1,0 +1,1933 @@
+{
+ "isVM": true,
+ "dispatch": [
+  {
+   "kind": "cff-state-machine",
+   "line": 1592,
+   "detail": "if-chain on 'B' with state reassignment",
+   "stateVar": "B",
+   "cases": 8
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 5314,
+   "detail": "if-chain on 'H'",
+   "stateVar": "H",
+   "cases": 8
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 662,
+   "detail": "if-chain on 't'",
+   "stateVar": "t",
+   "cases": 7
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 3187,
+   "detail": "if-chain on 'rB'",
+   "stateVar": "rB",
+   "cases": 7
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 3709,
+   "detail": "if-chain on 'H'",
+   "stateVar": "H",
+   "cases": 7
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 4435,
+   "detail": "if-chain on 'H'",
+   "stateVar": "H",
+   "cases": 7
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 185,
+   "detail": "if-chain on 't'",
+   "stateVar": "t",
+   "cases": 5
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 463,
+   "detail": "if-chain on 't'",
+   "stateVar": "t",
+   "cases": 5
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 1091,
+   "detail": "if-chain on 'K'",
+   "stateVar": "K",
+   "cases": 5
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 6573,
+   "detail": "if-chain on 'K' with state reassignment",
+   "stateVar": "K",
+   "cases": 5
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 7847,
+   "detail": "if-chain on 'z'",
+   "stateVar": "z",
+   "cases": 5
+  },
+  {
+   "kind": "cff-state-machine",
+   "line": 1579,
+   "detail": "if-chain on 'n' with state reassignment",
+   "stateVar": "n",
+   "cases": 4
+  },
+  {
+   "kind": "table-dispatch",
+   "line": 428,
+   "detail": "T[expr](...) indexed call (opcode handler table)"
+  },
+  {
+   "kind": "table-dispatch",
+   "line": 1322,
+   "detail": "T[expr](...) indexed call (opcode handler table)"
+  },
+  {
+   "kind": "table-dispatch",
+   "line": 1428,
+   "detail": "T[expr](...) indexed call (opcode handler table)"
+  },
+  {
+   "kind": "table-dispatch",
+   "line": 1430,
+   "detail": "T[expr](...) indexed call (opcode handler table)"
+  }
+ ],
+ "dispatchSummary": [
+  {
+   "kind": "table-dispatch",
+   "count": 19,
+   "firstLine": 428
+  },
+  {
+   "kind": "cff-state-machine",
+   "count": 21,
+   "firstLine": 185
+  }
+ ],
+ "trampolines": [
+  {
+   "line": 1553,
+   "detail": "while true do (dispatch/trampoline loop)"
+  },
+  {
+   "line": 2784,
+   "detail": "while true do (dispatch/trampoline loop)"
+  },
+  {
+   "line": 3142,
+   "detail": "while true do (dispatch/trampoline loop)"
+  },
+  {
+   "line": 6450,
+   "detail": "while true do (dispatch/trampoline loop)"
+  },
+  {
+   "line": 6890,
+   "detail": "while true do (dispatch/trampoline loop)"
+  }
+ ],
+ "blobs": [
+  {
+   "kind": "string-literal",
+   "line": 1,
+   "length": 296,
+   "distinctBytes": 172,
+   "histogram": [
+    {
+     "byte": 99,
+     "count": 5
+    },
+    {
+     "byte": 158,
+     "count": 5
+    },
+    {
+     "byte": 250,
+     "count": 5
+    },
+    {
+     "byte": 19,
+     "count": 4
+    },
+    {
+     "byte": 131,
+     "count": 4
+    },
+    {
+     "byte": 143,
+     "count": 4
+    },
+    {
+     "byte": 230,
+     "count": 4
+    },
+    {
+     "byte": 234,
+     "count": 4
+    },
+    {
+     "byte": 2,
+     "count": 3
+    },
+    {
+     "byte": 20,
+     "count": 3
+    },
+    {
+     "byte": 22,
+     "count": 3
+    },
+    {
+     "byte": 29,
+     "count": 3
+    },
+    {
+     "byte": 30,
+     "count": 3
+    },
+    {
+     "byte": 35,
+     "count": 3
+    },
+    {
+     "byte": 37,
+     "count": 3
+    },
+    {
+     "byte": 41,
+     "count": 3
+    },
+    {
+     "byte": 51,
+     "count": 3
+    },
+    {
+     "byte": 55,
+     "count": 3
+    },
+    {
+     "byte": 63,
+     "count": 3
+    },
+    {
+     "byte": 85,
+     "count": 3
+    },
+    {
+     "byte": 104,
+     "count": 3
+    },
+    {
+     "byte": 109,
+     "count": 3
+    },
+    {
+     "byte": 136,
+     "count": 3
+    },
+    {
+     "byte": 144,
+     "count": 3
+    },
+    {
+     "byte": 147,
+     "count": 3
+    },
+    {
+     "byte": 180,
+     "count": 3
+    },
+    {
+     "byte": 187,
+     "count": 3
+    },
+    {
+     "byte": 196,
+     "count": 3
+    },
+    {
+     "byte": 221,
+     "count": 3
+    },
+    {
+     "byte": 223,
+     "count": 3
+    },
+    {
+     "byte": 236,
+     "count": 3
+    },
+    {
+     "byte": 10,
+     "count": 2
+    },
+    {
+     "byte": 11,
+     "count": 2
+    },
+    {
+     "byte": 15,
+     "count": 2
+    },
+    {
+     "byte": 32,
+     "count": 2
+    },
+    {
+     "byte": 36,
+     "count": 2
+    },
+    {
+     "byte": 39,
+     "count": 2
+    },
+    {
+     "byte": 43,
+     "count": 2
+    },
+    {
+     "byte": 45,
+     "count": 2
+    },
+    {
+     "byte": 47,
+     "count": 2
+    }
+   ],
+   "preview": ">....'3....\\.B....XU(% ."
+  },
+  {
+   "kind": "string-literal",
+   "line": 1,
+   "length": 2666,
+   "distinctBytes": 256,
+   "histogram": [
+    {
+     "byte": 138,
+     "count": 19
+    },
+    {
+     "byte": 238,
+     "count": 19
+    },
+    {
+     "byte": 41,
+     "count": 18
+    },
+    {
+     "byte": 89,
+     "count": 18
+    },
+    {
+     "byte": 133,
+     "count": 18
+    },
+    {
+     "byte": 192,
+     "count": 18
+    },
+    {
+     "byte": 12,
+     "count": 17
+    },
+    {
+     "byte": 94,
+     "count": 17
+    },
+    {
+     "byte": 161,
+     "count": 17
+    },
+    {
+     "byte": 198,
+     "count": 17
+    },
+    {
+     "byte": 229,
+     "count": 17
+    },
+    {
+     "byte": 58,
+     "count": 16
+    },
+    {
+     "byte": 66,
+     "count": 16
+    },
+    {
+     "byte": 106,
+     "count": 16
+    },
+    {
+     "byte": 137,
+     "count": 16
+    },
+    {
+     "byte": 140,
+     "count": 16
+    },
+    {
+     "byte": 2,
+     "count": 15
+    },
+    {
+     "byte": 43,
+     "count": 15
+    },
+    {
+     "byte": 77,
+     "count": 15
+    },
+    {
+     "byte": 121,
+     "count": 15
+    },
+    {
+     "byte": 127,
+     "count": 15
+    },
+    {
+     "byte": 153,
+     "count": 15
+    },
+    {
+     "byte": 154,
+     "count": 15
+    },
+    {
+     "byte": 159,
+     "count": 15
+    },
+    {
+     "byte": 170,
+     "count": 15
+    },
+    {
+     "byte": 189,
+     "count": 15
+    },
+    {
+     "byte": 222,
+     "count": 15
+    },
+    {
+     "byte": 233,
+     "count": 15
+    },
+    {
+     "byte": 4,
+     "count": 14
+    },
+    {
+     "byte": 39,
+     "count": 14
+    },
+    {
+     "byte": 50,
+     "count": 14
+    },
+    {
+     "byte": 92,
+     "count": 14
+    },
+    {
+     "byte": 96,
+     "count": 14
+    },
+    {
+     "byte": 129,
+     "count": 14
+    },
+    {
+     "byte": 171,
+     "count": 14
+    },
+    {
+     "byte": 182,
+     "count": 14
+    },
+    {
+     "byte": 186,
+     "count": 14
+    },
+    {
+     "byte": 196,
+     "count": 14
+    },
+    {
+     "byte": 208,
+     "count": 14
+    },
+    {
+     "byte": 209,
+     "count": 14
+    }
+   ],
+   "preview": "...g...EG~j.....+.o..2M."
+  },
+  {
+   "kind": "string-literal",
+   "line": 3162,
+   "length": 644620,
+   "distinctBytes": 95,
+   "histogram": [
+    {
+     "byte": 40,
+     "count": 1281
+    },
+    {
+     "byte": 59,
+     "count": 1274
+    },
+    {
+     "byte": 39,
+     "count": 1271
+    },
+    {
+     "byte": 56,
+     "count": 1250
+    },
+    {
+     "byte": 63,
+     "count": 1250
+    },
+    {
+     "byte": 82,
+     "count": 1250
+    },
+    {
+     "byte": 88,
+     "count": 1240
+    },
+    {
+     "byte": 102,
+     "count": 1236
+    },
+    {
+     "byte": 83,
+     "count": 1233
+    },
+    {
+     "byte": 71,
+     "count": 1232
+    },
+    {
+     "byte": 43,
+     "count": 1229
+    },
+    {
+     "byte": 107,
+     "count": 1224
+    },
+    {
+     "byte": 105,
+     "count": 1220
+    },
+    {
+     "byte": 85,
+     "count": 1217
+    },
+    {
+     "byte": 119,
+     "count": 1217
+    },
+    {
+     "byte": 106,
+     "count": 1216
+    },
+    {
+     "byte": 87,
+     "count": 1214
+    },
+    {
+     "byte": 99,
+     "count": 1214
+    },
+    {
+     "byte": 120,
+     "count": 1214
+    },
+    {
+     "byte": 90,
+     "count": 1212
+    },
+    {
+     "byte": 93,
+     "count": 1212
+    },
+    {
+     "byte": 47,
+     "count": 1210
+    },
+    {
+     "byte": 61,
+     "count": 1208
+    },
+    {
+     "byte": 94,
+     "count": 1208
+    },
+    {
+     "byte": 41,
+     "count": 1207
+    },
+    {
+     "byte": 92,
+     "count": 1207
+    },
+    {
+     "byte": 62,
+     "count": 1202
+    },
+    {
+     "byte": 101,
+     "count": 1202
+    },
+    {
+     "byte": 111,
+     "count": 1202
+    },
+    {
+     "byte": 75,
+     "count": 1196
+    },
+    {
+     "byte": 57,
+     "count": 1195
+    },
+    {
+     "byte": 103,
+     "count": 1194
+    },
+    {
+     "byte": 42,
+     "count": 1193
+    },
+    {
+     "byte": 51,
+     "count": 1191
+    },
+    {
+     "byte": 78,
+     "count": 1191
+    },
+    {
+     "byte": 108,
+     "count": 1191
+    },
+    {
+     "byte": 60,
+     "count": 1190
+    },
+    {
+     "byte": 46,
+     "count": 1189
+    },
+    {
+     "byte": 112,
+     "count": 1189
+    },
+    {
+     "byte": 115,
+     "count": 1186
+    }
+   ],
+   "preview": "LPH-Z?@]gt*K{,(P1P*ZKH?r"
+  },
+  {
+   "kind": "string-literal",
+   "line": 6488,
+   "length": 644616,
+   "distinctBytes": 95,
+   "histogram": [
+    {
+     "byte": 40,
+     "count": 1281
+    },
+    {
+     "byte": 59,
+     "count": 1274
+    },
+    {
+     "byte": 39,
+     "count": 1271
+    },
+    {
+     "byte": 63,
+     "count": 1251
+    },
+    {
+     "byte": 56,
+     "count": 1250
+    },
+    {
+     "byte": 82,
+     "count": 1250
+    },
+    {
+     "byte": 88,
+     "count": 1240
+    },
+    {
+     "byte": 102,
+     "count": 1236
+    },
+    {
+     "byte": 71,
+     "count": 1233
+    },
+    {
+     "byte": 83,
+     "count": 1233
+    },
+    {
+     "byte": 43,
+     "count": 1229
+    },
+    {
+     "byte": 107,
+     "count": 1224
+    },
+    {
+     "byte": 105,
+     "count": 1220
+    },
+    {
+     "byte": 85,
+     "count": 1217
+    },
+    {
+     "byte": 119,
+     "count": 1217
+    },
+    {
+     "byte": 106,
+     "count": 1216
+    },
+    {
+     "byte": 87,
+     "count": 1214
+    },
+    {
+     "byte": 99,
+     "count": 1214
+    },
+    {
+     "byte": 120,
+     "count": 1214
+    },
+    {
+     "byte": 90,
+     "count": 1212
+    },
+    {
+     "byte": 93,
+     "count": 1212
+    },
+    {
+     "byte": 47,
+     "count": 1210
+    },
+    {
+     "byte": 61,
+     "count": 1208
+    },
+    {
+     "byte": 94,
+     "count": 1208
+    },
+    {
+     "byte": 41,
+     "count": 1207
+    },
+    {
+     "byte": 92,
+     "count": 1207
+    },
+    {
+     "byte": 62,
+     "count": 1202
+    },
+    {
+     "byte": 101,
+     "count": 1202
+    },
+    {
+     "byte": 111,
+     "count": 1202
+    },
+    {
+     "byte": 75,
+     "count": 1196
+    },
+    {
+     "byte": 57,
+     "count": 1195
+    },
+    {
+     "byte": 103,
+     "count": 1194
+    },
+    {
+     "byte": 42,
+     "count": 1193
+    },
+    {
+     "byte": 51,
+     "count": 1192
+    },
+    {
+     "byte": 78,
+     "count": 1191
+    },
+    {
+     "byte": 108,
+     "count": 1191
+    },
+    {
+     "byte": 60,
+     "count": 1190
+    },
+    {
+     "byte": 46,
+     "count": 1189
+    },
+    {
+     "byte": 112,
+     "count": 1189
+    },
+    {
+     "byte": 115,
+     "count": 1186
+    }
+   ],
+   "preview": "Z?@]gt*K{,(P1P*ZKH?rii*N"
+  }
+ ],
+ "opcodeEstimate": 95,
+ "handlerClusters": [
+  {
+   "shapeHash": "0c53fdac",
+   "members": [
+    18,
+    31,
+    35,
+    46,
+    60,
+    68,
+    80,
+    85,
+    92,
+    97,
+    100,
+    115,
+    129,
+    137,
+    138,
+    143,
+    158,
+    161
+   ],
+   "representativeLine": 1546,
+   "sketch": "r1"
+  },
+  {
+   "shapeHash": "c4ac7f96",
+   "members": [
+    69,
+    81,
+    86,
+    93,
+    116
+   ],
+   "representativeLine": 6445,
+   "sketch": "l1,l1,r1"
+  },
+  {
+   "shapeHash": "f8ff50fd",
+   "members": [
+    19,
+    101,
+    130
+   ],
+   "representativeLine": 1547,
+   "sketch": "l1,l1,l1,r1"
+  },
+  {
+   "shapeHash": "b27d76e7",
+   "members": [
+    10,
+    11
+   ],
+   "representativeLine": 173,
+   "sketch": "l17,?,r1"
+  },
+  {
+   "shapeHash": "5ebe0c17",
+   "members": [
+    36,
+    98
+   ],
+   "representativeLine": 2596,
+   "sketch": "l1,r1"
+  },
+  {
+   "shapeHash": "5406ccd8",
+   "members": [
+    52,
+    53
+   ],
+   "representativeLine": 2846,
+   "sketch": "l6,r1"
+  },
+  {
+   "shapeHash": "0e5400d2",
+   "members": [
+    59,
+    139
+   ],
+   "representativeLine": 3130,
+   "sketch": "r3"
+  },
+  {
+   "shapeHash": "903347ee",
+   "members": [
+    64,
+    65
+   ],
+   "representativeLine": 3176,
+   "sketch": "l19,r1"
+  },
+  {
+   "shapeHash": "c964eed8",
+   "members": [
+    87,
+    94
+   ],
+   "representativeLine": 6750,
+   "sketch": "c,r0"
+  },
+  {
+   "shapeHash": "1c24b8a7",
+   "members": [
+    99,
+    147
+   ],
+   "representativeLine": 6879,
+   "sketch": "a1"
+  },
+  {
+   "shapeHash": "2ff2601e",
+   "members": [
+    112,
+    163
+   ],
+   "representativeLine": 7058,
+   "sketch": "I(I(l1,r5;l1,r5)|r5;l1,r5)"
+  },
+  {
+   "shapeHash": "ed1c3cad",
+   "members": [
+    150,
+    151
+   ],
+   "representativeLine": 7836,
+   "sketch": "l7,r1"
+  },
+  {
+   "shapeHash": "f755d433",
+   "members": [
+    0
+   ],
+   "representativeLine": 2,
+   "sketch": "I(l4,l2,r8;l1,r8)"
+  },
+  {
+   "shapeHash": "5d2444d8",
+   "members": [
+    1
+   ],
+   "representativeLine": 11,
+   "sketch": "I(I(l3,l2,a2,a1,a1,I(r6;r6);l1,r6)|r6|l1,r6;r6)"
+  },
+  {
+   "shapeHash": "eeee2ef6",
+   "members": [
+    2
+   ],
+   "representativeLine": 36,
+   "sketch": "I(I(l1,r4;l1,r4)|l1,r4;l2,r4)"
+  },
+  {
+   "shapeHash": "2e314c23",
+   "members": [
+    3
+   ],
+   "representativeLine": 52,
+   "sketch": "I(I(r5;l1,r5)|r5|r5;r5)"
+  },
+  {
+   "shapeHash": "5589487a",
+   "members": [
+    4
+   ],
+   "representativeLine": 67,
+   "sketch": "I(I(l1,r7;r7)|r7;l1,l3,r7)"
+  },
+  {
+   "shapeHash": "5c48ca82",
+   "members": [
+    5
+   ],
+   "representativeLine": 82,
+   "sketch": "I(I(r6;l1,r6)|l1,r6|r6;l1,r6)"
+  },
+  {
+   "shapeHash": "65c7e7b4",
+   "members": [
+    6
+   ],
+   "representativeLine": 99,
+   "sketch": "I(l1,l3,r6;l1,l3,r6)"
+  },
+  {
+   "shapeHash": "a73479d4",
+   "members": [
+    7
+   ],
+   "representativeLine": 109,
+   "sketch": "I(I(l1,r6;l2,r6)|r6;l1,I(r6;r6))"
+  },
+  {
+   "shapeHash": "849332e8",
+   "members": [
+    8
+   ],
+   "representativeLine": 128,
+   "sketch": "I(I(r7|l1,r7;r7)|l1,r7|l3,l2,a2,a1,a1,I(r7;r7);l1,r7)"
+  },
+  {
+   "shapeHash": "1f1698e9",
+   "members": [
+    9
+   ],
+   "representativeLine": 156,
+   "sketch": "I(I(l2,c,r6;r6)|l2,l1,a1,r6;r6)"
+  },
+  {
+   "shapeHash": "f359838d",
+   "members": [
+    12
+   ],
+   "representativeLine": 177,
+   "sketch": "l1,l2,l10,l13,l5,I(I(I(r1;r1)|I(r1;r1));l2,I(F(l1,I(a1,a1,a1"
+  },
+  {
+   "shapeHash": "fa53d4c3",
+   "members": [
+    13
+   ],
+   "representativeLine": 182,
+   "sketch": "l7,I(W(l1,I(I(I(I(I(a1,a1;a1)|a1|a1;a1,a1)|I(a1;a1)|a1;a1,a1"
+  },
+  {
+   "shapeHash": "8343bb9b",
+   "members": [
+    14
+   ],
+   "representativeLine": 1473,
+   "sketch": "I(r3|l1,I(r3;r3);l1,r3)"
+  },
+  {
+   "shapeHash": "c6c05267",
+   "members": [
+    15
+   ],
+   "representativeLine": 1487,
+   "sketch": "I(I(r8|r8;r8)|l1,r8;l3,r8)"
+  },
+  {
+   "shapeHash": "bbacb8ca",
+   "members": [
+    16
+   ],
+   "representativeLine": 1503,
+   "sketch": "I(I(l1,r3;a1,r3)|l1,r3|r3;r3)"
+  },
+  {
+   "shapeHash": "0d3c1349",
+   "members": [
+    17
+   ],
+   "representativeLine": 1520,
+   "sketch": "I(I(l1,l5,a1,r7;l1,r7)|r7|l1,I(r7;r7);a1,a1,c,r7)"
+  },
+  {
+   "shapeHash": "308dca8a",
+   "members": [
+    20
+   ],
+   "representativeLine": 1551,
+   "sketch": "l1,W(I(r0;a1,a1,a2))"
+  },
+  {
+   "shapeHash": "90cbd545",
+   "members": [
+    21
+   ],
+   "representativeLine": 1564,
+   "sketch": "I(l1,l5,a1,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "95c0ed25",
+   "members": [
+    22
+   ],
+   "representativeLine": 1574,
+   "sketch": "l1,l28,l1,l12,W(I(I(I(a4|I(a3;a1,a1,a1,a2);a3)|l6,I(a5|r2)|a"
+  },
+  {
+   "shapeHash": "e76e4506",
+   "members": [
+    23
+   ],
+   "representativeLine": 1589,
+   "sketch": "l2,l16,W(l4,I(I(I(I(I(I(I(l3,c,a1,a2;l3,l2,a2,a1,a1,I(a2;a1)"
+  },
+  {
+   "shapeHash": "ca6923b1",
+   "members": [
+    24
+   ],
+   "representativeLine": 2466,
+   "sketch": "I(I(r1;l1,l3,r6)|r6;l1,r6)"
+  },
+  {
+   "shapeHash": "8017b4bd",
+   "members": [
+    25
+   ],
+   "representativeLine": 2481,
+   "sketch": "I(I(a1,r4;r4)|a1,r4|l1,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "ca62a30c",
+   "members": [
+    26
+   ],
+   "representativeLine": 2499,
+   "sketch": "I(r4;r4)"
+  },
+  {
+   "shapeHash": "b6876b98",
+   "members": [
+    27
+   ],
+   "representativeLine": 2505,
+   "sketch": "I(l1,r5|r5;l3,l2,a2,a1,a1,I(r5;r5))"
+  },
+  {
+   "shapeHash": "81e23af7",
+   "members": [
+    28
+   ],
+   "representativeLine": 2523,
+   "sketch": "I(l1,r4|l1,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "73710d40",
+   "members": [
+    29
+   ],
+   "representativeLine": 2534,
+   "sketch": "I(I(r3;r3)|r3|l3,l1,a1,r3;a1,r3)"
+  },
+  {
+   "shapeHash": "a239a743",
+   "members": [
+    30
+   ],
+   "representativeLine": 2552,
+   "sketch": "I(r5|a1,r5;l1,l5,r5)"
+  },
+  {
+   "shapeHash": "9d49d3e2",
+   "members": [
+    32
+   ],
+   "representativeLine": 2565,
+   "sketch": "I(l1,l5,a1,r3;r3)"
+  },
+  {
+   "shapeHash": "54257713",
+   "members": [
+    33
+   ],
+   "representativeLine": 2574,
+   "sketch": "I(r5;l1,I(r5;r5))"
+  },
+  {
+   "shapeHash": "48b2302a",
+   "members": [
+    34
+   ],
+   "representativeLine": 2585,
+   "sketch": "I(r6|r6;l1,l5,r6)"
+  },
+  {
+   "shapeHash": "333abd33",
+   "members": [
+    37
+   ],
+   "representativeLine": 2598,
+   "sketch": "F(F(a1,l2,l2,l2,l4,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1"
+  },
+  {
+   "shapeHash": "a8d2111c",
+   "members": [
+    38
+   ],
+   "representativeLine": 2626,
+   "sketch": "I(I(r6;r6)|l1,r6|l1,c,a1,a1,r6;l1,l5,a1,r6)"
+  },
+  {
+   "shapeHash": "9deb9b3f",
+   "members": [
+    39
+   ],
+   "representativeLine": 2648,
+   "sketch": "I(l1,l4,r4|r4;r4)"
+  },
+  {
+   "shapeHash": "fd09ca08",
+   "members": [
+    40
+   ],
+   "representativeLine": 2658,
+   "sketch": "I(l4,r4;l2,r4)"
+  },
+  {
+   "shapeHash": "dbd278c0",
+   "members": [
+    41
+   ],
+   "representativeLine": 2666,
+   "sketch": "I(l2,r5;l1,l5,a1,r5)"
+  },
+  {
+   "shapeHash": "9a51c4da",
+   "members": [
+    42
+   ],
+   "representativeLine": 2676,
+   "sketch": "I(I(r7;l2,r7)|r7;l1,r7)"
+  },
+  {
+   "shapeHash": "9cd527ff",
+   "members": [
+    43
+   ],
+   "representativeLine": 2690,
+   "sketch": "I(I(l1,r8;l1,r8)|l1,r8|r8;l2,l1,l1,I(r8;r8))"
+  },
+  {
+   "shapeHash": "b2e8a46b",
+   "members": [
+    44
+   ],
+   "representativeLine": 2714,
+   "sketch": "I(I(l2,r4;r4)|l3,l2,a2,a1,a1,I(r4;r4);l2,c,r4)"
+  },
+  {
+   "shapeHash": "712ee77f",
+   "members": [
+    45
+   ],
+   "representativeLine": 2738,
+   "sketch": "l8,W(I(I(I(c,a1;a1)|a1,I(a4;a3);a2)|I(c,a1;r0)|c,a1;a1))"
+  },
+  {
+   "shapeHash": "e55e3504",
+   "members": [
+    47
+   ],
+   "representativeLine": 2774,
+   "sketch": "l1,l1,l1,l1,l1,l1,l1,l1,r1"
+  },
+  {
+   "shapeHash": "4a051147",
+   "members": [
+    48
+   ],
+   "representativeLine": 2783,
+   "sketch": "W(l1,I(c;c))"
+  },
+  {
+   "shapeHash": "a0951795",
+   "members": [
+    49
+   ],
+   "representativeLine": 2785,
+   "sketch": "l1,l2,F(I(I(a1,I(a1,b)))),I(a1,a1,a1,a1)"
+  },
+  {
+   "shapeHash": "f12e909e",
+   "members": [
+    50
+   ],
+   "representativeLine": 2814,
+   "sketch": "I(I(l1,r8;l2,l4,r8)|r8|r8;a1,r8)"
+  },
+  {
+   "shapeHash": "49f3b4bb",
+   "members": [
+    51
+   ],
+   "representativeLine": 2832,
+   "sketch": "I(I(l2,r5;r5)|r5;l2,r5)"
+  },
+  {
+   "shapeHash": "0267ab04",
+   "members": [
+    54
+   ],
+   "representativeLine": 2850,
+   "sketch": "l2,l1,l2,I(a2,W(l1,I(I(I(a1;a1);a1)|a1,a1,b|c,a2,a1,a3,a2|a1"
+  },
+  {
+   "shapeHash": "df332041",
+   "members": [
+    55
+   ],
+   "representativeLine": 3059,
+   "sketch": "I(l3,l2,a2,a1,a1,I(r4;r4)|l1,r4;r1)"
+  },
+  {
+   "shapeHash": "06ee6939",
+   "members": [
+    56
+   ],
+   "representativeLine": 3077,
+   "sketch": "I(I(r5;a1,r5)|l1,r5|l1,r5;l3,r5)"
+  },
+  {
+   "shapeHash": "cbdad864",
+   "members": [
+    57
+   ],
+   "representativeLine": 3095,
+   "sketch": "I(I(r7;l1,a1,a1,a1,a1,c,c,r7)|r7;r7)"
+  },
+  {
+   "shapeHash": "9504ca96",
+   "members": [
+    58
+   ],
+   "representativeLine": 3114,
+   "sketch": "I(I(a1,r5;r5)|l1,r5;l1,l5,r5)"
+  },
+  {
+   "shapeHash": "86c88871",
+   "members": [
+    61
+   ],
+   "representativeLine": 3133,
+   "sketch": "l1,l1,l1,l1,l1,l1,l1,r1"
+  },
+  {
+   "shapeHash": "3032b749",
+   "members": [
+    62
+   ],
+   "representativeLine": 3141,
+   "sketch": "W(I(I(a1),l1,a1),c,I(l1,a1,c),I(b))"
+  },
+  {
+   "shapeHash": "48f62cd8",
+   "members": [
+    63
+   ],
+   "representativeLine": 3162,
+   "sketch": "I(I(l1,r7;r7)|r7;l2,r7)"
+  },
+  {
+   "shapeHash": "f161eaa5",
+   "members": [
+    66
+   ],
+   "representativeLine": 3180,
+   "sketch": "l15,l2,l2,l2,I(a2,W(l1,I(I(I(I(I(I(a1,a1|I(a1;a1);a1)|a2,F(a"
+  },
+  {
+   "shapeHash": "e3694939",
+   "members": [
+    67
+   ],
+   "representativeLine": 6426,
+   "sketch": "I(I(r7;l1,r7)|l1,l4,r7|l1,r7;r7)"
+  },
+  {
+   "shapeHash": "4fe0a712",
+   "members": [
+    70
+   ],
+   "representativeLine": 6448,
+   "sketch": "l1,W(I(r0;a1,a2))"
+  },
+  {
+   "shapeHash": "0a7c2eda",
+   "members": [
+    71
+   ],
+   "representativeLine": 6460,
+   "sketch": "I(I(l1,a2,r7;l1,r7)|r7|l1,r7;l2,r7)"
+  },
+  {
+   "shapeHash": "89356735",
+   "members": [
+    72
+   ],
+   "representativeLine": 6479,
+   "sketch": "I(l2,r7|l1,l4,r7;l2,l3,r7)"
+  },
+  {
+   "shapeHash": "6bd0dcd9",
+   "members": [
+    73
+   ],
+   "representativeLine": 6492,
+   "sketch": "I(I(r5;r5)|l1,l4,r5;l1,l4,r5)"
+  },
+  {
+   "shapeHash": "0738414d",
+   "members": [
+    74
+   ],
+   "representativeLine": 6508,
+   "sketch": "r13"
+  },
+  {
+   "shapeHash": "fc95a220",
+   "members": [
+    75
+   ],
+   "representativeLine": 6510,
+   "sketch": "I(l1,l5,r5;l4,r5)"
+  },
+  {
+   "shapeHash": "b85d037b",
+   "members": [
+    76
+   ],
+   "representativeLine": 6519,
+   "sketch": "I(I(r6;l1,r6)|l1,r6;r6)"
+  },
+  {
+   "shapeHash": "c6ab6d88",
+   "members": [
+    77
+   ],
+   "representativeLine": 6533,
+   "sketch": "I(I(a1,r4;l1,r4)|l1,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "783faef5",
+   "members": [
+    78
+   ],
+   "representativeLine": 6549,
+   "sketch": "r22"
+  },
+  {
+   "shapeHash": "59c3d58e",
+   "members": [
+    79
+   ],
+   "representativeLine": 6551,
+   "sketch": "I(I(l2,r6;l2,r6)|l1,r6;r6)"
+  },
+  {
+   "shapeHash": "a6f8a117",
+   "members": [
+    82
+   ],
+   "representativeLine": 6570,
+   "sketch": "l2,l12,W(I(I(I(I(a3|a1,a2;a3)|I(a1,a2;l1,a2)|a2;a2)|I(I(l1,a"
+  },
+  {
+   "shapeHash": "ff99ea07",
+   "members": [
+    83
+   ],
+   "representativeLine": 6716,
+   "sketch": "I(l1,l1,l1,l3,a1,a1,r2;c,r2)"
+  },
+  {
+   "shapeHash": "0f431044",
+   "members": [
+    84
+   ],
+   "representativeLine": 6729,
+   "sketch": "I(l3,l2,a2,a1,a1,I(r5;r5);l1,l3,r5)"
+  },
+  {
+   "shapeHash": "e2747464",
+   "members": [
+    88
+   ],
+   "representativeLine": 6755,
+   "sketch": "I(I(l1,l3,r7;r7)|l3,l2,a2,a1,a1,I(r7;r7);l1,r7)"
+  },
+  {
+   "shapeHash": "50aee964",
+   "members": [
+    89
+   ],
+   "representativeLine": 6779,
+   "sketch": "I(l1,r6|l3,r6;l1,l5,r6)"
+  },
+  {
+   "shapeHash": "50b0b5ff",
+   "members": [
+    90
+   ],
+   "representativeLine": 6791,
+   "sketch": "I(I(l1,r5;r5)|l1,r5;r5)"
+  },
+  {
+   "shapeHash": "4744a8be",
+   "members": [
+    91
+   ],
+   "representativeLine": 6805,
+   "sketch": "I(I(l3,l2,a2,a1,a1,I(r7;r7);r7)|r7|r7;l1,l5,a1,r7)"
+  },
+  {
+   "shapeHash": "285db57a",
+   "members": [
+    95
+   ],
+   "representativeLine": 6840,
+   "sketch": "I(I(r7;l2,l1,I(r7;r7))|l1,l4,r7;l1,r7)"
+  },
+  {
+   "shapeHash": "007ff524",
+   "members": [
+    96
+   ],
+   "representativeLine": 6861,
+   "sketch": "I(I(l1,r5;l1,r5)|l1,r5;r5)"
+  },
+  {
+   "shapeHash": "28a1ca38",
+   "members": [
+    102
+   ],
+   "representativeLine": 6888,
+   "sketch": "l1,W(I(a1,a1,a2;r0))"
+  },
+  {
+   "shapeHash": "32990299",
+   "members": [
+    103
+   ],
+   "representativeLine": 6901,
+   "sketch": "I(I(r6;r6)|r6|l1,I(r6;r6);a1,r6)"
+  },
+  {
+   "shapeHash": "0cb39628",
+   "members": [
+    104
+   ],
+   "representativeLine": 6921,
+   "sketch": "I(l1,r4|l4,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "b7250847",
+   "members": [
+    105
+   ],
+   "representativeLine": 6932,
+   "sketch": "I(I(l4,r7;l1,r7)|r7;l1,l4,r7)"
+  },
+  {
+   "shapeHash": "7866dada",
+   "members": [
+    106
+   ],
+   "representativeLine": 6948,
+   "sketch": "I(I(l1,r7;l1,l5,a1,r7)|r7|r7;l1,r7)"
+  },
+  {
+   "shapeHash": "b6edb24e",
+   "members": [
+    107
+   ],
+   "representativeLine": 6967,
+   "sketch": "I(l3,l2,a2,a1,a1,I(r4;r4)|l1,l5,a1,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "0d91cc1d",
+   "members": [
+    108
+   ],
+   "representativeLine": 6988,
+   "sketch": "I(r4;l1,r4)"
+  },
+  {
+   "shapeHash": "5db118dc",
+   "members": [
+    109
+   ],
+   "representativeLine": 6995,
+   "sketch": "I(I(l1,l5,a1,r6;r6)|l1,l5,a1,r6;l1,r6)"
+  },
+  {
+   "shapeHash": "9366a7de",
+   "members": [
+    110
+   ],
+   "representativeLine": 7014,
+   "sketch": "I(I(l2,l1,I(r7;r7);l1,r7)|l2,r7;l1,r7)"
+  },
+  {
+   "shapeHash": "a40f88b2",
+   "members": [
+    111
+   ],
+   "representativeLine": 7035,
+   "sketch": "I(I(l3,l2,a2,a1,a1,I(r6;r6);l1,r6)|r6;l1,r6)"
+  },
+  {
+   "shapeHash": "b3729b33",
+   "members": [
+    113
+   ],
+   "representativeLine": 7073,
+   "sketch": "I(l1,l5,r4;l1,r4)"
+  },
+  {
+   "shapeHash": "9158adfd",
+   "members": [
+    114
+   ],
+   "representativeLine": 7082,
+   "sketch": "I(I(r7;l1,I(r7;r7))|l1,r7|a1,r7;l1,l4,r7)"
+  },
+  {
+   "shapeHash": "8c3bed84",
+   "members": [
+    117
+   ],
+   "representativeLine": 7109,
+   "sketch": "l3,W(I(I(a1,a1,a1,a1,a2;r0)|a1,a1,a1,a2;a1,a1,a1,a3))"
+  },
+  {
+   "shapeHash": "a869e5c9",
+   "members": [
+    118
+   ],
+   "representativeLine": 7136,
+   "sketch": "I(l1,r5|l4,r5;l1,r5)"
+  },
+  {
+   "shapeHash": "59bc9c5d",
+   "members": [
+    119
+   ],
+   "representativeLine": 7147,
+   "sketch": "I(I(r9;r9)|l1,r9|l1,l5,a1,r9;r9)"
+  },
+  {
+   "shapeHash": "63ad8d33",
+   "members": [
+    120
+   ],
+   "representativeLine": 7165,
+   "sketch": "I(I(l1,r5;l1,r5)|r5;r5)"
+  },
+  {
+   "shapeHash": "aa4d761e",
+   "members": [
+    121
+   ],
+   "representativeLine": 7179,
+   "sketch": "I(I(r7;l1,I(r7;r7))|r7;l2,r7)"
+  },
+  {
+   "shapeHash": "8c00503d",
+   "members": [
+    122
+   ],
+   "representativeLine": 7197,
+   "sketch": "I(l3,l2,a2,a1,a1,I(r3;r3);l1,r3)"
+  },
+  {
+   "shapeHash": "263794fb",
+   "members": [
+    123
+   ],
+   "representativeLine": 7213,
+   "sketch": "I(I(r6;l1,l5,a1,r6)|r6;r6)"
+  },
+  {
+   "shapeHash": "fe79dff5",
+   "members": [
+    124
+   ],
+   "representativeLine": 7228,
+   "sketch": "I(l1,r3;l3,l2,a2,a1,a1,I(r3;r3))"
+  },
+  {
+   "shapeHash": "76d99e4e",
+   "members": [
+    125
+   ],
+   "representativeLine": 7244,
+   "sketch": "I(I(l1,c,r6;r1)|r6;r6)"
+  },
+  {
+   "shapeHash": "7832f839",
+   "members": [
+    126
+   ],
+   "representativeLine": 7258,
+   "sketch": "I(I(l2,r7;l1,I(r7;r7))|l1,r7|r7;l1,r7)"
+  },
+  {
+   "shapeHash": "c720ab7e",
+   "members": [
+    127
+   ],
+   "representativeLine": 7280,
+   "sketch": "l22,l23,W(I(I(I(I(I(I(a5;a5)|a7;a6)|I(a9;a9)|a4;a7)|I(I(a5;a"
+  },
+  {
+   "shapeHash": "6087edf2",
+   "members": [
+    128
+   ],
+   "representativeLine": 7511,
+   "sketch": "I(l1,r3;l1,r3)"
+  },
+  {
+   "shapeHash": "bb49ebc7",
+   "members": [
+    131
+   ],
+   "representativeLine": 7524,
+   "sketch": "l15,W(l2,I(I(I(l2,l4,a5,l2,l2,a2,a9|a2;l1,a2,l1,a3,a2)|l1,a2"
+  },
+  {
+   "shapeHash": "494a76e7",
+   "members": [
+    132
+   ],
+   "representativeLine": 7609,
+   "sketch": "I(I(r6;l2,r6)|l1,l4,r6;l1,r6)"
+  },
+  {
+   "shapeHash": "38d0b595",
+   "members": [
+    133
+   ],
+   "representativeLine": 7625,
+   "sketch": "I(I(l1,r6;l3,l2,a2,a1,a1,I(r6;r6))|r6;r6)"
+  },
+  {
+   "shapeHash": "4e9d0072",
+   "members": [
+    134
+   ],
+   "representativeLine": 7647,
+   "sketch": "I(r9|l1,r9;l1,l1,l1,a1,l1,r9)"
+  },
+  {
+   "shapeHash": "b589af69",
+   "members": [
+    135
+   ],
+   "representativeLine": 7661,
+   "sketch": "I(I(l1,l5,a1,r7;a1,l3,l1,r7)|l1,r7;l1,r7)"
+  },
+  {
+   "shapeHash": "91fcd0d5",
+   "members": [
+    136
+   ],
+   "representativeLine": 7681,
+   "sketch": "I(l3,l2,a2,a1,a1,I(r5;r5)|l2,r5;l1,l5,a1,r5)"
+  },
+  {
+   "shapeHash": "856b06df",
+   "members": [
+    140
+   ],
+   "representativeLine": 7708,
+   "sketch": "I(I(r4;r4)|l3,l2,a2,a1,a1,I(r4;r4);l1,r4)"
+  },
+  {
+   "shapeHash": "407629aa",
+   "members": [
+    141
+   ],
+   "representativeLine": 7730,
+   "sketch": "I(l1,r4;l1,a1,a1,a1,a1,a1,a1,a1,a1,c,c,c,c,r4)"
+  },
+  {
+   "shapeHash": "e2b89037",
+   "members": [
+    142
+   ],
+   "representativeLine": 7750,
+   "sketch": "I(I(l1,r6;r6)|l2,r6|l1,l4,r6;r6)"
+  },
+  {
+   "shapeHash": "4d20a3cb",
+   "members": [
+    144
+   ],
+   "representativeLine": 7769,
+   "sketch": "l1,l1,l1,l1,l1,r1"
+  },
+  {
+   "shapeHash": "3ef6d8ec",
+   "members": [
+    145
+   ],
+   "representativeLine": 7775,
+   "sketch": "a1,l1,c,a1,c,r0"
+  },
+  {
+   "shapeHash": "56323e01",
+   "members": [
+    146
+   ],
+   "representativeLine": 7784,
+   "sketch": "I(I(l3,r6;l3,l2,a2,a1,a1,I(r6;r6))|l1,r6;l3,l2,a2,a1,a1,I(r6"
+  },
+  {
+   "shapeHash": "ff9d0414",
+   "members": [
+    148
+   ],
+   "representativeLine": 7818,
+   "sketch": "I(I(r6;r6)|l1,r6;r6)"
+  },
+  {
+   "shapeHash": "973cf414",
+   "members": [
+    149
+   ],
+   "representativeLine": 7831,
+   "sketch": "c,F(c)"
+  },
+  {
+   "shapeHash": "6b3d72fb",
+   "members": [
+    152
+   ],
+   "representativeLine": 7840,
+   "sketch": "l5,l2,l2,l4,I(a3,W(l1,I(I(I(I(I(I(a3,a1,a1;a3,F(a1,a1,a1,a1,"
+  },
+  {
+   "shapeHash": "a94f70f7",
+   "members": [
+    153
+   ],
+   "representativeLine": 8557,
+   "sketch": "l13,l12,W(I(I(I(a6|a4;a4)|a3|a4,I(a3|r1);a9)|I(I(a2;a7)|a7;a"
+  },
+  {
+   "shapeHash": "4c526e1f",
+   "members": [
+    154
+   ],
+   "representativeLine": 8602,
+   "sketch": "I(I(l2,r7;r7)|l1,l4,r7|l2,l4,r7;r7)"
+  },
+  {
+   "shapeHash": "de77e327",
+   "members": [
+    155
+   ],
+   "representativeLine": 8621,
+   "sketch": "I(I(a1,r3;r3)|l1,r3|r3;l3,l2,a2,a1,a1,I(r3;r3))"
+  },
+  {
+   "shapeHash": "c82629b2",
+   "members": [
+    156
+   ],
+   "representativeLine": 8646,
+   "sketch": "I(I(r5;l1,r5)|l1,a2,r5;r5)"
+  },
+  {
+   "shapeHash": "1aed7720",
+   "members": [
+    157
+   ],
+   "representativeLine": 8661,
+   "sketch": "I(I(l1,I(r9;r9);l1,I(r9;r9))|l1,r9;r9)"
+  },
+  {
+   "shapeHash": "b7a25c0a",
+   "members": [
+    159
+   ],
+   "representativeLine": 8686,
+   "sketch": "I(l1,l4,r5;l3,r5)"
+  },
+  {
+   "shapeHash": "8d0c2a7b",
+   "members": [
+    160
+   ],
+   "representativeLine": 8695,
+   "sketch": "I(r4|r4;l1,r4)"
+  },
+  {
+   "shapeHash": "2d3ceb69",
+   "members": [
+    162
+   ],
+   "representativeLine": 8706,
+   "sketch": "I(I(l3,r9;l2,r9)|l1,I(r9;r9);r9)"
+  },
+  {
+   "shapeHash": "6d315448",
+   "members": [
+    164
+   ],
+   "representativeLine": 8740,
+   "sketch": "I(l1,a1,l2,l1,r7|l3,a1,a1,a1,r7;l2,r7)"
+  },
+  {
+   "shapeHash": "f08e9aad",
+   "members": [
+    165
+   ],
+   "representativeLine": 8757,
+   "sketch": "l1,l4,r3"
+  }
+ ],
+ "notes": [
+  "dominant blob @L3162: 644620 units, 95 distinct byte values (~opcode count upper bound)",
+  "control-flow flattening (state-machine) detected",
+  "table-based opcode dispatch detected"
+ ]
+}

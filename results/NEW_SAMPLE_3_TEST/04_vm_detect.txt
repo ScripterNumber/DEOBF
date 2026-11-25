@@ -1,0 +1,71 @@
+VM: YES  (~95 opcodes)
+
+dispatch sites:
+  line 1592: cff-state-machine var=B cases=8 — if-chain on 'B' with state reassignment
+  line 5314: cff-state-machine var=H cases=8 — if-chain on 'H'
+  line 662: cff-state-machine var=t cases=7 — if-chain on 't'
+  line 3187: cff-state-machine var=rB cases=7 — if-chain on 'rB'
+  line 3709: cff-state-machine var=H cases=7 — if-chain on 'H'
+  line 4435: cff-state-machine var=H cases=7 — if-chain on 'H'
+  line 185: cff-state-machine var=t cases=5 — if-chain on 't'
+  line 463: cff-state-machine var=t cases=5 — if-chain on 't'
+  line 1091: cff-state-machine var=K cases=5 — if-chain on 'K'
+  line 6573: cff-state-machine var=K cases=5 — if-chain on 'K' with state reassignment
+  line 7847: cff-state-machine var=z cases=5 — if-chain on 'z'
+  line 1579: cff-state-machine var=n cases=4 — if-chain on 'n' with state reassignment
+  line 428: table-dispatch — T[expr](...) indexed call (opcode handler table)
+  line 1322: table-dispatch — T[expr](...) indexed call (opcode handler table)
+  line 1428: table-dispatch — T[expr](...) indexed call (opcode handler table)
+  line 1430: table-dispatch — T[expr](...) indexed call (opcode handler table)
+
+trampolines:
+  line 1553: while true do (dispatch/trampoline loop)
+  line 2784: while true do (dispatch/trampoline loop)
+  line 3142: while true do (dispatch/trampoline loop)
+  line 6450: while true do (dispatch/trampoline loop)
+  line 6890: while true do (dispatch/trampoline loop)
+
+blobs:
+  line 1: string-literal len=296 distinct bytes=172 top: 99×5 158×5 250×5 19×4 131×4 143×4 230×4 234×4
+      >....'3....\.B....XU(% .
+  line 1: string-literal len=2666 distinct bytes=256 top: 138×19 238×19 41×18 89×18 133×18 192×18 12×17 94×17
+      ...g...EG~j.....+.o..2M.
+  line 3162: string-literal len=644620 distinct bytes=95 top: 40×1281 59×1274 39×1271 56×1250 63×1250 82×1250 88×1240 102×1236
+      LPH-Z?@]gt*K{,(P1P*ZKH?r
+  line 6488: string-literal len=644616 distinct bytes=95 top: 40×1281 59×1274 39×1271 63×1251 56×1250 82×1250 88×1240 102×1236
+      Z?@]gt*K{,(P1P*ZKH?rii*N
+
+handler clusters (same shape):
+  0c53fdac ×18 (line 1546): r1
+  c4ac7f96 ×5 (line 6445): l1,l1,r1
+  f8ff50fd ×3 (line 1547): l1,l1,l1,r1
+  b27d76e7 ×2 (line 173): l17,?,r1
+  5ebe0c17 ×2 (line 2596): l1,r1
+  5406ccd8 ×2 (line 2846): l6,r1
+  0e5400d2 ×2 (line 3130): r3
+  903347ee ×2 (line 3176): l19,r1
+  c964eed8 ×2 (line 6750): c,r0
+  1c24b8a7 ×2 (line 6879): a1
+  2ff2601e ×2 (line 7058): I(I(l1,r5;l1,r5)|r5;l1,r5)
+  ed1c3cad ×2 (line 7836): l7,r1
+  f755d433 ×1 (line 2): I(l4,l2,r8;l1,r8)
+  5d2444d8 ×1 (line 11): I(I(l3,l2,a2,a1,a1,I(r6;r6);l1,r6)|r6|l1,r6;r6)
+  eeee2ef6 ×1 (line 36): I(I(l1,r4;l1,r4)|l1,r4;l2,r4)
+  2e314c23 ×1 (line 52): I(I(r5;l1,r5)|r5|r5;r5)
+  5589487a ×1 (line 67): I(I(l1,r7;r7)|r7;l1,l3,r7)
+  5c48ca82 ×1 (line 82): I(I(r6;l1,r6)|l1,r6|r6;l1,r6)
+  65c7e7b4 ×1 (line 99): I(l1,l3,r6;l1,l3,r6)
+  a73479d4 ×1 (line 109): I(I(l1,r6;l2,r6)|r6;l1,I(r6;r6))
+  849332e8 ×1 (line 128): I(I(r7|l1,r7;r7)|l1,r7|l3,l2,a2,a1,a1,I(r7;r7);l1,r7)
+  1f1698e9 ×1 (line 156): I(I(l2,c,r6;r6)|l2,l1,a1,r6;r6)
+  f359838d ×1 (line 177): l1,l2,l10,l13,l5,I(I(I(r1;r1)|I(r1;r1));l2,I(F(l1,I(a1,a1,a1
+  fa53d4c3 ×1 (line 182): l7,I(W(l1,I(I(I(I(I(a1,a1;a1)|a1|a1;a1,a1)|I(a1;a1)|a1;a1,a1
+  8343bb9b ×1 (line 1473): I(r3|l1,I(r3;r3);l1,r3)
+  c6c05267 ×1 (line 1487): I(I(r8|r8;r8)|l1,r8;l3,r8)
+  bbacb8ca ×1 (line 1503): I(I(l1,r3;a1,r3)|l1,r3|r3;r3)
+  0d3c1349 ×1 (line 1520): I(I(l1,l5,a1,r7;l1,r7)|r7|l1,I(r7;r7);a1,a1,c,r7)
+  308dca8a ×1 (line 1551): l1,W(I(r0;a1,a1,a2))
+  90cbd545 ×1 (line 1564): I(l1,l5,a1,r4;l1,r4)
+note: dominant blob @L3162: 644620 units, 95 distinct byte values (~opcode count upper bound)
+note: control-flow flattening (state-machine) detected
+note: table-based opcode dispatch detected

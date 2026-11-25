@@ -1,0 +1,9 @@
+BEHAVIOUR / IOC REPORT — NEW_SAMPLE_3_TEST.clean.lua [new_sample_3_test.clean-edb8a4]  (static: 27,815 identifiers, 39 strings scanned)
+
+VERDICT
+- anti-tamper / anti-debug checks (debug.getinfo / traceback / getfenv)
+
+NOTICE Anti-tamper / anti-debug — 3 hit(s): setfenv, getfenv
+    L2505   setfenv            end, [122] = setfenv, l = function(r, x, H, T, l, u, K, I, o)
+    L6510   getfenv            end, Jp = getfenv(), yO = function(r, x, H, T, l, u, K, I, o, D)
+    L6519   getfenv            end, [105] = getfenv, I = function(r, x, H, T, l, u, K, I, o)

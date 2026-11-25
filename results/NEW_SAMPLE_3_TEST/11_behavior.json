@@ -1,0 +1,39 @@
+{
+ "categories": [
+  {
+   "id": "anti",
+   "title": "Anti-tamper / anti-debug",
+   "severity": "notice",
+   "count": 3,
+   "indicators": [
+    "setfenv",
+    "getfenv"
+   ],
+   "hits": [
+    {
+     "indicator": "setfenv",
+     "line": 2505,
+     "text": "end, [122] = setfenv, l = function(r, x, H, T, l, u, K, I, o)"
+    },
+    {
+     "indicator": "getfenv",
+     "line": 6510,
+     "text": "end, Jp = getfenv(), yO = function(r, x, H, T, l, u, K, I, o, D)"
+    },
+    {
+     "indicator": "getfenv",
+     "line": 6519,
+     "text": "end, [105] = getfenv, I = function(r, x, H, T, l, u, K, I, o)"
+    }
+   ]
+  }
+ ],
+ "urls": [],
+ "verdict": [
+  "anti-tamper / anti-debug checks (debug.getinfo / traceback / getfenv)"
+ ],
+ "scanned": {
+  "names": 27815,
+  "strings": 39
+ }
+}

@@ -1,0 +1,68 @@
+# luau_run — TEST-PRISM3.stage2.lifted.lua
+engine: Lua 5.4 + Luau compat shim (/vercel/sandbox/data/proj/prism/tools/lua54/lua54) — QA only; 8 continue→goto, 1 generalized for, 3 big literal(s) as doubles
+exit 0; 104 output line(s)
+
+compare with TEST-PRISM3-ORIGINAL.lua: 104/104 identical line(s) — OUTPUT IDENTICAL
+
+## output (first 60)
+============================================================
+MINI RPG WORLD GENERATOR
+============================================================
+Reference: https://create.roblox.com/docs/luau
+
+TERRAIN TYPES:
+  1. Plains [.]
+  2. Forest [f]
+  3. Hills [^]
+  4. Mountains [M]
+  5. Water [~]
+  6. Desert [:]
+  7. Swamp [s]
+  8. Tundra [t]
+
+WORLD MAP (40x20):
++----------------------------------------+
+|^MMMMMMMMMMMMM^^ff~~~~~~~~.ffffff^^MMMMM|
+|^MMMMMMMMMMMM^^^f..~~~~~~~..ffff^^^MMMMM|
+|^^^MMMMMMMMM^^^ff..~~~~~~~~..fff^^MMMMMM|
+|f^^^^MMMMMMM^^ff.......~~~~~..f^^MMMMMMM|
+|ffff^^MMMMM^^ff....ffff..~~~..f^^MMMM^^^|
+|fffff^^MMMM^^f....ffffff...~..f^^MMM^^^f|
+|fffff^^^MM^^ff...fff^^^ff....ff^^^^^^^ff|
+|fffffff^^^^ffffffff^^^^^ffffffff^^^^ffff|
+|ffffffffffffffffff^^^^^^^^^ffffffffffff.|
+|fffff.......fff^^^^^^^^^^^^^^^fff.......|
+|ffff..~~~~~.ff^^^^^^^^^^MMMMM^^f..~~~...|
+|ffff.~~~~~~~ff^^^^^^^^^MMMMMM^^f.~~~~~..|
+|ffff.~~~~~~~.f^^MM^^^^MMMMMMM^^f.~~~~~~.|
+|fff.~~~~~~~~.f^^^MMMMMMMMMMMM^^f.~~~~~~~|
+|ff..~~~~~~~~.ff^^^MMMMMMMMMMM^^f.~~~~~~~|
+|f.~~~~~~~~~~..ff^^MMMMMMMMMM^^fff..~~~~~|
+|..~~~~~~~~~....ff^MMMMMMMMM^^^ffff..~~~~|
+|.~~~~~~~........f^MMMMMMMM^^fffffff.~~~~|
+|.~~~~~~.........f^MMMMMMMM^^fffffff..~~~|
+|f.~~~~...ff....ff^^MMMMMM^^fffffffff.~~~|
++----------------------------------------+
+
+TOWNS:
+  1. Riverwood 50 at (33,13)
+  2. Mistwall 95 at (14,8)
+  3. Stonehaven 79 at (36,14)
+  4. Falconreach 46 at (39,2)
+  5. Stonehaven 94 at (34,16)
+  6. Mistwall 77 at (37,11)
+  7. Oakvale 58 at (37,5)
+  8. Riverwood 67 at (12,5)
+
+HEROES:
+  1. Arthas the Warrior | HP:100 | DMG:25
+  2. Liliana the Mage | HP:70 | DMG:35
+  3. Rexar the Hunter | HP:85 | DMG:28
+  4. Maiev the Rogue | HP:75 | DMG:32
+
+COMBAT SIMULATION:
+  Arthas vs Liliana
+  Turn 1: Arthas hits for 17 -> Liliana HP: 53
+           Liliana hits for 36 -> Arthas HP: 64
+  Turn 2: Arthas hits for 10 -> Liliana HP: 43
+[luau_run] 41 ms

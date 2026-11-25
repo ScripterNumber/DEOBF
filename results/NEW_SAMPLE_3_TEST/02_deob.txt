@@ -1,0 +1,2342 @@
+-- PRISM deobfuscate: 798741 → 1619062 chars, 3 rounds, folded=219 propagated=108 aliases=168 removedLocals=38 removedAssigns=1 parens=579 loopsToIf=23 blocksFlattened=27 guardConsts=6 cffUnflattened=3 forwarded=117 constFlow=123 outlineSlots=231 ifexpr=62 deadStores=40 truthyFolded=4
+-- saved as script_id "new_sample_3_test.clean-edb8a4"
+superflow_bytecode = { ">\233\253\144\218'3\209\222Ğ\\\132B\186\029\129\214XU(% \168\2040\131\230\175/<\170豍\2301C\154N\250\141\244\027Mm\234)\160Um\178\221\020\227\017\008@\157\022\002?vd\154S\208\022c挐=\234\207\254\234i\162W+\158\163\029\143`\198\249\152b3%\143\138O\016c\182Y3d\200Ӵ\238^\187z싴\243h\177\207$}\142F\172%\030D#W\250\223\196\011\246\030X'F\153\181\020\002\169c\192\015\150\186\233\250\163\205z\134h\137\136\131c\234\238\2112ݙ?Uj\147-\147\131\236\tj\150gI\239 \170m\143$\219ʯ*]\135\0190Θ?\187\006]\176\158\147p\ng჆\173\029\188\158\235\1447\171\242v\015\005s\018\231l\019\002\223\023\226.\227\196\230\223w\129#\194\219y\236\187\250R\226-\136\158\004\019\183\0209\022Ok\172cJ\243\1627\166#\198\254<\003\250[6\011/67\185+I\0195\n)\030\143\180\159޽\184\000\220\218Y\157h\028\026\165\221)\136", _bsdata0[8] .. "\012\192\191g\186\176\225EG~j\017\127\019\173\012+\216o\238\0152M\245MQ\157\156u\152\175j\027\190n\131\2235&\174\192\007)\n(\206@`\171\184cA\187R\229'\216\192\140\229RǮ\149XQ\176RwA\234\150:\191\224\003Y\248q \210\203\006\221l\029G\159\211\236o{\201\127\244\135\245\205[\195$\255\250m\154.ɭ\162\021o\166:YZ\2099\186\182\139\198\246y\133\130\1536\140\r;\019\233\167U\154Y\142\220\031\192\196{j\239\203\211\006\238v\193\182fU\2115\030A\239\234;3\203\t\137\001\210t\219\227\000\234=\014,\174\006y\127\175@Oַ\186\187T\235\n\021\022Lȣ\177\153/\189\167\004\\\144B\012\011G\151\182\224yzeU\004\192\026\238Y\168\159P\248\027\151\154\021\161\175\006\136VsC\139\187\242lQ\190'\169p\249d?\140\157\250\1429\021jK\174;\139\249\138\028\001\225{\028\133Ƣ\006\171^\133\140(\197\007\138\229ݝ\175\134|C߉r\168)\024҅eK\003(r\144\138;Y)t\229\224y\152\t\026\015,\147\002\245\196\228Bd\133v\161]\148.\246\247\171$;k\134\196~\237\176\235C!\148\138\229!\249\226m\181\233{\020/\135\222T=cĥ\178\141\1403)\133\135ûXh\243X\180\152g\\}Y\020\2243o\138큊\248ܵ: Ü>\027\011\2274\006\137\181\012\212:&\154!\239\233zs2fPX/\222\230w\149\210@\213t׉\016K0e\186\178\180|l\147BÊ\203\004\129p\207<\227t^`r\155\008\200,\002\149\020r\008g׃y\130\185N\001N/\246\0149\192Q\231\178\003nw\219$\141!\144\135\139\226+\251\020St1\255\194\219\220^U&8m˂\230r\164Yŕd\197O$u\165\222l4\160^\172\155\251\156Wf\000\230?\219TY\158\170vkX\238)\228|\177\002-:\183\192\179\198Og\007^\014`\153\224}`\140VB\172m\021\128\173\209a\029\005\188\227\026Z\140-\219\236Yy\144\138t's?׀$\149&Q^\142\005\225۳4\195\196J\146ĕS\002\024O\238\192+\188À\171p\189\162\145\188\205Zќ\240\194\030k\005Ib\182\163\028Z6\031\240\166؅˅\156\153\007\252\023^ƔO\143\008_&\154q\006G\216u\201\206\019\199\208\236]D\204i2\196ԁj\177\220$g\130{\228\025ޭ~Q\151\249\195\247\"B\006O\239\203\251\199\229\019'hc@Fƒ@˄\227lM\159\241.\232\197/8\212\2340M\004\214\224\231P\254\137\015+\206u\241\221ܡ\005\182\173>\220\248\000\252\230ʉ-r/\149\238\177`\150O\202\215\003\008\161R\208(\192\157\004\004:\135^\201\006Ȓ\020\1429D%`.&2\150\239wo\198Y\140K\181\197\252\193\159ӊ\151\160\026\251-1\149\146\182\160N\014i\007\027\026\027\245\151x\188\132\158\176\139Q\239\185h]F\157B\210\237\030\005I\220\004\031\029\235\239:\025B\r\226\155@X\130\189w\229\145^|5\145EЪ\184d.\004\133\026\182\229\141\029\174\132o9ޱ\162\rj\228\253lE\190\132\209\002`\154D\137\012\154J\147\171=\012XӃ!\015\230%\127\025pQ\150\207\012ِ\213\228C\225\025\175u\187V}\147\184\248\\\r?\146\199I\158\031)7\184ա\129\187\240Z\240\t\242L\231#\133\026\198N<\250ry\1933\1537=)yK\242!\002\218\238\173~\243*\191}T\178\"(fX⷗r\180`6\229\197\197\229\131I\138Q\186\182\213]_\209\240\016^\017Ѩ\t\\F\186\140\223M\231\245Do\002\na\178\189\215\242\030_\129\250՞\1946[0\246*d<=fa\140\012\170MD\180\031ޙ\147jb(\209\209u\231\243`\"dN\015>\017\198\2515F\226\191\236\154W\142\145[h[}V\005]\180\226\253\161\140\210ֻ\202\208\237sxj\255\003\236\\\187ZE\153\241\209b.\165\170\003\202\237\189)j\156\130\tNq\012\234\004\135\157~7\189\202[B\178#\237\182\194\248\179\221\016\\\129\154\215\247b\189\235F\1670\018\231\216d\219\0154\184\145EԹ\249W]\162\1322\202\192\192J\137iȈd\2084)\142{iU\167+fǬ\127z]\165}\221A\235\028\171\000^+x\163\240\127\239x\239\008\170\r\206\012\154\252\150(\153\215\011\253\160\192Q\180\149>\0157(q@Z\020\t\213܋\2025~s-\138O\170\152\005$\184\179\022\162\246\025\025\234D\239\133Y\225\169ΪH\233<ֺ/\\4\248\131pt\243\183\002@\007\211(\002\232\234\192\154u\027\2346\002M\021U\175m\209\195\238Wh\129\024\024I}b\229\238\249I\248A\182\213\198fB\136-d\014\t<Ug\230\131cW]\148\181PN\203|\138\\\192S\016\031K\181~\231\159lF\152\1550B\149\255\242\141h\216ѭYy0\020\195\216\202u\003\252@\171pو\001\247Q\244\232\165\194\244 \029\233\252I+\178\238\127@ڟA\186\1928{WRV\029\246\129\031\226\023\201\2340n\\\197H8=xب\031\150ɺ\129\190\229B\253ڦ\161\171\133\198\248\222V\017\167\018\254Ys\175F\023\018\133\028B\215\193\204̃\209f\030)\241\195j\002\017ޖ\197Ŷ\135\129\156\001\226;\202 3a\002?\161\000i\201\192>\008\137\023\184I\192Zg2\245\t\127\153\153H\237\1608u2\1326\182{\183uU}\143\135A+\018\141pU&9Ǌ\152\n\189*\130\235^\231\005*\153\030K\231'\t*\015\132Ĩ\005\161\1615\1580\169\217\t\137!\185-y\208\232M*/\250\250?\179z\150\137\217d\160\176\213\127Ɗ\240\217O\144\191\023\018\014\238\208=^\145RL\180\243\216\006z\175c\159c\020B`/\155Xnm,p\175k\127Dmk\006\001骔\n\157\240\156\165\234Dz\245\152\233\"\163\175\163\169\2052\131\150\239\1908\128\030\"ۡ\160Ą\206{\175\\\206̊\168\130\238<\224\028\152\2552ˮ\173\217ƒ\1590\246\nE\128\205x\182s\135'\148-\178\140aC\156\231\004\234\222\198\195~\143\011|3W\157`M\175\133Pe\161\023\240\169\254#\155\255\206\2236\200\019N\180@\143\217`%*\026}\2221]\027\169\129\194\230M\212N\153ӯ\211\224yVӅ\217\252\r\253W.\176\024ڏ+\169@h\253\003\192k\241<\248\250\193\164\226q\176&)\137\139*k\131\230\189\199\195Dߒ\155v\23274\231\029+V\230a\187ϳ2j\1318\172\133\018:N::\252`\160\1440\205\001\177\142\222S%\134'\018\216˽\230i:\172X\144u\212EjWn,<BT\205\225\127\142\159\029J\024Ʊl\\\233_\144\159\168\254\240h\127\154n\201e2\251\146\006\163\136\005m\215<\019\142\\c\178S\002\173=\173Y\164.\171t\206{x\233N\159W D\248V\245(\021\144w\235?P\179$yH}y0\229\1364\139\t\201T\011\028\2233_\254?\205~)\208]\242K\2275д\017\228\\\021#\148L\236b\028\183\008\027\218q\231@T\026\012\021\025\244bA\181LEf\161\014\191\159;-\1769ET\012\201鬍a\245\156#\188t\171}\253\167\248\157pS\170\196\223N\011\165\195'僦\183\234\251\242\202\n\186\003\244\151\147\005f%Ĕ\011>]j\187\141# +\"\143\012\028\174^\2293\145X\129\182\1410\140gW\248\027)\139\172\253\237\219ڗ\255\194H\189鬗\213\025#i\226)\189\004\209jޢb\200\231\204ɨ\008\247t?\158\247\254!#\220\245\007B\000\167ƿ/\154\1985_\222K\173\246\137LbW6/D\140\219\244\170\011E\233dc봳\253\008R\238囷\205к;^D\170\016\128\142\140'{l\243Z\241\249F\168hsa\197&C*\251{\162ī؊:\185\207#\253K\014\184\224\226x-\rL?gyj\250\227\232=\150\156M\007\233\189ҭV\1541\130'e\012Z\202\241\166!R=\023\2535YB\160\t\213K6\004\2362\184M\186\127O4ɧ\178\237\235\162\210V\133\2227\132\189ͬ\198١\173v\250+\186\210'C\242\"?\153]\152\213\244e\244oŜ\002\193\143\179\220\209l\137d\146\000\138\212\127\025\157\242d\1794*\1704\183\193扩\255Q\139\208%C#\232U\142C\251^Z\169\022\179t\153\014\254\249\180\236\137cY;\1933\144\028\003$硅~\188?^1\225M`i\165\002\187\216\r)\162\225j\011\180C*\139\203\026~v\200[\165\139\178\166\161\183Ӳ\005\213R\029\158\186T\221a\177\159\160\176\159zT\208\211\229\153Y\15033H\015\2552\247\134i\217)I\196\026yK\197\030\241\158\228\221\\\r\2063\214\233:z\174\234)\t'\189\025\024\012\226\129-\016\208\218\019:\168Z\165\234snvw_Z>a\028\171M+\241\191\206\238\252-\017\170u\218PM\006\140\232\000L\027:\178\025\001Xh[XW\238E\159K\212C\219T\004\1389\023\154ް:\12745\164,\180Lw\238\138ԁ<7\191'\014\250\240\216h>\028\161\160+'\185c\240\240\014\196~\220r\233\136\015V\247\029\166\235\248=\143\004\152\183ߓ=\1766\014\0129\252\240|\165L\131\012!8%\227\031QF+6\015\166\148v\167\218)\030\157\169_\165\170(2Yc9m\171\024\184\252s\208\235\030Go\183/\030" .. _bsdata0[5], "\248\231ع\016\181$\245v\128\1702\rlONrw\001\024\173Dn#\008M@K" };
+return setmetatable({ aO = function(r, x, H, T, l, u, K, I, o, D, p, S)
+  if D <= 31 then
+    local D, Y, Q, A = (u + S) % 256, buffer.create(T), 16843009 * S, T - T % 4;
+    local T, S = A - 1, 4;
+    return 2, { T + 0, l, -4, nil, 4 }, D, 61, 199, Y, Q, A;
+  else
+    local T = buffer.readu8(I, H + 2);
+    return 128 <= T and 33 or 13, l, u, p, T, K, x, o;
+  end
+end, [83] = type, CO = function(r, x, H, T, l, u, K, I, o, D)
+  if T then
+    if K <= 22 then
+      local T, p, S = o[2], o[4], o[5];
+      local Y, Q = T + p, p <= 0;
+      T, p = Y >= S, Y <= S;
+      S = Q and T or not Q and p;
+      o[2] = Y;
+      if S then
+        return 9, H, I, Y, l, x;
+      else
+        return 16, H, I, u, l, x;
+      end
+    else
+      local T = buffer.readu8(D, 1 + H);
+      return 128 <= T and 14 or 35, H, I, u, T, x;
+    end
+  elseif K <= 24 then
+    return 21, 3 + H, I, (l - 128) * 128 + 16384 * x + (u - 128), l, x;
+  elseif K <= 25 then
+    local T = buffer.readu8(D, 1 + H);
+    return 128 > T and 4 or 20, H, I, u, l, T;
+  else
+    return 31, H, I + 2, l + 128 * (u - 128), l, x;
+  end
+end, d = function(r, x, H, T, l, u, K, I, o)
+  if x <= 106 then
+    if x <= 105 then
+      local D = buffer.readu8(I, o);
+      return 128 > D and 63 or 258, D, u, H;
+    else
+      local D = buffer.readu8(I, o);
+      return D >= 128 and 218 or 246, T, u, D;
+    end
+  elseif x <= 107 then
+    local x = buffer.readu8(I, T + 2);
+    return 128 <= x and 187 or 212, T, x, H;
+  else
+    local r, x = H - 128, (l - 128) * 128;
+    return 135, T, u, K * 16384 + r + x;
+  end
+end, [5] = buffer.writei8, kp = "[ -&|-~]", [60] = vector.create, uO = function(r, x, H, T, l, u, K)
+  if u <= 198 then
+    if u <= 197 then
+      return 260, H, T, K + 1, x;
+    else
+      local I = buffer.readu8(l, 2 + K);
+      return I >= 128 and 152 or 216, H, T, K, I;
+    end
+  elseif u <= 199 then
+    return 281, H, T + 1, K, x;
+  elseif u <= 200 then
+    return 185, H[4], T, K, x;
+  else
+    return 261, H, K + 1, K, x;
+  end
+end, [52] = setmetatable, [12] = buffer.len, s = function(r, x, H, T, l, u, K, I, o)
+  if u <= 9 then
+    if u <= 8 then
+      local D = buffer.readu8(l, 0);
+      return 128 <= D and 176 or 124, o, nil, D, T, I, H;
+    else
+      return 72, o[1], K, x, T, I, H;
+    end
+  elseif u <= 10 then
+    return 245, o, K, x, 1 + T, I, H;
+  else
+    local H = I - 47319;
+    local l, u, I = table.create(H), table.create(H), 1;
+    return 80, { H + 0, o, nil, 1, 0 }, K, x, T, l, u;
+  end
+end, K = function(r, x, H, T, l, u, K, I, o, D)
+  if T <= 101 then
+    if T <= 100 then
+      return 11, 1 + K, H, u, o, D;
+    else
+      local p = buffer.readu8(l, x + 1);
+      return p >= 128 and 147 or 171, K, H, u, o, p;
+    end
+  elseif T <= 102 then
+    local x = buffer.readu8(l, I + 1);
+    return 128 > x and 32 or 116, K, H, u, x, D;
+  elseif T <= 103 then
+    return 158, K + 2, H, o + 128 * (u - 128), o, D;
+  else
+    local x = buffer.readu8(l, 2 + I);
+    return x < 128 and 43 or 123, K, x, u, o, D;
+  end
+end, e = function(r, x, H, T, l, u, K)
+  if T <= 47 then
+    local T = K - 47319;
+    local I, o, D = table.create(T), table.create(T), 1;
+    return 88, { nil, u, T + 0, 0, 1 }, H, l, I, o;
+  else
+    local T = H - 47319;
+    local H, l, I = table.create(T), table.create(T), 1;
+    return 275, { nil, T + 0, 0, u, 1 }, H, l, K, x;
+  end
+end, AO = function(r, x, H, T, l, u, K, I, o, D, p)
+  if H <= 212 then
+    if H <= 211 then
+      local S = buffer.readu8(D, T + 2);
+      return 128 > S and 3 or 65, D, u, S, x, K;
+    else
+      local T, S = K - 128, (l - 128) * 128;
+      return 96, D, u + 3, p, x, 16384 * o + S + T;
+    end
+  elseif H <= 213 then
+    return 95, D, u + 1, p, x, K;
+  else
+    local H = buffer.readu8(D, 1 + I);
+    if H < 128 then
+      return 179, H, u, p, x, K;
+    else
+      return 174, D, u, p, H, K;
+    end
+  end
+end, _p = function(r, x, H, T, l, u, K, I, o, D)
+  if H then
+    if K <= 37 then
+      return 14, o, x + 1, D, T, l, I;
+    elseif K <= 38 then
+      local H = buffer.readu8(u, x);
+      return 128 <= H and 32 or 10, o, x, D, H, l, I;
+    else
+      return 19, o[2], x, D, T, l, I;
+    end
+  elseif K <= 40 then
+    local H = buffer.readu8(u, x);
+    return H >= 128 and 34 or 37, o, x, D, T, H, I;
+  elseif K <= 41 then
+    local H, K, p = o[5], o[4], o[1];
+    local S, Y = H + K, K <= 0;
+    H, K = S >= p, S <= p;
+    p = Y and H or not Y and K;
+    o[5] = S;
+    if p then
+      return 36, o, x, S, T, l, I;
+    else
+      return 23, o, x, D, T, l, I;
+    end
+  else
+    local H = buffer.readu8(u, x + 2);
+    return H >= 128 and 27 or 30, o, x, D, T, l, H;
+  end
+end, HO = function(r, x, H, T, l, u, K, I, o, D, p)
+  if l <= 28 then
+    if l <= 27 then
+      local S, Y = buffer.writeu32, buffer.readu32(p, x + H);
+      buffer.writeu32(I, x, (bit32.bxor(r.FO[u], Y, T)));
+      return 2, r.MO[u], o, p, H, D;
+    else
+      return 3, u, 1 + o, p, H, D;
+    end
+  elseif l <= 29 then
+    local x, T = K[5][u], K[4];
+    local l = x + 1;
+    x = buffer.readu8(T, l);
+    return 128 > x and 11 or 8, u, o, T, l, x;
+  else
+    return 7, u, o, p, H, D;
+  end
+end, [20] = select, [118] = function(r, x, H, H, T, l, u, K, I, o, D, p, S, S, Y, Y, Q, A, Z)
+  local Z, G, s, J, a, O, X, P, d, g, F, k, z, f, e, i, n = r[0], r[57], r[16], r[42], r[46], r[47], r[95], r[65], r[26], r[44], r[32], r[30], r[20], r.Jp, r[54], r[45], r.Sp;
+  local function W(L, h, h, h)
+    local h, V, N, v, R, q, c, U, m, C, y, j, E, t, B, b, w = Z, G, s, J, a, O, X, P, d, g, F, k, z, f, e, i, n;
+    local function Z(...)
+      local G = I[1];
+      local s, J = I[2], h;
+      local I, a, O, X, P, d, g, F, k, z = h(A), H, Y;
+      local H, Y, A, f, e, i, n, h, M, _, rB, xB, HB = B, c, N, v, R, q, U, m, C, y, j, E, t;
+      local N, v, R, q, c = V(function(...)
+        local V, U, m, C, y, j, E;
+        if O == 34 then
+          while true do
+            local t = S[a];
+            if t < 18 then
+              if t >= 9 then
+                if t >= 13 then
+                  if t < 15 then
+                    if t ~= 14 then
+                      y = L[u[a]];
+                      I[p[a]] = y[4][y[6]][T[a]];
+                    else
+                      I[p[a]] = I[T[a]] % u[a];
+                    end
+                  elseif t < 16 then
+                    I[T[a]] = I[p[a]] - u[a];
+                  elseif t ~= 17 then
+                    I[T[a]] = {};
+                  else
+                    y = L[T[a]];
+                    I[p[a]] = y[4][y[6]][x[a]];
+                  end
+                elseif t < 11 then
+                  if t ~= 10 then
+                    a = I[u[a]];
+                  else
+                    I[u[a]] = I[T[a]] ~= p[a];
+                  end
+                elseif t ~= 12 then
+                  a = p[a];
+                else
+                  O = p[a];
+                  a = T[a] + 1;
+                  break;
+                end
+              elseif t >= 4 then
+                if t < 6 then
+                  if t ~= 5 then
+                    y, E = u[a] + 1, T[a];
+                    local B = a;
+                    for TB = 1, p[B], 1 do
+                      E = e(f(E, (A(E, 13))), 536870911);
+                      E = f(E, (i(E, 13)));
+                      E = e(f(E, (A(E, 14))), 536870911);
+                      u[y] = f(u[y], (e(i(E, 0), 127)));
+                      T[y] = f(T[y], (e(i(E, 7), 127)));
+                      p[y] = f(p[y], (e(i(E, 14), 127)));
+                      S[y] = f(S[y], (e(i(E, 21), 127)));
+                      y = y + 1;
+                    end
+                    S[a] = 27;
+                  elseif I[u[a]] then
+                    a = T[a];
+                  else
+                    a = p[a];
+                  end
+                elseif t < 7 then
+                  y = p[a];
+                  E, V, j = I[y], I[y + 1], I[y + 2];
+                  I[y] = E(V, j);
+                elseif t == 8 then
+                  y, E = { ... }, T[a];
+                  Y(y, 1, u[a], E, I);
+                else
+                  local B, TB, lB = u[a], f(T[a], (e(f(G, (e(i(G, 29), 7))), 536870911))), D[5];
+                  local uB = f(lB[B], 498918279);
+                  lB[B] = uB;
+                  lB, B = D[4], uB + 1;
+                  uB = n(lB, B);
+                  local KB, IB;
+                  if uB < 128 then
+                    KB, IB = uB, B + 1;
+                  else
+                    local oB = n(lB, B + 1);
+                    if oB < 128 then
+                      KB, IB = (uB - 128) * 128 + oB, B + 2;
+                    else
+                      local DB = n(lB, B + 2);
+                      if DB < 128 then
+                        KB, IB = uB - 128 + (oB - 128) * 128 + DB * 16384, B + 3;
+                      else
+                        local pB = n(lB, B + 3);
+                        KB, IB = (uB - 128) * 16384 + (oB - 128) + (DB - 128) * 128 + pB % 128 * 2097152 + (pB - pB % 128) * 2097152, B + 4;
+                      end
+                    end
+                  end
+                  B, uB = TB * 16843009, IB + KB;
+                  local oB = uB - KB % 4;
+                  for DB = IB, oB - 1, 4 do
+                    h(lB, DB, (f(M(lB, DB), B)));
+                  end
+                  for IB = oB, uB - 1, 1 do
+                    _(lB, IB, (f(n(lB, IB), TB)));
+                  end
+                  uB, KB, B = a, a, a;
+                  u[a] = 36;
+                  T[uB] = 247;
+                  p[KB] = 205;
+                  S[B] = 27;
+                end
+              elseif t >= 2 then
+                if t == 3 then
+                  I[T[a]] = I[u[a]] == p[a];
+                else
+                  I[u[a]] = f(K[a], o[a]);
+                end
+              elseif t == 1 then
+                y, E = u[a] + 1, f(T[a], (e(f(G, (e(i(G, 29), 7))), 536870911)));
+                local B = a;
+                for TB = 1, p[B], 1 do
+                  E = e(f(E, (A(E, 13))), 536870911);
+                  E = f(E, (i(E, 13)));
+                  E = e(f(E, (A(E, 14))), 536870911);
+                  u[y] = f(u[y], (e(i(E, 0), 127)));
+                  T[y] = f(T[y], (e(i(E, 7), 127)));
+                  p[y] = f(p[y], (e(i(E, 14), 127)));
+                  S[y] = f(S[y], (e(i(E, 21), 127)));
+                  y = y + 1;
+                end
+                S[a] = 27;
+              else
+                I[u[a]] = I[p[a]]();
+              end
+            elseif t < 27 then
+              if t < 22 then
+                if t < 20 then
+                  if t ~= 19 then
+                    I[p[a]] = u[a];
+                  else
+                    I[T[a]] = s;
+                  end
+                elseif t ~= 21 then
+                  local B, TB, lB = u[a], f(T[a], (e(f(s, (e(i(s, 29), 7))), 536870911))), D[5];
+                  local uB = f(lB[B], 498918279);
+                  lB[B] = uB;
+                  lB, B = D[4], uB + 1;
+                  uB = n(lB, B);
+                  local KB, IB;
+                  if uB < 128 then
+                    KB, IB = uB, B + 1;
+                  else
+                    local oB = n(lB, B + 1);
+                    if oB < 128 then
+                      KB, IB = (uB - 128) * 128 + oB, B + 2;
+                    else
+                      local DB = n(lB, B + 2);
+                      if DB < 128 then
+                        KB, IB = uB - 128 + (oB - 128) * 128 + DB * 16384, B + 3;
+                      else
+                        local pB = n(lB, B + 3);
+                        KB, IB = (uB - 128) * 16384 + (oB - 128) + (DB - 128) * 128 + pB % 128 * 2097152 + (pB - pB % 128) * 2097152, B + 4;
+                      end
+                    end
+                  end
+                  uB, B = TB * 16843009, IB + KB;
+                  local oB = B - KB % 4;
+                  for DB = IB, oB - 1, 4 do
+                    h(lB, DB, (f(M(lB, DB), uB)));
+                  end
+                  for uB = oB, B - 1, 1 do
+                    _(lB, uB, (f(n(lB, uB), TB)));
+                  end
+                  TB, oB, KB = a, a, a;
+                  u[a] = 146;
+                  T[TB] = 110;
+                  p[oB] = 45;
+                  S[KB] = 27;
+                else
+                  y = p[a];
+                  I[y], I[y + 1] = T[a], u[a];
+                end
+              elseif t < 24 then
+                if t ~= 23 then
+                  y, E, V, j = p[a], T[a], f(G, e(i(G, 14), 262143), (e(i(G, 28), 15))), u[a];
+                  C = y < 16384 and 7 or (y < 2097152 and 14 or 21);
+                  U, m = e(y, A(1, C) - 1), i(y, C);
+                  local B = a;
+                  p[B] = f(U, 70, (e(i(V, 14), 127)));
+                  B = a;
+                  u[B] = f(j, 13, (e(V, 127)));
+                  B = a;
+                  T[B] = f(E, 106, (e(i(V, 7), 127)));
+                  B = a;
+                  S[B] = f(m, 118, (e(i(V, 21), 127)));
+                  a = a - 1;
+                else
+                  y, E = u[a] + 1, f(T[a], (e(f(s, (e(i(s, 29), 7))), 536870911)));
+                  local B = a;
+                  for TB = 1, p[B], 1 do
+                    E = e(f(E, (A(E, 13))), 536870911);
+                    E = f(E, (i(E, 13)));
+                    E = e(f(E, (A(E, 14))), 536870911);
+                    u[y] = f(u[y], (e(i(E, 0), 127)));
+                    T[y] = f(T[y], (e(i(E, 7), 127)));
+                    p[y] = f(p[y], (e(i(E, 14), 127)));
+                    S[y] = f(S[y], (e(i(E, 21), 127)));
+                    y = y + 1;
+                  end
+                  S[a] = 27;
+                end
+              elseif t < 25 then
+                y, E, V = u[a], { ... }, p[a];
+                Y(E, 1, y - 1, V, I);
+                I[V + y - 1] = rB(xB(y, ...));
+              elseif t ~= 26 then
+                local B;
+                local xB, TB, lB, uB, KB = x[a], k, z;
+                if xB then
+                  local IB = #xB / 3;
+                  if IB > 0 then
+                    B, uB, KB = {}, TB, lB;
+                    for oB = 1, IB, 1 do
+                      local IB = (oB - 1) * 3;
+                      local DB, pB = xB[IB + 3], xB[IB + 2];
+                      if DB == 1 then
+                        uB = uB or {};
+                        local SB = uB[pB];
+                        if SB then
+                        else
+                          SB = { [6] = pB, [4] = I };
+                          uB[pB] = SB;
+                        end
+                        B[oB] = SB;
+                      elseif DB == 2 then
+                        B[oB] = I[pB];
+                      elseif DB == 3 then
+                        B[oB] = L[pB];
+                      elseif DB == 0 then
+                        KB = KB or {};
+                        local DB = KB[pB];
+                        if DB then
+                        else
+                          DB = { [4] = I, [6] = pB, [5] = xB[IB + 1] };
+                          KB[pB] = DB;
+                        end
+                        B[oB] = DB;
+                      end
+                    end
+                  else
+                    uB, KB = TB, lB;
+                  end
+                else
+                  uB, KB = TB, lB;
+                end
+                k, z = uB, KB;
+                I[T[a]] = K[a](B);
+              else
+                I[u[a]] = G;
+              end
+            elseif t < 31 then
+              if t >= 29 then
+                if t == 30 then
+                  I[u[a]] = I[p[a]] * I[T[a]];
+                elseif I[p[a]] then
+                  a = T[a];
+                else
+                  a = u[a];
+                end
+              elseif not (t ~= 28) then
+                I[p[a]] = A(I[T[a]], u[a]);
+              end
+            elseif t >= 33 then
+              if t >= 34 then
+                if t == 35 then
+                  I[T[a]] = L[p[a]];
+                else
+                  I[p[a]] = I[T[a]] + u[a];
+                end
+              elseif I[p[a]] ~= T[a] then
+                a = u[a];
+              end
+            elseif t == 32 then
+              s = I[p[a]];
+            else
+              I[p[a]] = I[u[a]];
+            end
+            a = a + 1;
+          end
+        end
+        if O == 233 then
+          while true do
+            local t = u[a];
+            if t >= 12 then
+              if t < 18 then
+                if t < 15 then
+                  if t < 13 then
+                    a = p[a];
+                  elseif t == 14 then
+                    I[S[a]] = I[T[a]] ~= p[a];
+                  else
+                    I[T[a]] = I[S[a]];
+                  end
+                elseif t < 16 then
+                  if I[T[a]] then
+                    a = S[a];
+                  else
+                    a = p[a];
+                  end
+                elseif t == 17 then
+                  local B, xB, TB = p[a], f(T[a], (e(f(s, (e(i(s, 29), 7))), 536870911))), D[5];
+                  local lB = f(TB[B], 498918279);
+                  TB[B] = lB;
+                  B, TB = D[4], lB + 1;
+                  lB = n(B, TB);
+                  local uB, KB;
+                  if lB < 128 then
+                    uB, KB = lB, TB + 1;
+                  else
+                    local IB = n(B, TB + 1);
+                    if IB < 128 then
+                      uB, KB = (lB - 128) * 128 + IB, TB + 2;
+                    else
+                      local oB = n(B, TB + 2);
+                      if oB < 128 then
+                        uB, KB = lB - 128 + (IB - 128) * 128 + oB * 16384, TB + 3;
+                      else
+                        local DB = n(B, TB + 3);
+                        uB, KB = (lB - 128) * 16384 + (IB - 128) + (oB - 128) * 128 + DB % 128 * 2097152 + (DB - DB % 128) * 2097152, TB + 4;
+                      end
+                    end
+                  end
+                  TB, lB = xB * 16843009, KB + uB;
+                  local IB = lB - uB % 4;
+                  for uB = KB, IB - 1, 4 do
+                    h(B, uB, (f(M(B, uB), TB)));
+                  end
+                  for TB = IB, lB - 1, 1 do
+                    _(B, TB, (f(n(B, TB), xB)));
+                  end
+                  xB, lB, KB = a, a, a;
+                  p[a] = 208;
+                  T[xB] = 199;
+                  S[lB] = 81;
+                  u[KB] = 16;
+                end
+              elseif t < 21 then
+                if t >= 19 then
+                  if t == 20 then
+                    I[p[a]] = f(I[T[a]], l[a]);
+                  else
+                    y, E = S[a] + 1, T[a];
+                    local B = a;
+                    for xB = 1, p[B], 1 do
+                      E = e(f(E, (A(E, 13))), 536870911);
+                      E = f(E, (i(E, 13)));
+                      E = e(f(E, (A(E, 14))), 536870911);
+                      p[y] = f(p[y], (e(i(E, 0), 127)));
+                      T[y] = f(T[y], (e(i(E, 7), 127)));
+                      S[y] = f(S[y], (e(i(E, 14), 127)));
+                      u[y] = f(u[y], (e(i(E, 21), 127)));
+                      y = y + 1;
+                    end
+                    u[a] = 16;
+                  end
+                else
+                  I[p[a]] = I[S[a]] + T[a];
+                end
+              elseif t < 22 then
+                O = p[a];
+                a = T[a] + 1;
+                break;
+              elseif t ~= 23 then
+                y = p[a];
+                E, V, j = I[y], I[y + 1], I[y + 2];
+                I[y] = E(V, j);
+              else
+                y = p[a];
+                I[y], I[y + 1] = I[S[a]], I[T[a]];
+              end
+            elseif t < 6 then
+              if t < 3 then
+                if t < 1 then
+                  y, E = p[a] + 1, f(T[a], (e(f(s, (e(i(s, 29), 7))), 536870911)));
+                  local B = a;
+                  for xB = 1, S[B], 1 do
+                    E = e(f(E, (A(E, 13))), 536870911);
+                    E = f(E, (i(E, 13)));
+                    E = e(f(E, (A(E, 14))), 536870911);
+                    p[y] = f(p[y], (e(i(E, 0), 127)));
+                    T[y] = f(T[y], (e(i(E, 7), 127)));
+                    S[y] = f(S[y], (e(i(E, 14), 127)));
+                    u[y] = f(u[y], (e(i(E, 21), 127)));
+                    y = y + 1;
+                  end
+                  u[a] = 16;
+                elseif t ~= 2 then
+                  if I[T[a]] then
+                    a = p[a];
+                  else
+                    a = S[a];
+                  end
+                else
+                  I[T[a]] = I[S[a]] == p[a];
+                end
+              elseif t >= 4 then
+                if t ~= 5 then
+                  I[S[a]] = I[p[a]] % T[a];
+                else
+                  y, E = p[a] + 1, f(T[a], (e(f(G, (e(i(G, 29), 7))), 536870911)));
+                  local B = a;
+                  for xB = 1, S[B], 1 do
+                    E = e(f(E, (A(E, 13))), 536870911);
+                    E = f(E, (i(E, 13)));
+                    E = e(f(E, (A(E, 14))), 536870911);
+                    p[y] = f(p[y], (e(i(E, 0), 127)));
+                    T[y] = f(T[y], (e(i(E, 7), 127)));
+                    S[y] = f(S[y], (e(i(E, 14), 127)));
+                    u[y] = f(u[y], (e(i(E, 21), 127)));
+                    y = y + 1;
+                  end
+                  u[a] = 16;
+                end
+              else
+                y, E, V, j = p[a], T[a], f(G, e(i(G, 14), 262143), (e(i(G, 28), 15))), S[a];
+                C = y < 16384 and 7 or (y < 2097152 and 14 or 21);
+                U, m = i(y, C), e(y, A(1, C) - 1);
+                local B = a;
+                T[B] = f(E, 5, (e(i(V, 7), 127)));
+                B = a;
+                S[B] = f(j, 48, (e(i(V, 14), 127)));
+                B = a;
+                u[B] = f(U, 20, (e(i(V, 21), 127)));
+                B = a;
+                p[B] = f(m, 125, (e(V, 127)));
+                a = a - 1;
+              end
+            elseif t < 9 then
+              if t < 7 then
+                I[p[a]] = G;
+              elseif t ~= 8 then
+                I[S[a]] = T[a];
+              else
+                a = I[S[a]];
+              end
+            elseif t < 10 then
+              local B, xB, TB = p[a], f(T[a], (e(f(G, (e(i(G, 29), 7))), 536870911))), D[5];
+              local lB = f(TB[B], 498918279);
+              TB[B] = lB;
+              TB, B = D[4], lB + 1;
+              lB = n(TB, B);
+              local uB, KB;
+              if lB < 128 then
+                uB, KB = lB, B + 1;
+              else
+                local IB = n(TB, B + 1);
+                if IB < 128 then
+                  uB, KB = (lB - 128) * 128 + IB, B + 2;
+                else
+                  local oB = n(TB, B + 2);
+                  if oB < 128 then
+                    uB, KB = lB - 128 + (IB - 128) * 128 + oB * 16384, B + 3;
+                  else
+                    local DB = n(TB, B + 3);
+                    uB, KB = (lB - 128) * 16384 + (IB - 128) + (oB - 128) * 128 + DB % 128 * 2097152 + (DB - DB % 128) * 2097152, B + 4;
+                  end
+                end
+              end
+              B, lB = xB * 16843009, KB + uB;
+              local IB = lB - uB % 4;
+              for uB = KB, IB - 1, 4 do
+                h(TB, uB, (f(M(TB, uB), B)));
+              end
+              for uB = IB, lB - 1, 1 do
+                _(TB, uB, (f(n(TB, uB), xB)));
+              end
+              B, xB, TB = a, a, a;
+              p[a] = 62;
+              T[B] = 67;
+              S[xB] = 245;
+              u[TB] = 16;
+            elseif t == 11 then
+              I[p[a]] = I[T[a]] - S[a];
+            else
+              I[T[a]] = s;
+            end
+            a = a + 1;
+          end
+        end
+        if O == 108 then
+          while true do
+            local t = S[a];
+            if t >= 41 then
+              if t < 62 then
+                if t < 51 then
+                  if t >= 46 then
+                    if t < 48 then
+                      if t == 47 then
+                        I[T[a]] = I[p[a]] % u[a];
+                        I[u[a + 1]] = I[T[a + 1]] - p[a + 1];
+                        a = a + 1;
+                      else
+                        y, E, V, j = u[a], T[a], p[a], f(s, e(i(s, 14), 262143), (e(i(s, 28), 15)));
+                        C = V < 2097152 and 7 or 14;
+                        U, m = i(V, C), e(V, A(1, C) - 1);
+                        local B = a;
+                        S[B] = f(U, 79, (e(i(j, 21), 127)));
+                        B = a;
+                        u[B] = f(y, 120, (e(i(j, 14), 127)));
+                        B = a;
+                        T[B] = f(E, 58, (e(j, 127)));
+                        B = a;
+                        p[B] = f(m, 73, (e(i(j, 7), 127)));
+                        a = a - 1;
+                      end
+                    elseif t >= 49 then
+                      if t == 50 then
+                        local B, xB, TB = p[a], I[T[a]], I[u[a]];
+                        local lB, uB = e(xB, 4294967295), e(TB, 4294967295);
+                        local xB, KB, IB, oB = e(lB, 65535), i(lB, 16), e(uB, 65535), i(uB, 16);
+                        TB = e(xB * IB + A(e(xB * oB + KB * IB, 65535), 16), 4294967295);
+                        oB = TB % 4294967296;
+                        if oB ~= oB then
+                          xB = 0;
+                        else
+                          xB = oB - oB % 1;
+                        end
+                        I[B] = xB;
+                      else
+                        I[T[a]] = L[p[a]];
+                      end
+                    else
+                      y = T[a];
+                      I[y], I[y + 1] = u[a], I[p[a]];
+                    end
+                  elseif t < 43 then
+                    if t == 42 then
+                      I[p[a]] = I[u[a]] - I[T[a]];
+                    else
+                      y, E = T[a] + 1, f(p[a], (e(f(s, (e(i(s, 29), 7))), 536870911)));
+                      local B = a;
+                      for xB = 1, u[B], 1 do
+                        E = e(f(E, (A(E, 13))), 536870911);
+                        E = f(E, (i(E, 13)));
+                        E = e(f(E, (A(E, 14))), 536870911);
+                        T[y] = f(T[y], (e(i(E, 0), 127)));
+                        p[y] = f(p[y], (e(i(E, 7), 127)));
+                        u[y] = f(u[y], (e(i(E, 14), 127)));
+                        S[y] = f(S[y], (e(i(E, 21), 127)));
+                        y = y + 1;
+                      end
+                      S[a] = 17;
+                    end
+                  elseif t < 44 then
+                    I[p[a]] = I[u[a]] ~= T[a];
+                  elseif t == 45 then
+                    I[u[a]] = I[p[a]](I[T[a]]);
+                  else
+                    I[p[a]] = u[a];
+                  end
+                elseif t >= 56 then
+                  if t < 59 then
+                    if t >= 57 then
+                      if t ~= 58 then
+                        I[T[a]] = I[p[a]];
+                      else
+                        I[T[a]] = G;
+                      end
+                    else
+                      I[p[a]][I[T[a]]] = x[a];
+                    end
+                  elseif t >= 60 then
+                    if t == 61 then
+                      I[u[a]] = -I[p[a]];
+                      I[u[a + 1]] = I[p[a + 1]][I[T[a + 1]]];
+                      a = a + 1;
+                    else
+                      I[u[a]] = I[T[a]] + K[a];
+                    end
+                  else
+                    y, E = T[a], I[u[a]];
+                    I[y + 1] = E;
+                    I[y] = E[K[a]];
+                  end
+                elseif t >= 53 then
+                  if t >= 54 then
+                    if t == 55 then
+                      I[u[a]] = I[p[a]] * I[T[a]];
+                    else
+                      y = u[a];
+                      I[y], I[y + 1] = T[a], p[a];
+                    end
+                  else
+                    I[u[a]] = f(I[p[a]], I[T[a]]);
+                  end
+                elseif t == 52 then
+                  I[T[a]] = I[u[a]] .. K[a];
+                else
+                  y = T[a];
+                  I[y], I[y + 1] = I[p[a]], I[u[a]];
+                end
+              elseif t < 72 then
+                if t < 67 then
+                  if t < 64 then
+                    if t ~= 63 then
+                      I[T[a]] = I[p[a]] <= I[u[a]];
+                    else
+                      I[T[a]] = I[u[a]] ~= I[p[a]];
+                    end
+                  elseif t < 65 then
+                    I[u[a]] = I[p[a]] * I[T[a]];
+                    I[T[a + 1]] = I[p[a + 1]] % u[a + 1];
+                    I[u[a + 2]] = I[T[a + 2]] - p[a + 2];
+                    a = a + 2;
+                  elseif t ~= 66 then
+                    I[T[a]] = I[p[a]] % u[a];
+                  else
+                    y, E = T[a] + 1, f(p[a], (e(f(G, (e(i(G, 29), 7))), 536870911)));
+                    local B = a;
+                    for xB = 1, u[B], 1 do
+                      E = e(f(E, (A(E, 13))), 536870911);
+                      E = f(E, (i(E, 13)));
+                      E = e(f(E, (A(E, 14))), 536870911);
+                      T[y] = f(T[y], (e(i(E, 0), 127)));
+                      p[y] = f(p[y], (e(i(E, 7), 127)));
+                      u[y] = f(u[y], (e(i(E, 14), 127)));
+                      S[y] = f(S[y], (e(i(E, 21), 127)));
+                      y = y + 1;
+                    end
+                    S[a] = 17;
+                  end
+                elseif t < 69 then
+                  if t ~= 68 then
+                    local B, xB, TB = p[a], T[a], D[5];
+                    local lB = f(TB[B], 498918279);
+                    TB[B] = lB;
+                    B, TB = D[4], lB + 1;
+                    lB = n(B, TB);
+                    local uB, KB;
+                    if lB < 128 then
+                      uB, KB = lB, TB + 1;
+                    else
+                      local IB = n(B, TB + 1);
+                      if IB < 128 then
+                        uB, KB = (lB - 128) * 128 + IB, TB + 2;
+                      else
+                        local oB = n(B, TB + 2);
+                        if oB < 128 then
+                          uB, KB = lB - 128 + (IB - 128) * 128 + oB * 16384, TB + 3;
+                        else
+                          local DB = n(B, TB + 3);
+                          uB, KB = (lB - 128) * 16384 + (IB - 128) + (oB - 128) * 128 + DB % 128 * 2097152 + (DB - DB % 128) * 2097152, TB + 4;
+                        end
+                      end
+                    end
+                    lB, TB = xB * 16843009, KB + uB;
+                    local IB = TB - uB % 4;
+                    for oB = KB, IB - 1, 4 do
+                      h(B, oB, (f(M(B, oB), lB)));
+                    end
+                    for KB = IB, TB - 1, 1 do
+                      _(B, KB, (f(n(B, KB), xB)));
+                    end
+                    uB, lB, B = a, a, a;
+                    p[a] = 154;
+                    T[uB] = 85;
+                    u[lB] = 20;
+                    S[B] = 17;
+                  else
+                    I[T[a]][u[a]] = I[p[a]];
+                  end
+                elseif t < 70 then
+                  local B, xB, TB = T[a], I[u[a]], p[a];
+                  local lB, uB = e(xB, 4294967295), e(TB, 4294967295);
+                  local xB, TB, KB, IB = e(lB, 65535), i(lB, 16), e(uB, 65535), i(uB, 16);
+                  uB = e(xB * KB + A(e(xB * IB + TB * KB, 65535), 16), 4294967295);
+                  TB = uB % 4294967296;
+                  if TB ~= TB then
+                    lB = 0;
+                  else
+                    lB = TB - TB % 1;
+                  end
+                  I[B] = lB;
+                elseif t ~= 71 then
+                  I[T[a]] = f(I[p[a]], x[a]);
+                else
+                  I[u[a]] = K[a] .. I[T[a]];
+                end
+              elseif t < 77 then
+                if t < 74 then
+                  if t == 73 then
+                    G = I[T[a]];
+                  else
+                    I[T[a]](I[u[a]]);
+                  end
+                elseif t >= 75 then
+                  if t == 76 then
+                    I[T[a]] = I[u[a]] + p[a];
+                  else
+                    I[u[a]] = I[p[a]][I[T[a]]];
+                  end
+                else
+                  y = p[a];
+                  I[y], I[y + 1] = o[a], x[a];
+                end
+              elseif t >= 80 then
+                if t < 81 then
+                  I[u[a]] = I[T[a]] - p[a];
+                elseif t ~= 82 then
+                  if I[T[a]] ~= I[u[a]] then
+                    a = p[a];
+                  end
+                elseif I[T[a]] then
+                  a = p[a];
+                else
+                  a = u[a];
+                end
+              elseif t >= 78 then
+                if t ~= 79 then
+                  P = X[9];
+                  d = X[8];
+                  g = X[5];
+                  F = X[7];
+                  X = X[6];
+                else
+                  I[T[a]] = I[p[a]] == I[u[a]];
+                end
+              else
+                I[p[a]] = L[u[a]][T[a]];
+                I[u[a + 1]] = I[T[a + 1]] - p[a + 1];
+                a = a + 1;
+              end
+            elseif t < 20 then
+              if t >= 10 then
+                if t >= 15 then
+                  if t < 17 then
+                    if t == 16 then
+                      a = u[a];
+                    elseif not (I[u[a]] < I[p[a]]) then
+                      a = T[a];
+                    end
+                  elseif t >= 18 then
+                    if t ~= 19 then
+                      y, E, V, j = T[a], u[a], p[a], f(s, e(i(s, 14), 262143), (e(i(s, 28), 15)));
+                      C = E < 16384 and 7 or (E < 2097152 and 14 or 21);
+                      U, m = i(E, C), e(E, A(1, C) - 1);
+                      local B = a;
+                      u[B] = f(m, 9, (e(i(j, 14), 127)));
+                      B = a;
+                      p[B] = f(V, 61, (e(i(j, 7), 127)));
+                      B = a;
+                      S[B] = f(U, 61, (e(i(j, 21), 127)));
+                      B = a;
+                      T[B] = f(y, 42, (e(j, 127)));
+                      a = a - 1;
+                    else
+                      y = p[a];
+                      I[y], I[y + 1] = x[a], T[a];
+                    end
+                  end
+                elseif t >= 12 then
+                  if t < 13 then
+                    y, E, V = T[a], u[a], p[a];
+                    j = I[y];
+                    Y(I, y + 1, y + E, V + 1, j);
+                  elseif t == 14 then
+                    if not (u[a] <= I[T[a]]) then
+                      a = p[a];
+                    end
+                  else
+                    I[u[a]] = HB[o[a]];
+                  end
+                elseif t == 11 then
+                  I[p[a]] = I[T[a]] + I[u[a]];
+                else
+                  I[u[a]] = I[T[a]] - p[a];
+                  I[u[a + 1]] = -I[p[a + 1]];
+                  I[u[a + 2]] = I[p[a + 2]][I[T[a + 2]]];
+                  a = a + 2;
+                end
+              elseif t < 5 then
+                if t < 2 then
+                  if t == 1 then
+                    a = I[T[a]];
+                  else
+                    y = L[T[a]];
+                    I[p[a]] = y[4][y[6]];
+                  end
+                elseif t < 3 then
+                  I[p[a]] = I[u[a]] == T[a];
+                elseif t ~= 4 then
+                  I[p[a]] = I[u[a]] % I[T[a]];
+                else
+                  I[T[a]] = {};
+                end
+              elseif t >= 7 then
+                if t < 8 then
+                  I[p[a]][o[a]] = x[a];
+                elseif t ~= 9 then
+                  X = { [5] = g, [7] = F, [8] = d, [6] = X, [9] = P };
+                  y = p[a];
+                  g = I[y + 2] + 0;
+                  d = I[y + 1] + 0;
+                  P = I[y] - g;
+                  a = T[a];
+                else
+                  I[u[a]] = -I[p[a]];
+                end
+              elseif t ~= 6 then
+                if not (I[T[a]] <= I[p[a]]) then
+                  a = u[a];
+                end
+              else
+                I[T[a]] = I[p[a]] % u[a];
+                I[T[a + 1]] = I[u[a + 1]] + p[a + 1];
+                a = a + 1;
+              end
+            elseif t < 30 then
+              if t >= 25 then
+                if t >= 27 then
+                  if t < 28 then
+                    I[u[a]] = I[T[a]][K[a]];
+                  elseif t == 29 then
+                    O = p[a];
+                    a = u[a] + 1;
+                    break;
+                  else
+                    y = p[a];
+                    E, V, j, C = I[y], I[y + 1], I[y + 2], I[y + 3];
+                    I[y] = E(V, j, C);
+                  end
+                elseif t == 26 then
+                  I[u[a]] = I[p[a]] * I[T[a]];
+                  I[T[a + 1]] = I[p[a + 1]] % u[a + 1];
+                  a = a + 1;
+                else
+                  I[u[a]] = I[p[a]] .. I[T[a]];
+                end
+              elseif t < 22 then
+                if t == 21 then
+                  I[u[a]] = I[p[a]] / T[a];
+                else
+                  I[u[a]] = I[T[a]][p[a]];
+                end
+              elseif t >= 23 then
+                if t == 24 then
+                  if I[T[a]] then
+                    a = p[a];
+                  else
+                    a = u[a];
+                  end
+                else
+                  P = P + g;
+                  if g <= 0 then
+                    y = P >= d;
+                  else
+                    y = P <= d;
+                  end
+                  if y then
+                    I[u[a]] = P;
+                    a = p[a];
+                  else
+                    a = T[a];
+                  end
+                end
+              else
+                I[T[a]] = HB[x[a]][K[a]];
+              end
+            elseif t < 35 then
+              if t >= 32 then
+                if t < 33 then
+                  if I[p[a]] ~= u[a] then
+                    a = T[a];
+                  end
+                elseif t == 34 then
+                  y = L[T[a]];
+                  I[u[a]] = y[4][y[6]][K[a]];
+                else
+                  I[T[a]][I[u[a]]] = I[p[a]];
+                end
+              elseif t ~= 31 then
+                I[T[a]] = I[u[a]] + p[a];
+                I[u[a + 1]] = I[p[a + 1]] * I[T[a + 1]];
+                a = a + 1;
+              else
+                I[T[a]] = #I[p[a]];
+              end
+            elseif t < 38 then
+              if t < 36 then
+                I[p[a]] = I[u[a]] * T[a];
+              elseif t == 37 then
+                I[u[a]] = K[a];
+              else
+                y = L[u[a]];
+                I[p[a]] = y[4][y[6]][T[a]];
+              end
+            elseif t < 39 then
+              I[p[a]] = s;
+            elseif t == 40 then
+              y, E = u[a] + 1, p[a];
+              local K = a;
+              for X = 1, T[K], 1 do
+                E = e(f(E, (A(E, 13))), 536870911);
+                E = f(E, (i(E, 13)));
+                E = e(f(E, (A(E, 14))), 536870911);
+                T[y] = f(T[y], (e(i(E, 0), 127)));
+                p[y] = f(p[y], (e(i(E, 7), 127)));
+                u[y] = f(u[y], (e(i(E, 14), 127)));
+                S[y] = f(S[y], (e(i(E, 21), 127)));
+                y = y + 1;
+              end
+              S[a] = 17;
+            else
+              I[u[a]][o[a]] = I[p[a]];
+            end
+            a = a + 1;
+          end
+        end
+        if O == 14 then
+          while true do
+            local K = p[a];
+            if K >= 18 then
+              if K >= 27 then
+                if K >= 31 then
+                  if K < 33 then
+                    if K ~= 32 then
+                      y, E = T[a] + 1, f(S[a], (e(f(G, (e(i(G, 29), 7))), 536870911)));
+                      local O = a;
+                      for X = 1, u[O], 1 do
+                        E = e(f(E, (A(E, 13))), 536870911);
+                        E = f(E, (i(E, 13)));
+                        E = e(f(E, (A(E, 14))), 536870911);
+                        T[y] = f(T[y], (e(i(E, 0), 127)));
+                        S[y] = f(S[y], (e(i(E, 7), 127)));
+                        u[y] = f(u[y], (e(i(E, 14), 127)));
+                        p[y] = f(p[y], (e(i(E, 21), 127)));
+                        y = y + 1;
+                      end
+                      p[a] = 16;
+                    else
+                      I[T[a]] = I[u[a]][l[a]];
+                    end
+                  elseif K < 34 then
+                    local O, X = k, z;
+                    if O then
+                      for P in H, O, nil do
+                        local d = O[P];
+                        if d then
+                          d[4] = d;
+                          d[5] = I[P];
+                          d[6] = 5;
+                          O[P] = nil;
+                        end
+                      end
+                    end
+                    if X then
+                      for P, d in H, X, nil do
+                        O = d[5];
+                        if X then
+                          d = X[P];
+                          if d then
+                            local g = J(O);
+                            Y(I, P, P + O - 1, 1, g);
+                            d[4] = g;
+                            d[6] = 1;
+                            X[P] = nil;
+                          end
+                        end
+                      end
+                    end
+                    return false, false;
+                  elseif K ~= 35 then
+                    y, E, V, j = u[a], S[a], T[a], f(G, e(i(G, 14), 262143), (e(i(G, 28), 15)));
+                    C = E < 16384 and 7 or (E < 2097152 and 14 or 21);
+                    U, m = i(E, C), e(E, A(1, C) - 1);
+                    local O = a;
+                    S[O] = f(m, 91, (e(i(j, 7), 127)));
+                    O = a;
+                    p[O] = f(U, 89, (e(i(j, 21), 127)));
+                    O = a;
+                    T[O] = f(V, 42, (e(j, 127)));
+                    O = a;
+                    u[O] = f(y, 106, (e(i(j, 14), 127)));
+                    a = a - 1;
+                  else
+                    s = I[u[a]];
+                  end
+                elseif K < 29 then
+                  if K ~= 28 then
+                    I[T[a]](I[u[a]]);
+                  else
+                    I[T[a]] = I[S[a]][u[a]];
+                  end
+                elseif K ~= 30 then
+                  I[T[a]] = f(I[u[a]], I[S[a]]);
+                else
+                  I[u[a]] = I[T[a]] == S[a];
+                end
+              elseif K >= 22 then
+                if K >= 24 then
+                  if K >= 25 then
+                    if K ~= 26 then
+                      y = L[u[a]];
+                      y[4][y[6]][l[a]] = o[a];
+                    else
+                      y = S[a];
+                      I[y], I[y + 1] = I[T[a]], x[a];
+                    end
+                  else
+                    I[S[a]][I[T[a]]] = I[u[a]];
+                  end
+                elseif K ~= 23 then
+                  local O, X = k, z;
+                  if O then
+                    for P in H, O, nil do
+                      local d = O[P];
+                      if d then
+                        d[4] = d;
+                        d[5] = I[P];
+                        d[6] = 5;
+                        O[P] = nil;
+                      end
+                    end
+                  end
+                  if X then
+                    for P, d in H, X, nil do
+                      O = d[5];
+                      if X then
+                        d = X[P];
+                        if d then
+                          local g, F = P + O, J(O);
+                          Y(I, P, g - 1, 1, F);
+                          d[4] = F;
+                          d[6] = 1;
+                          X[P] = nil;
+                        end
+                      end
+                    end
+                  end
+                  X = I[S[a]];
+                  return false, true, rB(X);
+                else
+                  I[S[a]] = I[T[a]][I[u[a]]];
+                end
+              elseif K >= 20 then
+                if K == 21 then
+                  I[T[a]] = G;
+                else
+                  local G, O, X = S[a], I[T[a]], u[a];
+                  local P, d = e(O, 4294967295), e(X, 4294967295);
+                  local g, F, V, U = e(P, 65535), i(P, 16), e(d, 65535), i(d, 16);
+                  X = e(g * V + A(e(g * U + F * V, 65535), 16), 4294967295);
+                  U = X % 4294967296;
+                  if U ~= U then
+                    O = 0;
+                  else
+                    O = U - U % 1;
+                  end
+                  I[G] = O;
+                end
+              elseif K == 19 then
+                y, E = T[a] + 1, f(S[a], (e(f(s, (e(i(s, 29), 7))), 536870911)));
+                local G = a;
+                for O = 1, u[G], 1 do
+                  E = e(f(E, (A(E, 13))), 536870911);
+                  E = f(E, (i(E, 13)));
+                  E = e(f(E, (A(E, 14))), 536870911);
+                  T[y] = f(T[y], (e(i(E, 0), 127)));
+                  S[y] = f(S[y], (e(i(E, 7), 127)));
+                  u[y] = f(u[y], (e(i(E, 14), 127)));
+                  p[y] = f(p[y], (e(i(E, 21), 127)));
+                  y = y + 1;
+                end
+                p[a] = 16;
+              else
+                I[S[a]] = s;
+              end
+            elseif K >= 9 then
+              if K >= 13 then
+                if K >= 15 then
+                  if K >= 16 then
+                    if K ~= 17 then
+                    else
+                      y = L[T[a]];
+                      y[4][y[6]][l[a]] = I[u[a]];
+                    end
+                  else
+                    y, E = u[a] + 1, T[a];
+                    local G = a;
+                    for s = 1, S[G], 1 do
+                      E = e(f(E, (A(E, 13))), 536870911);
+                      E = f(E, (i(E, 13)));
+                      E = e(f(E, (A(E, 14))), 536870911);
+                      T[y] = f(T[y], (e(i(E, 0), 127)));
+                      S[y] = f(S[y], (e(i(E, 7), 127)));
+                      u[y] = f(u[y], (e(i(E, 14), 127)));
+                      p[y] = f(p[y], (e(i(E, 21), 127)));
+                      y = y + 1;
+                    end
+                    p[a] = 16;
+                  end
+                elseif K == 14 then
+                  I[S[a]] = I[u[a]];
+                else
+                  I[T[a]] = I[S[a]] - x[a];
+                end
+              elseif K >= 11 then
+                if K == 12 then
+                  a = I[S[a]];
+                else
+                  local x;
+                  local A, G, s, O, X = l[a], k, z;
+                  if A then
+                    local l = #A / 3;
+                    if l > 0 then
+                      x, O, X = {}, G, s;
+                      for P = 1, l, 1 do
+                        local l = (P - 1) * 3;
+                        local d, g = A[l + 3], A[l + 2];
+                        if d == 1 then
+                          O = O or {};
+                          local F = O[g];
+                          if F then
+                          else
+                            F = { [6] = g, [4] = I };
+                            O[g] = F;
+                          end
+                          x[P] = F;
+                        elseif d == 2 then
+                          x[P] = I[g];
+                        elseif d == 3 then
+                          x[P] = L[g];
+                        elseif d == 0 then
+                          X = X or {};
+                          local d = X[g];
+                          if d then
+                          else
+                            d = { [4] = I, [6] = g, [5] = A[l + 1] };
+                            X[g] = d;
+                          end
+                          x[P] = d;
+                        end
+                      end
+                    else
+                      O, X = G, s;
+                    end
+                  else
+                    O, X = G, s;
+                  end
+                  k, z = O, X;
+                  I[u[a]] = o[a](x);
+                end
+              elseif K == 10 then
+                y = S[a];
+                I[y], I[y + 1] = T[a], u[a];
+              else
+                local x, l, A = S[a], u[a], D[5];
+                local G = f(A[x], 498918279);
+                A[x] = G;
+                x, A = D[4], G + 1;
+                G = n(x, A);
+                local D, s;
+                if G < 128 then
+                  D, s = G, A + 1;
+                else
+                  local O = n(x, A + 1);
+                  if O < 128 then
+                    D, s = (G - 128) * 128 + O, A + 2;
+                  else
+                    local X = n(x, A + 2);
+                    if X < 128 then
+                      D, s = G - 128 + (O - 128) * 128 + X * 16384, A + 3;
+                    else
+                      local P = n(x, A + 3);
+                      D, s = (G - 128) * 16384 + (O - 128) + (X - 128) * 128 + P % 128 * 2097152 + (P - P % 128) * 2097152, A + 4;
+                    end
+                  end
+                end
+                G, A = l * 16843009, s + D;
+                local O = A - D % 4;
+                for X = s, O - 1, 4 do
+                  h(x, X, (f(M(x, X), G)));
+                end
+                for s = O, A - 1, 1 do
+                  _(x, s, (f(n(x, s), l)));
+                end
+                D, G, l = a, a, a;
+                S[a] = 82;
+                u[D] = 36;
+                T[G] = 63;
+                p[l] = 16;
+              end
+            elseif K >= 4 then
+              if K >= 6 then
+                if K >= 7 then
+                  if K == 8 then
+                    I[S[a]] = HB[o[a]];
+                  else
+                    I[u[a]] = T[a];
+                  end
+                else
+                  I[S[a]] = I[T[a]] % u[a];
+                end
+              elseif K ~= 5 then
+                I[T[a]] = I[u[a]] * I[S[a]];
+              else
+                I[S[a]] = I[u[a]] + T[a];
+              end
+            elseif K < 2 then
+              if K == 1 then
+                a = S[a];
+              elseif I[S[a]] then
+                a = u[a];
+              else
+                a = T[a];
+              end
+            elseif K == 3 then
+              I[S[a]] = I[u[a]] - T[a];
+            else
+              local x, l = k, z;
+              if x then
+                for K in H, x, nil do
+                  local o = x[K];
+                  if o then
+                    o[4] = o;
+                    o[5] = I[K];
+                    o[6] = 5;
+                    x[K] = nil;
+                  end
+                end
+              end
+              if l then
+                for K, o in H, l, nil do
+                  x = o[5];
+                  if l then
+                    o = l[K];
+                    if o then
+                      local D, p = K + x - 1, J(x);
+                      Y(I, K, D, 1, p);
+                      o[4] = p;
+                      o[6] = 1;
+                      l[K] = nil;
+                    end
+                  end
+                end
+              end
+              local x, l, K = u[a], I[T[a]], I[S[a]];
+              return true, true, x, rB(l, K);
+            end
+            a = a + 1;
+          end
+        end
+      end, ...);
+      if N then
+        if v then
+          if R then
+            return I[q](b(c, 1, c.n));
+          else
+            return I[q](b(I, q + 1, c));
+          end
+        elseif q then
+          if R then
+            return b(q, 1, q.n);
+          else
+            return b(I, q, c);
+          end
+        end
+      else
+        local x, T = k, z;
+        if x then
+          for l in B, x, nil do
+            local u = x[l];
+            if u then
+              u[4] = u;
+              u[5] = I[l];
+              u[6] = 5;
+              x[l] = nil;
+            end
+          end
+        end
+        if T then
+          for l, u in B, T, nil do
+            x = u[5];
+            if T then
+              u = T[l];
+              if u then
+                local H = J(x);
+                Y(I, l, l + x - 1, 1, H);
+                u[4] = H;
+                u[6] = 1;
+                T[l] = nil;
+              end
+            end
+          end
+        end
+        w(r, v, a, Q);
+      end
+    end
+    return Z;
+  end
+  return W;
+end, GO = buffer.create(16), [101] = table.clear, [4] = string.byte, XO = function(r, x, H, T, l, u, K)
+  if K <= 6 then
+    return 19, r[8](H), u;
+  elseif K <= 7 then
+    local K = H[6];
+    if K then
+      return 34, K, u;
+    else
+      return 5, x, u;
+    end
+  else
+    local H = buffer.readu8(l, T + 1);
+    return 128 <= H and 32 or 26, x, H;
+  end
+end, [6] = rawset, Q = function(r, x, H, T, l, u, K, I, o, D)
+  if K <= 115 then
+    if K <= 114 then
+      return 98, D, l, (T - 128) * 128 + x, H + 2, I, o, u;
+    elseif 0 ~= x then
+      return 255, D, T, T, x, I, o, u;
+    else
+      return 237, D, l, T, 0, I, o, u;
+    end
+  elseif K <= 116 then
+    local H = buffer.readu8(l, 2 + T);
+    return H >= 128 and 94 or 22, D, l, T, x, I, o, H;
+  else
+    local H, K, I = buffer.readu32(l, x), x + 4, 1;
+    return 245, { D, 0, nil, 1, H + 0 }, l, T, K, 1, {}, u;
+  end
+end, [16] = bit32.lshift, fO = function(r, x, H, T, l, u, K, I, o)
+  if K <= 260 then
+    if K <= 259 then
+      local D = buffer.readu8(I, u + 1);
+      return D < 128 and 64 or 196, u, D;
+    else
+      T[H] = x;
+      return 252, u, o;
+    end
+  elseif K <= 261 then
+    local x = buffer.readu8(I, l);
+    return 128 > x and 186 or 86, x, o;
+  elseif K <= 262 then
+    return 47, u + 1, o;
+  else
+    return 203, u + 1, o;
+  end
+end, ZO = function(r, x, H, T, l, u, K, I, o, D, p, S, Y, Q)
+  if o <= 278 then
+    if o <= 277 then
+      local A = buffer.readu8(D, 3 + T);
+      local Z, G, s, J, a = 16384 * (u - 128), H - 128, (I - 128) * 128, 2097152 * (A % 128), A % 128;
+      A = J + s + (G + Z + (A - a) * 2097152);
+      return 117, D, T + 4, l, A, Q, x;
+    else
+      local H = buffer.readu8(D, l + 2);
+      return H < 128 and 87 or 164, D, T, l, u, H, x;
+    end
+  elseif o <= 279 then
+    return 96, D, 2 + T, l, u, (Q - 128) * 128 + Y, x;
+  elseif o <= 280 then
+    local H = buffer.readu8(D, l + 1);
+    if 128 <= H then
+      return 110, D, T, l, u, Q, H;
+    else
+      return 99, H, T, l, u, Q, x;
+    end
+  else
+    l[-2] = T;
+    l[-1] = {};
+    setmetatable(l, p);
+    return 255, D, T, S, r[K](r, nil, l), Q, x;
+  end
+end, [14] = function(r, r, r, r)
+  return function(r)
+    local x = r[1];
+    local H = r[2];
+    local T = r[3];
+    return function()
+      local r = 1;
+      while true do
+        if r <= 0 then
+          return;
+        else
+          x[4][x[6]] = true;
+          H[4][H[6]] = H[4][H[6]] - H[4][H[6]] % 2 + 1;
+          T[4][T[6]], r = (457707 * T[4][T[6]] + 221265501) % 268435456, 0;
+        end
+      end
+    end;
+  end;
+end, [95] = table.move, PO = function(r, x, H, T, l, u, K, I)
+  if K <= 188 then
+    local K = buffer.readu8(x, 3 + I);
+    local o, D, p, S, Y = 16384 * (T - 128), u - 128, 128 * (H - 128), K % 128 * 2097152, K % 128;
+    Y = S + (o + p + (K - Y) * 2097152) + D;
+    return 26, I + 4, l, Y;
+  else
+    local H = buffer.readu8(x, I + 1);
+    return H < 128 and 2 or 27, I, H, T;
+  end
+end, rO = function(r, x, H, T)
+  local l;
+  local u, K, I, o, D, p, S, Y, Q, A, Z, G, s, J, a, O, X, P, d, g, F, k, z, f, e, i, n, W = buffer.writeu8, r.GO, buffer.readu8, bit32.bxor, buffer.writeu32, buffer.readu32, r.FO, r.MO, bit32.band, bit32.rshift, r.rO, table.create, string.sub, buffer.readf64, buffer.readf32, string.rep, r.u, buffer.tostring, buffer.create, buffer.fill, buffer.readu16, Vector3.new, buffer.readi32, buffer.readstring, buffer.readi16, Vector2.new, 29;
+  local L;
+  local h, V, N, v, R, q, c, U, m, C, y, j = x, H, T;
+  while true do
+    if n <= 17 then
+      if n <= 8 then
+        if n <= 3 then
+          n, W, N, j = r:KO(c, y, j, m, N, v, n, q, R, W);
+        elseif n <= 5 then
+          if n <= 4 then
+            n, N, c = r:dO(c, N, U);
+          else
+            L = l[5];
+            H = { __index = function(E, t)
+              local B, b = 65;
+              local w, M, _, rB, xB, HB, TB, lB, uB, KB, IB, oB, DB, pB, SB, YB = E, t;
+              while true do
+                local QB, AB, ZB, GB;
+                if B <= 85 then
+                  if B <= 42 then
+                    if B <= 20 then
+                      if B <= 9 then
+                        if B <= 4 then
+                          if B <= 1 then
+                            if B <= 0 then
+                              local sB, JB, JB = 1 + rB, 0, (61 * ((_ + 128) % 256) + 199) % 256;
+                              buffer.writeu8(K, 0, (bit32.bxor(JB, buffer.readu8(TB, sB + 0), 128)));
+                              JB = -buffer.readu8(K, HB);
+                              B, _ = 100, JB;
+                            else
+                              local sB, JB, aB = b[4], b[3], b[5];
+                              local OB, XB = sB + JB, JB <= 0;
+                              E, JB = OB >= aB, OB <= aB;
+                              sB = XB and E or not XB and JB;
+                              b[4] = OB;
+                              if sB then
+                                B, pB = 42, OB;
+                              else
+                                B = 137;
+                              end
+                            end
+                          elseif B <= 2 then
+                            local E, sB = HB - 1, 1;
+                            local JB = { b, nil, SB - 1, 1, E + 0 };
+                            B, b = 146, JB;
+                          elseif B <= 3 then
+                            local E, sB, JB, aB = rB + 1, (10 + _) % 256, 168430090, 0;
+                            local OB = buffer.readu32(TB, 0 + E);
+                            buffer.writeu32(K, 0, (bit32.bxor(168430090, S[sB], OB)));
+                            OB = Y[sB];
+                            B, _, rB, xB, lB = 158, E, 168430090, OB, 4;
+                          else
+                            B = 38 ~= lB and 130 or 94;
+                          end
+                        elseif B <= 6 then
+                          if B <= 5 then
+                            local E, sB, JB, aB = rB + 1, (236 + _) % 256, 3974950124, 0;
+                            buffer.writeu32(K, 0, (bit32.bxor(3974950124, buffer.readu32(TB, E + 0), S[sB])));
+                            local OB = Y[sB];
+                            B, _, rB, xB, lB, uB, KB, IB, oB, DB = 109, E, 3974950124, OB, 4, buffer.writeu32, K, buffer.readu32(TB, 4 + E), S[OB], bit32.bxor;
+                          else
+                            local E = buffer.readu8(TB, rB + 3);
+                            local sB, JB, aB, OB, XB, PB = (HB - 128) * 16384, lB - 128, (uB - 128) * 128, E % 128 * 2097152, E % 128;
+                            PB, B, rB = OB + (sB + ((E - XB) * 2097152 + (JB + aB))), 134, 4 + rB;
+                            HB = PB;
+                          end
+                        elseif B <= 7 then
+                          local E = 1 + rB;
+                          local sB = buffer.readu8(TB, E);
+                          B, rB, xB = 128 <= sB and 102 or 126, E, sB;
+                        elseif B <= 8 then
+                          B, _, rB = 74, rB + (_ - 128) * 128, 2;
+                        else
+                          local E = buffer.readu8(TB, xB + 3);
+                          local sB, JB, aB, OB, XB = 16384 * (HB - 128), lB - 128, (uB - 128) * 128, 2097152 * (E % 128), E % 128;
+                          local PB, dB, gB, FB = 2097152 * (E - XB), sB + OB, aB + JB;
+                          FB, B, xB = dB + gB + PB, 119, 4 + xB;
+                          HB = FB;
+                        end
+                      elseif B <= 14 then
+                        if B <= 11 then
+                          if B <= 10 then
+                            B, rB = 33, 1 + rB;
+                          else
+                            local E;
+                            HB, B, E = TB + (HB - 128) * 128, 18, rB + 2;
+                          end
+                        elseif B <= 12 then
+                          local E = 1 + rB;
+                          local sB = buffer.readu8(TB, E);
+                          B, rB, HB = sB < 128 and 28 or 51, E, sB;
+                        elseif B <= 13 then
+                          local E = buffer.readu8(TB, 2 + rB);
+                          B, uB = 128 > E and 91 or 23, E;
+                        else
+                          local E = buffer.readu8(TB, _ + 1);
+                          B, xB = E < 128 and 49 or 138, E;
+                        end
+                      elseif B <= 17 then
+                        if B <= 15 then
+                          B = 76 <= lB and 24 or 96;
+                        elseif B <= 16 then
+                          B, rB, _ = 169, xB + 128 * (rB - 128), _ + 2;
+                        else
+                          B = 142 ~= lB and 83 or 5;
+                        end
+                      elseif B <= 18 then
+                        local JB = { HB + 0, 1, b, 0, nil };
+                        B, b, rB = 25, JB, 0;
+                      elseif B <= 19 then
+                        B, rB = 134, rB + 1;
+                      else
+                        B = lB <= 212 and 0 or 125;
+                      end
+                    elseif B <= 31 then
+                      if B <= 25 then
+                        if B <= 22 then
+                          if B <= 21 then
+                            B = 209 >= lB and 156 or 147;
+                          else
+                            B, _ = 93, _ + 1;
+                          end
+                        elseif B <= 23 then
+                          local E = buffer.readu8(TB, rB + 3);
+                          local sB, JB, aB, OB, XB = 16384 * (xB - 128), lB - 128, 128 * (uB - 128), 2097152 * (E % 128), E % 128;
+                          local PB, dB = 2097152 * (E - XB);
+                          dB, B, rB = JB + aB + PB + (OB + sB), 141, rB + 4;
+                          xB = dB;
+                        elseif B <= 24 then
+                          local E = 1 + rB;
+                          local sB = buffer.readu8(TB, E);
+                          B, rB, xB = sB >= 128 and 89 or 41, E, sB;
+                        else
+                          local E, sB, JB = b[4], b[2], b[1];
+                          local aB, OB = E + sB, sB <= 0;
+                          E, sB = aB >= JB, aB <= JB;
+                          JB = OB and E or not OB and sB;
+                          b[4] = aB;
+                          if JB then
+                            B, TB = 64, aB;
+                          else
+                            B = 153;
+                          end
+                        end
+                      elseif B <= 28 then
+                        if B <= 26 then
+                          B, b = 152, b[5];
+                        elseif B <= 27 then
+                          local E, sB, JB, aB = rB - 128, (xB - 128) * 128, HB * 16384;
+                          aB, B, _ = sB + JB + E, 93, 3 + _;
+                          rB = aB;
+                        else
+                          B, rB = 79, 1 + rB;
+                        end
+                      elseif B <= 29 then
+                        local E, sB, JB, aB = HB - 128, 128 * (TB - 128), 16384 * lB;
+                        aB, B, rB = sB + (JB + E), 33, 3 + rB;
+                        HB = aB;
+                      elseif B <= 30 then
+                        local E;
+                        HB, B, E = HB - 128 + ((lB - 128) * 128 + TB * 16384), 18, rB + 3;
+                      else
+                        B, _ = 169, _ + 1;
+                      end
+                    elseif B <= 36 then
+                      if B <= 33 then
+                        if B <= 32 then
+                          local E, sB, JB = b[3], b[5], b[4];
+                          local aB, OB = E + sB, sB <= 0;
+                          E, sB = aB >= JB, aB <= JB;
+                          JB = OB and E or not OB and sB;
+                          b[3] = aB;
+                          if JB then
+                            B, lB = 154, aB;
+                          else
+                            B = 66;
+                          end
+                        else
+                          local E, sB, JB = bit32.band(3, HB), bit32.rshift(HB, 2), 8045;
+                          if E == 0 then
+                            B, HB, TB = 87, 0, sB;
+                          else
+                            B, HB, TB, lB = 103, E, sB, 8045;
+                          end
+                        end
+                      elseif B <= 34 then
+                        B = lB <= 97 and 7 or 17;
+                      elseif B <= 35 then
+                        QB = (IB * lB + oB) % 256;
+                        buffer.writeu8(DB, HB, (bit32.bxor(uB, QB, (buffer.readu8(TB, HB + rB)))));
+                        B, lB = 146, QB;
+                      else
+                        B = 59 < lB and 110 or 80;
+                      end
+                    elseif B <= 39 then
+                      if B <= 37 then
+                        B = 18;
+                      elseif B <= 38 then
+                        local Q = buffer.readu8(IB, rB + 3);
+                        local A, E, sB, JB, aB, OB = (lB - 128) * 16384, uB - 128, 128 * (KB - 128), 2097152 * (Q % 128), Q % 128;
+                        OB, B, rB = 2097152 * (Q - aB) + (JB + E) + (sB + A), 139, 4 + rB;
+                        lB = OB;
+                      else
+                        B, rB = 74, 1;
+                      end
+                    elseif B <= 40 then
+                      local Q, A = xB - 1, 1;
+                      local E = { 1, b, DB - 1, Q + 0, nil };
+                      B, b = 47, E;
+                    elseif B <= 41 then
+                      B, rB = 155, rB + 1;
+                    else
+                      buffer.writeu32(IB, pB, (bit32.bxor(buffer.readu32(TB, pB + rB), S[_], oB)));
+                      AB = Y[_];
+                      B, _ = 1, AB;
+                    end
+                  elseif B <= 63 then
+                    if B <= 52 then
+                      if B <= 47 then
+                        if B <= 44 then
+                          if B <= 43 then
+                            local Q = 1 + rB;
+                            local A = buffer.readu8(TB, Q);
+                            B, _, rB = 128 <= A and 14 or 22, Q, A;
+                          else
+                            local Q = buffer.readu8(IB, 3);
+                            local A, E, sB, JB, aB, OB = 16384 * (_ - 128), rB - 128, (xB - 128) * 128, Q % 128 * 2097152, Q % 128;
+                            OB, B = (Q - aB) * 2097152, 74;
+                            _, rB = JB + sB + (E + (OB + A)), 4;
+                          end
+                        elseif B <= 45 then
+                          B, rB = 139, rB + 1;
+                        elseif B <= 46 then
+                          B = lB == 94 and 150 or 129;
+                        else
+                          local Q, A, E = b[3], b[1], b[4];
+                          local sB, JB = Q + A, A <= 0;
+                          A, Q = sB >= E, sB <= E;
+                          E = JB and A or not JB and Q;
+                          b[3] = sB;
+                          if E then
+                            B, oB = 78, sB;
+                          else
+                            B = 168;
+                          end
+                        end
+                      elseif B <= 49 then
+                        if B <= 48 then
+                          local Q = buffer.readu8(TB, _ + 3);
+                          local A, E, sB, JB, aB, OB = 16384 * (rB - 128), xB - 128, 128 * (HB - 128), 2097152 * (Q % 128), Q % 128;
+                          OB, B, _ = A + ((Q - aB) * 2097152 + E) + sB + JB, 93, _ + 4;
+                          rB = OB;
+                        else
+                          B, rB, _ = 93, (rB - 128) * 128 + xB, 2 + _;
+                        end
+                      elseif B <= 50 then
+                        B = 23 == lB and 52 or 85;
+                      elseif B <= 51 then
+                        local Q = buffer.readu8(TB, rB + 1);
+                        B, lB = Q < 128 and 60 or 101, Q;
+                      else
+                        local Q = Z(r, xB, _, 180);
+                        B, _ = 100, Q;
+                      end
+                    elseif B <= 57 then
+                      if B <= 54 then
+                        if B <= 53 then
+                          B, rB = 77, rB + 1;
+                        else
+                          local Q, A = 3 * (xB - 1), buffer.readu8(IB, rB);
+                          B, xB, HB = 128 > A and 10 or 140, Q, A;
+                        end
+                      elseif B <= 55 then
+                        local Q, A = table.create(3 * _), 1;
+                        local E = { _ + 0, nil, 1, b, 0 };
+                        B, b, _ = 75, E, Q;
+                      elseif B <= 56 then
+                        local Q, A;
+                        Q, A, B = _ - 128, (rB - 128) * 128, 74;
+                        _, rB = xB * 16384 + A + Q, 3;
+                      else
+                        B, b = 2, b[3];
+                      end
+                    elseif B <= 60 then
+                      if B <= 58 then
+                        B, xB = 119, xB + 1;
+                      elseif B <= 59 then
+                        B, b = 40, b[2];
+                      else
+                        B, HB, rB = 79, lB + 128 * (HB - 128), 2 + rB;
+                      end
+                    elseif B <= 61 then
+                      AB = (KB + uB * _) % 256;
+                      buffer.writeu8(IB, xB, (bit32.bxor(AB, lB, (buffer.readu8(TB, xB + rB)))));
+                      B, _ = 99, AB;
+                    elseif B <= 62 then
+                      local Q = rB + 1;
+                      local A = buffer.readu8(TB, Q);
+                      B, rB, HB = 128 > A and 19 or 117, Q, A;
+                    else
+                      B = lB <= 23 and 50 or 4;
+                    end
+                  elseif B <= 74 then
+                    if B <= 68 then
+                      if B <= 65 then
+                        if B <= 64 then
+                          local Q, A, Z = string.sub(_, TB % xB + 1, 2 + TB % xB), 1 + TB, 1;
+                          local E = { b, nil, A - 1, HB + 0, 1 };
+                          B, b, TB = 32, E, Q;
+                        else
+                          local Q = w[-2][M];
+                          local A, Z, E, sB = L[Q], l, w[-1], 0;
+                          local L = l[4];
+                          local JB, aB = buffer.readu8(L, A), 1 + A;
+                          if JB <= 76 then
+                            B, _, rB, xB, HB, TB, lB = 149, Q, A, l, 0, L, JB;
+                          else
+                            B, _, rB, xB, HB, TB, lB = 90, Q, A, E, 0, L, JB;
+                          end
+                        end
+                      elseif B <= 66 then
+                        B, b = 25, b[1];
+                      elseif B <= 67 then
+                        local Q = rB + 1;
+                        local A = buffer.readu8(TB, Q);
+                        B, rB, xB = 128 <= A and 123 or 53, Q, A;
+                      else
+                        local Q, A, Z, L = xB - 128, (HB - 128) * 128, 16384 * lB;
+                        L, B, rB = Z + (Q + A), 77, rB + 3;
+                        xB = L;
+                      end
+                    elseif B <= 71 then
+                      if B <= 69 then
+                        local Q, A = Y[rB], 4;
+                        buffer.writeu32(K, 4, (bit32.bxor(buffer.readu32(TB, 4 + _), S[Q], xB)));
+                        B, _ = 86, (buffer.readf64(K, HB));
+                      elseif B <= 70 then
+                        local Q = buffer.readu8(TB, _ + 1);
+                        B, xB = Q < 128 and 16 or 160, Q;
+                      else
+                        local Q, A, Z = 1 + rB, (68 + _) % 256, 0;
+                        local Z = buffer.readu32(TB, 0 + Q);
+                        buffer.writeu32(K, 0, (bit32.bxor(1145324612, S[A], Z)));
+                        Z = Y[A];
+                        B, _ = 86, (buffer.readf32(K, HB));
+                      end
+                    elseif B <= 72 then
+                      local Q, A, Z = b[4], b[2], b[3];
+                      local J, L = Q + A, A <= 0;
+                      A, Q = J >= Z, J <= Z;
+                      Z = L and A or not L and Q;
+                      b[4] = J;
+                      if Z then
+                        B, pB = 128, J;
+                      else
+                        B = 26;
+                      end
+                    elseif B <= 73 then
+                      local Q, A, Z = b[3], lB(IB), xB + rB;
+                      local J = buffer.readu8(TB, Z);
+                      B, b, _, rB, xB, HB = J >= 128 and 145 or 58, Q, A, string.rep, Z, J;
+                    elseif _ > 0 then
+                      B = 55;
+                    else
+                      B, _ = 100, X;
+                    end
+                  elseif B <= 79 then
+                    if B <= 76 then
+                      if B <= 75 then
+                        local Q, A, Z = b[5], b[3], b[1];
+                        local J, O = Q + A, A <= 0;
+                        A, Q = J >= Z, J <= Z;
+                        Z = O and A or not O and Q;
+                        b[5] = J;
+                        if Z then
+                          B, xB = 54, J;
+                        else
+                          B = 135;
+                        end
+                      else
+                        local Q, A, Z, J = HB - 128, 128 * (lB - 128), 16384 * TB;
+                        J, B, xB = A + Z + Q, 119, xB + 3;
+                        HB = J;
+                      end
+                    elseif B <= 77 then
+                      ZB = (_ + 11) % 256;
+                      local Z, J, O = buffer.create(xB), 185273099, xB - xB % 4;
+                      local X, L = O - 1, 4;
+                      local sB = { X + 0, b, -4, nil, 4 };
+                      B, b, _, HB, lB, uB, KB, IB, oB, DB = 107, sB, ZB, 11, buffer.tostring, 61, 199, Z, 185273099, O;
+                    elseif B <= 78 then
+                      ZB = (_ * uB + KB) % 256;
+                      buffer.writeu8(IB, oB, (bit32.bxor(HB, buffer.readu8(TB, rB + oB), ZB)));
+                      B, _ = 47, ZB;
+                    else
+                      QB = (11 + _) % 256;
+                      local Z, J, O = buffer.create(HB), 185273099, HB - HB % 4;
+                      local X, L = O - 1, 4;
+                      local E = { nil, 4, b, -4, X + 0 };
+                      B, b, lB, uB, KB, IB, oB, DB, pB, SB = 142, E, QB, 11, buffer.tostring, 61, 199, Z, 185273099, O;
+                    end
+                  elseif B <= 82 then
+                    if B <= 80 then
+                      B = lB > 43 and 43 or 3;
+                    elseif B <= 81 then
+                      t = rB + 1;
+                      B, rB = 32, t;
+                    else
+                      B, HB, xB = 119, TB + 128 * (HB - 128), xB + 2;
+                    end
+                  elseif B <= 83 then
+                    local Q = xB[_];
+                    if Q then
+                      B, _ = 100, Q;
+                    else
+                      B = 62;
+                    end
+                  elseif B <= 84 then
+                    local Q, A, Z, J = rB - 128, (xB - 128) * 128, HB * 16384;
+                    J, B, _ = Z + A + Q, 169, 3 + _;
+                    rB = J;
+                  else
+                    local Q, A, A = rB + 1, 0, (199 + (_ + 138) % 256 * 61) % 256;
+                    buffer.writeu8(K, 0, (bit32.bxor(138, A, (buffer.readu8(TB, 0 + Q)))));
+                    B, _ = 100, (buffer.readu8(K, HB));
+                  end
+                elseif B <= 128 then
+                  if B <= 106 then
+                    if B <= 95 then
+                      if B <= 90 then
+                        if B <= 87 then
+                          if B <= 86 then
+                            B = 100;
+                          else
+                            local Q = buffer.readu8(IB, rB);
+                            B, lB = Q < 128 and 45 or 171, Q;
+                          end
+                        elseif B <= 88 then
+                          local Q, A, A = rB + 1, 0, ((44 + _) % 256 * 61 + 199) % 256;
+                          buffer.writeu8(K, 0, (bit32.bxor(44, A, (buffer.readu8(TB, 0 + Q)))));
+                          A = buffer.readu8(K, HB) ~= 23;
+                          B, _ = 100, A;
+                        elseif B <= 89 then
+                          local Q = buffer.readu8(TB, 1 + rB);
+                          B, HB = Q >= 128 and 161 or 162, Q;
+                        else
+                          B = lB <= 160 and 136 or 21;
+                        end
+                      elseif B <= 92 then
+                        if B <= 91 then
+                          local Q, A, Z, J = xB - 128, (lB - 128) * 128, uB * 16384;
+                          J, B, rB = Q + Z + A, 141, 3 + rB;
+                          xB = J;
+                        else
+                          local Q, A, Z, J = HB - 128, 128 * (lB - 128), uB * 16384;
+                          J, B, rB = Z + (Q + A), 134, 3 + rB;
+                          HB = J;
+                        end
+                      elseif B <= 93 then
+                        local Q, A, A = buffer.readu8(TB, _), _ + 1, buffer.create(rB);
+                        buffer.fill(A, 0, Q);
+                        B, _ = 100, A;
+                      elseif B <= 94 then
+                        local Q, A, Z = 1 + rB, 61, 199;
+                        local J, O = 0, ((183 + _) % 256 * 61 + 199) % 256;
+                        B, _, rB, xB, lB, uB, KB, IB, oB, DB, pB = 151, Q, 183, 61, 199, 0, O, buffer.writeu8, K, buffer.readu8(TB, 0 + Q), bit32.bxor;
+                      else
+                        local Q, A, Z, J = 1 + rB, (_ + 162) % 256, 2728567458, 0;
+                        buffer.writeu32(K, 0, (bit32.bxor(buffer.readu32(TB, 0 + Q), 2728567458, S[A])));
+                        B, _, rB, xB = 69, Q, A, 2728567458;
+                      end
+                    elseif B <= 100 then
+                      if B <= 97 then
+                        if B <= 96 then
+                          local Q, A, Z = rB + 1, (_ + 82) % 256, 0;
+                          buffer.writeu32(K, 0, (bit32.bxor(1381126738, buffer.readu32(TB, Q + 0), S[A])));
+                          Q = Y[A];
+                          B, _ = 100, (buffer.readu32(K, HB));
+                        else
+                          IB(oB, uB, (pB(DB, KB, rB)));
+                          buffer.writeu8(K, 1, (bit32.bxor((xB * KB + lB) % 256, buffer.readu8(TB, 1 + _), rB)));
+                          B, _ = 100, (buffer.readu16(K, HB));
+                        end
+                      elseif B <= 98 then
+                        local Q = buffer.readu8(TB, 3 + _);
+                        local A, Z, J, O, X = 16384 * (rB - 128), xB - 128, 128 * (HB - 128), Q % 128 * 2097152, Q % 128;
+                        local g, F, L = 2097152 * (Q - X), J + Z + A;
+                        L, B, _ = F + (O + g), 169, _ + 4;
+                        rB = L;
+                      elseif B <= 99 then
+                        local Q, A, Z = b[1], b[5], b[3];
+                        local J, O = Q + A, A <= 0;
+                        A, Q = J >= Z, J <= Z;
+                        Z = O and A or not O and Q;
+                        b[1] = J;
+                        if Z then
+                          B, xB = 61, J;
+                        else
+                          B = 164;
+                        end
+                      else
+                        w[M] = _;
+                        B = 133;
+                      end
+                    elseif B <= 103 then
+                      if B <= 101 then
+                        local Q = buffer.readu8(TB, 2 + rB);
+                        B, uB = 128 > Q and 112 or 167, Q;
+                      elseif B <= 102 then
+                        local Q = buffer.readu8(TB, 1 + rB);
+                        B, lB = Q < 128 and 120 or 13, Q;
+                      else
+                        _[xB + 1] = lB;
+                        _[xB + 3] = HB;
+                        _[xB + 2] = TB;
+                        B = 75;
+                      end
+                    elseif B <= 104 then
+                      local Q = buffer.readu8(TB, rB + 2);
+                      B, uB = Q < 128 and 92 or 6, Q;
+                    elseif B <= 105 then
+                      local Q = buffer.readu8(IB, 3 + rB);
+                      local A, Z, J, O, X = 16384 * (HB - 128), TB - 128, 128 * (lB - 128), 2097152 * (Q % 128), Q % 128;
+                      local g, F, L = 2097152 * (Q - X), Z + A + J;
+                      L, B, rB = O + F + g, 33, 4 + rB;
+                      HB = L;
+                    else
+                      local Q = buffer.readu8(TB, 2 + xB);
+                      if Q < 128 then
+                        B, TB = 76, Q;
+                      else
+                        B, uB = 9, Q;
+                      end
+                    end
+                  elseif B <= 117 then
+                    if B <= 111 then
+                      if B <= 108 then
+                        if B <= 107 then
+                          local Q, A, Z = b[3], b[5], b[1];
+                          local J, O = Q + A, A <= 0;
+                          A, Q = J >= Z, J <= Z;
+                          Z = O and A or not O and Q;
+                          b[3] = J;
+                          if Z then
+                            B, pB = 113, J;
+                          else
+                            B = 59;
+                          end
+                        else
+                          local Q, A = xB - 1, 1;
+                          local Z = { DB - 1, b, Q + 0, nil, 1 };
+                          B, b = 99, Z;
+                        end
+                      elseif B <= 109 then
+                        uB(KB, lB, (DB(oB, IB, rB)));
+                        local Q, A = Y[xB], 8;
+                        local Z = buffer.readu32(TB, _ + 8);
+                        buffer.writeu32(K, 8, (bit32.bxor(S[Q], rB, Z)));
+                        A, Z = Y[Q], Vector3.new(buffer.readf32(K, HB), buffer.readf32(K, 4), (buffer.readf32(K, 8)));
+                        B, _ = 100, Z;
+                      elseif B <= 110 then
+                        B = 64 < lB and 15 or 67;
+                      else
+                        local Q = buffer.readu8(TB, 2 + rB);
+                        if 128 <= Q then
+                          B, uB = 165, Q;
+                        else
+                          B, TB = 30, Q;
+                        end
+                      end
+                    elseif B <= 114 then
+                      if B <= 112 then
+                        local Q, A, Z, J = HB - 128, (lB - 128) * 128, 16384 * uB;
+                        J, B, rB = Z + A + Q, 79, 3 + rB;
+                        HB = J;
+                      elseif B <= 113 then
+                        buffer.writeu32(IB, pB, (bit32.bxor(buffer.readu32(TB, pB + rB), oB, S[_])));
+                        ZB = Y[_];
+                        B, _ = 107, ZB;
+                      else
+                        GB = (KB + uB * _) % 256;
+                        buffer.writeu8(IB, oB, (bit32.bxor(buffer.readu8(TB, oB + rB), HB, GB)));
+                        B, _ = 122, GB;
+                      end
+                    elseif B <= 115 then
+                      local Q, A = b[1], KB(DB);
+                      xB[_] = A;
+                      B, b, _ = 100, Q, A;
+                    elseif B <= 116 then
+                      local Q = buffer.readu32(TB, rB + YB);
+                      buffer.writeu32(DB, YB, (bit32.bxor(S[lB], pB, Q)));
+                      QB = Y[lB];
+                      B, lB = 142, QB;
+                    else
+                      local Q = buffer.readu8(TB, 1 + rB);
+                      B, lB = Q < 128 and 118 or 104, Q;
+                    end
+                  elseif B <= 122 then
+                    if B <= 119 then
+                      if B <= 118 then
+                        B, HB, rB = 134, 128 * (HB - 128) + lB, 2 + rB;
+                      else
+                        local Q = rB(_, HB, xB);
+                        B, _ = 100, Q;
+                      end
+                    elseif B <= 120 then
+                      B, xB, rB = 141, (xB - 128) * 128 + lB, 2 + rB;
+                    elseif B <= 121 then
+                      B, lB, rB = 139, uB + 128 * (lB - 128), 2 + rB;
+                    else
+                      local Q, A, Z = b[5], b[1], b[4];
+                      local J, O = Q + A, A <= 0;
+                      Q, A = J >= Z, J <= Z;
+                      Z = O and Q or not O and A;
+                      b[5] = J;
+                      if Z then
+                        B, oB = 114, J;
+                      else
+                        B = 73;
+                      end
+                    end
+                  elseif B <= 125 then
+                    if B <= 123 then
+                      local Q = buffer.readu8(TB, rB + 1);
+                      B, HB = Q < 128 and 159 or 157, Q;
+                    elseif B <= 124 then
+                      local Q = buffer.readu8(TB, 3 + rB);
+                      local A, Z, J, O, X = (xB - 128) * 16384, HB - 128, 128 * (lB - 128), 2097152 * (Q % 128), Q - Q % 128;
+                      local Q, g, F = J + X * 2097152, Z + A;
+                      F, B, rB = Q + (O + g), 155, rB + 4;
+                      xB = F;
+                    else
+                      local Q = xB[_];
+                      if Q then
+                        B, _ = 100, Q;
+                      else
+                        B = 12;
+                      end
+                    end
+                  elseif B <= 126 then
+                    B, rB = 141, rB + 1;
+                  elseif B <= 127 then
+                    local Q = buffer.readu8(IB, rB + 2);
+                    B, lB = Q < 128 and 29 or 105, Q;
+                  else
+                    local Q = buffer.readu32(TB, rB + pB);
+                    buffer.writeu32(IB, pB, (bit32.bxor(S[_], oB, Q)));
+                    GB = Y[_];
+                    B, _ = 72, GB;
+                  end
+                elseif B <= 149 then
+                  if B <= 138 then
+                    if B <= 133 then
+                      if B <= 130 then
+                        if B <= 129 then
+                          local Q, A, Z = 1 + rB, (_ + 54) % 256, 0;
+                          local Z = buffer.readu32(TB, 0 + Q);
+                          buffer.writeu32(K, 0, (bit32.bxor(S[A], Z, 909522486)));
+                          Q = Y[A];
+                          B, _ = 100, (buffer.readi32(K, HB));
+                        else
+                          local Q, A, Z = 1 + rB, 61, 199;
+                          local J, O = 0, (61 * ((_ + 251) % 256) + 199) % 256;
+                          B, _, rB, xB, lB, uB, KB, IB, oB, DB, pB = 97, Q, 251, 61, 199, 0, O, buffer.writeu8, K, buffer.readu8(TB, Q + 0), bit32.bxor;
+                        end
+                      elseif B <= 131 then
+                        local Q = buffer.readu8(TB, 3 + rB);
+                        local A, Z, J, O, X = (xB - 128) * 16384, HB - 128, (lB - 128) * 128, Q % 128 * 2097152, Q - Q % 128;
+                        local Q, g, F = 2097152 * X + J, O + A;
+                        F, B, rB = Q + (g + Z), 77, rB + 4;
+                        xB = F;
+                      elseif B <= 132 then
+                        local Q = buffer.readu8(IB, 1);
+                        B, rB = 128 <= Q and 163 or 8, Q;
+                      else
+                        return _;
+                      end
+                    elseif B <= 135 then
+                      if B <= 134 then
+                        local Q = buffer.readstring(TB, rB, HB);
+                        xB[_] = Q;
+                        B, _ = 100, Q;
+                      else
+                        B, b = 100, b[4];
+                      end
+                    elseif B <= 136 then
+                      B = 94 >= lB and 46 or 34;
+                    elseif B <= 137 then
+                      B, b = 108, b[2];
+                    else
+                      local Q = buffer.readu8(TB, _ + 2);
+                      B, HB = 128 <= Q and 48 or 27, Q;
+                    end
+                  elseif B <= 143 then
+                    if B <= 140 then
+                      if B <= 139 then
+                        B, lB = 103, lB + 1;
+                      else
+                        local Q = buffer.readu8(IB, rB + 1);
+                        B, TB = Q < 128 and 170 or 127, Q;
+                      end
+                    elseif B <= 141 then
+                      AB = (_ + 36) % 256;
+                      local Z, J, O = buffer.create(xB), 606348324, xB - xB % 4;
+                      local X, g = O - 1, 4;
+                      local F = { nil, b, 4, -4, X + 0 };
+                      B, b, _, lB, uB, KB, IB, oB, DB = 1, F, AB, 36, 61, 199, Z, 606348324, O;
+                    elseif B <= 142 then
+                      local Q, A, Z = b[4], b[2], b[5];
+                      local J, O = Q + A, A <= 0;
+                      Q, A = J >= Z, J <= Z;
+                      Z = O and Q or not O and A;
+                      b[4] = J;
+                      if Z then
+                        B, YB = 116, J;
+                      else
+                        B = 57;
+                      end
+                    else
+                      local Q = buffer.readu8(IB, 2 + rB);
+                      B, KB = 128 > Q and 166 or 38, Q;
+                    end
+                  elseif B <= 146 then
+                    if B <= 144 then
+                      local Q = buffer.readu8(TB, 1 + rB);
+                      if 128 <= Q then
+                        B, lB = 111, Q;
+                      else
+                        B, TB = 11, Q;
+                      end
+                    elseif B <= 145 then
+                      local Q = buffer.readu8(TB, 1 + xB);
+                      if 128 > Q then
+                        B, TB = 82, Q;
+                      else
+                        B, lB = 106, Q;
+                      end
+                    else
+                      local Q, A, Z = b[3], b[4], b[5];
+                      local J, O = Q + A, A <= 0;
+                      Q, A = J >= Z, J <= Z;
+                      Z = O and Q or not O and A;
+                      b[3] = J;
+                      if Z then
+                        B, HB = 35, J;
+                      else
+                        B = 115;
+                      end
+                    end
+                  elseif B <= 147 then
+                    B = 210 < lB and 20 or 88;
+                  elseif B <= 148 then
+                    local Q, A, Z, J = xB - 128, 128 * (HB - 128), 16384 * lB;
+                    J, B, rB = Z + (A + Q), 155, rB + 3;
+                    xB = J;
+                  else
+                    B = 38 < lB and 36 or 63;
+                  end
+                elseif B <= 160 then
+                  if B <= 154 then
+                    if B <= 151 then
+                      if B <= 150 then
+             
+
+… [truncated: 1519403 of 1619403 chars omitted — raise max_chars or use save_as to keep the full output]
