@@ -1,0 +1,73 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "input_sha256": {
+    "buffer": "4755754417a2911b8f4a85cca7bf1d0140fef4524d4f14dacf6e9ca08543da79",
+    "table": "999541c87b31bc3325671a2a088017eea909cd3a242f6255cec95ab99c8f148a"
+  },
+  "constants": [
+    {
+      "index": 162,
+      "offset": 12250,
+      "tag": 170,
+      "length": 13,
+      "hex": "06836783638357827f835b8313",
+      "captures": [
+        [
+          3,
+          9644,
+          121
+        ],
+        [
+          3,
+          9644,
+          120
+        ],
+        [
+          3,
+          9644,
+          117
+        ],
+        [
+          3,
+          9644,
+          95
+        ],
+        [
+          3,
+          9644,
+          118
+        ],
+        [
+          3,
+          9644,
+          100
+        ]
+      ],
+      "remaining_hex": ""
+    },
+    {
+      "index": 538,
+      "offset": 144570,
+      "tag": 170,
+      "length": 5,
+      "hex": "02864b835f",
+      "captures": [
+        [
+          3,
+          9644,
+          210
+        ],
+        [
+          3,
+          9644,
+          119
+        ]
+      ],
+      "remaining_hex": ""
+    }
+  ],
+  "limitations": "Only tags 70, 113, 170, 237 and 242 are implemented; the indices and input mutations are external static hypotheses."
+}

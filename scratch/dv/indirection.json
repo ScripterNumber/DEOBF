@@ -1,0 +1,878 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "source": {
+    "path": "prism_final.lua",
+    "sha256": "82d818783a7db998e2462e1f74a2c26d447f51d31599b46be28dbb6642bab15b"
+  },
+  "chunk": {
+    "local": "CHUNK",
+    "bytes": 3287230,
+    "sha256": "630936979d38ddaac14d9470d62b3d9b2e55f77d1dc58fdcf778d902b775caf7"
+  },
+  "payload": {
+    "local": "HEX",
+    "bytes": 787469,
+    "sha256": "4e9edceff7e2714f03547a205c188a732f86edf0613e2b2e4b6022618b8f00db",
+    "first16Hex": "c6778413f502828119d8887af51cf579"
+  },
+  "analysis": {
+    "parseErrors": 0,
+    "tableFields": 242,
+    "dispatcher": "tw",
+    "dispatcherParameters": [
+      "d",
+      "P",
+      "p"
+    ],
+    "dispatcherCalls": [
+      {
+        "method": "q",
+        "arguments": [],
+        "offset": 815118
+      },
+      {
+        "method": "X",
+        "arguments": [
+          "V",
+          "c",
+          "v",
+          "b",
+          "l",
+          "k",
+          "f"
+        ],
+        "offset": 815322
+      },
+      {
+        "method": "U",
+        "arguments": [
+          "D",
+          "j",
+          "V",
+          "l",
+          "f",
+          "_",
+          "m",
+          "k",
+          "z"
+        ],
+        "offset": 815358
+      },
+      {
+        "method": "i",
+        "arguments": [
+          "R",
+          "V",
+          "q",
+          "f",
+          "z",
+          "j",
+          "m",
+          "Q",
+          "o",
+          "l"
+        ],
+        "offset": 815406
+      },
+      {
+        "method": "n",
+        "arguments": [
+          "c",
+          "f",
+          "o",
+          "b",
+          "R",
+          "j",
+          "l",
+          "M",
+          "Q",
+          "h",
+          "V"
+        ],
+        "offset": 815463
+      },
+      {
+        "method": "N",
+        "arguments": [
+          "h",
+          "l",
+          "V",
+          "f",
+          "b",
+          "J",
+          "v"
+        ],
+        "offset": 815503
+      },
+      {
+        "method": "u",
+        "arguments": [
+          "R",
+          "u",
+          "q",
+          "V",
+          "m",
+          "j",
+          "D",
+          "l",
+          "_",
+          "k",
+          "A",
+          "z",
+          "b",
+          "f",
+          "B"
+        ],
+        "offset": 815582
+      },
+      {
+        "method": "h",
+        "arguments": [
+          "S",
+          "o",
+          "V",
+          "j",
+          "u",
+          "b",
+          "f",
+          "J",
+          "Q",
+          "h",
+          "z"
+        ],
+        "offset": 815681
+      },
+      {
+        "method": "Z",
+        "arguments": [
+          "D",
+          "V",
+          "b",
+          "q",
+          "f",
+          "l"
+        ],
+        "offset": 815721
+      },
+      {
+        "method": "B",
+        "arguments": [
+          "m",
+          "b",
+          "Q",
+          "h",
+          "V",
+          "l",
+          "f"
+        ],
+        "offset": 815786
+      },
+      {
+        "method": "Y",
+        "arguments": [
+          "b",
+          "v",
+          "k",
+          "c",
+          "V",
+          "u",
+          "f",
+          "h",
+          "l"
+        ],
+        "offset": 815818
+      },
+      {
+        "method": "w",
+        "arguments": [
+          "Q",
+          "q",
+          "R",
+          "V",
+          "m",
+          "f",
+          "A"
+        ],
+        "offset": 815871
+      },
+      {
+        "method": "x",
+        "arguments": [
+          "u",
+          "V",
+          "z",
+          "l",
+          "b",
+          "Q",
+          "f"
+        ],
+        "offset": 815899
+      },
+      {
+        "method": "p",
+        "arguments": [
+          "K",
+          "l",
+          "c",
+          "f",
+          "V",
+          "M"
+        ],
+        "offset": 815990
+      },
+      {
+        "method": "C",
+        "arguments": [
+          "M",
+          "k",
+          "V",
+          "Q",
+          "f",
+          "o",
+          "J",
+          "l",
+          "c"
+        ],
+        "offset": 816022
+      },
+      {
+        "method": "L",
+        "arguments": [
+          "z",
+          "l",
+          "j",
+          "D",
+          "k",
+          "_",
+          "V",
+          "f"
+        ],
+        "offset": 816066
+      },
+      {
+        "method": "g",
+        "arguments": [
+          "v",
+          "b",
+          "f",
+          "V",
+          "l",
+          "m",
+          "u",
+          "K"
+        ],
+        "offset": 816131
+      },
+      {
+        "method": "d",
+        "arguments": [
+          "V",
+          "f",
+          "l",
+          "b",
+          "v",
+          "J",
+          "Q"
+        ],
+        "offset": 816167
+      },
+      {
+        "method": "F",
+        "arguments": [
+          "f",
+          "b",
+          "Q",
+          "V",
+          "v",
+          "c",
+          "D",
+          "u",
+          "l",
+          "J",
+          "k",
+          "K"
+        ],
+        "offset": 816218
+      },
+      {
+        "method": "z",
+        "arguments": [
+          "l",
+          "A",
+          "f",
+          "z",
+          "V",
+          "b",
+          "q",
+          "u"
+        ],
+        "offset": 816258
+      },
+      {
+        "method": "R",
+        "arguments": [
+          "m",
+          "u",
+          "l",
+          "b",
+          "V",
+          "K",
+          "f",
+          "o",
+          "k"
+        ],
+        "offset": 816327
+      },
+      {
+        "method": "S",
+        "arguments": [
+          "h",
+          "A",
+          "l",
+          "m",
+          "f",
+          "V",
+          "b",
+          "M"
+        ],
+        "offset": 816378
+      },
+      {
+        "method": "K",
+        "arguments": [
+          "V",
+          "f",
+          "R",
+          "k",
+          "K",
+          "l"
+        ],
+        "offset": 816412
+      },
+      {
+        "method": "c",
+        "arguments": [
+          "f",
+          "V",
+          "l",
+          "Q",
+          "b"
+        ],
+        "offset": 816473
+      },
+      {
+        "method": "t",
+        "arguments": [
+          "j",
+          "l",
+          "u",
+          "b",
+          "V",
+          "f",
+          "h",
+          "z"
+        ],
+        "offset": 816501
+      },
+      {
+        "method": "E",
+        "arguments": [
+          "V",
+          "o",
+          "R",
+          "D",
+          "l",
+          "k",
+          "f"
+        ],
+        "offset": 816554
+      },
+      {
+        "method": "G",
+        "arguments": [
+          "R",
+          "V",
+          "l",
+          "A",
+          "f",
+          "m",
+          "q"
+        ],
+        "offset": 816586
+      },
+      {
+        "method": "k",
+        "arguments": [
+          "Q",
+          "h",
+          "l",
+          "f",
+          "S",
+          "b",
+          "V",
+          "u",
+          "M",
+          "z"
+        ],
+        "offset": 816681
+      },
+      {
+        "method": "b",
+        "arguments": [
+          "j",
+          "l",
+          "v",
+          "f",
+          "h",
+          "V",
+          "b",
+          "u",
+          "M",
+          "z",
+          "J",
+          "m"
+        ],
+        "offset": 816727
+      },
+      {
+        "method": "v",
+        "arguments": [
+          "c",
+          "q",
+          "l",
+          "m",
+          "V",
+          "A",
+          "f",
+          "R"
+        ],
+        "offset": 816801
+      },
+      {
+        "method": "Q",
+        "arguments": [
+          "K",
+          "J",
+          "l",
+          "Q",
+          "A",
+          "V",
+          "q",
+          "b",
+          "f",
+          "R"
+        ],
+        "offset": 816837
+      },
+      {
+        "method": "I",
+        "arguments": [
+          "V",
+          "b",
+          "q",
+          "k",
+          "D",
+          "l",
+          "K",
+          "R",
+          "f",
+          "c"
+        ],
+        "offset": 816883
+      },
+      {
+        "method": "P",
+        "arguments": [
+          "M",
+          "k",
+          "V",
+          "D",
+          "h",
+          "c",
+          "f",
+          "l",
+          "J"
+        ],
+        "offset": 816958
+      },
+      {
+        "method": "e",
+        "arguments": [
+          "c",
+          "M",
+          "l",
+          "V",
+          "m",
+          "Q",
+          "o",
+          "f"
+        ],
+        "offset": 817000
+      },
+      {
+        "method": "J",
+        "arguments": [
+          "m",
+          "u",
+          "b",
+          "o",
+          "f",
+          "l",
+          "V"
+        ],
+        "offset": 817067
+      },
+      {
+        "method": "r",
+        "arguments": [
+          "f",
+          "J",
+          "b",
+          "V",
+          "l",
+          "Q"
+        ],
+        "offset": 817101
+      },
+      {
+        "method": "V",
+        "arguments": [
+          "_",
+          "J",
+          "m",
+          "Q",
+          "V",
+          "q",
+          "l",
+          "K",
+          "f"
+        ],
+        "offset": 817143
+      },
+      {
+        "method": "o",
+        "arguments": [
+          "V",
+          "b",
+          "v",
+          "f",
+          "l",
+          "m",
+          "u"
+        ],
+        "offset": 817229
+      },
+      {
+        "method": "O",
+        "arguments": [
+          "A",
+          "Q",
+          "D",
+          "l",
+          "f",
+          "m",
+          "k",
+          "J",
+          "V"
+        ],
+        "offset": 817281
+      },
+      {
+        "method": "W",
+        "arguments": [
+          "l",
+          "A",
+          "D",
+          "f",
+          "j",
+          "V",
+          "z"
+        ],
+        "offset": 817319
+      },
+      {
+        "method": "l",
+        "arguments": [
+          "b",
+          "Q",
+          "j",
+          "h",
+          "z",
+          "V",
+          "u",
+          "M",
+          "m",
+          "f",
+          "l"
+        ],
+        "offset": 817377
+      },
+      {
+        "method": "s",
+        "arguments": [
+          "m",
+          "q",
+          "Q",
+          "J",
+          "K",
+          "f",
+          "b",
+          "R",
+          "V",
+          "l"
+        ],
+        "offset": 817423
+      },
+      {
+        "method": "j",
+        "arguments": [
+          "j",
+          "q",
+          "h",
+          "A",
+          "l",
+          "Q",
+          "m",
+          "z",
+          "b",
+          "f",
+          "K",
+          "u",
+          "V"
+        ],
+        "offset": 817498
+      },
+      {
+        "method": "H",
+        "arguments": [
+          "u",
+          "j",
+          "v",
+          "h",
+          "c",
+          "K",
+          "z",
+          "b",
+          "Q",
+          "o",
+          "S",
+          "l",
+          "J",
+          "q",
+          "R",
+          "A",
+          "f",
+          "V",
+          "M",
+          "m"
+        ],
+        "offset": 817558
+      },
+      {
+        "method": "f",
+        "arguments": [
+          "f",
+          "k",
+          "V",
+          "b",
+          "l"
+        ],
+        "offset": 817616
+      },
+      {
+        "method": "aw",
+        "arguments": [
+          "b",
+          "K",
+          "f",
+          "l",
+          "J",
+          "u",
+          "v",
+          "Q",
+          "V",
+          "c"
+        ],
+        "offset": 817666
+      },
+      {
+        "method": "Aw",
+        "arguments": [
+          "A",
+          "z",
+          "V",
+          "R",
+          "m",
+          "q",
+          "v",
+          "u",
+          "f",
+          "b"
+        ],
+        "offset": 817713
+      }
+    ],
+    "computedIndexes": [
+      {
+        "method": "k",
+        "expression": "d[s]",
+        "offset": 1433790,
+        "parameters": [
+          "d",
+          "P",
+          "p",
+          "s",
+          "W",
+          "G",
+          "g",
+          "B",
+          "t",
+          "Z",
+          "E"
+        ],
+        "dispatcherCalls": [
+          {
+            "method": "k",
+            "arguments": [
+              "Q",
+              "h",
+              "l",
+              "f",
+              "S",
+              "b",
+              "V",
+              "u",
+              "M",
+              "z"
+            ],
+            "offset": 816681
+          }
+        ],
+        "selectorBindings": [
+          "l"
+        ],
+        "selectorWrites": [
+          "local V, m, l, S, v, f, b, u, o, Q, J, K, q, R, A, z, j, h, M, c, k, D, _ = W, G, p, P, g, B, t, Z, E, n, L, F, i, r, U, e, a, x, O, w, X, T, Y;",
+          "V, m, l, f, q, R, z, j = d:i(R, V, q, f, z, j, m, Q, o, l);",
+          "V, m, l, f, b, u, q, A = n, t, r, G, x, O, w, Y;",
+          "V, l, f, o, M = d:C(M, k, V, Q, f, o, J, l, c);",
+          "V, l, f, z, j, k = d:L(z, l, j, D, k, _, V, f);",
+          "V, l, f, R = d:K(V, f, R, k, K, l);",
+          "V, l, f, R, k = d:E(V, o, R, D, l, k, f);",
+          "V, m, l, o, Q, M, c = d:e(c, M, l, V, m, Q, o, f);",
+          "V, m, l, f, Q, K, q, _ = d:V(_, J, m, Q, V, q, l, K, f);",
+          "V, m, l, f, Q, J, A = d:O(A, Q, D, l, f, m, k, J, V);",
+          "V, l, f, A, D = d:W(l, A, D, f, j, V, z);",
+          "V, l, f, b, Q, J, K = d:s(m, q, Q, J, K, f, b, R, V, l);"
+        ]
+      },
+      {
+        "method": "H",
+        "expression": "d[L]",
+        "offset": 1618817,
+        "parameters": [
+          "d",
+          "P",
+          "p",
+          "s",
+          "W",
+          "G",
+          "g",
+          "B",
+          "t",
+          "Z",
+          "E",
+          "n",
+          "L",
+          "F",
+          "i",
+          "r",
+          "U",
+          "e",
+          "a",
+          "x",
+          "O"
+        ],
+        "dispatcherCalls": [
+          {
+            "method": "H",
+            "arguments": [
+              "u",
+              "j",
+              "v",
+              "h",
+              "c",
+              "K",
+              "z",
+              "b",
+              "Q",
+              "o",
+              "S",
+              "l",
+              "J",
+              "q",
+              "R",
+              "A",
+              "f",
+              "V",
+              "M",
+              "m"
+            ],
+            "offset": 817558
+          }
+        ],
+        "selectorBindings": [
+          "l"
+        ],
+        "selectorWrites": [
+          "local V, m, l, S, v, f, b, u, o, Q, J, K, q, R, A, z, j, h, M, c, k, D, _ = W, G, p, P, g, B, t, Z, E, n, L, F, i, r, U, e, a, x, O, w, X, T, Y;",
+          "V, m, l, f, q, R, z, j = d:i(R, V, q, f, z, j, m, Q, o, l);",
+          "V, m, l, f, b, u, q, A = n, t, r, G, x, O, w, Y;",
+          "V, l, f, o, M = d:C(M, k, V, Q, f, o, J, l, c);",
+          "V, l, f, z, j, k = d:L(z, l, j, D, k, _, V, f);",
+          "V, l, f, R = d:K(V, f, R, k, K, l);",
+          "V, l, f, R, k = d:E(V, o, R, D, l, k, f);",
+          "V, m, l, o, Q, M, c = d:e(c, M, l, V, m, Q, o, f);",
+          "V, m, l, f, Q, K, q, _ = d:V(_, J, m, Q, V, q, l, K, f);",
+          "V, m, l, f, Q, J, A = d:O(A, Q, D, l, f, m, k, J, V);",
+          "V, l, f, A, D = d:W(l, A, D, f, j, V, z);",
+          "V, l, f, b, Q, J, K = d:s(m, q, Q, J, K, f, b, R, V, l);"
+        ]
+      }
+    ],
+    "callers": [
+      {
+        "field": "2288",
+        "receiver": "d",
+        "arguments": [
+          "t",
+          "U"
+        ],
+        "offset": 1436110
+      },
+      {
+        "field": "Nw",
+        "receiver": "d",
+        "arguments": [
+          "Z",
+          "B"
+        ],
+        "offset": 1914180
+      }
+    ],
+    "selectedSlot": {
+      "key": "399",
+      "parameters": [
+        "d",
+        "P",
+        "P",
+        "P"
+      ],
+      "source": "function(d, P, P, P)\n  return function(P, p)\n    local p = P[1];\n    local s = P[2];\n    local W = P[3];\n    return function()\n      local P, G, g, B, t, Z, E, n, L, F, i, r, U, e, a = 11;\n      while true do\n        local x, O;\n        if P <= 5 then\n          if P <= 2 then\n            if P <= 0 then\n              local w = d[109](B + F[e], 255);\n              F[e], F[w] = F[w], F[e];\n              local X;\n              B, P, X = d[13](F[d[109](F[e] + F[w], 255)], 16), 10, d[109](e + 1, 255);\n              e, a = X, w + F[X];\n            elseif P <= 1 then\n              x = d[109](t + 1, 255);\n              O = d[109](Z + F[x], 255);\n              F[x], F[O] = F[O], F[x];\n              local w = F[d[109](F[x] + F[O], 255)];\n              d[97](i, g, (d[70](d[63](E, n + g), w)));\n              P, t, Z = 6, x, O;\n            else\n              local w, X, T = G[5], G[4], G[2];\n              local Y, V = w + X, X <= 0;\n              X, w = Y >= T, Y <= T;\n              T = V and X or not V and w;\n              G[5] = Y;\n              if T then\n                P, U = 4, Y;\n              else\n                P = 8;\n              end\n            end\n          elseif P <= 3 then\n            local w, X = L - 1, 1 + 0;\n            local T = { r - X, X, nil, G, w + 0 };\n            P, G = 6, T;\n          elseif P <= 4 then\n            local w, X = 0, d[109](t + 1, 255);\n            local T = d[109](Z + F[X], 255);\n            F[X], F[T] = F[T], F[X];\n            P, g, B, t, Z = 7, w, T, d[13](F[d[109](F[X] + F[T], 255)], 0), X + 1;\n          else\n            local w = G[4];\n            P, G = 9, w;\n          end\n        elseif P <= 8 then\n          if P <= 6 then\n            local w, X, T = G[1], G[2], G[5];\n            local Y, V = w + X, X <= 0;\n            X, w = Y >= T, Y <= T;\n            T = V and X or not V and w;\n            G[1] = Y;\n            if T then\n              P, g = 1, Y;\n            else\n              P = 5;\n            end\n          elseif P <= 7 then\n            local w = d[109](Z, 255);\n            local X = d[109](B + F[w], 255);\n            F[w], F[X] = F[X], F[w];\n            local T;\n            Z, P, B, T = d[13](F[d[109](F[w] + F[X], 255)], 8), 0, X, d[109](w + 1, 255);\n            e = T;\n          else\n            local w = G[1];\n            P, G = 3, w;\n          end\n        elseif P <= 9 then\n          return i;\n        elseif P <= 10 then\n          local w = d[109](a, 255);\n          F[e], F[w] = F[w], F[e];\n          local a = d[111](g, t, Z, B, (d[13](F[d[109](F[e] + F[w], 255)], 24)));\n          d[76](i, U, (d[70](d[23](E, n + U), a)));\n          P, g, B, t, Z = 2, e, w, e, w;\n        else\n          local g, B = p[4][p[6]], s[4][s[6]];\n          local p, s, U, e = d[10](g) - B;\n          s, x, O, U, e = W[4][W[6]], 0, 0, d[71](p), p - p % 4;\n          local d, W = e - 1, 4 + 0;\n          local a, x = 0 - W;\n          x, P = { G, d + 0, nil, W, a }, 2;\n          G, t, Z, E, n, L, F, i, r = x, 0, 0, g, B, p, s, U, e;\n        end\n      end\n    end;\n  end;\nend"
+    },
+    "limitations": "Syntactic candidates only: names can be shadowed and call reachability is not established. Offsets are UTF-16 code units in extracted Lua."
+  }
+}

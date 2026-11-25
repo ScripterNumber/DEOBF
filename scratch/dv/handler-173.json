@@ -1,0 +1,24 @@
+{
+  "_provenance": {
+    "generator": "CodeRabbit",
+    "version": 1
+  },
+  "slot": "16374",
+  "field": "E",
+  "fieldValue": 201,
+  "opcodeVar": "dE",
+  "opcode": 173,
+  "fetch": "local dE = g[t];",
+  "statements": [
+    "e, O, T, V = B[t], G[t], z(b, J(A(b, 14), 262143), (J(A(b, 28), 15))), p[t];",
+    "m = O < 16384 and 7 or (O < 2097152 and 14 or 21);",
+    "Y, i = J(O, C(1, m) - 1), A(O, m);",
+    "G[t] = z(Y, 52, (J(A(T, 7), 127)));",
+    "B[t] = z(e, 104, (J(T, 127)));",
+    "p[t] = z(V, 18, (J(A(T, 14), 127)));",
+    "g[t] = z(i, 57, (J(A(T, 21), 127)));",
+    "t = t - 1;",
+    "t = t + 1;"
+  ],
+  "limitations": "Syntactic branch selection only; unrelated conditions and state mutations remain in the output."
+}
